@@ -1,5 +1,7 @@
 # GitHub Trends Analyst (Gemini CLI Skill)
 
+[![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-blue?style=for-the-badge&logo=github)](https://sunhua12.github.io/github-trends-analyst/)
+
 一個結合 **AI 智能分析**與**自動化數據抓取**的 GitHub 趨勢觀測工具。本專案以 **Gemini CLI Skill** 的形式開發，旨在幫助開發者快速掌握技術風口。
 
 ## 🚀 核心功能
