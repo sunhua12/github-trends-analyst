@@ -1,35 +1,48 @@
 import sys
 import os
 import pytest
+import json
 from unittest.mock import patch, MagicMock
 
 # 加入 scripts 路徑
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
-from ai_analyzer import analyze_trends
+from ai_analyzer import analyze_topic_chunk, analyze_global_summary
 
-def test_ai_analyzer_prompt_and_flow():
-    mock_json = '{"test": "data"}'
+def test_analyze_topic_chunk_flow():
+    mock_repos = [{"full_name": "user/repo", "description": "test"}]
+    mock_model = MagicMock()
+    mock_response = MagicMock()
+    # 模擬 AI 回傳的結構化 JSON 字串
+    mock_response.text = json.dumps({
+        "topic_summary": "Summary content",
+        "repo_insights": {
+            "user/repo": {"insight": "Insight content", "sentiment": "Sentiment content"}
+        }
+    })
+    mock_model.generate_content.return_value = mock_response
     
-    # 注意：現在要 Mock google.genai.Client
-    with patch('google.genai.Client') as mock_client_class:
-        mock_client = MagicMock()
-        mock_response = MagicMock()
-        mock_response.text = "Mock AI Analysis Result"
-        
-        # 模擬 client.models.generate_content 的回傳路徑
-        mock_client.models.generate_content.return_value = mock_response
-        mock_client_class.return_value = mock_client
-        
-        with patch.dict('os.environ', {'GEMINI_API_KEY': 'fake_key'}):
-            result = analyze_trends(mock_json, "Python")
-            assert result == "Mock AI Analysis Result"
-            
-            # 驗證調用參數
-            call_args = mock_client.models.generate_content.call_args
-            assert "Python" in call_args.kwargs['contents']
-            assert mock_json in call_args.kwargs['contents']
+    result = analyze_topic_chunk(mock_model, "Python", mock_repos)
+    
+    assert result["topic_summary"] == "Summary content"
+    assert "user/repo" in result["repo_insights"]
+    assert result["repo_insights"]["user/repo"]["insight"] == "Insight content"
 
-def test_ai_analyzer_no_key():
-    with patch.dict('os.environ', {}, clear=True):
-        result = analyze_trends('{}', "Any")
-        assert "Error" in result
+def test_analyze_global_summary_flow():
+    mock_data = {"Python": []}
+    mock_model = MagicMock()
+    mock_response = MagicMock()
+    mock_response.text = json.dumps({
+        "global_summary": "Global summary content"
+    })
+    mock_model.generate_content.return_value = mock_response
+    
+    result = analyze_global_summary(mock_model, mock_data)
+    
+    assert result["global_summary"] == "Global summary content"
+
+def test_ai_analyzer_structure_compatibility():
+    # 驗證必要函式是否存在於腳本中
+    import ai_analyzer
+    assert hasattr(ai_analyzer, 'analyze_topic_chunk')
+    assert hasattr(ai_analyzer, 'analyze_global_summary')
+    assert hasattr(ai_analyzer, 'get_model')

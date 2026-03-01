@@ -1,114 +1,91 @@
-# GitHub Trends Analyst (Gemini CLI Skill)
+# GitHub Tech Radar (Gemini CLI Skill)
 
 [![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-blue?style=for-the-badge&logo=github)](https://sunhua12.github.io/github-trends-analyst/)
 
-一個結合 **AI 智能分析**與**自動化數據抓取**的 GitHub 趨勢觀測工具。本專案以 **Gemini CLI Skill** 的形式開發，旨在幫助開發者快速掌握技術風口。
+一個結合 **AI 智能代理**與**異步數據抓取**的 GitHub 技術趨勢分析系統。本專案以 **Gemini CLI Skill** 為核心，旨在為開發者提供最具深度的開源生態洞察。
 
 ## 🚀 核心功能
 
-- **異步數據抓取**：採用 `httpx` 與 `asyncio` 技術，並行獲取多個技術主題（如 Python, Rust, Go）的熱門專案。
-- **歷史排名追蹤**：自動對比前次抓取數據，並在儀表板中標註 **New (新進榜)**、**Rising (上升)** 與 **Falling (下降)** 狀態。
-- **配置驅動 (Config-Driven)**：透過 `config.json` 輕鬆管理追蹤主題，無需修改程式碼即可擴充追蹤語言。
-- **AI 深度洞察**：利用 Gemini 1.5 Flash 對多維度數據進行交叉分析，產出專業的技術趨勢摘要。
-- **交互式儀表板**：生成具備即時搜尋與分區導航功能的現代化 HTML 報告。
+- **100% AI 分析覆蓋**：採用「逐主題流水線分析」技術，確保儀表板上的每一個專案都能獲得 Gemini 1.5 Flash 的精準解讀，絕不遺漏。
+- **三位一體深度洞察**：
+  1. **Strategic Summary**: 宏觀分析全球技術趨勢。
+  2. **Ecosystem Scan**: 針對特定語言（Python, Rust 等）的 5 維度趨勢掃描。
+  3. **Row-level Insights**: 針對每個專案提供「技術核心解析」與「社群評價」。
+- **整合式數據表格**：全新 UI 設計，將原始數據與 AI 意見完美融合，消除資訊碎片化，提供極致的閱讀體驗。
+- **配置驅動 (Config-Driven)**：透過 `config.json` 管理多個追蹤主題，支援 All, Python, Rust, Go, TypeScript 等並行抓取。
+- **自動化 CI/CD**：整合 GitHub Actions，每日凌晨自動更新並發布至 GitHub Pages。
 
 ## 📊 專案流程架構 (Mermaid)
 
 ```mermaid
 graph LR
     %% Trigger Phase
-    Start([User / Cron / Manual]) -.-> Trigger{觸發機制}
+    Start([Cron / Manual / Push]) -.-> Trigger{觸發機制}
 
-    subgraph "Gemini CLI Skill Pipeline"
+    subgraph "Intensive Analysis Pipeline"
         direction LR
-        Trigger ==>|Init| Skill[github-trends.skill]
+        Trigger ==>|Load| Skill[github-trends.skill]
         
-        subgraph "數據獲取 (Data Acquisition)"
-            Skill -->|Execute| Fetcher[[fetch_trends.py]]
+        subgraph "Data Layer"
+            Skill -->|Fetch| Fetcher[[fetch_trends.py]]
             Fetcher -- Config --> CFG[config.json]
-            Fetcher -- Async HTTP --> GH[GitHub Trending]
-            GH -- Pydantic --> RawData[(combined_trends.json)]
+            Fetcher -- Async --> GH[GitHub]
+            GH -- Pydantic --> JSON[(combined_trends.json)]
         end
 
-        subgraph "智能合成 (Intelligence)"
-            RawData -->|Context| AI[Gemini 1.5 Flash]
-            AI -- Insight --> Report[趨勢洞察摘要]
+        subgraph "Intelligence Layer"
+            JSON -->|Iterative Request| AI[Gemini 1.5 Flash]
+            AI -- Sequential Analysis --> Summary[(ai_summary.txt)]
         end
 
-        subgraph "視覺呈現 (Visualization)"
-            Report & RawData & Template[Jinja2 Template] -->|Format| Generator[[generate_dashboard.py]]
-            Generator -->|Output| Index[index.html]
+        subgraph "Presentation Layer"
+            Summary & JSON & Template[Jinja2] -->|Format| Gen[[generate_dashboard.py]]
+            Gen -->|Live| Index[index.html]
         end
     end
 
     %% Distribution Phase
-    Index -->|Local| Browser[瀏覽器預覽]
-    Index -->|Remote| Git[GitHub Private Repo]
-    Git -->|Hosting| Pages[GitHub Pages]
+    Index -->|Local| Browser[瀏覽器]
+    Index -->|GitHub| Pages[GitHub Pages]
 
-    %% Enhanced Styling
-    style Skill fill:#f39c12,stroke:#fff,stroke-width:2px,color:#fff
-    style Fetcher fill:#27ae60,stroke:#fff,stroke-width:2px,color:#fff
-    style Generator fill:#27ae60,stroke:#fff,stroke-width:2px,color:#fff
-    style AI fill:#3498db,stroke:#fff,stroke-width:2px,color:#fff
-    style RawData fill:#ecf0f1,stroke:#333,stroke-dasharray: 5 5
-    style Index fill:#e74c3c,stroke:#fff,stroke-width:2px,color:#fff
-    style Pages fill:#2c3e50,stroke:#fff,stroke-width:2px,color:#fff
+    %% Styling
+    style Skill fill:#f39c12,stroke:#fff,color:#fff
+    style Fetcher fill:#27ae60,stroke:#fff,color:#fff
+    style AI fill:#3498db,stroke:#fff,color:#fff
+    style Index fill:#e74c3c,stroke:#fff,color:#fff
 ```
 
-## 📦 安裝說明
+## 📦 安裝與使用
 
-1. **環境準備**：
-   確保您的系統已安裝 Python 3.10+ 及相關依賴：
+1. **依賴安裝**：
    ```bash
-   pip install httpx beautifulsoup4 pydantic jinja2 google-genai pytest pytest-asyncio
+   pip install httpx beautifulsoup4 pydantic jinja2 google-genai pytest
    ```
 
-2. **設定 API Key**：
-   在環境變數或 GitHub Secrets 中設定 `GEMINI_API_KEY`。
+2. **本地執行**：
+   ```bash
+   export GEMINI_API_KEY="您的金鑰"
+   ./trigger.sh
+   ```
 
-3. **安裝 Skill**：
-   在 Gemini CLI 中執行 `/skills reload` 即可。
-
-## 📖 使用方法
-
-### 透過對話指令 (Gemini CLI)
-- 「分析這週最熱門的 Python 與 Rust 專案」
-- 「更新我的 GitHub 趨勢儀表板」
-
-### 本地一鍵更新 (自動化)
-```bash
-# 執行一鍵更新腳本
-./trigger.sh
-```
-
-### 修改追蹤主題
-編輯 `config.json`：
-```json
-{
-    "topics": [
-        {"id": "python", "name": "AI/Python"},
-        {"id": "rust", "name": "Rust Ecosystem"}
-    ]
-}
-```
+3. **自定義主題**：
+   修改 `config.json` 中的 `topics` 清單即可擴充追蹤的主題。
 
 ## 📂 專案架構
 
 ```text
 github-trends/
 ├── scripts/
-│   ├── fetch_trends.py       # 異步爬蟲與排名對比邏輯
-│   ├── ai_analyzer.py        # Gemini SDK 趨勢分析
-│   └── generate_dashboard.py  # Jinja2 儀表板生成器
+│   ├── fetch_trends.py       # 異步並行爬蟲與排名對比
+│   ├── ai_analyzer.py        # 逐主題結構化分析引擎
+│   └── generate_dashboard.py  # 整合式儀表板生成器
 ├── assets/
-│   └── dashboard_template.html # Jinja2 HTML 視覺模板
-├── tests/                    # 單元測試套件 (pytest)
+│   └── dashboard_template.html # Jinja2 現代化表格模板
 ├── config.json               # 追蹤主題設定檔
-├── trigger.sh                # 一鍵執行腳本
-├── SKILL.md                  # 技能定義與 AI 工作流
-└── README.md                 # 專案文件 (本檔案)
+├── trigger.sh                # 全自動執行腳本
+├── SKILL.md                  # 技能定義與工作流
+└── README.md                 # 專案文件
 ```
 
 ---
-Generated with ❤️ by Gemini CLI
+Generated by Gemini CLI | [sunhua12](https://github.com/sunhua12)
