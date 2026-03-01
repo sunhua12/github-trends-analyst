@@ -4,16 +4,11 @@
 
 ## 🚀 核心功能
 
-- **實時數據抓取**：利用 Python 爬蟲精確獲取 GitHub Trending 頁面的熱門專案資訊（包含專案描述與星數）。
-- **AI 趨勢洞察**：透過 Gemini LLM 對專案內容進行主題建模，分析當前技術趨勢（如 AI Agent, Web3, DevTools 等）。
-- **美觀儀表板**：自動生成現代化的 HTML 儀表板，提供直觀的視覺化呈現。
-- **Skill 整合**：完美嵌入 Gemini CLI 工作流，支援透過對話指令啟動全自動分析。
-
-## 🛠️ 技術棧
-
-- **Python**: `requests`, `beautifulsoup4` (用於網頁抓取)
-- **Frontend**: Vanilla HTML/CSS (GitHub Dark Theme 風格)
-- **Integration**: Gemini CLI Skill (基於 MCP 概念的工具整合)
+- **異步數據抓取**：採用 `httpx` 與 `asyncio` 技術，並行獲取多個技術主題（如 Python, Rust, Go）的熱門專案。
+- **歷史排名追蹤**：自動對比前次抓取數據，並在儀表板中標註 **New (新進榜)**、**Rising (上升)** 與 **Falling (下降)** 狀態。
+- **配置驅動 (Config-Driven)**：透過 `config.json` 輕鬆管理追蹤主題，無需修改程式碼即可擴充追蹤語言。
+- **AI 深度洞察**：利用 Gemini 1.5 Flash 對多維度數據進行交叉分析，產出專業的技術趨勢摘要。
+- **交互式儀表板**：生成具備即時搜尋與分區導航功能的現代化 HTML 報告。
 
 ## 📊 專案流程架構 (Mermaid)
 
@@ -28,8 +23,9 @@ graph LR
         
         subgraph "數據獲取 (Data Acquisition)"
             Skill -->|Execute| Fetcher[[fetch_trends.py]]
-            Fetcher -- HTTP Get --> GH[GitHub Trending]
-            GH -- Async Parser --> RawData[(combined_trends.json)]
+            Fetcher -- Config --> CFG[config.json]
+            Fetcher -- Async HTTP --> GH[GitHub Trending]
+            GH -- Pydantic --> RawData[(combined_trends.json)]
         end
 
         subgraph "智能合成 (Intelligence)"
@@ -61,50 +57,54 @@ graph LR
 ## 📦 安裝說明
 
 1. **環境準備**：
-   確保您的系統已安裝 Python 3.x 及相關依賴：
+   確保您的系統已安裝 Python 3.10+ 及相關依賴：
    ```bash
-   pip install requests beautifulsoup4
+   pip install httpx beautifulsoup4 pydantic jinja2 google-genai pytest pytest-asyncio
    ```
 
-2. **安裝 Skill**：
-   在 Gemini CLI 中執行：
-   ```bash
-   # 若您已有打包好的 .skill 檔案
-   gemini skills install <path-to-skill-file> --scope workspace
-   ```
+2. **設定 API Key**：
+   在環境變數或 GitHub Secrets 中設定 `GEMINI_API_KEY`。
 
-3. **重新載入**：
-   ```bash
-   /skills reload
-   ```
+3. **安裝 Skill**：
+   在 Gemini CLI 中執行 `/skills reload` 即可。
 
 ## 📖 使用方法
 
-### 透過 Gemini CLI 對話 (推薦)
-直接對 Gemini 說：
-- 「分析這週最熱門的 Python 專案」
-- 「幫我生成一份 Java 趨勢儀表板」
+### 透過對話指令 (Gemini CLI)
+- 「分析這週最熱門的 Python 與 Rust 專案」
+- 「更新我的 GitHub 趨勢儀表板」
 
-### 手動執行腳本
-1. **抓取數據**：
-   ```bash
-   python scripts/fetch_trends.py --lang python --since weekly --format json > trends.json
-   ```
-2. **生成儀表板**：
-   ```bash
-   python scripts/generate_dashboard.py --input trends.json --analysis "AI 分析摘要內容" --template assets/dashboard_template.html --output my_dashboard.html
-   ```
+### 本地一鍵更新 (自動化)
+```bash
+# 執行一鍵更新腳本
+./trigger.sh
+```
+
+### 修改追蹤主題
+編輯 `config.json`：
+```json
+{
+    "topics": [
+        {"id": "python", "name": "AI/Python"},
+        {"id": "rust", "name": "Rust Ecosystem"}
+    ]
+}
+```
 
 ## 📂 專案架構
 
 ```text
 github-trends/
 ├── scripts/
-│   ├── fetch_trends.py       # GitHub 爬蟲腳本
-│   └── generate_dashboard.py  # 儀表板生成器
+│   ├── fetch_trends.py       # 異步爬蟲與排名對比邏輯
+│   ├── ai_analyzer.py        # Gemini SDK 趨勢分析
+│   └── generate_dashboard.py  # Jinja2 儀表板生成器
 ├── assets/
-│   └── dashboard_template.html # HTML 視覺模板
-├── SKILL.md                  # 技能定義與 AI 工作流說明
+│   └── dashboard_template.html # Jinja2 HTML 視覺模板
+├── tests/                    # 單元測試套件 (pytest)
+├── config.json               # 追蹤主題設定檔
+├── trigger.sh                # 一鍵執行腳本
+├── SKILL.md                  # 技能定義與 AI 工作流
 └── README.md                 # 專案文件 (本檔案)
 ```
 
