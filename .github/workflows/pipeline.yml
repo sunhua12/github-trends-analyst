@@ -1,0 +1,59 @@
+name: GitHub Trends CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨 0 點執行
+  workflow_dispatch: # 支援手動從網頁按鈕觸發
+
+jobs:
+  quality-check:
+    name: 🧪 Run Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx beautifulsoup4 pydantic jinja2 google-genai pytest
+      - name: Run Pytest
+        run: |
+          cd github-trends/github-trends && python -m pytest tests/
+
+  update-dashboard:
+    name: 🚀 Update Trends & Dashboard
+    needs: quality-check # 測試通過後才執行更新
+    runs-on: ubuntu-latest
+    if: github.event_name != 'push' || contains(github.event.head_commit.message, 'run-cd')
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx beautifulsoup4 pydantic jinja2 google-genai
+      - name: Run Workflow
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          cd github-trends/github-trends/
+          # 執行更新腳本
+          chmod +x trigger.sh
+          ./trigger.sh
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add github-trends/combined_trends.json github-trends/index.html
+          git commit -m "Auto-update: Latest GitHub Trends [skip ci]" || echo "No changes to commit"
+          git push

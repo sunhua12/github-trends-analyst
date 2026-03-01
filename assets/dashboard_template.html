@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Tech Pulse - Interactive Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --border-color: #30363d;
+            --status-new: #238636;
+            --status-up: #3fb950;
+            --status-down: #da3633;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        /* Interactive Controls */
+        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; display: flex; gap: 15px; align-items: center; }
+        #searchBar { flex-grow: 1; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
+        .topic-nav { display: flex; gap: 8px; overflow-x: auto; }
+        .topic-btn { padding: 5px 12px; border-radius: 15px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; white-space: nowrap; }
+        .topic-btn:hover { background: var(--accent-color); color: white; }
+
+        .section { margin-top: 40px; }
+        .section-title { font-size: 24px; color: #f0883e; border-bottom: 2px solid #f0883e; padding-bottom: 5px; margin-bottom: 20px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; position: relative; transition: 0.2s; }
+        .card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
+        
+        .status-badge { position: absolute; top: 10px; right: 10px; font-size: 10px; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
+        .status-new { background: var(--status-new); color: white; }
+        .status-up { color: var(--status-up); }
+        .status-down { color: var(--status-down); }
+        
+        .repo-name { color: var(--accent-color); text-decoration: none; font-weight: bold; font-size: 18px; display: block; margin-bottom: 8px; }
+        .description { font-size: 14px; color: #8b949e; line-height: 1.5; height: 3em; overflow: hidden; margin-bottom: 15px; }
+        .meta { display: flex; justify-content: space-between; font-size: 12px; color: #8b949e; }
+        
+        .analysis-box { background: #1c2128; border-left: 4px solid var(--accent-color); padding: 20px; margin-bottom: 30px; border-radius: 0 8px 8px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GitHub Multi-Topic Pulse</h1>
+        <p>Last Updated: {{ TIMESTAMP }}</p>
+
+        <div class="analysis-box">
+            <h3>🧠 AI Strategic Insight</h3>
+            <div style="white-space: pre-wrap;">{{ ANALYSIS_SUMMARY }}</div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchBar" placeholder="Search repositories or descriptions..." onkeyup="filterCards()">
+            <div class="topic-nav">
+                {% for topic in TOPICS_DATA.keys() %}
+                <button class="topic-btn" onclick="scrollToTopic('{{ topic }}')">{{ topic }}</button>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% for topic, repos in TOPICS_DATA.items() %}
+        <div class="section" id="topic-{{ topic }}">
+            <div class="section-title">{{ topic }} Trending</div>
+            <div class="grid">
+                {% for repo in repos %}
+                <div class="card" data-name="{{ repo.full_name }}" data-desc="{{ repo.description }}">
+                    {% if repo.status == 'new' %}<span class="status-badge status-new">New</span>
+                    {% elif repo.status == 'up' %}<span class="status-badge status-up">↑ Rising</span>
+                    {% elif repo.status == 'down' %}<span class="status-badge status-down">↓ Falling</span>
+                    {% endif %}
+                    
+                    <a href="{{ repo.url }}" class="repo-name" target="_blank">{{ repo.full_name }}</a>
+                    <p class="description">{{ repo.description }}</p>
+                    <div class="meta">
+                        <span>🏷️ {{ repo.language }}</span>
+                        <span>⭐ {{ repo.total_stars }}</span>
+                        <span style="color: #3fb950;">{{ repo.stars_since }}</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        function filterCards() {
+            const query = document.getElementById('searchBar').value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const name = card.getAttribute('data-name').toLowerCase();
+                const desc = card.getAttribute('data-desc').toLowerCase();
+                if (name.includes(query) || desc.includes(query)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function scrollToTopic(id) {
+            const el = document.getElementById('topic-' + id);
+            window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

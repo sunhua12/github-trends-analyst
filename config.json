@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {"id": "all", "name": "Overall"},
+        {"id": "python", "name": "AI/Python"},
+        {"id": "rust", "name": "Rust Ecosystem"},
+        {"id": "go", "name": "Go Backend"},
+        {"id": "typescript", "name": "Frontend/TS"}
+    ],
+    "settings": {
+        "max_repos_per_topic": 10,
+        "history_file": "combined_trends_last.json"
+    }
+}

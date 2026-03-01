@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Tech Pulse - Interactive Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --border-color: #30363d;
+            --status-new: #238636;
+            --status-up: #3fb950;
+            --status-down: #da3633;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        /* Interactive Controls */
+        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; display: flex; gap: 15px; align-items: center; }
+        #searchBar { flex-grow: 1; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
+        .topic-nav { display: flex; gap: 8px; overflow-x: auto; }
+        .topic-btn { padding: 5px 12px; border-radius: 15px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; white-space: nowrap; }
+        .topic-btn:hover { background: var(--accent-color); color: white; }
+
+        .section { margin-top: 40px; }
+        .section-title { font-size: 24px; color: #f0883e; border-bottom: 2px solid #f0883e; padding-bottom: 5px; margin-bottom: 20px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; position: relative; transition: 0.2s; }
+        .card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
+        
+        .status-badge { position: absolute; top: 10px; right: 10px; font-size: 10px; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
+        .status-new { background: var(--status-new); color: white; }
+        .status-up { color: var(--status-up); }
+        .status-down { color: var(--status-down); }
+        
+        .repo-name { color: var(--accent-color); text-decoration: none; font-weight: bold; font-size: 18px; display: block; margin-bottom: 8px; }
+        .description { font-size: 14px; color: #8b949e; line-height: 1.5; height: 3em; overflow: hidden; margin-bottom: 15px; }
+        .meta { display: flex; justify-content: space-between; font-size: 12px; color: #8b949e; }
+        
+        .analysis-box { background: #1c2128; border-left: 4px solid var(--accent-color); padding: 20px; margin-bottom: 30px; border-radius: 0 8px 8px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GitHub Multi-Topic Pulse</h1>
+        <p>Last Updated: 2026-03-01 14:31:17</p>
+
+        <div class="analysis-box">
+            <h3>🧠 AI Strategic Insight</h3>
+            <div style="white-space: pre-wrap;">AI Analysis failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}</div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchBar" placeholder="Search repositories or descriptions..." onkeyup="filterCards()">
+            <div class="topic-nav">
+                
+                <button class="topic-btn" onclick="scrollToTopic('Overall')">Overall</button>
+                
+                <button class="topic-btn" onclick="scrollToTopic('AI/Python')">AI/Python</button>
+                
+                <button class="topic-btn" onclick="scrollToTopic('Rust Ecosystem')">Rust Ecosystem</button>
+                
+                <button class="topic-btn" onclick="scrollToTopic('Go Backend')">Go Backend</button>
+                
+                <button class="topic-btn" onclick="scrollToTopic('Frontend/TS')">Frontend/TS</button>
+                
+            </div>
+        </div>
+
+        
+        <div class="section" id="topic-Overall">
+            <div class="section-title">Overall Trending</div>
+            <div class="grid">
+                
+                <div class="card" data-name="ruvnet/wifi-densepose" data-desc="Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ruvnet/wifi-densepose" class="repo-name" target="_blank">ruvnet/wifi-densepose</a>
+                    <p class="description">Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 12,996</span>
+                        <span style="color: #3fb950;">2,152 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="moeru-ai/airi" data-desc="💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/moeru-ai/airi" class="repo-name" target="_blank">moeru-ai/airi</a>
+                    <p class="description">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 19,504</span>
+                        <span style="color: #3fb950;">1,065 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="anthropics/claude-code" data-desc="Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/anthropics/claude-code" class="repo-name" target="_blank">anthropics/claude-code</a>
+                    <p class="description">Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</p>
+                    <div class="meta">
+                        <span>🏷️ Shell</span>
+                        <span>⭐ 71,972</span>
+                        <span style="color: #3fb950;">699 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="tukaani-project/xz" data-desc="XZ Utils">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/tukaani-project/xz" class="repo-name" target="_blank">tukaani-project/xz</a>
+                    <p class="description">XZ Utils</p>
+                    <div class="meta">
+                        <span>🏷️ C</span>
+                        <span>⭐ 1,246</span>
+                        <span style="color: #3fb950;">107 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ruvnet/ruflo" data-desc="🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ruvnet/ruflo" class="repo-name" target="_blank">ruvnet/ruflo</a>
+                    <p class="description">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 16,708</span>
+                        <span style="color: #3fb950;">928 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="bytedance/deer-flow" data-desc="An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/bytedance/deer-flow" class="repo-name" target="_blank">bytedance/deer-flow</a>
+                    <p class="description">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 22,698</span>
+                        <span style="color: #3fb950;">899 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="Wei-Shaw/claude-relay-service" data-desc="CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/Wei-Shaw/claude-relay-service" class="repo-name" target="_blank">Wei-Shaw/claude-relay-service</a>
+                    <p class="description">CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</p>
+                    <div class="meta">
+                        <span>🏷️ JavaScript</span>
+                        <span>⭐ 8,714</span>
+                        <span style="color: #3fb950;">171 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="NousResearch/hermes-agent" data-desc="No description.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/NousResearch/hermes-agent" class="repo-name" target="_blank">NousResearch/hermes-agent</a>
+                    <p class="description">No description.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 1,192</span>
+                        <span style="color: #3fb950;">182 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="superset-sh/superset" data-desc="IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/superset-sh/superset" class="repo-name" target="_blank">superset-sh/superset</a>
+                    <p class="description">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 2,525</span>
+                        <span style="color: #3fb950;">181 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="moonshine-ai/moonshine" data-desc="Fast and accurate automatic speech recognition (ASR) for edge devices">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/moonshine-ai/moonshine" class="repo-name" target="_blank">moonshine-ai/moonshine</a>
+                    <p class="description">Fast and accurate automatic speech recognition (ASR) for edge devices</p>
+                    <div class="meta">
+                        <span>🏷️ C</span>
+                        <span>⭐ 6,326</span>
+                        <span style="color: #3fb950;">496 stars today</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="section" id="topic-AI/Python">
+            <div class="section-title">AI/Python Trending</div>
+            <div class="grid">
+                
+                <div class="card" data-name="ruvnet/wifi-densepose" data-desc="Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ruvnet/wifi-densepose" class="repo-name" target="_blank">ruvnet/wifi-densepose</a>
+                    <p class="description">Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 12,996</span>
+                        <span style="color: #3fb950;">2,152 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="NousResearch/hermes-agent" data-desc="No description.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/NousResearch/hermes-agent" class="repo-name" target="_blank">NousResearch/hermes-agent</a>
+                    <p class="description">No description.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 1,192</span>
+                        <span style="color: #3fb950;">182 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="datagouv/datagouv-mcp" data-desc="Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/datagouv/datagouv-mcp" class="repo-name" target="_blank">datagouv/datagouv-mcp</a>
+                    <p class="description">Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 688</span>
+                        <span style="color: #3fb950;">115 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="X-PLUG/MobileAgent" data-desc="Mobile-Agent: The Powerful GUI Agent Family">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/X-PLUG/MobileAgent" class="repo-name" target="_blank">X-PLUG/MobileAgent</a>
+                    <p class="description">Mobile-Agent: The Powerful GUI Agent Family</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 7,568</span>
+                        <span style="color: #3fb950;">45 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="alibaba/OpenSandbox" data-desc="OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/alibaba/OpenSandbox" class="repo-name" target="_blank">alibaba/OpenSandbox</a>
+                    <p class="description">OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 2,521</span>
+                        <span style="color: #3fb950;">349 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="anthropics/skills" data-desc="Public repository for Agent Skills">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/anthropics/skills" class="repo-name" target="_blank">anthropics/skills</a>
+                    <p class="description">Public repository for Agent Skills</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 79,654</span>
+                        <span style="color: #3fb950;">1,076 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="VectifyAI/PageIndex" data-desc="📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/VectifyAI/PageIndex" class="repo-name" target="_blank">VectifyAI/PageIndex</a>
+                    <p class="description">📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 19,415</span>
+                        <span style="color: #3fb950;">426 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ginobefun/agentic-design-patterns-cn" data-desc="《Agentic Design Patterns》中文翻译版">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ginobefun/agentic-design-patterns-cn" class="repo-name" target="_blank">ginobefun/agentic-design-patterns-cn</a>
+                    <p class="description">《Agentic Design Patterns》中文翻译版</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 7,640</span>
+                        <span style="color: #3fb950;">33 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="datawhalechina/hello-agents" data-desc="📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/datawhalechina/hello-agents" class="repo-name" target="_blank">datawhalechina/hello-agents</a>
+                    <p class="description">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 23,577</span>
+                        <span style="color: #3fb950;">603 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="derv82/wifite2" data-desc="Rewrite of the popular wireless network auditor, "wifite"">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/derv82/wifite2" class="repo-name" target="_blank">derv82/wifite2</a>
+                    <p class="description">Rewrite of the popular wireless network auditor, "wifite"</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 7,638</span>
+                        <span style="color: #3fb950;">9 stars today</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="section" id="topic-Rust Ecosystem">
+            <div class="section-title">Rust Ecosystem Trending</div>
+            <div class="grid">
+                
+                <div class="card" data-name="clockworklabs/SpacetimeDB" data-desc="Development at the speed of light">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/clockworklabs/SpacetimeDB" class="repo-name" target="_blank">clockworklabs/SpacetimeDB</a>
+                    <p class="description">Development at the speed of light</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 21,637</span>
+                        <span style="color: #3fb950;">311 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="block/goose" data-desc="an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/block/goose" class="repo-name" target="_blank">block/goose</a>
+                    <p class="description">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 31,541</span>
+                        <span style="color: #3fb950;">113 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="rustfs/rustfs" data-desc="🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/rustfs/rustfs" class="repo-name" target="_blank">rustfs/rustfs</a>
+                    <p class="description">🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 22,556</span>
+                        <span style="color: #3fb950;">84 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ruvnet/ruvector" data-desc="RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ruvnet/ruvector" class="repo-name" target="_blank">ruvnet/ruvector</a>
+                    <p class="description">RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 2,146</span>
+                        <span style="color: #3fb950;">247 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="lbjlaq/Antigravity-Manager" data-desc="Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/lbjlaq/Antigravity-Manager" class="repo-name" target="_blank">lbjlaq/Antigravity-Manager</a>
+                    <p class="description">Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 24,828</span>
+                        <span style="color: #3fb950;">178 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="farion1231/cc-switch" data-desc="A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/farion1231/cc-switch" class="repo-name" target="_blank">farion1231/cc-switch</a>
+                    <p class="description">A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 21,876</span>
+                        <span style="color: #3fb950;">501 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="risingwavelabs/risingwave" data-desc="Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/risingwavelabs/risingwave" class="repo-name" target="_blank">risingwavelabs/risingwave</a>
+                    <p class="description">Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 8,827</span>
+                        <span style="color: #3fb950;">7 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="cloudflare/quiche" data-desc="🥧 Savoury implementation of the QUIC transport protocol and HTTP/3">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/cloudflare/quiche" class="repo-name" target="_blank">cloudflare/quiche</a>
+                    <p class="description">🥧 Savoury implementation of the QUIC transport protocol and HTTP/3</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 11,291</span>
+                        <span style="color: #3fb950;">10 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="openai/codex" data-desc="Lightweight coding agent that runs in your terminal">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/openai/codex" class="repo-name" target="_blank">openai/codex</a>
+                    <p class="description">Lightweight coding agent that runs in your terminal</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 62,442</span>
+                        <span style="color: #3fb950;">154 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="longbridge/gpui-component" data-desc="Rust GUI components for building fantastic cross-platform desktop application by using GPUI.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/longbridge/gpui-component" class="repo-name" target="_blank">longbridge/gpui-component</a>
+                    <p class="description">Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</p>
+                    <div class="meta">
+                        <span>🏷️ Rust</span>
+                        <span>⭐ 10,507</span>
+                        <span style="color: #3fb950;">48 stars today</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="section" id="topic-Go Backend">
+            <div class="section-title">Go Backend Trending</div>
+            <div class="grid">
+                
+                <div class="card" data-name="Wei-Shaw/sub2api" data-desc="Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/Wei-Shaw/sub2api" class="repo-name" target="_blank">Wei-Shaw/sub2api</a>
+                    <p class="description">Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 2,437</span>
+                        <span style="color: #3fb950;">98 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ollama/ollama" data-desc="Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ollama/ollama" class="repo-name" target="_blank">ollama/ollama</a>
+                    <p class="description">Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 163,716</span>
+                        <span style="color: #3fb950;">119 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="spf13/cobra" data-desc="A Commander for modern Go CLI interactions">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/spf13/cobra" class="repo-name" target="_blank">spf13/cobra</a>
+                    <p class="description">A Commander for modern Go CLI interactions</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 43,329</span>
+                        <span style="color: #3fb950;">13 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="NoFxAiOS/nofx" data-desc="AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/NoFxAiOS/nofx" class="repo-name" target="_blank">NoFxAiOS/nofx</a>
+                    <p class="description">AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 10,745</span>
+                        <span style="color: #3fb950;">47 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="charmbracelet/glow" data-desc="Render markdown on the CLI, with pizzazz! 💅🏻">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/charmbracelet/glow" class="repo-name" target="_blank">charmbracelet/glow</a>
+                    <p class="description">Render markdown on the CLI, with pizzazz! 💅🏻</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 23,222</span>
+                        <span style="color: #3fb950;">49 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="trufflesecurity/trufflehog" data-desc="Find, verify, and analyze leaked credentials">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/trufflesecurity/trufflehog" class="repo-name" target="_blank">trufflesecurity/trufflehog</a>
+                    <p class="description">Find, verify, and analyze leaked credentials</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 24,779</span>
+                        <span style="color: #3fb950;">28 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="xpzouying/xiaohongshu-mcp" data-desc="MCP for xiaohongshu.com">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/xpzouying/xiaohongshu-mcp" class="repo-name" target="_blank">xpzouying/xiaohongshu-mcp</a>
+                    <p class="description">MCP for xiaohongshu.com</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 9,585</span>
+                        <span style="color: #3fb950;">119 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="containerd/containerd" data-desc="An open and reliable container runtime">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/containerd/containerd" class="repo-name" target="_blank">containerd/containerd</a>
+                    <p class="description">An open and reliable container runtime</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 20,422</span>
+                        <span style="color: #3fb950;">10 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="cloudnative-pg/cloudnative-pg" data-desc="CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/cloudnative-pg/cloudnative-pg" class="repo-name" target="_blank">cloudnative-pg/cloudnative-pg</a>
+                    <p class="description">CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 8,116</span>
+                        <span style="color: #3fb950;">5 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ArvinLovegood/go-stock" data-desc="🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ArvinLovegood/go-stock" class="repo-name" target="_blank">ArvinLovegood/go-stock</a>
+                    <p class="description">🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。</p>
+                    <div class="meta">
+                        <span>🏷️ Go</span>
+                        <span>⭐ 4,655</span>
+                        <span style="color: #3fb950;">25 stars today</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="section" id="topic-Frontend/TS">
+            <div class="section-title">Frontend/TS Trending</div>
+            <div class="grid">
+                
+                <div class="card" data-name="moeru-ai/airi" data-desc="💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/moeru-ai/airi" class="repo-name" target="_blank">moeru-ai/airi</a>
+                    <p class="description">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 19,504</span>
+                        <span style="color: #3fb950;">1,065 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="ruvnet/ruflo" data-desc="🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/ruvnet/ruflo" class="repo-name" target="_blank">ruvnet/ruflo</a>
+                    <p class="description">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 16,708</span>
+                        <span style="color: #3fb950;">928 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="bytedance/deer-flow" data-desc="An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/bytedance/deer-flow" class="repo-name" target="_blank">bytedance/deer-flow</a>
+                    <p class="description">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</p>
+                    <div class="meta">
+                        <span>🏷️ Python</span>
+                        <span>⭐ 22,698</span>
+                        <span style="color: #3fb950;">899 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="superset-sh/superset" data-desc="IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/superset-sh/superset" class="repo-name" target="_blank">superset-sh/superset</a>
+                    <p class="description">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 2,525</span>
+                        <span style="color: #3fb950;">181 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="microsoft/playwright-cli" data-desc="CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/microsoft/playwright-cli" class="repo-name" target="_blank">microsoft/playwright-cli</a>
+                    <p class="description">CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 4,463</span>
+                        <span style="color: #3fb950;">139 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="abhigyanpatwari/GitNexus" data-desc="GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/abhigyanpatwari/GitNexus" class="repo-name" target="_blank">abhigyanpatwari/GitNexus</a>
+                    <p class="description">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 6,880</span>
+                        <span style="color: #3fb950;">582 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="dontriskit/awesome-ai-system-prompts" data-desc="🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/dontriskit/awesome-ai-system-prompts" class="repo-name" target="_blank">dontriskit/awesome-ai-system-prompts</a>
+                    <p class="description">🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 5,367</span>
+                        <span style="color: #3fb950;">28 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="gitroomhq/postiz-app" data-desc="📨 The ultimate social media scheduling tool, with a bunch of AI 🤖">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/gitroomhq/postiz-app" class="repo-name" target="_blank">gitroomhq/postiz-app</a>
+                    <p class="description">📨 The ultimate social media scheduling tool, with a bunch of AI 🤖</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 26,886</span>
+                        <span style="color: #3fb950;">25 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="langgenius/dify" data-desc="Production-ready platform for agentic workflow development.">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/langgenius/dify" class="repo-name" target="_blank">langgenius/dify</a>
+                    <p class="description">Production-ready platform for agentic workflow development.</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 130,736</span>
+                        <span style="color: #3fb950;">131 stars today</span>
+                    </div>
+                </div>
+                
+                <div class="card" data-name="AndyMik90/Auto-Claude" data-desc="Autonomous multi-session AI coding">
+                    <span class="status-badge status-new">New</span>
+                    
+                    
+                    <a href="https://github.com/AndyMik90/Auto-Claude" class="repo-name" target="_blank">AndyMik90/Auto-Claude</a>
+                    <p class="description">Autonomous multi-session AI coding</p>
+                    <div class="meta">
+                        <span>🏷️ TypeScript</span>
+                        <span>⭐ 12,808</span>
+                        <span style="color: #3fb950;">63 stars today</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        function filterCards() {
+            const query = document.getElementById('searchBar').value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const name = card.getAttribute('data-name').toLowerCase();
+                const desc = card.getAttribute('data-desc').toLowerCase();
+                if (name.includes(query) || desc.includes(query)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function scrollToTopic(id) {
+            const el = document.getElementById('topic-' + id);
+            window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

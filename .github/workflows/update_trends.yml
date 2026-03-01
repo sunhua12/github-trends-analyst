@@ -1,0 +1,46 @@
+name: Manual Update GitHub Trends
+
+on:
+  workflow_dispatch: # 👈 這行是關鍵：支援手動點擊按鈕觸發
+  schedule:
+    - cron: '0 0 * * *' # 每天午夜自動執行 (可視需求保留或刪除)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 允許 Action 寫入檔案並 Push 回倉庫
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    - name: Run Fetcher
+      run: |
+        # 抓取數據
+        python scripts/fetch_trends.py --lang python --since daily --format json > trends.json
+
+    - name: Generate Dashboard
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 👈 安全地讀取 Secrets
+      run: |
+        # 目前先用固定分析，如果您有調用 API 的腳本可在此替換
+        python scripts/generate_dashboard.py --input trends.json --analysis "Updated via Private GitHub Action" --template assets/dashboard_template.html --output index.html
+
+    - name: Commit and Push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add trends.json index.html
+        git commit -m "Auto-update trends data and dashboard" || echo "No changes to commit"
+        git push
