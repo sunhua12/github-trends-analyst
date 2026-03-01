@@ -1,103 +1,12 @@
 {
-  "Overall": [
-    {
-      "full_name": "ruvnet/wifi-densepose",
-      "url": "https://github.com/ruvnet/wifi-densepose",
-      "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
-      "language": "Rust",
-      "total_stars": "14,262",
-      "stars_since": "2,152 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "moeru-ai/airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "total_stars": "19,590",
-      "stars_since": "1,065 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "anthropics/claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Shell",
-      "total_stars": "72,058",
-      "stars_since": "699 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "tukaani-project/xz",
-      "url": "https://github.com/tukaani-project/xz",
-      "description": "XZ Utils",
-      "language": "C",
-      "total_stars": "1,258",
-      "stars_since": "107 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Shubhamsaboo/awesome-llm-apps",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "language": "Python",
-      "total_stars": "98,404",
-      "stars_since": "635 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-      "language": "TypeScript",
-      "total_stars": "16,820",
-      "stars_since": "928 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "bytedance/deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
-      "language": "Python",
-      "total_stars": "22,743",
-      "stars_since": "899 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Wei-Shaw/claude-relay-service",
-      "url": "https://github.com/Wei-Shaw/claude-relay-service",
-      "description": "CRS-\u81ea\u5efaClaude Code\u955c\u50cf\uff0c\u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001OpenAI\u3001Gemini\u3001Droid \u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
-      "language": "JavaScript",
-      "total_stars": "8,730",
-      "stars_since": "171 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "No description.",
-      "language": "Python",
-      "total_stars": "1,221",
-      "stars_since": "182 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "superset-sh/superset",
-      "url": "https://github.com/superset-sh/superset",
-      "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
-      "language": "TypeScript",
-      "total_stars": "2,574",
-      "stars_since": "181 stars today",
-      "status": "new"
-    }
-  ],
+  "Overall": [],
   "AI/Python": [
     {
       "full_name": "ruvnet/wifi-densepose",
       "url": "https://github.com/ruvnet/wifi-densepose",
       "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "14,262",
+      "total_stars": "14,462",
       "stars_since": "2,152 stars today",
       "status": "new"
     },
@@ -106,7 +15,7 @@
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
       "language": "Python",
-      "total_stars": "98,404",
+      "total_stars": "98,410",
       "stars_since": "635 stars today",
       "status": "new"
     },
@@ -115,7 +24,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "1,221",
+      "total_stars": "1,232",
       "stars_since": "182 stars today",
       "status": "new"
     },
@@ -124,7 +33,7 @@
       "url": "https://github.com/datagouv/datagouv-mcp",
       "description": "Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.",
       "language": "Python",
-      "total_stars": "702",
+      "total_stars": "703",
       "stars_since": "115 stars today",
       "status": "new"
     },
@@ -133,7 +42,7 @@
       "url": "https://github.com/X-PLUG/MobileAgent",
       "description": "Mobile-Agent: The Powerful GUI Agent Family",
       "language": "Python",
-      "total_stars": "7,597",
+      "total_stars": "7,598",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -142,7 +51,7 @@
       "url": "https://github.com/alibaba/OpenSandbox",
       "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
       "language": "Python",
-      "total_stars": "2,728",
+      "total_stars": "2,756",
       "stars_since": "349 stars today",
       "status": "new"
     },
@@ -151,7 +60,7 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "total_stars": "79,784",
+      "total_stars": "79,809",
       "stars_since": "1,076 stars today",
       "status": "new"
     },
@@ -160,7 +69,7 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "total_stars": "19,469",
+      "total_stars": "19,477",
       "stars_since": "426 stars today",
       "status": "new"
     },
@@ -178,7 +87,7 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
       "language": "Python",
-      "total_stars": "23,604",
+      "total_stars": "23,609",
       "stars_since": "603 stars today",
       "status": "new"
     }
@@ -189,7 +98,7 @@
       "url": "https://github.com/clockworklabs/SpacetimeDB",
       "description": "Development at the speed of light",
       "language": "Rust",
-      "total_stars": "21,665",
+      "total_stars": "21,669",
       "stars_since": "311 stars today",
       "status": "new"
     },
@@ -198,7 +107,7 @@
       "url": "https://github.com/block/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "31,590",
+      "total_stars": "31,607",
       "stars_since": "113 stars today",
       "status": "new"
     },
@@ -207,7 +116,7 @@
       "url": "https://github.com/rustfs/rustfs",
       "description": "\ud83d\ude802.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
-      "total_stars": "22,561",
+      "total_stars": "22,562",
       "stars_since": "84 stars today",
       "status": "new"
     },
@@ -216,7 +125,7 @@
       "url": "https://github.com/ruvnet/ruvector",
       "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
       "language": "Rust",
-      "total_stars": "2,180",
+      "total_stars": "2,184",
       "stars_since": "247 stars today",
       "status": "new"
     },
@@ -225,7 +134,7 @@
       "url": "https://github.com/lbjlaq/Antigravity-Manager",
       "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
       "language": "Rust",
-      "total_stars": "24,842",
+      "total_stars": "24,848",
       "stars_since": "178 stars today",
       "status": "new"
     },
@@ -234,7 +143,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
       "language": "TypeScript",
-      "total_stars": "21,960",
+      "total_stars": "21,980",
       "stars_since": "501 stars today",
       "status": "new"
     },
@@ -261,7 +170,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "62,457",
+      "total_stars": "62,464",
       "stars_since": "154 stars today",
       "status": "new"
     },
@@ -281,7 +190,7 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "2,454",
+      "total_stars": "2,464",
       "stars_since": "98 stars today",
       "status": "new"
     },
@@ -290,7 +199,7 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "total_stars": "163,725",
+      "total_stars": "163,729",
       "stars_since": "119 stars today",
       "status": "new"
     },
@@ -335,7 +244,7 @@
       "url": "https://github.com/xpzouying/xiaohongshu-mcp",
       "description": "MCP for xiaohongshu.com",
       "language": "Go",
-      "total_stars": "9,599",
+      "total_stars": "9,602",
       "stars_since": "119 stars today",
       "status": "new"
     },
@@ -373,7 +282,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "19,590",
+      "total_stars": "19,600",
       "stars_since": "1,065 stars today",
       "status": "new"
     },
@@ -382,7 +291,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "16,820",
+      "total_stars": "16,834",
       "stars_since": "928 stars today",
       "status": "new"
     },
@@ -391,7 +300,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "22,743",
+      "total_stars": "22,749",
       "stars_since": "899 stars today",
       "status": "new"
     },
@@ -400,7 +309,7 @@
       "url": "https://github.com/superset-sh/superset",
       "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
       "language": "TypeScript",
-      "total_stars": "2,574",
+      "total_stars": "2,584",
       "stars_since": "181 stars today",
       "status": "new"
     },
@@ -418,7 +327,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "6,961",
+      "total_stars": "6,970",
       "stars_since": "582 stars today",
       "status": "new"
     },
@@ -427,7 +336,7 @@
       "url": "https://github.com/dontriskit/awesome-ai-system-prompts",
       "description": "\ud83e\udde0 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.",
       "language": "TypeScript",
-      "total_stars": "5,370",
+      "total_stars": "5,372",
       "stars_since": "28 stars today",
       "status": "new"
     },
@@ -454,7 +363,7 @@
       "url": "https://github.com/AndyMik90/Auto-Claude",
       "description": "Autonomous multi-session AI coding",
       "language": "TypeScript",
-      "total_stars": "12,812",
+      "total_stars": "12,813",
       "stars_since": "63 stars today",
       "status": "new"
     }
