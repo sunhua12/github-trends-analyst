@@ -18,7 +18,10 @@ if [ -z "$GEMINI_API_KEY" ]; then
     AI_SUMMARY="Manual multi-topic update at $(date)"
 else
     echo "🧠 Generating AI Tech Insights..."
-    AI_SUMMARY=$($VENV_PATH $AI_ANALYZER --input combined_trends.json --topic "Overall, AI/Python, Rust")
+    # 將分析結果存入暫存檔以避開 Shell 編碼問題
+    $VENV_PATH $AI_ANALYZER --input combined_trends.json --topic "Overall, AI/Python, Rust" --output ai_summary.txt
+    AI_SUMMARY=$(cat ai_summary.txt)
+    rm ai_summary.txt
 fi
 
 # 4. 生成多區塊儀表板 (Jinja2)
