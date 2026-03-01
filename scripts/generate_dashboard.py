@@ -5,7 +5,6 @@ import argparse
 import logging
 from jinja2 import Template
 
-# 設定日誌
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("DashboardGen")
 
@@ -15,10 +14,8 @@ def generate_html(multi_data, analysis_summary, template_path, output_path):
     with open(template_path, 'r', encoding='utf-8') as f:
         template_str = f.read()
     
-    # 建立 Jinja2 模板對象
     template = Template(template_str)
     
-    # 準備渲染數據
     context = {
         "TIMESTAMP": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         "ANALYSIS_SUMMARY": analysis_summary,
@@ -37,9 +34,10 @@ def generate_html(multi_data, analysis_summary, template_path, output_path):
     return output_path
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Professional Dashboard Generator using Jinja2")
+    parser = argparse.ArgumentParser(description="Professional Dashboard Generator")
     parser.add_argument("--input", required=True, help="Input combined JSON file")
-    parser.add_argument("--analysis", default="AI analysis in progress...", help="AI summary")
+    parser.add_argument("--analysis", help="AI summary text")
+    parser.add_argument("--analysis_file", help="Path to file containing AI summary text")
     parser.add_argument("--template", required=True, help="HTML template path")
     parser.add_argument("--output", default="index.html", help="Output HTML path")
     
@@ -49,6 +47,14 @@ if __name__ == "__main__":
         with open(args.input, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        generate_html(data, args.analysis, args.template, args.output)
+        # 優先從檔案讀取分析內容，避免 Shell 編碼問題
+        analysis_content = ""
+        if args.analysis_file and os.path.exists(args.analysis_file):
+            with open(args.analysis_file, 'r', encoding='utf-8') as f:
+                analysis_content = f.read()
+        else:
+            analysis_content = args.analysis or "No analysis provided."
+            
+        generate_html(data, analysis_content, args.template, args.output)
     except Exception as e:
-        logger.error(f"Failed to process input data: {e}")
+        logger.error(f"Failed to process data: {e}")
