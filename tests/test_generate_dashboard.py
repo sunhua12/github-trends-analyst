@@ -2,7 +2,7 @@ import sys
 import os
 import pytest
 import json
-from unittest.mock import patch, mock_open
+from unittest.mock import patch, mock_open, MagicMock
 
 # 加入 scripts 路徑
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
@@ -33,11 +33,10 @@ def test_generate_html_structure():
         }
     })
     
-    # 使用符合目前實作的 Jinja2 語法 Mock 模板
+    # 模擬 Jinja2 模板
     mock_template = """
     <html>
-        {{ TIMESTAMP }}
-        {{ GLOBAL_ANALYSIS }}
+        {{ TIMESTAMP }} {{ GLOBAL_ANALYSIS }}
         {% for topic, repos in TOPICS_DATA.items() %}
             <h1>{{ topic }} Trending</h1>
             <p>{{ TOPIC_SUMMARIES.get(topic) }}</p>
@@ -48,33 +47,37 @@ def test_generate_html_structure():
     </html>
     """
     
-    # 我們需要 Mock 兩個檔案讀取：1. 模板, 2. AI 分析 JSON
-    # 使用 side_effect 來區分不同路徑的讀取
-    def mock_file_open(path, *args, **kwargs):
-        if "template.html" in path:
-            return mock_open(read_data=mock_template).return_value
-        if "analysis.json" in path:
-            return mock_open(read_data=mock_analysis_json).return_value
-        return mock_open().return_value
+    # 建立一個可以用來記錄所有 open() 回傳物件的 list
+    file_handle_mocks = []
 
-    with patch("builtins.open", side_effect=mock_file_open) as m:
+    def mock_file_open(path, mode='r', *args, **kwargs):
+        content = ""
+        if "template.html" in path:
+            content = mock_template
+        elif "analysis.json" in path:
+            content = mock_analysis_json
+        
+        # 建立一個新的 mock_open 物件
+        m = mock_open(read_data=content).return_value
+        # 記錄這個物件，以便稍後檢查寫入行為
+        file_handle_mocks.append(m)
+        return m
+
+    with patch("builtins.open", side_effect=mock_file_open):
         with patch("os.path.exists", return_value=True):
             output_path = "test_output.html"
             generate_html(mock_data, "analysis.json", "template.html", output_path)
             
-            # 獲取最後一次寫入行為（即寫入 HTML 的動作）
-            # 因為 side_effect 較複雜，我們直接找有寫入 HTML 內容的那次呼叫
+            # 在 generate_html 中，最後一個被開啟的檔案應該是 index.html (寫入模式)
+            # 我們搜尋所有 handle 的 write 紀錄
             written_content = ""
-            for call in m().write.call_args_list:
-                if "<html>" in str(call):
-                    written_content = call[0][0]
-                    break
+            for handle in file_handle_mocks:
+                for call in handle.write.call_args_list:
+                    arg = call[0][0]
+                    if "<html>" in arg:
+                        written_content = arg
+                        break
             
-            # 如果上面沒抓到，嘗試更簡單的捕獲方式
-            if not written_content:
-                # 在 mock_open 的情境下，通常最後一次寫入就是目標
-                written_content = m().write.call_args[0][0]
-
             # 驗證內容
             assert "Python Trending" in written_content
             assert "AI Global Summary Test" in written_content
