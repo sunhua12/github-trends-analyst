@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Tech Pulse - Interactive Dashboard</title>
+    <title>GitHub Tech Radar - Deep Insights Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         :root {
             --bg-color: #0d1117;
@@ -11,101 +12,150 @@
             --text-color: #c9d1d9;
             --accent-color: #58a6ff;
             --border-color: #30363d;
+            --table-header: #21262d;
             --status-new: #238636;
             --status-up: #3fb950;
             --status-down: #da3633;
         }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
+        .container { max-width: 1500px; margin: 0 auto; }
         
-        /* Interactive Controls */
-        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; display: flex; gap: 15px; align-items: center; }
-        #searchBar { flex-grow: 1; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
-        .topic-nav { display: flex; gap: 8px; overflow-x: auto; }
-        .topic-btn { padding: 5px 12px; border-radius: 15px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; white-space: nowrap; }
+        header.main-header { border-bottom: 1px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: flex-end; }
+        h1 { margin: 0; color: var(--accent-color); font-size: 32px; }
+        
+        /* 策略總結優化 */
+        .global-box { background: rgba(88, 166, 255, 0.05); border: 1px solid var(--accent-color); padding: 35px; border-radius: 12px; margin-bottom: 45px; }
+        .global-box h3 { margin-top: 0; color: var(--accent-color); font-size: 22px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; }
+        .global-box .markdown-render { line-height: 2.2; font-size: 16px; letter-spacing: 0.6px; color: #e6edf3; }
+        .global-box .markdown-render li { margin-bottom: 20px; }
+
+        /* 主題統整樣式 */
+        .topic-summary { background: rgba(240, 136, 62, 0.05); border-left: 4px solid #f0883e; padding: 15px 20px; margin-bottom: 20px; border-radius: 4px; font-size: 14px; line-height: 1.7; color: #e6edf3; }
+        .topic-summary strong { color: #f0883e; }
+
+        /* 互動控制 */
+        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; margin-bottom: 25px; display: flex; flex-direction: column; gap: 15px; }
+        #searchBar { width: 100%; padding: 12px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
+        .topic-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+        .topic-btn { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; font-size: 12px; font-weight: bold; }
         .topic-btn:hover { background: var(--accent-color); color: white; }
 
-        .section { margin-top: 40px; }
-        .section-title { font-size: 24px; color: #f0883e; border-bottom: 2px solid #f0883e; padding-bottom: 5px; margin-bottom: 20px; }
+        /* 表格排版強化 */
+        table { width: 100%; border-collapse: separate; border-spacing: 0; margin-bottom: 70px; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; table-layout: fixed; }
+        th { background: var(--table-header); color: #8b949e; font-weight: 600; padding: 12px 15px; text-align: left; font-size: 13px; border-bottom: 1px solid var(--border-color); }
+        td { padding: 18px 15px; border-bottom: 1px solid var(--border-color); font-size: 14px; line-height: 1.6; vertical-align: top; word-wrap: break-word; }
+        tr:hover { background: rgba(88, 166, 255, 0.03); }
+
+        .col-rank { width: 70px; text-align: center; }
+        .col-name { width: 200px; }
+        .col-desc { width: 250px; color: #8b949e; font-size: 13px; }
+        .col-ai-insight { width: 450px; border-left: 1px solid rgba(88, 166, 255, 0.1); }
+        .col-ai-sentiment { width: 350px; border-left: 1px solid rgba(88, 166, 255, 0.1); }
+
+        .repo-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: block; margin-bottom: 8px; font-size: 16px; }
+        .lang-tag { font-size: 11px; background: #30363d; padding: 2px 8px; border-radius: 10px; color: #8b949e; }
+        .badge { font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; }
+        .badge-new { background: var(--status-new); color: white; }
         
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; position: relative; transition: 0.2s; }
-        .card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
-        
-        .status-badge { position: absolute; top: 10px; right: 10px; font-size: 10px; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
-        .status-new { background: var(--status-new); color: white; }
-        .status-up { color: var(--status-up); }
-        .status-down { color: var(--status-down); }
-        
-        .repo-name { color: var(--accent-color); text-decoration: none; font-weight: bold; font-size: 18px; display: block; margin-bottom: 8px; }
-        .description { font-size: 14px; color: #8b949e; line-height: 1.5; height: 3em; overflow: hidden; margin-bottom: 15px; }
-        .meta { display: flex; justify-content: space-between; font-size: 12px; color: #8b949e; }
-        
-        .analysis-box { background: #1c2128; border-left: 4px solid var(--accent-color); padding: 20px; margin-bottom: 30px; border-radius: 0 8px 8px 0; }
+        .section-title { font-size: 26px; color: #f0883e; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+
+        .markdown-render ul { padding-left: 18px; margin: 0; }
+        .markdown-render li { margin-bottom: 8px; }
+        .markdown-render li:last-child { margin-bottom: 0; }
+        .markdown-render strong { color: #ffa657 !important; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 GitHub Multi-Topic Pulse</h1>
-        <p>Last Updated: {{ TIMESTAMP }}</p>
+        <header class="main-header">
+            <h1>🚀 GitHub Tech Radar</h1>
+            <div style="text-align: right; color: #8b949e; font-size: 13px;">
+                Intensive Analysis: <strong>{{ TIMESTAMP }}</strong>
+            </div>
+        </header>
 
-        <div class="analysis-box">
-            <h3>🧠 AI Strategic Insight</h3>
-            <div style="white-space: pre-wrap;">{{ ANALYSIS_SUMMARY }}</div>
-        </div>
+        <section class="global-box">
+            <h3>🧠 Strategic Global Summary</h3>
+            <div class="markdown-render" data-markdown="{{ GLOBAL_ANALYSIS }}">載入中...</div>
+        </section>
 
         <div class="controls">
-            <input type="text" id="searchBar" placeholder="Search repositories or descriptions..." onkeyup="filterCards()">
             <div class="topic-nav">
                 {% for topic in TOPICS_DATA.keys() %}
                 <button class="topic-btn" onclick="scrollToTopic('{{ topic }}')">{{ topic }}</button>
                 {% endfor %}
             </div>
+            <input type="text" id="searchBar" placeholder="Quick Filter: Any project, tech, or AI insight..." onkeyup="filterTable()">
         </div>
 
         {% for topic, repos in TOPICS_DATA.items() %}
-        <div class="section" id="topic-{{ topic }}">
-            <div class="section-title">{{ topic }} Trending</div>
-            <div class="grid">
-                {% for repo in repos %}
-                <div class="card" data-name="{{ repo.full_name }}" data-desc="{{ repo.description }}">
-                    {% if repo.status == 'new' %}<span class="status-badge status-new">New</span>
-                    {% elif repo.status == 'up' %}<span class="status-badge status-up">↑ Rising</span>
-                    {% elif repo.status == 'down' %}<span class="status-badge status-down">↓ Falling</span>
-                    {% endif %}
-                    
-                    <a href="{{ repo.url }}" class="repo-name" target="_blank">{{ repo.full_name }}</a>
-                    <p class="description">{{ repo.description }}</p>
-                    <div class="meta">
-                        <span>🏷️ {{ repo.language }}</span>
-                        <span>⭐ {{ repo.total_stars }}</span>
-                        <span style="color: #3fb950;">{{ repo.stars_since }}</span>
-                    </div>
-                </div>
-                {% endfor %}
+        <div class="topic-section" id="topic-{{ topic }}">
+            <div class="section-title">📦 {{ topic }} Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="{{ TOPIC_SUMMARIES.get(topic, '正在產生該領域的趨勢統整...') }}"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    {% for repo in repos %}
+                    <tr class="repo-row" data-search="{{ repo.full_name }} {{ repo.language }} {{ repo.ai_insight }} {{ repo.ai_sentiment }}">
+                        <td class="col-rank">
+                            {% if repo.status == 'new' %}<span class="badge badge-new">NEW</span>
+                            {% elif repo.status == 'up' %}<span style="color:var(--status-up)">▲</span>
+                            {% elif repo.status == 'down' %}<span style="color:var(--status-down)">▼</span>
+                            {% else %}<span style="color:#444">-</span>
+                            {% endif %}
+                        </td>
+                        <td class="col-name">
+                            <a href="{{ repo.url }}" target="_blank" class="repo-link">{{ repo.full_name }}</a>
+                            <span class="lang-tag">{{ repo.language }}</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ {{ repo.total_stars }}</div>
+                        </td>
+                        <td class="col-desc">{{ repo.description }}</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="{{ repo.ai_insight }}"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="{{ repo.ai_sentiment }}"></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
         {% endfor %}
     </div>
 
     <script>
-        function filterCards() {
-            const query = document.getElementById('searchBar').value.toLowerCase();
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                const name = card.getAttribute('data-name').toLowerCase();
-                const desc = card.getAttribute('data-desc').toLowerCase();
-                if (name.includes(query) || desc.includes(query)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
+        function renderAllMarkdown() {
+            document.querySelectorAll('.markdown-render').forEach(el => {
+                const md = el.getAttribute('data-markdown') || el.innerText;
+                if (md && md !== '載入中...') {
+                    el.innerHTML = marked.parse(md);
                 }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', renderAllMarkdown);
+
+        function filterTable() {
+            const query = document.getElementById('searchBar').value.toLowerCase();
+            document.querySelectorAll('.repo-row').forEach(row => {
+                const text = row.getAttribute('data-search').toLowerCase();
+                row.style.display = text.includes(query) ? '' : 'none';
             });
         }
 
         function scrollToTopic(id) {
             const el = document.getElementById('topic-' + id);
-            window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+            if (el) window.scrollTo({ top: el.offsetTop - 100, behavior: 'smooth' });
         }
     </script>
 </body>

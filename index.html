@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Tech Pulse - Interactive Dashboard</title>
+    <title>GitHub Tech Radar - Deep Insights Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         :root {
             --bg-color: #0d1117;
@@ -11,51 +12,85 @@
             --text-color: #c9d1d9;
             --accent-color: #58a6ff;
             --border-color: #30363d;
+            --table-header: #21262d;
             --status-new: #238636;
             --status-up: #3fb950;
             --status-down: #da3633;
         }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
+        .container { max-width: 1500px; margin: 0 auto; }
         
-        /* Interactive Controls */
-        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; display: flex; gap: 15px; align-items: center; }
-        #searchBar { flex-grow: 1; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
-        .topic-nav { display: flex; gap: 8px; overflow-x: auto; }
-        .topic-btn { padding: 5px 12px; border-radius: 15px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; white-space: nowrap; }
+        header.main-header { border-bottom: 1px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: flex-end; }
+        h1 { margin: 0; color: var(--accent-color); font-size: 32px; }
+        
+        /* 策略總結優化 */
+        .global-box { background: rgba(88, 166, 255, 0.05); border: 1px solid var(--accent-color); padding: 35px; border-radius: 12px; margin-bottom: 45px; }
+        .global-box h3 { margin-top: 0; color: var(--accent-color); font-size: 22px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; }
+        .global-box .markdown-render { line-height: 2.2; font-size: 16px; letter-spacing: 0.6px; color: #e6edf3; }
+        .global-box .markdown-render li { margin-bottom: 20px; }
+
+        /* 主題統整樣式 */
+        .topic-summary { background: rgba(240, 136, 62, 0.05); border-left: 4px solid #f0883e; padding: 15px 20px; margin-bottom: 20px; border-radius: 4px; font-size: 14px; line-height: 1.7; color: #e6edf3; }
+        .topic-summary strong { color: #f0883e; }
+
+        /* 互動控制 */
+        .controls { position: sticky; top: 0; background: var(--bg-color); padding: 15px 0; border-bottom: 1px solid var(--border-color); z-index: 100; margin-bottom: 25px; display: flex; flex-direction: column; gap: 15px; }
+        #searchBar { width: 100%; padding: 12px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: white; }
+        .topic-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+        .topic-btn { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--accent-color); background: transparent; color: var(--accent-color); cursor: pointer; font-size: 12px; font-weight: bold; }
         .topic-btn:hover { background: var(--accent-color); color: white; }
 
-        .section { margin-top: 40px; }
-        .section-title { font-size: 24px; color: #f0883e; border-bottom: 2px solid #f0883e; padding-bottom: 5px; margin-bottom: 20px; }
+        /* 表格排版強化 */
+        table { width: 100%; border-collapse: separate; border-spacing: 0; margin-bottom: 70px; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; table-layout: fixed; }
+        th { background: var(--table-header); color: #8b949e; font-weight: 600; padding: 12px 15px; text-align: left; font-size: 13px; border-bottom: 1px solid var(--border-color); }
+        td { padding: 18px 15px; border-bottom: 1px solid var(--border-color); font-size: 14px; line-height: 1.6; vertical-align: top; word-wrap: break-word; }
+        tr:hover { background: rgba(88, 166, 255, 0.03); }
+
+        .col-rank { width: 70px; text-align: center; }
+        .col-name { width: 200px; }
+        .col-desc { width: 250px; color: #8b949e; font-size: 13px; }
+        .col-ai-insight { width: 450px; border-left: 1px solid rgba(88, 166, 255, 0.1); }
+        .col-ai-sentiment { width: 350px; border-left: 1px solid rgba(88, 166, 255, 0.1); }
+
+        .repo-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: block; margin-bottom: 8px; font-size: 16px; }
+        .lang-tag { font-size: 11px; background: #30363d; padding: 2px 8px; border-radius: 10px; color: #8b949e; }
+        .badge { font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; }
+        .badge-new { background: var(--status-new); color: white; }
         
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; position: relative; transition: 0.2s; }
-        .card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
-        
-        .status-badge { position: absolute; top: 10px; right: 10px; font-size: 10px; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
-        .status-new { background: var(--status-new); color: white; }
-        .status-up { color: var(--status-up); }
-        .status-down { color: var(--status-down); }
-        
-        .repo-name { color: var(--accent-color); text-decoration: none; font-weight: bold; font-size: 18px; display: block; margin-bottom: 8px; }
-        .description { font-size: 14px; color: #8b949e; line-height: 1.5; height: 3em; overflow: hidden; margin-bottom: 15px; }
-        .meta { display: flex; justify-content: space-between; font-size: 12px; color: #8b949e; }
-        
-        .analysis-box { background: #1c2128; border-left: 4px solid var(--accent-color); padding: 20px; margin-bottom: 30px; border-radius: 0 8px 8px 0; }
+        .section-title { font-size: 26px; color: #f0883e; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+
+        .markdown-render ul { padding-left: 18px; margin: 0; }
+        .markdown-render li { margin-bottom: 8px; }
+        .markdown-render li:last-child { margin-bottom: 0; }
+        .markdown-render strong { color: #ffa657 !important; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 GitHub Multi-Topic Pulse</h1>
-        <p>Last Updated: 2026-03-01 15:39:04</p>
+        <header class="main-header">
+            <h1>🚀 GitHub Tech Radar</h1>
+            <div style="text-align: right; color: #8b949e; font-size: 13px;">
+                Intensive Analysis: <strong>2026-03-01 17:40:34</strong>
+            </div>
+        </header>
 
-        <div class="analysis-box">
-            <h3>🧠 AI Strategic Insight</h3>
-            <div style="white-space: pre-wrap;">AI Analysis failed: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)</div>
-        </div>
+        <section class="global-box">
+            <h3>🧠 Strategic Global Summary</h3>
+            <div class="markdown-render" data-markdown="### 🧠 全域技術策略觀察
+
+- **核心發展動能**: 目前技術開發的主軸已由單純的「對話式 AI」演進為「自主代理（Agentic Workflow）」。Anthropic 的 `claude-code` 與字節跳動的 `deer-flow` 揭示了開發者正致力於將 AI 深度整合進終端與沙盒環境，實現從程式碼理解到 Git 工作流自動化的閉環操作。這象徵著 AI 應用已從前端介面滲透至開發底層的「執行層」。
+
+
+- **跨領域技術共鳴**: 數據顯示 AI 技術正與物理世界感知深度結合，例如 `wifi-densepose` 利用 Rust 的高效能處理 WiFi 信號來進行人體姿態估計，這反映了 AI 正在突破像素與文字的邊界，轉向非視覺感知的數位化監測。同時，Rust 的強大安全性與並發能力，使其成為處理這類高頻、實時物理數據的首選語言。
+
+
+- **開源生態重心偏移**: 技術社群對 AI 基礎設施的「主導權」與「成本管理」表現出強烈需求。開源專案如 `claude-relay-service` 反映了開發者試圖建立統一的 API 中轉與成本分攤機制，以降低對單一服務商的依賴。此外，TypeScript 在多代理協作（Multi-agent Swarms）框架中的崛起，顯示出前端技術正承擔起更複雜的邏輯編排與跨平台分發任務。
+
+
+- **全球開發者情緒總結**: 開發者對於「私有化部署」與「高效率自動化」展現出前所未有的狂熱。從 `airi` 這種自託管的虛擬伴侶，到各種 CLI 終端工具的流行，顯示出社群正集體追求將 AI 能力「本地化」與「實體化」。開發者的情緒已從初期的技術觀望轉向「工程化落地」與「自主掌控」，專注於如何讓 AI 在不犧牲隱私的前提下，真正解決日常開發中的低效環節。">載入中...</div>
+        </section>
 
         <div class="controls">
-            <input type="text" id="searchBar" placeholder="Search repositories or descriptions..." onkeyup="filterCards()">
             <div class="topic-nav">
                 
                 <button class="topic-btn" onclick="scrollToTopic('Overall')">Overall</button>
@@ -69,714 +104,1335 @@
                 <button class="topic-btn" onclick="scrollToTopic('Frontend/TS')">Frontend/TS</button>
                 
             </div>
+            <input type="text" id="searchBar" placeholder="Quick Filter: Any project, tech, or AI insight..." onkeyup="filterTable()">
         </div>
 
         
-        <div class="section" id="topic-Overall">
-            <div class="section-title">Overall Trending</div>
-            <div class="grid">
-                
-                <div class="card" data-name="ruvnet/wifi-densepose" data-desc="WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ruvnet/wifi-densepose" class="repo-name" target="_blank">ruvnet/wifi-densepose</a>
-                    <p class="description">WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 13,539</span>
-                        <span style="color: #3fb950;">2,152 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="moeru-ai/airi" data-desc="💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/moeru-ai/airi" class="repo-name" target="_blank">moeru-ai/airi</a>
-                    <p class="description">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 19,537</span>
-                        <span style="color: #3fb950;">1,065 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="anthropics/claude-code" data-desc="Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/anthropics/claude-code" class="repo-name" target="_blank">anthropics/claude-code</a>
-                    <p class="description">Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</p>
-                    <div class="meta">
-                        <span>🏷️ Shell</span>
-                        <span>⭐ 72,004</span>
-                        <span style="color: #3fb950;">699 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="tukaani-project/xz" data-desc="XZ Utils">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/tukaani-project/xz" class="repo-name" target="_blank">tukaani-project/xz</a>
-                    <p class="description">XZ Utils</p>
-                    <div class="meta">
-                        <span>🏷️ C</span>
-                        <span>⭐ 1,248</span>
-                        <span style="color: #3fb950;">107 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="Shubhamsaboo/awesome-llm-apps" data-desc="Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" class="repo-name" target="_blank">Shubhamsaboo/awesome-llm-apps</a>
-                    <p class="description">Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 98,358</span>
-                        <span style="color: #3fb950;">635 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ruvnet/ruflo" data-desc="🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ruvnet/ruflo" class="repo-name" target="_blank">ruvnet/ruflo</a>
-                    <p class="description">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 16,747</span>
-                        <span style="color: #3fb950;">928 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="bytedance/deer-flow" data-desc="An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/bytedance/deer-flow" class="repo-name" target="_blank">bytedance/deer-flow</a>
-                    <p class="description">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 22,713</span>
-                        <span style="color: #3fb950;">899 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="Wei-Shaw/claude-relay-service" data-desc="CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/Wei-Shaw/claude-relay-service" class="repo-name" target="_blank">Wei-Shaw/claude-relay-service</a>
-                    <p class="description">CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</p>
-                    <div class="meta">
-                        <span>🏷️ JavaScript</span>
-                        <span>⭐ 8,723</span>
-                        <span style="color: #3fb950;">171 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="NousResearch/hermes-agent" data-desc="No description.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/NousResearch/hermes-agent" class="repo-name" target="_blank">NousResearch/hermes-agent</a>
-                    <p class="description">No description.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 1,205</span>
-                        <span style="color: #3fb950;">182 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="superset-sh/superset" data-desc="IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/superset-sh/superset" class="repo-name" target="_blank">superset-sh/superset</a>
-                    <p class="description">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 2,548</span>
-                        <span style="color: #3fb950;">181 stars today</span>
-                    </div>
-                </div>
-                
+        <div class="topic-section" id="topic-Overall">
+            <div class="section-title">📦 Overall Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="### 🚀 Overall 本週趨勢深度掃描
+
+- **技術範式轉移**: 全球開發者正從「提示詞工程 (Prompt Engineering)」轉向「代理集成環境 (Agentic Integrated Environments)」。本週數據顯示，Claude Code 的發布引發了連鎖反應，催生了大量代理編排、鏡像代理與 IDE 級別的輔助工具，象徵著終端機與 IDE 正被 AI 原生工具重構。
+- **核心競爭力分析**: 非侵入式感知技術（如 WiFi DensePose）與多代理協作架構（Multi-agent Orchestration）成為技術溢價的核心。開發者不再滿足於單點 AI 對話，而是追求能處理長達數小時任務的「超自動化」流水線。
+- **開發者痛點緩解**: 解決方案高度集中於「跨平台 API 聚合」、「開發成本分攤」與「邊緣計算隱私」。特別是針對企業級開發者，如何安全、高效地運行 AI Agent 成為社群爆紅的主軸。
+- **生態整合動向**: 以 Claude Code 為核心的衍生生態迅速成形，從中轉服務 (Relay) 到專屬 IDE 分支 (Superset)，展現了開發者對「更強執行力 AI」的渴望。
+- **下週技術展望**: 預計會看到更多針對 Rust 高性能邊緣運算與 Python 高抽象代理邏輯的融合項目，AI 與物理世界的感知結合（如 WiFi 感知）將進入商業化前夜。"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    
+                    <tr class="repo-row" data-search="ruvnet/wifi-densepose Rust - **核心痛點**: 傳統監控受限於光照、視線遮擋及隱私爭議。
+- **技術亮點**: 利用商用 WiFi 信號反射進行 3D 人體姿態估計，實現真正的「隔牆有眼」且不涉及影像存儲。
+- **適用場景**: 隱私敏感區域的跌倒檢測、生命體徵掃描及非法入侵監測。 - **熱度來源**: 科技隱私與硬體黑客圈的跨界共鳴。
+- **社群焦點**: 關注信號穿透牆體後的解析精度與多目標識別性能。
+- **未來展望**: 可能成為未來智慧家庭與長照機構的標準非侵入式傳感方案。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ruvnet/wifi-densepose" target="_blank" class="repo-link">ruvnet/wifi-densepose</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 14,262</div>
+                        </td>
+                        <td class="col-desc">WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 傳統監控受限於光照、視線遮擋及隱私爭議。
+- **技術亮點**: 利用商用 WiFi 信號反射進行 3D 人體姿態估計，實現真正的「隔牆有眼」且不涉及影像存儲。
+- **適用場景**: 隱私敏感區域的跌倒檢測、生命體徵掃描及非法入侵監測。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 科技隱私與硬體黑客圈的跨界共鳴。
+- **社群焦點**: 關注信號穿透牆體後的解析精度與多目標識別性能。
+- **未來展望**: 可能成為未來智慧家庭與長照機構的標準非侵入式傳感方案。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="moeru-ai/airi TypeScript - **核心痛點**: 解決了開源 AI 伴侶部署複雜且缺乏跨平台語音交互與遊戲聯動的問題。
+- **技術亮點**: 高度集成的即時語音處理與遊戲控制接口（Minecraft/Factorio），體現了 TS 在複雜多模態異步控制中的強大能力。
+- **適用場景**: 個人 AI 助理、虛擬伴侶、跨平台遊戲自動化交互。 - **熱度來源**: 極高的情緒價值與二次元文化契合度，加上 Neuro-sama 的標竿效應。
+- **社群焦點**: 本地化部署的隱私安全性與語音延遲優化。
+- **未來展望**: 隨著多模態模型進化，有望成為開源界最具影響力的 Cyber-Life 平台。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/moeru-ai/airi" target="_blank" class="repo-link">moeru-ai/airi</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 19,590</div>
+                        </td>
+                        <td class="col-desc">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 解決了開源 AI 伴侶部署複雜且缺乏跨平台語音交互與遊戲聯動的問題。
+- **技術亮點**: 高度集成的即時語音處理與遊戲控制接口（Minecraft/Factorio），體現了 TS 在複雜多模態異步控制中的強大能力。
+- **適用場景**: 個人 AI 助理、虛擬伴侶、跨平台遊戲自動化交互。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 極高的情緒價值與二次元文化契合度，加上 Neuro-sama 的標竿效應。
+- **社群焦點**: 本地化部署的隱私安全性與語音延遲優化。
+- **未來展望**: 隨著多模態模型進化，有望成為開源界最具影響力的 Cyber-Life 平台。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="anthropics/claude-code Shell - **核心痛點**: 開發者頻繁切換 IDE 與文檔、執行 Git 命令、調試代碼，流程破碎。
+- **技術亮點**: 原生於終端機的代理工具，具備理解完整代碼庫、執行 Git 操作與自動修復 Bug 的能力。
+- **適用場景**: 遺留代碼重構、自動化測試編寫、複雜工程架構理解。 - **熱度來源**: Anthropic 官方出品，被視為 GitHub Copilot 的強力競爭者，單日增星極快。
+- **社群焦點**: 關注其任務邊界（Agentic Boundary）以及在處理大規模私有庫時的安全防護機制。
+- **未來展望**: 可能定義下一代 CLI 的標準化 AI 交互規範。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/anthropics/claude-code" target="_blank" class="repo-link">anthropics/claude-code</a>
+                            <span class="lang-tag">Shell</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 72,058</div>
+                        </td>
+                        <td class="col-desc">Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 開發者頻繁切換 IDE 與文檔、執行 Git 命令、調試代碼，流程破碎。
+- **技術亮點**: 原生於終端機的代理工具，具備理解完整代碼庫、執行 Git 操作與自動修復 Bug 的能力。
+- **適用場景**: 遺留代碼重構、自動化測試編寫、複雜工程架構理解。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Anthropic 官方出品，被視為 GitHub Copilot 的強力競爭者，單日增星極快。
+- **社群焦點**: 關注其任務邊界（Agentic Boundary）以及在處理大規模私有庫時的安全防護機制。
+- **未來展望**: 可能定義下一代 CLI 的標準化 AI 交互規範。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="tukaani-project/xz C - **核心痛點**: 基礎設施級別的壓縮工具在高吞吐環境下的性能與安全平衡。
+- **技術亮點**: C 語言編寫，提供極高的數據壓縮率與解壓速度，是 Linux 生態的基石。
+- **適用場景**: 大規模軟件分發、數據歸檔、系統級內核鏡像處理。 - **熱度來源**: 作為經典工具，近期的熱度多源於對供應鏈安全的回歸審視或關鍵安全更新。
+- **社群焦點**: 關鍵在於底層代碼的安全性審查與抗攻擊能力。
+- **未來展望**: 維持基礎設施的長期穩定運作，避免成為供應鏈攻擊的單點失效環節。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/tukaani-project/xz" target="_blank" class="repo-link">tukaani-project/xz</a>
+                            <span class="lang-tag">C</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 1,258</div>
+                        </td>
+                        <td class="col-desc">XZ Utils</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 基礎設施級別的壓縮工具在高吞吐環境下的性能與安全平衡。
+- **技術亮點**: C 語言編寫，提供極高的數據壓縮率與解壓速度，是 Linux 生態的基石。
+- **適用場景**: 大規模軟件分發、數據歸檔、系統級內核鏡像處理。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 作為經典工具，近期的熱度多源於對供應鏈安全的回歸審視或關鍵安全更新。
+- **社群焦點**: 關鍵在於底層代碼的安全性審查與抗攻擊能力。
+- **未來展望**: 維持基礎設施的長期穩定運作，避免成為供應鏈攻擊的單點失效環節。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="Shubhamsaboo/awesome-llm-apps Python - **核心痛點**: LLM 應用開發者面臨「知易行難」的困境，缺乏高質量的端到端實踐案例。
+- **技術亮點**: 匯集了包含 AI Agent、多模態 RAG 在內的頂級 LLM 應用模板，覆蓋主流模型生態。
+- **適用場景**: 開發者快速原型構建與企業級 AI 應用架構參考。 - **熱度來源**: 巨大的開發資源庫存需求。
+- **社群焦點**: 各大開源模型（Llama, Gemini）的應用落地路徑。
+- **未來展望**: 隨著案例豐富，將演化為 LLM 應用的「教科書」級指南。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" class="repo-link">Shubhamsaboo/awesome-llm-apps</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 98,404</div>
+                        </td>
+                        <td class="col-desc">Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: LLM 應用開發者面臨「知易行難」的困境，缺乏高質量的端到端實踐案例。
+- **技術亮點**: 匯集了包含 AI Agent、多模態 RAG 在內的頂級 LLM 應用模板，覆蓋主流模型生態。
+- **適用場景**: 開發者快速原型構建與企業級 AI 應用架構參考。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 巨大的開發資源庫存需求。
+- **社群焦點**: 各大開源模型（Llama, Gemini）的應用落地路徑。
+- **未來展望**: 隨著案例豐富，將演化為 LLM 應用的「教科書」級指南。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ruvnet/ruflo TypeScript - **核心痛點**: Claude 模型在企業級複雜多 Agent 協作中缺乏統一且高效的編排框架。
+- **技術亮點**: 分佈式群體智能架構，原生支持 Claude Code/Codex 深度集成，並內置 RAG 自動化流水線。
+- **適用場景**: 企業級 AI 工作流、自動化系統開發、複雜任務拆解與執行。 - **熱度來源**: Anthropic 模型能力釋放帶來的生態溢出效應。
+- **社群焦點**: 多 Agent 之間的通訊協議與權限控制。
+- **未來展望**: 成為 Claude 生態下的「LangChain」替代方案，主打 Agent 協作。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ruvnet/ruflo" target="_blank" class="repo-link">ruvnet/ruflo</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 16,820</div>
+                        </td>
+                        <td class="col-desc">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Claude 模型在企業級複雜多 Agent 協作中缺乏統一且高效的編排框架。
+- **技術亮點**: 分佈式群體智能架構，原生支持 Claude Code/Codex 深度集成，並內置 RAG 自動化流水線。
+- **適用場景**: 企業級 AI 工作流、自動化系統開發、複雜任務拆解與執行。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Anthropic 模型能力釋放帶來的生態溢出效應。
+- **社群焦點**: 多 Agent 之間的通訊協議與權限控制。
+- **未來展望**: 成為 Claude 生態下的「LangChain」替代方案，主打 Agent 協作。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="bytedance/deer-flow Python - **核心痛點**: 長時間、跨領域的複雜任務在單一 Agent 模式下容易失敗。
+- **技術亮點**: 引入沙盒環境、長短期記憶管理與子 Agent 技能樹，將任務處理時間跨度提升至「小時級」。
+- **適用場景**: 深度技術調研、代碼庫自動遷移、複雜內容創作。 - **熱度來源**:字節跳動（ByteDance）背景背書，技術架構相對成熟。
+- **社群焦點**: 任務失敗後的恢復機制與沙盒安全性。
+- **未來展望**: 可能推動 AI 從「對話框」走向「無人值守任務處理」。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/bytedance/deer-flow" target="_blank" class="repo-link">bytedance/deer-flow</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 22,743</div>
+                        </td>
+                        <td class="col-desc">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 長時間、跨領域的複雜任務在單一 Agent 模式下容易失敗。
+- **技術亮點**: 引入沙盒環境、長短期記憶管理與子 Agent 技能樹，將任務處理時間跨度提升至「小時級」。
+- **適用場景**: 深度技術調研、代碼庫自動遷移、複雜內容創作。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**:字節跳動（ByteDance）背景背書，技術架構相對成熟。
+- **社群焦點**: 任務失敗後的恢復機制與沙盒安全性。
+- **未來展望**: 可能推動 AI 從「對話框」走向「無人值守任務處理」。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="Wei-Shaw/claude-relay-service JavaScript - **核心痛點**: 官方 API 訪問受限、訂閱費用高昂以及跨團隊帳號共享困難。
+- **技術亮點**: 一站式中轉服務，支持多模型（OpenAI, Gemini 等）統一接入與拼車共享邏輯。
+- **適用場景**: 中小團隊降低開發成本、國內環境訪問加速、多帳號冗餘管理。 - **熱度來源**: 強烈的現實需求——「低成本穩定訪問 Claude」，尤其在開發者社群中引起共鳴。
+- **社群焦點**: 帳號安全隔離、負載均衡策略以及對原生工具的兼容穩定性。
+- **未來展望**: 這類工具會隨 AI 訂閱制的普及而長期存在，成為生態中的關鍵中繼。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/Wei-Shaw/claude-relay-service" target="_blank" class="repo-link">Wei-Shaw/claude-relay-service</a>
+                            <span class="lang-tag">JavaScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 8,730</div>
+                        </td>
+                        <td class="col-desc">CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 官方 API 訪問受限、訂閱費用高昂以及跨團隊帳號共享困難。
+- **技術亮點**: 一站式中轉服務，支持多模型（OpenAI, Gemini 等）統一接入與拼車共享邏輯。
+- **適用場景**: 中小團隊降低開發成本、國內環境訪問加速、多帳號冗餘管理。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 強烈的現實需求——「低成本穩定訪問 Claude」，尤其在開發者社群中引起共鳴。
+- **社群焦點**: 帳號安全隔離、負載均衡策略以及對原生工具的兼容穩定性。
+- **未來展望**: 這類工具會隨 AI 訂閱制的普及而長期存在，成為生態中的關鍵中繼。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="NousResearch/hermes-agent Python - **核心痛點**: 通用 LLM 在執行複雜 Agent 任務時，對指令的精準遵循與邏輯鏈條易斷裂。
+- **技術亮點**: 針對 Nous Hermes 模型優化的智能體框架，強調高性能的推理指令集。
+- **適用場景**: 需要高度自主決策與複雜任務拆解的 AI 助理開發。 - **熱度來源**: 開源模型愛好者對 Hermes 系列的高度忠誠與期待。
+- **社群焦點**: 是否能與商用 GPT-4 級別的 Agent 表現一較高下。
+- **未來展望**: 推動開源模型在垂直 Agent 領域的精確化部署。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/NousResearch/hermes-agent" target="_blank" class="repo-link">NousResearch/hermes-agent</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 1,221</div>
+                        </td>
+                        <td class="col-desc">No description.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 通用 LLM 在執行複雜 Agent 任務時，對指令的精準遵循與邏輯鏈條易斷裂。
+- **技術亮點**: 針對 Nous Hermes 模型優化的智能體框架，強調高性能的推理指令集。
+- **適用場景**: 需要高度自主決策與複雜任務拆解的 AI 助理開發。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 開源模型愛好者對 Hermes 系列的高度忠誠與期待。
+- **社群焦點**: 是否能與商用 GPT-4 級別的 Agent 表現一較高下。
+- **未來展望**: 推動開源模型在垂直 Agent 領域的精確化部署。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="superset-sh/superset TypeScript - **核心痛點**: 現有 IDE 對 AI Agent 的並行管理與原生支持不足。
+- **技術亮點**: 專為 Agent 時代打造，支持同時運行多個 Claude Code 或 Codex 實例，極大提升開發並行度。
+- **適用場景**: AI 輔助研發、大規模代碼生成、系統級重構。 - **熱度來源**: 滿足了開發者對於「AI 軍團」協作開發的效率想像。
+- **社群焦點**: 與傳統 IDE（如 VS Code）的插件兼容性與資源佔用。
+- **未來展望**: 引領從「代碼編輯器」向「Agent 指揮中心」的形態演變。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/superset-sh/superset" target="_blank" class="repo-link">superset-sh/superset</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 2,574</div>
+                        </td>
+                        <td class="col-desc">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 現有 IDE 對 AI Agent 的並行管理與原生支持不足。
+- **技術亮點**: 專為 Agent 時代打造，支持同時運行多個 Claude Code 或 Codex 實例，極大提升開發並行度。
+- **適用場景**: AI 輔助研發、大規模代碼生成、系統級重構。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 滿足了開發者對於「AI 軍團」協作開發的效率想像。
+- **社群焦點**: 與傳統 IDE（如 VS Code）的插件兼容性與資源佔用。
+- **未來展望**: 引領從「代碼編輯器」向「Agent 指揮中心」的形態演變。"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
         
-        <div class="section" id="topic-AI/Python">
-            <div class="section-title">AI/Python Trending</div>
-            <div class="grid">
-                
-                <div class="card" data-name="ruvnet/wifi-densepose" data-desc="WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ruvnet/wifi-densepose" class="repo-name" target="_blank">ruvnet/wifi-densepose</a>
-                    <p class="description">WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 13,539</span>
-                        <span style="color: #3fb950;">2,152 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="Shubhamsaboo/awesome-llm-apps" data-desc="Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" class="repo-name" target="_blank">Shubhamsaboo/awesome-llm-apps</a>
-                    <p class="description">Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 98,358</span>
-                        <span style="color: #3fb950;">635 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="NousResearch/hermes-agent" data-desc="No description.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/NousResearch/hermes-agent" class="repo-name" target="_blank">NousResearch/hermes-agent</a>
-                    <p class="description">No description.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 1,205</span>
-                        <span style="color: #3fb950;">182 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="datagouv/datagouv-mcp" data-desc="Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/datagouv/datagouv-mcp" class="repo-name" target="_blank">datagouv/datagouv-mcp</a>
-                    <p class="description">Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 697</span>
-                        <span style="color: #3fb950;">115 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="X-PLUG/MobileAgent" data-desc="Mobile-Agent: The Powerful GUI Agent Family">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/X-PLUG/MobileAgent" class="repo-name" target="_blank">X-PLUG/MobileAgent</a>
-                    <p class="description">Mobile-Agent: The Powerful GUI Agent Family</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 7,578</span>
-                        <span style="color: #3fb950;">45 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="alibaba/OpenSandbox" data-desc="OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/alibaba/OpenSandbox" class="repo-name" target="_blank">alibaba/OpenSandbox</a>
-                    <p class="description">OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 2,603</span>
-                        <span style="color: #3fb950;">349 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="anthropics/skills" data-desc="Public repository for Agent Skills">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/anthropics/skills" class="repo-name" target="_blank">anthropics/skills</a>
-                    <p class="description">Public repository for Agent Skills</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 79,708</span>
-                        <span style="color: #3fb950;">1,076 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="VectifyAI/PageIndex" data-desc="📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/VectifyAI/PageIndex" class="repo-name" target="_blank">VectifyAI/PageIndex</a>
-                    <p class="description">📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 19,426</span>
-                        <span style="color: #3fb950;">426 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ginobefun/agentic-design-patterns-cn" data-desc="《Agentic Design Patterns》中文翻译版">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ginobefun/agentic-design-patterns-cn" class="repo-name" target="_blank">ginobefun/agentic-design-patterns-cn</a>
-                    <p class="description">《Agentic Design Patterns》中文翻译版</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 7,642</span>
-                        <span style="color: #3fb950;">33 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="datawhalechina/hello-agents" data-desc="📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/datawhalechina/hello-agents" class="repo-name" target="_blank">datawhalechina/hello-agents</a>
-                    <p class="description">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 23,589</span>
-                        <span style="color: #3fb950;">603 stars today</span>
-                    </div>
-                </div>
-                
+        <div class="topic-section" id="topic-AI/Python">
+            <div class="section-title">📦 AI/Python Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="### 🚀 AI/Python 本週趨勢深度掃描
+
+- **技術範式轉移**: 本週技術重心從單純的「模型推理」全面轉向「Agentic Workflow (智能體工作流)」。從 Mobile Agent 到 Agentic Design Patterns，開發者正致力於讓 AI 具備更強的環境感知與主動執行能力。
+- **核心競爭力分析**: 「感知多樣性」與「執行安全性」成為新戰場。WiFi-DensePose 突破了影像視覺的限制，而 OpenSandbox 則為 AI 程式碼執行提供了必要的安全圍欄。
+- **開發者痛點緩解**: RAG (檢索增強生成) 的優化方向正從「向量匹配」轉向「推理引導」，PageIndex 的出現緩解了傳統 RAG 在處理長文檔與複雜關係時的精度缺失問題。
+- **生態整合動向**: MCP (Model Context Protocol) 協議的應用開始下沉至公共部門（如法國政府數據平台），預示著 AI 跨平台交互標準化時代的到來。
+- **下週技術展望**: 預計會湧現更多針對 Anthropic Skills 體系開發的專屬工具鏈，且「無影像感官 AI」技術將引發隱私保護監控領域的二次討論。"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    
+                    <tr class="repo-row" data-search="ruvnet/wifi-densepose Rust - **核心痛點**: 傳統監控受限於光照、視線遮擋及隱私爭議。
+- **技術亮點**: 利用商用 WiFi 信號反射進行 3D 人體姿態估計，實現真正的「隔牆有眼」且不涉及影像存儲。
+- **適用場景**: 隱私敏感區域的跌倒檢測、生命體徵掃描及非法入侵監測。 - **熱度來源**: 科技隱私與硬體黑客圈的跨界共鳴。
+- **社群焦點**: 關注信號穿透牆體後的解析精度與多目標識別性能。
+- **未來展望**: 可能成為未來智慧家庭與長照機構的標準非侵入式傳感方案。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ruvnet/wifi-densepose" target="_blank" class="repo-link">ruvnet/wifi-densepose</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 14,262</div>
+                        </td>
+                        <td class="col-desc">WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 傳統監控受限於光照、視線遮擋及隱私爭議。
+- **技術亮點**: 利用商用 WiFi 信號反射進行 3D 人體姿態估計，實現真正的「隔牆有眼」且不涉及影像存儲。
+- **適用場景**: 隱私敏感區域的跌倒檢測、生命體徵掃描及非法入侵監測。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 科技隱私與硬體黑客圈的跨界共鳴。
+- **社群焦點**: 關注信號穿透牆體後的解析精度與多目標識別性能。
+- **未來展望**: 可能成為未來智慧家庭與長照機構的標準非侵入式傳感方案。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="Shubhamsaboo/awesome-llm-apps Python - **核心痛點**: LLM 應用開發者面臨「知易行難」的困境，缺乏高質量的端到端實踐案例。
+- **技術亮點**: 匯集了包含 AI Agent、多模態 RAG 在內的頂級 LLM 應用模板，覆蓋主流模型生態。
+- **適用場景**: 開發者快速原型構建與企業級 AI 應用架構參考。 - **熱度來源**: 巨大的開發資源庫存需求。
+- **社群焦點**: 各大開源模型（Llama, Gemini）的應用落地路徑。
+- **未來展望**: 隨著案例豐富，將演化為 LLM 應用的「教科書」級指南。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" class="repo-link">Shubhamsaboo/awesome-llm-apps</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 98,404</div>
+                        </td>
+                        <td class="col-desc">Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: LLM 應用開發者面臨「知易行難」的困境，缺乏高質量的端到端實踐案例。
+- **技術亮點**: 匯集了包含 AI Agent、多模態 RAG 在內的頂級 LLM 應用模板，覆蓋主流模型生態。
+- **適用場景**: 開發者快速原型構建與企業級 AI 應用架構參考。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 巨大的開發資源庫存需求。
+- **社群焦點**: 各大開源模型（Llama, Gemini）的應用落地路徑。
+- **未來展望**: 隨著案例豐富，將演化為 LLM 應用的「教科書」級指南。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="NousResearch/hermes-agent Python - **核心痛點**: 通用 LLM 在執行複雜 Agent 任務時，對指令的精準遵循與邏輯鏈條易斷裂。
+- **技術亮點**: 針對 Nous Hermes 模型優化的智能體框架，強調高性能的推理指令集。
+- **適用場景**: 需要高度自主決策與複雜任務拆解的 AI 助理開發。 - **熱度來源**: 開源模型愛好者對 Hermes 系列的高度忠誠與期待。
+- **社群焦點**: 是否能與商用 GPT-4 級別的 Agent 表現一較高下。
+- **未來展望**: 推動開源模型在垂直 Agent 領域的精確化部署。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/NousResearch/hermes-agent" target="_blank" class="repo-link">NousResearch/hermes-agent</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 1,221</div>
+                        </td>
+                        <td class="col-desc">No description.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 通用 LLM 在執行複雜 Agent 任務時，對指令的精準遵循與邏輯鏈條易斷裂。
+- **技術亮點**: 針對 Nous Hermes 模型優化的智能體框架，強調高性能的推理指令集。
+- **適用場景**: 需要高度自主決策與複雜任務拆解的 AI 助理開發。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 開源模型愛好者對 Hermes 系列的高度忠誠與期待。
+- **社群焦點**: 是否能與商用 GPT-4 級別的 Agent 表現一較高下。
+- **未來展望**: 推動開源模型在垂直 Agent 領域的精確化部署。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="datagouv/datagouv-mcp Python - **核心痛點**: 公共政府數據檢索門檻高，且傳統 API 與 AI 聊天的對接成本極大。
+- **技術亮點**: 基於 MCP 協議，讓 AI 聊天機器人能直接以對話方式查詢與分析法國國家級開放數據。
+- **適用場景**: 政策研究、數據新聞、以及基於公共數據的 AI 應用構建。 - **熱度來源**: MCP 協議在政府數字化轉型中的首次重量級應用。
+- **社群焦點**: 數據安全與 AI 獲取敏感數據的邊界控管。
+- **未來展望**: 引領全球政府數據平台走向「AI Native」接口的範式。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/datagouv/datagouv-mcp" target="_blank" class="repo-link">datagouv/datagouv-mcp</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 702</div>
+                        </td>
+                        <td class="col-desc">Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 公共政府數據檢索門檻高，且傳統 API 與 AI 聊天的對接成本極大。
+- **技術亮點**: 基於 MCP 協議，讓 AI 聊天機器人能直接以對話方式查詢與分析法國國家級開放數據。
+- **適用場景**: 政策研究、數據新聞、以及基於公共數據的 AI 應用構建。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: MCP 協議在政府數字化轉型中的首次重量級應用。
+- **社群焦點**: 數據安全與 AI 獲取敏感數據的邊界控管。
+- **未來展望**: 引領全球政府數據平台走向「AI Native」接口的範式。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="X-PLUG/MobileAgent Python - **核心痛點**: 行動端 App 的自動化操作難以跨越 UI 更新與不同 App 間的數據壁壘。
+- **技術亮點**: 強大的多模態 GUI 感知能力，能像人類一樣「看見」屏幕並操作行動端界面。
+- **適用場景**: 行動端自動化測試、視障輔助、以及個人行動助理 (LAM)。 - **熱度來源**: 多模態大模型在行動終端落地的硬核需求。
+- **社群焦點**: 處理動畫過渡與異常彈窗時的穩定性。
+- **未來展望**: 有望成為下一代智慧手機操作系統的核心組件。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/X-PLUG/MobileAgent" target="_blank" class="repo-link">X-PLUG/MobileAgent</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 7,597</div>
+                        </td>
+                        <td class="col-desc">Mobile-Agent: The Powerful GUI Agent Family</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 行動端 App 的自動化操作難以跨越 UI 更新與不同 App 間的數據壁壘。
+- **技術亮點**: 強大的多模態 GUI 感知能力，能像人類一樣「看見」屏幕並操作行動端界面。
+- **適用場景**: 行動端自動化測試、視障輔助、以及個人行動助理 (LAM)。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 多模態大模型在行動終端落地的硬核需求。
+- **社群焦點**: 處理動畫過渡與異常彈窗時的穩定性。
+- **未來展望**: 有望成為下一代智慧手機操作系統的核心組件。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="alibaba/OpenSandbox Python - **核心痛點**: AI 生成的程式碼或 Coding Agent 在執行時可能危害系統安全或資源失控。
+- **技術亮點**: 多語言 SDK 支持，結合 Docker/K8s 運行時，為 AI 提供隔離、受控的執行環境。
+- **適用場景**: AI 編程助手、強化學習訓練 (RL)、自動化程式碼評測。 - **熱度來源**: 企業對於 AI 自動化編程「最後一哩路」的安全性擔憂。
+- **社群焦點**: 沙箱資源限制的靈活性與跨語言支持的廣度。
+- **未來展望**: 成為 Agentic Workflow 中必備的安全中間層基礎設施。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/alibaba/OpenSandbox" target="_blank" class="repo-link">alibaba/OpenSandbox</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 2,728</div>
+                        </td>
+                        <td class="col-desc">OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: AI 生成的程式碼或 Coding Agent 在執行時可能危害系統安全或資源失控。
+- **技術亮點**: 多語言 SDK 支持，結合 Docker/K8s 運行時，為 AI 提供隔離、受控的執行環境。
+- **適用場景**: AI 編程助手、強化學習訓練 (RL)、自動化程式碼評測。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 企業對於 AI 自動化編程「最後一哩路」的安全性擔憂。
+- **社群焦點**: 沙箱資源限制的靈活性與跨語言支持的廣度。
+- **未來展望**: 成為 Agentic Workflow 中必備的安全中間層基礎設施。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="anthropics/skills Python - **核心痛點**: 智能體的能力邊界模糊，缺乏標準化的「技能」擴充機制。
+- **技術亮點**: Anthropic 官方發布的技能庫，標準化了 Agent 與外部世界交互的工具定義。
+- **適用場景**: 開發基於 Claude 生態的高層級智能體應用。 - **熱度來源**: Anthropic 在 AI 安全與能力定義上的權威地位。
+- **社群焦點**: 技能的通用性以及與第三方框架的兼容程度。
+- **未來展望**: 建立一套類似於 AI 界的「標準庫」，規範 Agent 的行為準則。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/anthropics/skills" target="_blank" class="repo-link">anthropics/skills</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 79,784</div>
+                        </td>
+                        <td class="col-desc">Public repository for Agent Skills</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 智能體的能力邊界模糊，缺乏標準化的「技能」擴充機制。
+- **技術亮點**: Anthropic 官方發布的技能庫，標準化了 Agent 與外部世界交互的工具定義。
+- **適用場景**: 開發基於 Claude 生態的高層級智能體應用。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Anthropic 在 AI 安全與能力定義上的權威地位。
+- **社群焦點**: 技能的通用性以及與第三方框架的兼容程度。
+- **未來展望**: 建立一套類似於 AI 界的「標準庫」，規範 Agent 的行為準則。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="VectifyAI/PageIndex Python - **核心痛點**: 向量檢索在處理具有強邏輯順序的長文件時，常因上下文丟失而回答錯誤。
+- **技術亮點**: 採用「無向量 (Vectorless)」的推理式索引技術，強化了對文檔結構與邏輯的理解。
+- **適用場景**: 合規文件審計、法規諮詢、複雜技術說明書檢索。 - **熱度來源**: RAG 領域對於「超越向量檢索」新路徑的集體探索。
+- **社群焦點**: 在不依賴向量數據庫的情況下，其查詢性能與成本的平衡點。
+- **未來展望**: 挑戰現有 RAG 架構，推動更精細化的文檔理解架構普及。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/VectifyAI/PageIndex" target="_blank" class="repo-link">VectifyAI/PageIndex</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 19,469</div>
+                        </td>
+                        <td class="col-desc">📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 向量檢索在處理具有強邏輯順序的長文件時，常因上下文丟失而回答錯誤。
+- **技術亮點**: 採用「無向量 (Vectorless)」的推理式索引技術，強化了對文檔結構與邏輯的理解。
+- **適用場景**: 合規文件審計、法規諮詢、複雜技術說明書檢索。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: RAG 領域對於「超越向量檢索」新路徑的集體探索。
+- **社群焦點**: 在不依賴向量數據庫的情況下，其查詢性能與成本的平衡點。
+- **未來展望**: 挑戰現有 RAG 架構，推動更精細化的文檔理解架構普及。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ginobefun/agentic-design-patterns-cn Python - **核心痛點**: 智能體設計模式 (Agentic Design Patterns) 概念先進，但中文開發者社區缺乏系統性的學習資源。
+- **技術亮點**: 對前沿 Agent 設計模式進行深度本地化翻譯，系統化梳理 Planning、Reflection 等核心模式。
+- **適用場景**: AI 系統架構師、高級開發者進階學習。 - **熱度來源**: 國內 AI 開發者對系統化理論知識的渴求。
+- **社群焦點**: 翻譯的準確性以及與最新論文研究的同步率。
+- **未來展望**: 提升中文開發社群在 Agent 領域的整體設計水平。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ginobefun/agentic-design-patterns-cn" target="_blank" class="repo-link">ginobefun/agentic-design-patterns-cn</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 7,645</div>
+                        </td>
+                        <td class="col-desc">《Agentic Design Patterns》中文翻译版</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 智能體設計模式 (Agentic Design Patterns) 概念先進，但中文開發者社區缺乏系統性的學習資源。
+- **技術亮點**: 對前沿 Agent 設計模式進行深度本地化翻譯，系統化梳理 Planning、Reflection 等核心模式。
+- **適用場景**: AI 系統架構師、高級開發者進階學習。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 國內 AI 開發者對系統化理論知識的渴求。
+- **社群焦點**: 翻譯的準確性以及與最新論文研究的同步率。
+- **未來展望**: 提升中文開發社群在 Agent 領域的整體設計水平。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="datawhalechina/hello-agents Python - **核心痛點**: Agent 技術術語繁多，初學者難以從零建立完整的技術閉環認知。
+- **技術亮點**: 以「動手實作」為核心的教程，涵蓋從原理到實踐的全鏈路路徑。
+- **適用場景**: AI 開發新手入坑、學生群體以及希望轉型 AI 的傳統開發者。 - **熱度來源**: DataWhale 強大的社群影響力與開源教育口碑。
+- **社群焦點**: 課程的難易度梯度設計與配套代碼的可用性。
+- **未來展望**: 成為中文社區 Agent 開發者的「黃埔軍校」入口。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/datawhalechina/hello-agents" target="_blank" class="repo-link">datawhalechina/hello-agents</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 23,604</div>
+                        </td>
+                        <td class="col-desc">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Agent 技術術語繁多，初學者難以從零建立完整的技術閉環認知。
+- **技術亮點**: 以「動手實作」為核心的教程，涵蓋從原理到實踐的全鏈路路徑。
+- **適用場景**: AI 開發新手入坑、學生群體以及希望轉型 AI 的傳統開發者。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: DataWhale 強大的社群影響力與開源教育口碑。
+- **社群焦點**: 課程的難易度梯度設計與配套代碼的可用性。
+- **未來展望**: 成為中文社區 Agent 開發者的「黃埔軍校」入口。"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
         
-        <div class="section" id="topic-Rust Ecosystem">
-            <div class="section-title">Rust Ecosystem Trending</div>
-            <div class="grid">
-                
-                <div class="card" data-name="clockworklabs/SpacetimeDB" data-desc="Development at the speed of light">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/clockworklabs/SpacetimeDB" class="repo-name" target="_blank">clockworklabs/SpacetimeDB</a>
-                    <p class="description">Development at the speed of light</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 21,650</span>
-                        <span style="color: #3fb950;">311 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="block/goose" data-desc="an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/block/goose" class="repo-name" target="_blank">block/goose</a>
-                    <p class="description">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 31,548</span>
-                        <span style="color: #3fb950;">113 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="rustfs/rustfs" data-desc="🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/rustfs/rustfs" class="repo-name" target="_blank">rustfs/rustfs</a>
-                    <p class="description">🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 22,556</span>
-                        <span style="color: #3fb950;">84 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ruvnet/ruvector" data-desc="RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ruvnet/ruvector" class="repo-name" target="_blank">ruvnet/ruvector</a>
-                    <p class="description">RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 2,161</span>
-                        <span style="color: #3fb950;">247 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="lbjlaq/Antigravity-Manager" data-desc="Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/lbjlaq/Antigravity-Manager" class="repo-name" target="_blank">lbjlaq/Antigravity-Manager</a>
-                    <p class="description">Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 24,833</span>
-                        <span style="color: #3fb950;">178 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="farion1231/cc-switch" data-desc="A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/farion1231/cc-switch" class="repo-name" target="_blank">farion1231/cc-switch</a>
-                    <p class="description">A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 21,909</span>
-                        <span style="color: #3fb950;">501 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="risingwavelabs/risingwave" data-desc="Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/risingwavelabs/risingwave" class="repo-name" target="_blank">risingwavelabs/risingwave</a>
-                    <p class="description">Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 8,827</span>
-                        <span style="color: #3fb950;">7 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="cloudflare/quiche" data-desc="🥧 Savoury implementation of the QUIC transport protocol and HTTP/3">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/cloudflare/quiche" class="repo-name" target="_blank">cloudflare/quiche</a>
-                    <p class="description">🥧 Savoury implementation of the QUIC transport protocol and HTTP/3</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 11,292</span>
-                        <span style="color: #3fb950;">10 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="openai/codex" data-desc="Lightweight coding agent that runs in your terminal">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/openai/codex" class="repo-name" target="_blank">openai/codex</a>
-                    <p class="description">Lightweight coding agent that runs in your terminal</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 62,450</span>
-                        <span style="color: #3fb950;">154 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="longbridge/gpui-component" data-desc="Rust GUI components for building fantastic cross-platform desktop application by using GPUI.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/longbridge/gpui-component" class="repo-name" target="_blank">longbridge/gpui-component</a>
-                    <p class="description">Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</p>
-                    <div class="meta">
-                        <span>🏷️ Rust</span>
-                        <span>⭐ 10,507</span>
-                        <span style="color: #3fb950;">48 stars today</span>
-                    </div>
-                </div>
-                
+        <div class="topic-section" id="topic-Rust Ecosystem">
+            <div class="section-title">📦 Rust Ecosystem Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="### 🚀 Rust Ecosystem 本週趨勢深度掃描
+
+- **技術範式轉移**: Rust 正在從傳統的系統程式設計工具轉向「全棧基礎設施」核心。本週觀察到從高性能物件存儲 (RustFS) 到流式數據庫 (RisingWave) 以及嵌入式數據引擎 (SpacetimeDB) 的全面覆蓋，顯示 Rust 已成為雲原生設施的首選語言。
+- **核心競爭力分析**: 內存安全與極致性能的結合在 AI 基礎設施中爆發，特別是向量圖神經網路 (RuVector) 與 AI Agent (Goose, Codex) 的崛起，證明了 Rust 在處理高併發、低延遲 AI 任務中的不可替代性。
+- **開發者痛點緩解**: 針對開發效率與跨平台 GUI 的長期痛點，GPUI 組件庫與 Tauri v2 的應用 (Antigravity-Manager) 正在降低 Rust 桌面應用的門檻，讓系統級語言也能擁有極佳的 UI 開發體驗。
+- **生態整合動向**: AI 工具不再僅限於模型層，而是深入到終端 (Codex) 與協作層 (CC-Switch)，Rust 強大的 CLI 處理能力與 TypeScript 前端的結合正成為跨平台桌面工具的主流架構。
+- **下週技術展望**: 隨著 QUIC/HTTP3 (Quiche) 等底層通訊協議的成熟，預計下週將有更多基於高效能網路協議的分散式系統與邊緣計算項目湧現。"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    
+                    <tr class="repo-row" data-search="clockworklabs/SpacetimeDB Rust - **核心痛點**: 解決傳統遊戲與實時應用開發中，數據庫、伺服器邏輯與客戶端狀態同步高度脫節的問題。
+- **技術亮點**: 將數據庫與執行環境合一，支持以 Rust 撰寫伺服器邏輯，實現「數據即邏輯」的開發模式。
+- **適用場景**: 適合需要低延遲同步的大型多人遊戲 (MMO) 或實時協作平台。 - **熱度來源**: 憑藉「光速開發」的口號吸引了大量飽受分佈式狀態同步困擾的開發者。
+- **社群焦點**: 社群高度關注其 WebAssembly 插件系統的擴展性。
+- **未來展望**: 有望挑戰 Firebase 在實時後端市場的地位，但其私有化部署的複雜度仍是挑戰。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/clockworklabs/SpacetimeDB" target="_blank" class="repo-link">clockworklabs/SpacetimeDB</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 21,665</div>
+                        </td>
+                        <td class="col-desc">Development at the speed of light</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 解決傳統遊戲與實時應用開發中，數據庫、伺服器邏輯與客戶端狀態同步高度脫節的問題。
+- **技術亮點**: 將數據庫與執行環境合一，支持以 Rust 撰寫伺服器邏輯，實現「數據即邏輯」的開發模式。
+- **適用場景**: 適合需要低延遲同步的大型多人遊戲 (MMO) 或實時協作平台。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 憑藉「光速開發」的口號吸引了大量飽受分佈式狀態同步困擾的開發者。
+- **社群焦點**: 社群高度關注其 WebAssembly 插件系統的擴展性。
+- **未來展望**: 有望挑戰 Firebase 在實時後端市場的地位，但其私有化部署的複雜度仍是挑戰。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="block/goose Rust - **核心痛點**: 現有 AI Agent 多侷限於程式碼建議，缺乏對系統工具、環境編輯與測試的深度控制。
+- **技術亮點**: 由 Block 開發，具備高度可擴展性，能與 LLM 深度整合進行文件編輯與命令執行。
+- **適用場景**: 尋求超越 Copilot 功能、需要 AI 執行實際系統任務的開發者。 - **熱度來源**: 來自 Block (原 Square) 的技術背書以及對「主動型 Agent」的強烈需求。
+- **社群焦點**: 用戶對其自定義插件 (Tools) 的靈活性給予高度評價。
+- **未來展望**: 隨著 Agentic Workflow 成為主流，Goose 有潛力成為 Rust 生態中最活躍的 AI 代理框架。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/block/goose" target="_blank" class="repo-link">block/goose</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 31,590</div>
+                        </td>
+                        <td class="col-desc">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 現有 AI Agent 多侷限於程式碼建議，缺乏對系統工具、環境編輯與測試的深度控制。
+- **技術亮點**: 由 Block 開發，具備高度可擴展性，能與 LLM 深度整合進行文件編輯與命令執行。
+- **適用場景**: 尋求超越 Copilot 功能、需要 AI 執行實際系統任務的開發者。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 來自 Block (原 Square) 的技術背書以及對「主動型 Agent」的強烈需求。
+- **社群焦點**: 用戶對其自定義插件 (Tools) 的靈活性給予高度評價。
+- **未來展望**: 隨著 Agentic Workflow 成為主流，Goose 有潛力成為 Rust 生態中最活躍的 AI 代理框架。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="rustfs/rustfs Rust - **核心痛點**: S3 兼容存儲在高併發小文件 (4KB) 處理下性能往往成為瓶頸。
+- **技術亮點**: 標榜比 MinIO 快 2.3 倍，採用 Rust 原生異步驅動，優化了 I/O 路徑與內存佔用。
+- **適用場景**: 需要私有化部署、高性能且需與現有 S3 生態(MinIO/Ceph) 遷移兼容的企業環境。 - **熱度來源**: 硬核的基準測試數據引發了雲存儲工程師的集體關注。
+- **社群焦點**: 社群正密切監控其在大規模叢集環境下的穩定性表現。
+- **未來展望**: 若能持續保持性能優勢，將在私有雲存儲市場對 MinIO 造成實質競爭壓力。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/rustfs/rustfs" target="_blank" class="repo-link">rustfs/rustfs</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 22,561</div>
+                        </td>
+                        <td class="col-desc">🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: S3 兼容存儲在高併發小文件 (4KB) 處理下性能往往成為瓶頸。
+- **技術亮點**: 標榜比 MinIO 快 2.3 倍，採用 Rust 原生異步驅動，優化了 I/O 路徑與內存佔用。
+- **適用場景**: 需要私有化部署、高性能且需與現有 S3 生態(MinIO/Ceph) 遷移兼容的企業環境。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 硬核的基準測試數據引發了雲存儲工程師的集體關注。
+- **社群焦點**: 社群正密切監控其在大規模叢集環境下的穩定性表現。
+- **未來展望**: 若能持續保持性能優勢，將在私有雲存儲市場對 MinIO 造成實質競爭壓力。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ruvnet/ruvector Rust - **核心痛點**: 傳統向量數據庫缺乏對數據之間複雜關聯性（圖結構）的即時學習與建模能力。
+- **技術亮點**: 結合了向量檢索與圖神經網路 (GNN)，實現了自學習的向量圖數據庫架構。
+- **適用場景**: 推薦系統、動態知識圖譜以及需要高維數據關聯分析的 AI 應用。 - **熱度來源**: AI 浪潮下對新型態數據索引技術的渴求。
+- **社群焦點**: 開發者對其「自學習 (Self-Learning)」機制的具體算法實現保持高度好奇。
+- **未來展望**: 可能成為 RAG (檢索增強生成) 技術路徑中的關鍵基礎組件。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ruvnet/ruvector" target="_blank" class="repo-link">ruvnet/ruvector</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 2,180</div>
+                        </td>
+                        <td class="col-desc">RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 傳統向量數據庫缺乏對數據之間複雜關聯性（圖結構）的即時學習與建模能力。
+- **技術亮點**: 結合了向量檢索與圖神經網路 (GNN)，實現了自學習的向量圖數據庫架構。
+- **適用場景**: 推薦系統、動態知識圖譜以及需要高維數據關聯分析的 AI 應用。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: AI 浪潮下對新型態數據索引技術的渴求。
+- **社群焦點**: 開發者對其「自學習 (Self-Learning)」機制的具體算法實現保持高度好奇。
+- **未來展望**: 可能成為 RAG (檢索增強生成) 技術路徑中的關鍵基礎組件。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="lbjlaq/Antigravity-Manager Rust - **核心痛點**: 針對 Antigravity 系列工具的多帳號切換繁瑣、認證管理不便的痛點。
+- **技術亮點**: 基於最新的 Tauri v2 + React 架構，利用 Rust 保證後端安全性，React 確保前端交互體驗。
+- **適用場景**: Antigravity 工具集的重度使用者，需要高效管理多身份認證的工程師。 - **熱度來源**: 工具社群內部的剛需帶動了初期流量。
+- **社群焦點**: Tauri v2 的實際性能表現與帳號加密安全性。
+- **未來展望**: 作為特定生態的垂直工具，其成功取決於 Antigravity 本身的覆蓋率。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/lbjlaq/Antigravity-Manager" target="_blank" class="repo-link">lbjlaq/Antigravity-Manager</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 24,842</div>
+                        </td>
+                        <td class="col-desc">Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 針對 Antigravity 系列工具的多帳號切換繁瑣、認證管理不便的痛點。
+- **技術亮點**: 基於最新的 Tauri v2 + React 架構，利用 Rust 保證後端安全性，React 確保前端交互體驗。
+- **適用場景**: Antigravity 工具集的重度使用者，需要高效管理多身份認證的工程師。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 工具社群內部的剛需帶動了初期流量。
+- **社群焦點**: Tauri v2 的實際性能表現與帳號加密安全性。
+- **未來展望**: 作為特定生態的垂直工具，其成功取決於 Antigravity 本身的覆蓋率。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="farion1231/cc-switch TypeScript - **核心痛點**: 各種 AI CLI 工具 (Claude Code, Gemini CLI 等) 環境與認證配置混亂，缺乏統一入口。
+- **技術亮點**: 採用 TypeScript 開發的跨平台桌面助手，無縫整合多種 AI 命令列工具。
+- **適用場景**: 深度依賴 CLI AI 進行開發的極客用戶。 - **熱度來源**: 501 stars today 的數據顯示出 AI 終端工具碎片化導致的「管理焦慮」。
+- **社群焦點**: 多平台配置的一鍵同步功能是其最受歡迎的特性。
+- **未來展望**: 隨著更多 LLM 推出專屬 CLI，這類「聚合器」工具的需求將持續攀升。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/farion1231/cc-switch" target="_blank" class="repo-link">farion1231/cc-switch</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 21,960</div>
+                        </td>
+                        <td class="col-desc">A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 各種 AI CLI 工具 (Claude Code, Gemini CLI 等) 環境與認證配置混亂，缺乏統一入口。
+- **技術亮點**: 採用 TypeScript 開發的跨平台桌面助手，無縫整合多種 AI 命令列工具。
+- **適用場景**: 深度依賴 CLI AI 進行開發的極客用戶。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 501 stars today 的數據顯示出 AI 終端工具碎片化導致的「管理焦慮」。
+- **社群焦點**: 多平台配置的一鍵同步功能是其最受歡迎的特性。
+- **未來展望**: 隨著更多 LLM 推出專屬 CLI，這類「聚合器」工具的需求將持續攀升。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="risingwavelabs/risingwave Rust - **核心痛點**: 傳統流處理系統 (如 Flink) 維運複雜度極高，難以實現 SQL 級別的簡易操作與彈性擴展。
+- **技術亮點**: 用 Rust 重新定義流計算引擎，支持 Incremental View 更新，完美平衡了數據庫的易用性與流處理的實時性。
+- **適用場景**: 即時廣告投放、金融風控監控及實時 AI 特徵工程。 - **熱度來源**: 長期穩健的技術輸出與 Rust 在基礎設施層面的口碑積累。
+- **社群焦點**: 近期對 AI Agent 數據接入的支持成為討論熱點。
+- **未來展望**: 有望成為現代數據棧 (Modern Data Stack) 中實時層的標準配件。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/risingwavelabs/risingwave" target="_blank" class="repo-link">risingwavelabs/risingwave</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 8,828</div>
+                        </td>
+                        <td class="col-desc">Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 傳統流處理系統 (如 Flink) 維運複雜度極高，難以實現 SQL 級別的簡易操作與彈性擴展。
+- **技術亮點**: 用 Rust 重新定義流計算引擎，支持 Incremental View 更新，完美平衡了數據庫的易用性與流處理的實時性。
+- **適用場景**: 即時廣告投放、金融風控監控及實時 AI 特徵工程。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 長期穩健的技術輸出與 Rust 在基礎設施層面的口碑積累。
+- **社群焦點**: 近期對 AI Agent 數據接入的支持成為討論熱點。
+- **未來展望**: 有望成為現代數據棧 (Modern Data Stack) 中實時層的標準配件。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="cloudflare/quiche Rust - **核心痛點**: QUIC 協議實現難度大，現有實現往往過於臃腫或缺乏安全性證明。
+- **技術亮點**: Cloudflare 出品的精品，純 Rust 實現，提供極致的安全邊界與 HTTP/3 支持，並支持 FIPS 模式。
+- **適用場景**: 需要實現高效能、低延遲加密傳輸的網路設施與服務端開發。 - **熱度來源**: 作為網路底層協議的標竿，隨著 HTTP/3 的普及度提升，熱度穩定增長。
+- **社群焦點**: 在非主流 OS 上的跨編譯與集成問題。
+- **未來展望**: 持續作為 Rust 網路程式設計的黃金標準，支撐全球大量邊緣計算流量。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/cloudflare/quiche" target="_blank" class="repo-link">cloudflare/quiche</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 11,294</div>
+                        </td>
+                        <td class="col-desc">🥧 Savoury implementation of the QUIC transport protocol and HTTP/3</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: QUIC 協議實現難度大，現有實現往往過於臃腫或缺乏安全性證明。
+- **技術亮點**: Cloudflare 出品的精品，純 Rust 實現，提供極致的安全邊界與 HTTP/3 支持，並支持 FIPS 模式。
+- **適用場景**: 需要實現高效能、低延遲加密傳輸的網路設施與服務端開發。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 作為網路底層協議的標竿，隨著 HTTP/3 的普及度提升，熱度穩定增長。
+- **社群焦點**: 在非主流 OS 上的跨編譯與集成問題。
+- **未來展望**: 持續作為 Rust 網路程式設計的黃金標準，支撐全球大量邊緣計算流量。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="openai/codex Rust - **核心痛點**: 現代開發者需要一個輕量級、直接駐留在終端、不依賴大型 IDE 的 AI 助手。
+- **技術亮點**: OpenAI 官方實驗性質的 Rust 實現，極致簡潔，強調低資源佔用與極速響應。
+- **適用場景**: 遠程伺服器維護、腳本撰寫以及極簡主義開發者的代碼生成需求。 - **熱度來源**: OpenAI 品牌效應與「輕量化」產品理念的碰撞。
+- **社群焦點**: 討論焦點在於其與本地模型的連通性以及對隱私數據的處理方式。
+- **未來展望**: 雖然是實驗性質，但其設計思路將影響未來所有 CLI AI 工具的交互範式。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/openai/codex" target="_blank" class="repo-link">openai/codex</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 62,457</div>
+                        </td>
+                        <td class="col-desc">Lightweight coding agent that runs in your terminal</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 現代開發者需要一個輕量級、直接駐留在終端、不依賴大型 IDE 的 AI 助手。
+- **技術亮點**: OpenAI 官方實驗性質的 Rust 實現，極致簡潔，強調低資源佔用與極速響應。
+- **適用場景**: 遠程伺服器維護、腳本撰寫以及極簡主義開發者的代碼生成需求。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: OpenAI 品牌效應與「輕量化」產品理念的碰撞。
+- **社群焦點**: 討論焦點在於其與本地模型的連通性以及對隱私數據的處理方式。
+- **未來展望**: 雖然是實驗性質，但其設計思路將影響未來所有 CLI AI 工具的交互範式。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="longbridge/gpui-component Rust - **核心痛點**: Rust GUI 領域長期缺乏像 React 組件庫那樣開箱即用、設計精良的 UI 組件庫。
+- **技術亮點**: 基於 Zed 編輯器核心的 GPUI 框架，利用 GPU 加速渲染，提供原生級別的流暢度。
+- **適用場景**: 追求極致性能與視覺質感的 Rust 跨平台桌面應用開發。 - **熱度來源**: 填補了 Rust 生態中「美觀且高效」組件庫的空白。
+- **社群焦點**: 組件的豐富程度以及與 GPUI 核心更新的同步率。
+- **未來展望**: 隨著 Zed 的熱度，GPUI-component 可能成為 Rust GUI 開發者的首選 UI 庫。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/longbridge/gpui-component" target="_blank" class="repo-link">longbridge/gpui-component</a>
+                            <span class="lang-tag">Rust</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 10,509</div>
+                        </td>
+                        <td class="col-desc">Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Rust GUI 領域長期缺乏像 React 組件庫那樣開箱即用、設計精良的 UI 組件庫。
+- **技術亮點**: 基於 Zed 編輯器核心的 GPUI 框架，利用 GPU 加速渲染，提供原生級別的流暢度。
+- **適用場景**: 追求極致性能與視覺質感的 Rust 跨平台桌面應用開發。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 填補了 Rust 生態中「美觀且高效」組件庫的空白。
+- **社群焦點**: 組件的豐富程度以及與 GPUI 核心更新的同步率。
+- **未來展望**: 隨著 Zed 的熱度，GPUI-component 可能成為 Rust GUI 開發者的首選 UI 庫。"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
         
-        <div class="section" id="topic-Go Backend">
-            <div class="section-title">Go Backend Trending</div>
-            <div class="grid">
-                
-                <div class="card" data-name="Wei-Shaw/sub2api" data-desc="Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/Wei-Shaw/sub2api" class="repo-name" target="_blank">Wei-Shaw/sub2api</a>
-                    <p class="description">Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 2,444</span>
-                        <span style="color: #3fb950;">98 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ollama/ollama" data-desc="Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ollama/ollama" class="repo-name" target="_blank">ollama/ollama</a>
-                    <p class="description">Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 163,719</span>
-                        <span style="color: #3fb950;">119 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="spf13/cobra" data-desc="A Commander for modern Go CLI interactions">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/spf13/cobra" class="repo-name" target="_blank">spf13/cobra</a>
-                    <p class="description">A Commander for modern Go CLI interactions</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 43,329</span>
-                        <span style="color: #3fb950;">13 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="NoFxAiOS/nofx" data-desc="AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/NoFxAiOS/nofx" class="repo-name" target="_blank">NoFxAiOS/nofx</a>
-                    <p class="description">AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 10,745</span>
-                        <span style="color: #3fb950;">47 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="charmbracelet/glow" data-desc="Render markdown on the CLI, with pizzazz! 💅🏻">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/charmbracelet/glow" class="repo-name" target="_blank">charmbracelet/glow</a>
-                    <p class="description">Render markdown on the CLI, with pizzazz! 💅🏻</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 23,222</span>
-                        <span style="color: #3fb950;">49 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="trufflesecurity/trufflehog" data-desc="Find, verify, and analyze leaked credentials">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/trufflesecurity/trufflehog" class="repo-name" target="_blank">trufflesecurity/trufflehog</a>
-                    <p class="description">Find, verify, and analyze leaked credentials</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 24,781</span>
-                        <span style="color: #3fb950;">28 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="xpzouying/xiaohongshu-mcp" data-desc="MCP for xiaohongshu.com">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/xpzouying/xiaohongshu-mcp" class="repo-name" target="_blank">xpzouying/xiaohongshu-mcp</a>
-                    <p class="description">MCP for xiaohongshu.com</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 9,587</span>
-                        <span style="color: #3fb950;">119 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="containerd/containerd" data-desc="An open and reliable container runtime">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/containerd/containerd" class="repo-name" target="_blank">containerd/containerd</a>
-                    <p class="description">An open and reliable container runtime</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 20,422</span>
-                        <span style="color: #3fb950;">10 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="cloudnative-pg/cloudnative-pg" data-desc="CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/cloudnative-pg/cloudnative-pg" class="repo-name" target="_blank">cloudnative-pg/cloudnative-pg</a>
-                    <p class="description">CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 8,116</span>
-                        <span style="color: #3fb950;">5 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ArvinLovegood/go-stock" data-desc="🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ArvinLovegood/go-stock" class="repo-name" target="_blank">ArvinLovegood/go-stock</a>
-                    <p class="description">🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。</p>
-                    <div class="meta">
-                        <span>🏷️ Go</span>
-                        <span>⭐ 4,656</span>
-                        <span style="color: #3fb950;">25 stars today</span>
-                    </div>
-                </div>
-                
+        <div class="topic-section" id="topic-Go Backend">
+            <div class="section-title">📦 Go Backend Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="### 🚀 Go Backend 本週趨勢深度掃描
+
+- **技術範式轉移**: Go 正在從傳統的微服務基礎設施核心，迅速演進為 AI Agent 與 LLM 運算的中樞控制器。本週數據顯示，開發者正大量利用 Go 的併發優勢來封裝、中轉並調度多樣化的 AI 模型接口。
+- **核心競爭力分析**: Go 在 CLI (Cobra, Glow) 與容器化基礎設施 (Containerd) 的統治地位依舊穩固，這為新興的 AI 原生應用提供了極其穩定的運行環境與交互基礎。
+- **開發者痛點緩解**: 面對昂貴的 API 成本與破碎的訂閱體系，中轉服務（如 sub2api）成為熱門；同時，針對敏感資訊洩漏（TruffleHog）的自動化審核已成為後端工程流程的標配。
+- **生態整合動向**: Model Context Protocol (MCP) 的興起（如 xiaohongshu-mcp）標誌著 Go 後端正在積極對接各類內容平台，將非結構化數據轉化為 AI 可理解的資產。
+- **下週技術展望**: 預計「AI + 金融」(NoFx, go-stock) 的垂直整合將持續升溫，Go 將證明其在處理高頻數據流與複雜策略模擬時的性能優勢。"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    
+                    <tr class="repo-row" data-search="Wei-Shaw/sub2api Go - **核心痛點**: 解決開發者在多個 AI 平台（Claude, Gemini 等）之間訂閱管理混亂且成本高昂的問題。
+- **技術亮點**: 實現了一站式的 API 聚合與中轉協議，支持高效的成本分攤與併發請求處理。
+- **適用場景**: 適合需要低成本接入多模型能力的初創團隊或個人開發者。 - **熱度來源**: 中轉服務在 AI 圈層的高需求度。
+- **社群焦點**: 訂閱統一接入的穩定性與隱私安全性。
+- **未來展望**: 可能朝向更細粒度的流量負載均衡與計費系統演進。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/Wei-Shaw/sub2api" target="_blank" class="repo-link">Wei-Shaw/sub2api</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 2,454</div>
+                        </td>
+                        <td class="col-desc">Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 解決開發者在多個 AI 平台（Claude, Gemini 等）之間訂閱管理混亂且成本高昂的問題。
+- **技術亮點**: 實現了一站式的 API 聚合與中轉協議，支持高效的成本分攤與併發請求處理。
+- **適用場景**: 適合需要低成本接入多模型能力的初創團隊或個人開發者。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 中轉服務在 AI 圈層的高需求度。
+- **社群焦點**: 訂閱統一接入的穩定性與隱私安全性。
+- **未來展望**: 可能朝向更細粒度的流量負載均衡與計費系統演進。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ollama/ollama Go - **核心痛點**: 本地部署與運行大型語言模型（LLM）的複雜門檻。
+- **技術亮點**: 將複雜的模型依賴打包為極簡的 Go 後端服務，提供 RESTful API 供前端調用。
+- **適用場景**: 邊緣運算、隱私敏感型企業應用及本地 AI 開發環境。 - **熱度來源**: 對雲端 AI 依賴的逃離與對本地化控制的追求。
+- **社群焦點**: 支持新型模型（如 Kimi, DeepSeek）的速度與性能優化。
+- **未來展望**: 成為本地 AI 推理的標準實施工事。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ollama/ollama" target="_blank" class="repo-link">ollama/ollama</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 163,725</div>
+                        </td>
+                        <td class="col-desc">Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 本地部署與運行大型語言模型（LLM）的複雜門檻。
+- **技術亮點**: 將複雜的模型依賴打包為極簡的 Go 後端服務，提供 RESTful API 供前端調用。
+- **適用場景**: 邊緣運算、隱私敏感型企業應用及本地 AI 開發環境。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 對雲端 AI 依賴的逃離與對本地化控制的追求。
+- **社群焦點**: 支持新型模型（如 Kimi, DeepSeek）的速度與性能優化。
+- **未來展望**: 成為本地 AI 推理的標準實施工事。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="spf13/cobra Go - **核心痛點**: Go 應用程式缺乏統一且強大的命令行接口規範。
+- **技術亮點**: 支持嵌套命令、自動補全、Flag 繼承，是 Go CLI 領域的事實標準。
+- **適用場景**: 任何需要與用戶進行命令行交互的 Go 項目。 - **熱度來源**: 作為 Kubernetes 與 Docker 的底層框架，擁有極高的穩定性聲譽。
+- **社群焦點**: 雖然是老牌庫，但其在 AI CLI 工具爆發期再次成為首選。
+- **未來展望**: 維持基礎設施地位，並持續優化開發者體驗。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/spf13/cobra" target="_blank" class="repo-link">spf13/cobra</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 43,329</div>
+                        </td>
+                        <td class="col-desc">A Commander for modern Go CLI interactions</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Go 應用程式缺乏統一且強大的命令行接口規範。
+- **技術亮點**: 支持嵌套命令、自動補全、Flag 繼承，是 Go CLI 領域的事實標準。
+- **適用場景**: 任何需要與用戶進行命令行交互的 Go 項目。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 作為 Kubernetes 與 Docker 的底層框架，擁有極高的穩定性聲譽。
+- **社群焦點**: 雖然是老牌庫，但其在 AI CLI 工具爆發期再次成為首選。
+- **未來展望**: 維持基礎設施地位，並持續優化開發者體驗。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="NoFxAiOS/nofx Go - **核心痛點**: 多交易所、多策略下的自動化交易系統構建複雜性。
+- **技術亮點**: 整合 Multi-AI 決策引擎與跨交易所交易基礎設施，具備高性能的策略執行能力。
+- **適用場景**: 量化交易者、加密貨幣套利開發者及 AI 輔助投資機構。 - **熱度來源**: AI 與金融科技（FinTech）的深度融合趨勢。
+- **社群焦點**: 策略回測的準確度與 AI 決策的透明度。
+- **未來展望**: 構建更完整的去中心化交易基礎設施生態。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/NoFxAiOS/nofx" target="_blank" class="repo-link">NoFxAiOS/nofx</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 10,748</div>
+                        </td>
+                        <td class="col-desc">AI Trading OS: Multi-AI, multi-exchange trading infrastructure with Strategy Studio.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 多交易所、多策略下的自動化交易系統構建複雜性。
+- **技術亮點**: 整合 Multi-AI 決策引擎與跨交易所交易基礎設施，具備高性能的策略執行能力。
+- **適用場景**: 量化交易者、加密貨幣套利開發者及 AI 輔助投資機構。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: AI 與金融科技（FinTech）的深度融合趨勢。
+- **社群焦點**: 策略回測的準確度與 AI 決策的透明度。
+- **未來展望**: 構建更完整的去中心化交易基礎設施生態。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="charmbracelet/glow Go - **核心痛點**: 終端機顯示 Markdown 文件時可讀性極差、排版混亂。
+- **技術亮點**: 極致的終端 UI 美學設計，支持自定義樣式、代碼高亮及交互式瀏覽。
+- **適用場景**: 終端愛好者、後端工程師查看開發文檔、日誌與 README。 - **熱度來源**: 終端美學（Terminal UI）社群的強烈推崇。
+- **社群焦點**: 不同終端環境下的渲染相容性。
+- **未來展望**: 進一步整合遠端文件檢索與更多渲染格式。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/charmbracelet/glow" target="_blank" class="repo-link">charmbracelet/glow</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 23,229</div>
+                        </td>
+                        <td class="col-desc">Render markdown on the CLI, with pizzazz! 💅🏻</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 終端機顯示 Markdown 文件時可讀性極差、排版混亂。
+- **技術亮點**: 極致的終端 UI 美學設計，支持自定義樣式、代碼高亮及交互式瀏覽。
+- **適用場景**: 終端愛好者、後端工程師查看開發文檔、日誌與 README。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 終端美學（Terminal UI）社群的強烈推崇。
+- **社群焦點**: 不同終端環境下的渲染相容性。
+- **未來展望**: 進一步整合遠端文件檢索與更多渲染格式。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="trufflesecurity/trufflehog Go - **核心痛點**: 開發者不慎將 API Key、密碼或證書上傳至 Git 倉庫導致的安全漏洞。
+- **技術亮點**: 深度掃描 Git 歷史記錄，具備強大的熵值檢測與已知模式匹配能力。
+- **適用場景**: 企業級 CI/CD 安全流水線、自動化審計流程。 - **熱度來源**: 網路安全合規性要求日益增加。
+- **社群焦點**: 掃描速度的提升與誤報率的降低。
+- **未來展望**: 整合更多第三方服務驗證接口，實現檢測後的即時失效。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/trufflesecurity/trufflehog" target="_blank" class="repo-link">trufflesecurity/trufflehog</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 24,786</div>
+                        </td>
+                        <td class="col-desc">Find, verify, and analyze leaked credentials</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 開發者不慎將 API Key、密碼或證書上傳至 Git 倉庫導致的安全漏洞。
+- **技術亮點**: 深度掃描 Git 歷史記錄，具備強大的熵值檢測與已知模式匹配能力。
+- **適用場景**: 企業級 CI/CD 安全流水線、自動化審計流程。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 網路安全合規性要求日益增加。
+- **社群焦點**: 掃描速度的提升與誤報率的降低。
+- **未來展望**: 整合更多第三方服務驗證接口，實現檢測後的即時失效。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="xpzouying/xiaohongshu-mcp Go - **核心痛點**: AI Agent 無法直接獲取小紅書等社交平台上的即時動態與內容數據。
+- **技術亮點**: 基於 MCP 協議實現的標準化接口，讓 LLM 能直接查詢社交媒體內容。
+- **適用場景**: 輿情監測、市場分析 Agent、內容創作輔助工具。 - **熱度來源**: MCP 協議作為 AI 生態新標準的爆發式成長。
+- **社群焦點**: 爬蟲機制的穩定性與對平台政策的合規性。
+- **未來展望**: 擴展至更多內容平台，構建 AI 的全網感知網絡。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/xpzouying/xiaohongshu-mcp" target="_blank" class="repo-link">xpzouying/xiaohongshu-mcp</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 9,599</div>
+                        </td>
+                        <td class="col-desc">MCP for xiaohongshu.com</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: AI Agent 無法直接獲取小紅書等社交平台上的即時動態與內容數據。
+- **技術亮點**: 基於 MCP 協議實現的標準化接口，讓 LLM 能直接查詢社交媒體內容。
+- **適用場景**: 輿情監測、市場分析 Agent、內容創作輔助工具。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: MCP 協議作為 AI 生態新標準的爆發式成長。
+- **社群焦點**: 爬蟲機制的穩定性與對平台政策的合規性。
+- **未來展望**: 擴展至更多內容平台，構建 AI 的全網感知網絡。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="containerd/containerd Go - **核心痛點**: 需要一個比 Docker 更輕量、更符合工業標準的容器運行時。
+- **技術亮點**: CNCF 畢業項目，具備極高的穩定性、安全性與高性能容器生命週期管理。
+- **適用場景**: Kubernetes 集群、邊緣設備容器調度、高性能後端架構。 - **熱度來源**: 雲原生基礎設施的標準化趨勢。
+- **社群焦點**: 與 WASM 技術的整合及安全性增強。
+- **未來展望**: 作為雲原生操作系統的底層核心，持續優化資源佔用。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/containerd/containerd" target="_blank" class="repo-link">containerd/containerd</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 20,425</div>
+                        </td>
+                        <td class="col-desc">An open and reliable container runtime</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 需要一個比 Docker 更輕量、更符合工業標準的容器運行時。
+- **技術亮點**: CNCF 畢業項目，具備極高的穩定性、安全性與高性能容器生命週期管理。
+- **適用場景**: Kubernetes 集群、邊緣設備容器調度、高性能後端架構。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 雲原生基礎設施的標準化趨勢。
+- **社群焦點**: 與 WASM 技術的整合及安全性增強。
+- **未來展望**: 作為雲原生操作系統的底層核心，持續優化資源佔用。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="cloudnative-pg/cloudnative-pg Go - **核心痛點**: 在 Kubernetes 上管理具備高可用、自動備份與擴展能力的 PostgreSQL 難度極大。
+- **技術亮點**: 將 DBA 的運維經驗代碼化（Operator 模式），實現全生命周期的資料庫自動化運維。
+- **適用場景**: 任何在 K8s 上運行生產級 PostgreSQL 的架構。 - **熱度來源**: 數據庫雲原生化（DB-on-K8s）的廣泛實踐。
+- **社群焦點**: 故障自動切換（Failover）的可靠性與數據一致性。
+- **未來展望**: 成為 K8s 環境下 PostgreSQL 的事實標準運維方案。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/cloudnative-pg/cloudnative-pg" target="_blank" class="repo-link">cloudnative-pg/cloudnative-pg</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 8,117</div>
+                        </td>
+                        <td class="col-desc">CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 在 Kubernetes 上管理具備高可用、自動備份與擴展能力的 PostgreSQL 難度極大。
+- **技術亮點**: 將 DBA 的運維經驗代碼化（Operator 模式），實現全生命周期的資料庫自動化運維。
+- **適用場景**: 任何在 K8s 上運行生產級 PostgreSQL 的架構。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 數據庫雲原生化（DB-on-K8s）的廣泛實踐。
+- **社群焦點**: 故障自動切換（Failover）的可靠性與數據一致性。
+- **未來展望**: 成為 K8s 環境下 PostgreSQL 的事實標準運維方案。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ArvinLovegood/go-stock Go - **核心痛點**: 普通投資者難以處理海量金融數據並獲取結構化的 AI 投資洞察。
+- **技術亮點**: 利用 AI 賦能 A/港/美股分析，數據完全保留在本地，保障用戶資產私密性。
+- **適用場景**: 個人投資者、金融分析師對特定個股進行情緒分析與技術面診斷。 - **熱度來源**: AI 落地應用在金融投資領域的巨大吸引力。
+- **社群焦點**: 本地 LLM（如 Ollama）的整合效率與數據來源的及時性。
+- **未來展望**: 發展出具備自動下單與風險控制功能的閉環 AI 交易助手。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ArvinLovegood/go-stock" target="_blank" class="repo-link">ArvinLovegood/go-stock</a>
+                            <span class="lang-tag">Go</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 4,659</div>
+                        </td>
+                        <td class="col-desc">🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 普通投資者難以處理海量金融數據並獲取結構化的 AI 投資洞察。
+- **技術亮點**: 利用 AI 賦能 A/港/美股分析，數據完全保留在本地，保障用戶資產私密性。
+- **適用場景**: 個人投資者、金融分析師對特定個股進行情緒分析與技術面診斷。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: AI 落地應用在金融投資領域的巨大吸引力。
+- **社群焦點**: 本地 LLM（如 Ollama）的整合效率與數據來源的及時性。
+- **未來展望**: 發展出具備自動下單與風險控制功能的閉環 AI 交易助手。"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
         
-        <div class="section" id="topic-Frontend/TS">
-            <div class="section-title">Frontend/TS Trending</div>
-            <div class="grid">
-                
-                <div class="card" data-name="moeru-ai/airi" data-desc="💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/moeru-ai/airi" class="repo-name" target="_blank">moeru-ai/airi</a>
-                    <p class="description">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 19,537</span>
-                        <span style="color: #3fb950;">1,065 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="ruvnet/ruflo" data-desc="🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/ruvnet/ruflo" class="repo-name" target="_blank">ruvnet/ruflo</a>
-                    <p class="description">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 16,747</span>
-                        <span style="color: #3fb950;">928 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="bytedance/deer-flow" data-desc="An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/bytedance/deer-flow" class="repo-name" target="_blank">bytedance/deer-flow</a>
-                    <p class="description">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</p>
-                    <div class="meta">
-                        <span>🏷️ Python</span>
-                        <span>⭐ 22,713</span>
-                        <span style="color: #3fb950;">899 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="superset-sh/superset" data-desc="IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/superset-sh/superset" class="repo-name" target="_blank">superset-sh/superset</a>
-                    <p class="description">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 2,548</span>
-                        <span style="color: #3fb950;">181 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="microsoft/playwright-cli" data-desc="CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/microsoft/playwright-cli" class="repo-name" target="_blank">microsoft/playwright-cli</a>
-                    <p class="description">CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 4,469</span>
-                        <span style="color: #3fb950;">139 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="abhigyanpatwari/GitNexus" data-desc="GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/abhigyanpatwari/GitNexus" class="repo-name" target="_blank">abhigyanpatwari/GitNexus</a>
-                    <p class="description">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 6,906</span>
-                        <span style="color: #3fb950;">582 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="dontriskit/awesome-ai-system-prompts" data-desc="🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/dontriskit/awesome-ai-system-prompts" class="repo-name" target="_blank">dontriskit/awesome-ai-system-prompts</a>
-                    <p class="description">🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 5,367</span>
-                        <span style="color: #3fb950;">28 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="gitroomhq/postiz-app" data-desc="📨 The ultimate social media scheduling tool, with a bunch of AI 🤖">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/gitroomhq/postiz-app" class="repo-name" target="_blank">gitroomhq/postiz-app</a>
-                    <p class="description">📨 The ultimate social media scheduling tool, with a bunch of AI 🤖</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 26,886</span>
-                        <span style="color: #3fb950;">25 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="langgenius/dify" data-desc="Production-ready platform for agentic workflow development.">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/langgenius/dify" class="repo-name" target="_blank">langgenius/dify</a>
-                    <p class="description">Production-ready platform for agentic workflow development.</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 130,745</span>
-                        <span style="color: #3fb950;">131 stars today</span>
-                    </div>
-                </div>
-                
-                <div class="card" data-name="AndyMik90/Auto-Claude" data-desc="Autonomous multi-session AI coding">
-                    <span class="status-badge status-new">New</span>
-                    
-                    
-                    <a href="https://github.com/AndyMik90/Auto-Claude" class="repo-name" target="_blank">AndyMik90/Auto-Claude</a>
-                    <p class="description">Autonomous multi-session AI coding</p>
-                    <div class="meta">
-                        <span>🏷️ TypeScript</span>
-                        <span>⭐ 12,812</span>
-                        <span style="color: #3fb950;">63 stars today</span>
-                    </div>
-                </div>
-                
+        <div class="topic-section" id="topic-Frontend/TS">
+            <div class="section-title">📦 Frontend/TS Ecosystem</div>
+            
+            <!-- 主題趨勢統整區塊 -->
+            <div class="topic-summary">
+                <div class="markdown-render" data-markdown="### 🚀 Frontend/TS 本週趨勢深度掃描
+
+- **技術範式轉移**: 全面進入「Agentic Frontend」時代。開發範式從單純的 UI 組件構建，轉向以 AI Agent 為核心的編排、自適應界面以及具備自治能力的 Web 應用。
+- **核心競爭力分析**: 瀏覽器端的重度計算與知識圖譜處理（如 Graph RAG）成為亮點。TypeScript 在處理複雜狀態機與非同步 AI 工作流中的類型安全優勢，使其成為 Agent 基礎設施的首選語言。
+- **開發者痛點緩解**: 大幅降低了 AI 部署與集成的門檻，從自動化編碼（Auto-Claude）到零服務器端的代碼分析（GitNexus），開發者正擺脫繁重的後端依賴，轉向本地與隱私優先的架構。
+- **生態整合動向**: Claude 生態系正迅速崛起，相關的編排平台、IDE 與自動化工具出現井噴式增長，與 OpenAI 生態形成強勢競爭。
+- **下週技術展望**: 預計將出現更多針對「Agent 自主 UI 生成」與「跨模態即時交互（語音/視覺）」的輕量化 TS 框架。"></div>
             </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-rank">Trend</th>
+                        <th class="col-name">Project</th>
+                        <th class="col-desc">Raw Description</th>
+                        <th class="col-ai-insight">🛠️ 技術核心與價值解析</th>
+                        <th class="col-ai-sentiment">💬 開發者社群動向反響</th>
+                    </tr>
+                </thead>
+                <tbody class="repo-rows">
+                    
+                    <tr class="repo-row" data-search="moeru-ai/airi TypeScript - **核心痛點**: 解決了開源 AI 伴侶部署複雜且缺乏跨平台語音交互與遊戲聯動的問題。
+- **技術亮點**: 高度集成的即時語音處理與遊戲控制接口（Minecraft/Factorio），體現了 TS 在複雜多模態異步控制中的強大能力。
+- **適用場景**: 個人 AI 助理、虛擬伴侶、跨平台遊戲自動化交互。 - **熱度來源**: 極高的情緒價值與二次元文化契合度，加上 Neuro-sama 的標竿效應。
+- **社群焦點**: 本地化部署的隱私安全性與語音延遲優化。
+- **未來展望**: 隨著多模態模型進化，有望成為開源界最具影響力的 Cyber-Life 平台。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/moeru-ai/airi" target="_blank" class="repo-link">moeru-ai/airi</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 19,590</div>
+                        </td>
+                        <td class="col-desc">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 解決了開源 AI 伴侶部署複雜且缺乏跨平台語音交互與遊戲聯動的問題。
+- **技術亮點**: 高度集成的即時語音處理與遊戲控制接口（Minecraft/Factorio），體現了 TS 在複雜多模態異步控制中的強大能力。
+- **適用場景**: 個人 AI 助理、虛擬伴侶、跨平台遊戲自動化交互。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 極高的情緒價值與二次元文化契合度，加上 Neuro-sama 的標竿效應。
+- **社群焦點**: 本地化部署的隱私安全性與語音延遲優化。
+- **未來展望**: 隨著多模態模型進化，有望成為開源界最具影響力的 Cyber-Life 平台。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="ruvnet/ruflo TypeScript - **核心痛點**: Claude 模型在企業級複雜多 Agent 協作中缺乏統一且高效的編排框架。
+- **技術亮點**: 分佈式群體智能架構，原生支持 Claude Code/Codex 深度集成，並內置 RAG 自動化流水線。
+- **適用場景**: 企業級 AI 工作流、自動化系統開發、複雜任務拆解與執行。 - **熱度來源**: Anthropic 模型能力釋放帶來的生態溢出效應。
+- **社群焦點**: 多 Agent 之間的通訊協議與權限控制。
+- **未來展望**: 成為 Claude 生態下的「LangChain」替代方案，主打 Agent 協作。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/ruvnet/ruflo" target="_blank" class="repo-link">ruvnet/ruflo</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 16,820</div>
+                        </td>
+                        <td class="col-desc">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Claude 模型在企業級複雜多 Agent 協作中缺乏統一且高效的編排框架。
+- **技術亮點**: 分佈式群體智能架構，原生支持 Claude Code/Codex 深度集成，並內置 RAG 自動化流水線。
+- **適用場景**: 企業級 AI 工作流、自動化系統開發、複雜任務拆解與執行。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Anthropic 模型能力釋放帶來的生態溢出效應。
+- **社群焦點**: 多 Agent 之間的通訊協議與權限控制。
+- **未來展望**: 成為 Claude 生態下的「LangChain」替代方案，主打 Agent 協作。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="bytedance/deer-flow Python - **核心痛點**: 長時間、跨領域的複雜任務在單一 Agent 模式下容易失敗。
+- **技術亮點**: 引入沙盒環境、長短期記憶管理與子 Agent 技能樹，將任務處理時間跨度提升至「小時級」。
+- **適用場景**: 深度技術調研、代碼庫自動遷移、複雜內容創作。 - **熱度來源**:字節跳動（ByteDance）背景背書，技術架構相對成熟。
+- **社群焦點**: 任務失敗後的恢復機制與沙盒安全性。
+- **未來展望**: 可能推動 AI 從「對話框」走向「無人值守任務處理」。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/bytedance/deer-flow" target="_blank" class="repo-link">bytedance/deer-flow</a>
+                            <span class="lang-tag">Python</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 22,743</div>
+                        </td>
+                        <td class="col-desc">An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 長時間、跨領域的複雜任務在單一 Agent 模式下容易失敗。
+- **技術亮點**: 引入沙盒環境、長短期記憶管理與子 Agent 技能樹，將任務處理時間跨度提升至「小時級」。
+- **適用場景**: 深度技術調研、代碼庫自動遷移、複雜內容創作。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**:字節跳動（ByteDance）背景背書，技術架構相對成熟。
+- **社群焦點**: 任務失敗後的恢復機制與沙盒安全性。
+- **未來展望**: 可能推動 AI 從「對話框」走向「無人值守任務處理」。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="superset-sh/superset TypeScript - **核心痛點**: 現有 IDE 對 AI Agent 的並行管理與原生支持不足。
+- **技術亮點**: 專為 Agent 時代打造，支持同時運行多個 Claude Code 或 Codex 實例，極大提升開發並行度。
+- **適用場景**: AI 輔助研發、大規模代碼生成、系統級重構。 - **熱度來源**: 滿足了開發者對於「AI 軍團」協作開發的效率想像。
+- **社群焦點**: 與傳統 IDE（如 VS Code）的插件兼容性與資源佔用。
+- **未來展望**: 引領從「代碼編輯器」向「Agent 指揮中心」的形態演變。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/superset-sh/superset" target="_blank" class="repo-link">superset-sh/superset</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 2,574</div>
+                        </td>
+                        <td class="col-desc">IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 現有 IDE 對 AI Agent 的並行管理與原生支持不足。
+- **技術亮點**: 專為 Agent 時代打造，支持同時運行多個 Claude Code 或 Codex 實例，極大提升開發並行度。
+- **適用場景**: AI 輔助研發、大規模代碼生成、系統級重構。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 滿足了開發者對於「AI 軍團」協作開發的效率想像。
+- **社群焦點**: 與傳統 IDE（如 VS Code）的插件兼容性與資源佔用。
+- **未來展望**: 引領從「代碼編輯器」向「Agent 指揮中心」的形態演變。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="microsoft/playwright-cli TypeScript - **核心痛點**: Playwright 腳本編寫門檻較高，手動調試選擇器耗時長。
+- **技術亮點**: 微軟官方出品，提供代碼錄製、即時生成與元素檢查的一站式 CLI 體驗。
+- **適用場景**: E2E 測試、Web 自動化腳本開發、網頁數據採集。 - **熱度來源**: 微軟生態的穩定性與前端測試自動化需求的增長。
+- **社群焦點**: 對複雜 Shadow DOM 的支持與自動生成代碼的質量。
+- **未來展望**: 將成為 AI 網頁抓取（Web Scraping）與 UI 測試的標準基礎設施。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/microsoft/playwright-cli" target="_blank" class="repo-link">microsoft/playwright-cli</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 4,474</div>
+                        </td>
+                        <td class="col-desc">CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: Playwright 腳本編寫門檻較高，手動調試選擇器耗時長。
+- **技術亮點**: 微軟官方出品，提供代碼錄製、即時生成與元素檢查的一站式 CLI 體驗。
+- **適用場景**: E2E 測試、Web 自動化腳本開發、網頁數據採集。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 微軟生態的穩定性與前端測試自動化需求的增長。
+- **社群焦點**: 對複雜 Shadow DOM 的支持與自動生成代碼的質量。
+- **未來展望**: 將成為 AI 網頁抓取（Web Scraping）與 UI 測試的標準基礎設施。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="abhigyanpatwari/GitNexus TypeScript - **核心痛點**: 在瀏覽器端直接解析大規模代碼庫並生成知識圖譜難度大。
+- **技術亮點**: 零伺服器架構，純客戶端 Graph RAG 引擎，保障代碼隱私，支持交互式可視化探索。
+- **適用場景**: 快速上手新代碼庫、架構審計、隱私敏感型項目的 AI 輔助閱讀。 - **熱度來源**: 開發者對源代碼上傳雲端（Privacy concerns）的普遍抗拒。
+- **社群焦點**: 瀏覽器記憶體管理與大型 Repo 的解析效能。
+- **未來展望**: 代表了「隱私優先、邊緣計算」的代碼分析新方向。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" class="repo-link">abhigyanpatwari/GitNexus</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 6,961</div>
+                        </td>
+                        <td class="col-desc">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 在瀏覽器端直接解析大規模代碼庫並生成知識圖譜難度大。
+- **技術亮點**: 零伺服器架構，純客戶端 Graph RAG 引擎，保障代碼隱私，支持交互式可視化探索。
+- **適用場景**: 快速上手新代碼庫、架構審計、隱私敏感型項目的 AI 輔助閱讀。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 開發者對源代碼上傳雲端（Privacy concerns）的普遍抗拒。
+- **社群焦點**: 瀏覽器記憶體管理與大型 Repo 的解析效能。
+- **未來展望**: 代表了「隱私優先、邊緣計算」的代碼分析新方向。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="dontriskit/awesome-ai-system-prompts TypeScript - **核心痛點**: 優質的 System Prompts 稀缺，開發者難以發揮尖端模型（如 Claude-Code, Manus）的潛力。
+- **技術亮點**: 系統性收錄、分類，針對不同 Agent 平台（Loveable, v0 等）進行了深度優化。
+- **適用場景**: 提示詞工程師參考、Agent 開發者調優、AI 愛好者探索。 - **熱度來源**: Prompt Engineering 依然是決定 AI 工具表現的關鍵變量。
+- **社群焦點**: 如何根據不同模型動態調整提示詞策略。
+- **未來展望**: 成為 AI 產品經理與提示詞工程師的案頭必備工具書。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/dontriskit/awesome-ai-system-prompts" target="_blank" class="repo-link">dontriskit/awesome-ai-system-prompts</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 5,370</div>
+                        </td>
+                        <td class="col-desc">🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 優質的 System Prompts 稀缺，開發者難以發揮尖端模型（如 Claude-Code, Manus）的潛力。
+- **技術亮點**: 系統性收錄、分類，針對不同 Agent 平台（Loveable, v0 等）進行了深度優化。
+- **適用場景**: 提示詞工程師參考、Agent 開發者調優、AI 愛好者探索。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Prompt Engineering 依然是決定 AI 工具表現的關鍵變量。
+- **社群焦點**: 如何根據不同模型動態調整提示詞策略。
+- **未來展望**: 成為 AI 產品經理與提示詞工程師的案頭必備工具書。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="gitroomhq/postiz-app TypeScript - **核心痛點**: 多平台社交媒體管理繁瑣，且內容創作缺乏智能化輔助。
+- **技術亮點**: 全棧 TS 構建，深度集成 AI 內容生成與調度算法，支持自託管。
+- **適用場景**: 自媒體運營、企業營銷團隊、開源項目宣傳。 - **熱度來源**: 剛需驅動，且開源屬性對比同類 SaaS（如 Buffer/Hootsuite）具備成本優勢。
+- **社群焦點**: AI 內容的生成質量與多平台 API 的穩定性。
+- **未來展望**: 社交媒體自動化運行的開源標準件。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/gitroomhq/postiz-app" target="_blank" class="repo-link">gitroomhq/postiz-app</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 26,886</div>
+                        </td>
+                        <td class="col-desc">📨 The ultimate social media scheduling tool, with a bunch of AI 🤖</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 多平台社交媒體管理繁瑣，且內容創作缺乏智能化輔助。
+- **技術亮點**: 全棧 TS 構建，深度集成 AI 內容生成與調度算法，支持自託管。
+- **適用場景**: 自媒體運營、企業營銷團隊、開源項目宣傳。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 剛需驅動，且開源屬性對比同類 SaaS（如 Buffer/Hootsuite）具備成本優勢。
+- **社群焦點**: AI 內容的生成質量與多平台 API 的穩定性。
+- **未來展望**: 社交媒體自動化運行的開源標準件。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="langgenius/dify TypeScript - **核心痛點**: 生產級 LLM 應用的開發週期過長，組件拼湊複雜。
+- **技術亮點**: TS/Python 混合架構下的極致可視化工作流（Agentic Workflow），內置極強的 RAG 與模型管理能力。
+- **適用場景**: 企業內部的 AI 應用搭建、快速原型驗證、商業級 AI SaaS 基礎層。 - **熱度來源**: 超 13 萬星的統治級地位，已成為開源 AI 開發平台的事實標準。
+- **社群焦點**: 插件生態系統的擴張與自託管的資源消耗優化。
+- **未來展望**: 朝著 AI 操作系統（AIOS）的方向演進。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/langgenius/dify" target="_blank" class="repo-link">langgenius/dify</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 130,754</div>
+                        </td>
+                        <td class="col-desc">Production-ready platform for agentic workflow development.</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 生產級 LLM 應用的開發週期過長，組件拼湊複雜。
+- **技術亮點**: TS/Python 混合架構下的極致可視化工作流（Agentic Workflow），內置極強的 RAG 與模型管理能力。
+- **適用場景**: 企業內部的 AI 應用搭建、快速原型驗證、商業級 AI SaaS 基礎層。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: 超 13 萬星的統治級地位，已成為開源 AI 開發平台的事實標準。
+- **社群焦點**: 插件生態系統的擴張與自託管的資源消耗優化。
+- **未來展望**: 朝著 AI 操作系統（AIOS）的方向演進。"></td>
+                    </tr>
+                    
+                    <tr class="repo-row" data-search="AndyMik90/Auto-Claude TypeScript - **核心痛點**: 傳統 AI 編碼工具往往局限於單一對話，難以處理跨多文件的自主循環修復。
+- **技術亮點**: 基於 Claude 的自主多階段會話，具備強大的代碼上下文理解與連續迭代能力。
+- **適用場景**: 自動化 Bug 修復、功能組件快速生成、重構代碼庫。 - **熱度來源**: Claude 3.5/3.7 在編碼能力上的口碑爆發帶動了相關工具需求。
+- **社群焦點**: 與工程師工作流的深度融合度與生成的精確性。
+- **未來展望**: 提升編碼自動化的「閉環率」，減少人工介入。">
+                        <td class="col-rank">
+                            <span class="badge badge-new">NEW</span>
+                            
+                        </td>
+                        <td class="col-name">
+                            <a href="https://github.com/AndyMik90/Auto-Claude" target="_blank" class="repo-link">AndyMik90/Auto-Claude</a>
+                            <span class="lang-tag">TypeScript</span>
+                            <div style="margin-top:10px; font-size:11px;">⭐ 12,812</div>
+                        </td>
+                        <td class="col-desc">Autonomous multi-session AI coding</td>
+                        <td class="col-ai-insight markdown-render" data-markdown="- **核心痛點**: 傳統 AI 編碼工具往往局限於單一對話，難以處理跨多文件的自主循環修復。
+- **技術亮點**: 基於 Claude 的自主多階段會話，具備強大的代碼上下文理解與連續迭代能力。
+- **適用場景**: 自動化 Bug 修復、功能組件快速生成、重構代碼庫。"></td>
+                        <td class="col-ai-sentiment markdown-render" data-markdown="- **熱度來源**: Claude 3.5/3.7 在編碼能力上的口碑爆發帶動了相關工具需求。
+- **社群焦點**: 與工程師工作流的深度融合度與生成的精確性。
+- **未來展望**: 提升編碼自動化的「閉環率」，減少人工介入。"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
         
     </div>
 
     <script>
-        function filterCards() {
-            const query = document.getElementById('searchBar').value.toLowerCase();
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                const name = card.getAttribute('data-name').toLowerCase();
-                const desc = card.getAttribute('data-desc').toLowerCase();
-                if (name.includes(query) || desc.includes(query)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
+        function renderAllMarkdown() {
+            document.querySelectorAll('.markdown-render').forEach(el => {
+                const md = el.getAttribute('data-markdown') || el.innerText;
+                if (md && md !== '載入中...') {
+                    el.innerHTML = marked.parse(md);
                 }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', renderAllMarkdown);
+
+        function filterTable() {
+            const query = document.getElementById('searchBar').value.toLowerCase();
+            document.querySelectorAll('.repo-row').forEach(row => {
+                const text = row.getAttribute('data-search').toLowerCase();
+                row.style.display = text.includes(query) ? '' : 'none';
             });
         }
 
         function scrollToTopic(id) {
             const el = document.getElementById('topic-' + id);
-            window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+            if (el) window.scrollTo({ top: el.offsetTop - 100, behavior: 'smooth' });
         }
     </script>
 </body>

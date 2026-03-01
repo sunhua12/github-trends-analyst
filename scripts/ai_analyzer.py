@@ -1,70 +1,120 @@
-from google import genai
+import google.generativeai as genai
 import json
 import os
 import argparse
 import sys
 import logging
+import warnings
+import time
 
-# 強制設定 UTF-8 環境
+warnings.filterwarnings("ignore")
 os.environ["PYTHONIOENCODING"] = "utf-8"
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("AIAnalyzer")
 
-def analyze_trends(json_data, topic):
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        return "Error: GEMINI_API_KEY not found."
-
+def get_model():
+    model_name = "models/gemini-flash-latest"
     try:
-        client = genai.Client(api_key=api_key)
-        
-        prompt = f"""
-        你是一位精通全球開源生態系統的資深技術分析師。請針對「{topic}」主題，深度分析以下 GitHub Trending 數據（JSON 格式）：
-        
-        {json_data}
-        
-        你的目標是產出一份詳細的「技術趨勢解讀報表」。請務必遵守以下規範：
-        
-        1. **語言與風格**：使用繁體中文、條列式呈現、語氣專業銳利。
-        2. **內容結構要求**：
-           - **【本週總論】**：概括核心發展方向。
-           - **【重點專案深度解析】**：針對 3-5 個專案，說明專案目標與社群評價。
-           - **【開發者行動指南】**：分析爆紅原因與建議學習方向。
-        3. **長度要求**：字數建議在 500 字左右。
-        """
-        
-        logger.info(f"Sending data to Gemini for intensive {topic} analysis...")
-        response = client.models.generate_content(
-            model="gemini-1.5-flash",
-            contents=prompt
-        )
-        return response.text
+        available = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
+        if "models/gemini-flash-latest" in available: return genai.GenerativeModel("models/gemini-flash-latest")
+        if "models/gemini-2.0-flash" in available: return genai.GenerativeModel("models/gemini-2.0-flash")
+    except: pass
+    return genai.GenerativeModel("gemini-1.5-flash")
+
+def analyze_topic_chunk(model, topic_name, repos):
+    """針對單一主題及其專案進行深度分析"""
+    prompt = f"""
+    你是一位極致專業的技術分析大師。請針對 GitHub 的「{topic_name}」領域數據進行深度解讀：
+    
+    {json.dumps(repos, ensure_ascii=False)}
+    
+    請以 JSON 格式回傳（繁體中文）：
+    {{
+      "topic_summary": "### 🚀 {topic_name} 本週趨勢深度掃描\\n\\n- **技術範式轉移**: ...\\n- **核心競爭力分析**: ...\\n- **開發者痛點緩解**: ...\\n- **生態整合動向**: ...\\n- **下週技術展望**: ...",
+      "repo_insights": {{
+        "Repo完整路徑": {{
+          "insight": "- **核心痛點**: ...\\n- **技術亮點**: ...\\n- **適用場景**: ...",
+          "sentiment": "- **熱度來源**: ...\\n- **社群焦點**: ...\\n- **未來展望**: ..."
+        }}
+      }}
+    }}
+    
+    要求：
+    1. 必須涵蓋該主題下提供的「每一個」Repo，嚴禁遺漏。
+    2. 內容要極其詳實，具備專業洞察力。
+    """
+    
+    try:
+        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+        return json.loads(response.text)
     except Exception as e:
-        error_msg = str(e).replace(api_key, "***") if api_key else str(e)
-        logger.error(f"AI Analysis failed: {error_msg}")
-        return f"AI Analysis failed: {error_msg}"
+        logger.error(f"Topic {topic_name} analysis failed: {e}")
+        return {"topic_summary": f"該主題分析生成失敗: {e}", "repo_insights": {}}
+
+def analyze_global_summary(model, all_data):
+    """針對全域進行總結"""
+    topics = list(all_data.keys())
+    prompt = f"""
+    請針對以下多個技術領域的數據產出一份「全域技術趨勢總結」：
+    領域清單：{topics}
+    
+    數據內容參考：{json.dumps(all_data, ensure_ascii=False)[:3000]} (部分截斷)
+    
+    要求以 JSON 格式回傳：
+    {{
+      "global_summary": "### 🧠 全域技術策略觀察\\n\\n- **核心發展動能**: ...\\n- **跨領域技術共鳴**: ...\\n- **開源生態重心偏移**: ...\\n- **全球開發者情緒總結**: ..."
+    }}
+    使用繁體中文，內容要深入，每點之間確保有足夠的分行。
+    """
+    try:
+        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+        return json.loads(response.text)
+    except:
+        return {"global_summary": "無法生成全域總結。"}
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Professional AI Trend Analyzer")
-    parser.add_argument("--input", required=True, help="Input JSON file")
-    parser.add_argument("--topic", default="Multi-Topic", help="The topic being analyzed")
-    parser.add_argument("--output", help="Output text file path")
-    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--github", required=True)
+    parser.add_argument("--output", required=True)
     args = parser.parse_args()
     
     try:
-        with open(args.input, 'r', encoding='utf-8') as f:
-            data = f.read()
+        with open(args.github, 'r', encoding='utf-8') as f:
+            full_data = json.load(f)
         
-        analysis_result = analyze_trends(data, args.topic)
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            sys.exit("API Key not found.")
+        genai.configure(api_key=api_key)
+        model = get_model()
         
-        if args.output:
-            with open(args.output, 'w', encoding='utf-8') as f:
-                f.write(analysis_result)
-            logger.info(f"Analysis saved to {args.output}")
-        else:
-            # Fallback to stdout with explicit encoding
-            sys.stdout.buffer.write(analysis_result.encode('utf-8'))
+        final_result = {
+            "global_summary": "",
+            "topic_summaries": {},
+            "repo_insights": {}
+        }
+        
+        # 1. 產生全域總結
+        logger.info("Step 1/2: Generating Global Summary...")
+        global_res = analyze_global_summary(model, full_data)
+        final_result["global_summary"] = global_res.get("global_summary", "")
+        
+        # 2. 逐一產生主題分析 (確保 100% 覆蓋)
+        logger.info(f"Step 2/2: Generating Topic-specific analysis for {len(full_data)} topics...")
+        for topic_name, repos in full_data.items():
+            logger.info(f"Processing Topic: {topic_name}")
+            topic_res = analyze_topic_chunk(model, topic_name, repos)
+            
+            final_result["topic_summaries"][topic_name] = topic_res.get("topic_summary", "")
+            final_result["repo_insights"].update(topic_res.get("repo_insights", {}))
+            
+            # 稍微停頓避免 429 錯誤
+            time.sleep(2)
+            
+        with open(args.output, 'w', encoding='utf-8') as f:
+            json.dump(final_result, f, ensure_ascii=False, indent=2)
+            
+        logger.info(f"Success: Analysis completely generated for all topics.")
     except Exception as e:
         logger.error(f"Fatal error: {e}")
