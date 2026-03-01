@@ -28,15 +28,24 @@ def analyze_trends(json_data, topic):
         """
         
         logger.info(f"Sending data to Gemini for {topic} analysis...")
+        
+        # 嘗試使用標準模型名稱
+        # 注意：在某些區域或 SDK 版本中，可能需要改為 gemini-1.5-flash-latest
         response = client.models.generate_content(
             model="gemini-1.5-flash",
             contents=prompt
         )
         return response.text
     except Exception as e:
+        error_str = str(e)
         # 移除錯誤訊息中可能存在的 API Key 蹤跡
-        error_msg = str(e).replace(api_key, "***") if api_key else str(e)
+        error_msg = error_str.replace(api_key, "***") if api_key else error_str
         logger.error(f"AI Analysis failed: {error_msg}")
+        
+        # 針對 404 進行特殊處理
+        if "404" in error_msg:
+            return f"AI Analysis failed (404): 找不到模型 ID。這通常是因為 SDK 與模型名稱不匹配。請嘗試在 scripts/ai_analyzer.py 中將 model 修改為 'gemini-1.5-flash-latest'。"
+            
         return f"AI Analysis failed: {error_msg}"
 
 if __name__ == "__main__":
