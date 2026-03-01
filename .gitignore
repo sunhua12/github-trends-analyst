@@ -11,10 +11,11 @@ ENV/
 htmlcov/
 
 # Data and Cache
-combined_trends.json
+# combined_trends.json is now tracked for ranking history
 trends.json
 temp_*.json
 last_run.txt
+ai_summary.txt
 
 # System files
 .DS_Store
