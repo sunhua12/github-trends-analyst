@@ -19,6 +19,7 @@ def analyze_trends(json_data, topic):
         # 使用新版 SDK 介面
         client = genai.Client(api_key=api_key)
         
+        # 結構化 Prompt
         prompt = f"""
         你是一位精通全球開源生態系統的資深技術分析師。請針對「{topic}」主題，深度分析以下 GitHub Trending 數據（JSON 格式）：
         
@@ -62,10 +63,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     try:
+        # 強制使用 utf-8 讀取檔案
         with open(args.input, 'r', encoding='utf-8') as f:
             data = f.read()
         
         analysis_result = analyze_trends(data, args.topic)
+        
+        # 針對環境修正輸出編碼
+        if hasattr(sys.stdout, 'reconfigure'):
+            sys.stdout.reconfigure(encoding='utf-8')
+            
         print(analysis_result)
     except Exception as e:
         logger.error(f"Fatal error: {e}")
