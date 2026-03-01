@@ -1,13 +1,15 @@
 import sys
 import os
 import pytest
+import httpx
 from unittest.mock import patch, MagicMock
 
 # 將 scripts 路徑加入系統路徑以便匯入
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
-from fetch_trends import fetch_trending
+from fetch_trends import fetch_trending_task
 
-def test_fetch_trending_parser():
+@pytest.mark.asyncio
+async def test_fetch_trending_task_parser():
     # 模擬 GitHub Trending 的 HTML 片段
     mock_html = """
     <article class="Box-row">
@@ -21,23 +23,30 @@ def test_fetch_trending_parser():
     </article>
     """
     
-    with patch('requests.get') as mock_get:
-        mock_response = MagicMock()
-        mock_response.status_code = 200
-        mock_response.text = mock_html
-        mock_get.return_value = mock_response
-        
-        results = fetch_trending(language='python')
-        
-        assert len(results) == 1
-        assert results[0]['full_name'] == "user/repo"
-        assert results[0]['description'] == "This is a test description."
-        assert results[0]['language'] == "Python"
-        assert "1,234" in results[0]['total_stars']
-        assert "100 stars today" in results[0]['stars_since']
+    # 建立一個模擬的 AsyncClient
+    mock_client = MagicMock(spec=httpx.AsyncClient)
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.text = mock_html
+    mock_response.raise_for_status = MagicMock()
+    
+    # 設定 client.get 的回傳值（因為是異步，需要 mock 回傳一個 awaitable）
+    mock_client.get.return_value = mock_response
+    
+    # 執行異步任務
+    results = await fetch_trending_task(mock_client, lang_id='python', lang_name='Python')
+    
+    assert len(results) == 1
+    assert results[0].full_name == "user/repo"
+    assert results[0].description == "This is a test description."
+    assert results[0].language == "Python"
+    assert "1,234" in results[0].total_stars
+    assert "100 stars today" in results[0].stars_since
 
-def test_fetch_trending_error_handling():
-    with patch('requests.get') as mock_get:
-        mock_get.side_effect = Exception("Connection Error")
-        results = fetch_trending()
-        assert results == []
+@pytest.mark.asyncio
+async def test_fetch_trending_error_handling():
+    mock_client = MagicMock(spec=httpx.AsyncClient)
+    mock_client.get.side_effect = Exception("Connection Error")
+    
+    results = await fetch_trending_task(mock_client, lang_id='python', lang_name='Python')
+    assert results == []
