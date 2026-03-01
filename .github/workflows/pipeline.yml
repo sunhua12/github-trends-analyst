@@ -23,7 +23,7 @@ jobs:
           pip install httpx beautifulsoup4 pydantic jinja2 google-genai pytest
       - name: Run Pytest
         run: |
-          cd github-trends/github-trends && python -m pytest tests/
+          python -m pytest tests/
 
   update-dashboard:
     name: 🚀 Update Trends & Dashboard
@@ -46,14 +46,13 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          cd github-trends/github-trends/
-          # 執行更新腳本
+          # 直接在根目錄執行更新腳本
           chmod +x trigger.sh
           ./trigger.sh
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add github-trends/combined_trends.json github-trends/index.html
+          git add combined_trends.json index.html
           git commit -m "Auto-update: Latest GitHub Trends [skip ci]" || echo "No changes to commit"
           git push
