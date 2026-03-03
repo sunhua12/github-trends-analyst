@@ -1,19 +1,21 @@
 name: Manual Update GitHub Trends
 
 on:
-  workflow_dispatch: # 👈 這行是關鍵：支援手動點擊按鈕觸發
+  workflow_dispatch: # 支援手動點擊按鈕觸發
   schedule:
-    - cron: '0 0 * * *' # 每天午夜自動執行 (可視需求保留或刪除)
+    - cron: '0 0 * * *' # 每天午午自動執行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 允許 Action 寫入檔案並 Push 回倉庫
+      contents: write # 允許 Action 寫入並 Push 代碼
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -23,24 +25,19 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
+        pip install httpx beautifulsoup4 pydantic jinja2 google-genai
 
-    - name: Run Fetcher
-      run: |
-        # 抓取數據
-        python scripts/fetch_trends.py --lang python --since daily --format json > trends.json
-
-    - name: Generate Dashboard
+    - name: Run Intensive Update
       env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 👈 安全地讀取 Secrets
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |
-        # 目前先用固定分析，如果您有調用 API 的腳本可在此替換
-        python scripts/generate_dashboard.py --input trends.json --analysis "Updated via Private GitHub Action" --template assets/dashboard_template.html --output index.html
+        chmod +x trigger.sh
+        ./trigger.sh
 
     - name: Commit and Push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add trends.json index.html
-        git commit -m "Auto-update trends data and dashboard" || echo "No changes to commit"
+        git add combined_trends.json index.html
+        git commit -m "Auto-update: Latest GitHub Trends via manual trigger" || echo "No changes to commit"
         git push
