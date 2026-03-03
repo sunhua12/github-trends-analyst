@@ -5,7 +5,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Unknown",
-      "total_stars": "2,805",
+      "total_stars": "2,820",
       "stars_since": "594 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "24,717",
+      "total_stars": "24,729",
       "stars_since": "4,557 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "11,655",
+      "total_stars": "11,657",
       "stars_since": "790 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "21,994",
+      "total_stars": "21,998",
       "stars_since": "842 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "16,907",
+      "total_stars": "16,908",
       "stars_since": "83 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/LMCache/LMCache",
       "description": "Supercharge Your LLM with the Fastest KV Cache Layer",
       "language": "Python",
-      "total_stars": "7,321",
+      "total_stars": "7,323",
       "stars_since": "140 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/superset-sh/superset",
       "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
       "language": "TypeScript",
-      "total_stars": "3,925",
+      "total_stars": "3,929",
       "stars_since": "637 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "408",
+      "total_stars": "410",
       "stars_since": "145 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "11,655",
+      "total_stars": "11,657",
       "stars_since": "790 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "16,907",
+      "total_stars": "16,908",
       "stars_since": "83 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/LMCache/LMCache",
       "description": "Supercharge Your LLM with the Fastest KV Cache Layer",
       "language": "Python",
-      "total_stars": "7,321",
+      "total_stars": "7,323",
       "stars_since": "140 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/alibaba/OpenSandbox",
       "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
       "language": "Python",
-      "total_stars": "5,132",
+      "total_stars": "5,134",
       "stars_since": "1,097 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "total_stars": "403,294",
+      "total_stars": "403,298",
       "stars_since": "658 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "89,941",
+      "total_stars": "89,942",
       "stars_since": "611 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "23,885",
+      "total_stars": "23,888",
       "stars_since": "440 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "24,717",
+      "total_stars": "24,729",
       "stars_since": "4,557 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/servo/servo",
       "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
       "language": "Rust",
-      "total_stars": "35,846",
+      "total_stars": "35,847",
       "stars_since": "190 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "408",
+      "total_stars": "410",
       "stars_since": "145 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/redis/go-redis",
       "description": "Redis Go client",
       "language": "Go",
-      "total_stars": "21,950",
+      "total_stars": "21,951",
       "stars_since": "6 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/xpzouying/xiaohongshu-mcp",
       "description": "MCP for xiaohongshu.com",
       "language": "Go",
-      "total_stars": "9,917",
+      "total_stars": "9,919",
       "stars_since": "144 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/open-telemetry/opentelemetry-go",
       "description": "OpenTelemetry Go API and SDK",
       "language": "Go",
-      "total_stars": "6,297",
+      "total_stars": "6,298",
       "stars_since": "2 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/gin-gonic/gin",
       "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
       "language": "Go",
-      "total_stars": "88,150",
+      "total_stars": "88,151",
       "stars_since": "9 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/samber/lo",
       "description": "\ud83d\udca5 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
       "language": "Go",
-      "total_stars": "21,053",
+      "total_stars": "21,054",
       "stars_since": "15 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "21,994",
+      "total_stars": "21,998",
       "stars_since": "842 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/superset-sh/superset",
       "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
       "language": "TypeScript",
-      "total_stars": "3,925",
+      "total_stars": "3,929",
       "stars_since": "637 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
-      "total_stars": "11,982",
+      "total_stars": "11,986",
       "stars_since": "454 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
       "language": "TypeScript",
-      "total_stars": "253,283",
+      "total_stars": "253,309",
       "stars_since": "6,312 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano Claude Code\u2013like agent, built from 0 to 1",
       "language": "TypeScript",
-      "total_stars": "20,767",
+      "total_stars": "20,768",
       "stars_since": "446 stars today",
       "status": "new"
     },
