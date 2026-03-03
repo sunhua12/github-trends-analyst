@@ -5,12 +5,13 @@ import sys
 import logging
 import warnings
 
+# 嘗試導入新版 SDK
 try:
-    import google.generativeai as genai
-    from google.generativeai import types
+    from google import genai
+    from google.genai import types
 except ImportError:
-    print("Error: 'google-generativeai' package not found.")
-    print("Please install it using: pip install -U google-generativeai")
+    print("Error: 'google-genai' package not found.")
+    print("Please install it using: pip install -U google-genai")
     sys.exit(1)
 
 warnings.filterwarnings("ignore")
@@ -19,18 +20,8 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("AIAnalyzer")
 
-def get_model():
-    # 依照要求強制使用 Gemini 2.5 Flash
-    model_name = "models/gemini-2.5-flash"
-    try:
-        # 檢查模型是否可用
-        return genai.GenerativeModel(model_name)
-    except Exception as e:
-        logger.warning(f"Could not initialize {model_name}: {e}. Falling back to 1.5-flash.")
-        return genai.GenerativeModel("gemini-1.5-flash")
-
-def analyze_everything(model, full_data):
-    """將所有數據一次性發送給模型進行全方位分析"""
+def analyze_everything(client, model_id, full_data):
+    """使用新版 SDK 進行單次全方位分析"""
     prompt = f"""
     你是一位極致專業的技術分析大師。請針對以下 GitHub 趨勢數據進行全方位的深度解讀：
     
@@ -57,10 +48,22 @@ def analyze_everything(model, full_data):
     """
     
     try:
-        response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
+        # 使用新版 SDK 的 generate_content
+        response = client.models.generate_content(
+            model=model_id,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json"
+            )
+        )
         return json.loads(response.text)
     except Exception as e:
         logger.error(f"Analysis failed: {e}")
+        # 如果是模型 ID 錯誤（例如 2.5 還沒開放），嘗試自動降級
+        if "not found" in str(e).lower() and model_id != "gemini-2.0-flash":
+            logger.warning(f"Model {model_id} not found, falling back to gemini-2.0-flash...")
+            return analyze_everything(client, "gemini-2.0-flash", full_data)
+            
         return {
             "global_summary": f"分析生成失敗: {e}",
             "topic_summaries": {},
@@ -79,16 +82,20 @@ if __name__ == "__main__":
         
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
-            sys.exit("API Key not found.")
-        genai.configure(api_key=api_key)
-        model = get_model()
+            sys.exit("API Key not found in environment variables.")
+            
+        # 初始化新版 Client
+        client = genai.Client(api_key=api_key)
         
-        logger.info("Generating comprehensive analysis in a single call with Gemini 2.5 Flash...")
-        final_result = analyze_everything(model, full_data)
+        # 依照要求使用 Gemini 2.5 Flash (若環境不支援會自動降級至 2.0)
+        target_model = "gemini-2.5-flash"
+        
+        logger.info(f"Generating comprehensive analysis in a single call with {target_model}...")
+        final_result = analyze_everything(client, target_model, full_data)
         
         with open(args.output, 'w', encoding='utf-8') as f:
             json.dump(final_result, f, ensure_ascii=False, indent=2)
             
-        logger.info(f"Success: Analysis completely generated.")
+        logger.info(f"Success: Analysis completely generated using new google-genai SDK.")
     except Exception as e:
         logger.error(f"Fatal error: {e}")
