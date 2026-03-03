@@ -5,7 +5,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Unknown",
-      "total_stars": "2,820",
+      "total_stars": "2,831",
       "stars_since": "594 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "24,729",
+      "total_stars": "24,736",
       "stars_since": "4,557 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "11,657",
+      "total_stars": "11,659",
       "stars_since": "790 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "21,998",
+      "total_stars": "22,000",
       "stars_since": "842 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/CodebuffAI/codebuff",
       "description": "Generate code from the terminal!",
       "language": "TypeScript",
-      "total_stars": "3,175",
+      "total_stars": "3,176",
       "stars_since": "118 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "410",
+      "total_stars": "413",
       "stars_since": "145 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "11,657",
+      "total_stars": "11,659",
       "stars_since": "790 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/alibaba/OpenSandbox",
       "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
       "language": "Python",
-      "total_stars": "5,134",
+      "total_stars": "5,136",
       "stars_since": "1,097 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "23,888",
+      "total_stars": "23,890",
       "stars_since": "440 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "24,729",
+      "total_stars": "24,736",
       "stars_since": "4,557 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/servo/servo",
       "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
       "language": "Rust",
-      "total_stars": "35,847",
+      "total_stars": "35,848",
       "stars_since": "190 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/block/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "32,259",
+      "total_stars": "32,260",
       "stars_since": "145 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "410",
+      "total_stars": "413",
       "stars_since": "145 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/lima-vm/lima",
       "description": "Linux virtual machines, with a focus on running containers",
       "language": "Go",
-      "total_stars": "20,354",
+      "total_stars": "20,355",
       "stars_since": "11 stars today",
       "status": "new"
     },
@@ -367,96 +367,5 @@
       "status": "new"
     }
   ],
-  "Frontend/TS": [
-    {
-      "full_name": "moeru-ai/airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "total_stars": "21,998",
-      "stars_since": "842 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "CodebuffAI/codebuff",
-      "url": "https://github.com/CodebuffAI/codebuff",
-      "description": "Generate code from the terminal!",
-      "language": "TypeScript",
-      "total_stars": "3,175",
-      "stars_since": "118 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "superset-sh/superset",
-      "url": "https://github.com/superset-sh/superset",
-      "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
-      "language": "TypeScript",
-      "total_stars": "3,929",
-      "stars_since": "637 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "InsForge/InsForge",
-      "url": "https://github.com/InsForge/InsForge",
-      "description": "The backend built for agentic development. AI-native Supabase alternative.",
-      "language": "TypeScript",
-      "total_stars": "1,837",
-      "stars_since": "160 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "tobi/qmd",
-      "url": "https://github.com/tobi/qmd",
-      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
-      "language": "TypeScript",
-      "total_stars": "11,986",
-      "stars_since": "454 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Koenkk/zigbee2mqtt",
-      "url": "https://github.com/Koenkk/zigbee2mqtt",
-      "description": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28",
-      "language": "TypeScript",
-      "total_stars": "14,881",
-      "stars_since": "12 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
-      "language": "TypeScript",
-      "total_stars": "253,309",
-      "stars_since": "6,312 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "hoppscotch/hoppscotch",
-      "url": "https://github.com/hoppscotch/hoppscotch",
-      "description": "Open-Source API Development Ecosystem \u2022https://hoppscotch.io\u2022 Offline, On-Prem & Cloud \u2022 Web, Desktop & CLI \u2022 Open-Source Alternative to Postman, Insomnia",
-      "language": "TypeScript",
-      "total_stars": "77,999",
-      "stars_since": "20 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "shareAI-lab/learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "description": "Bash is all you need - A nano Claude Code\u2013like agent, built from 0 to 1",
-      "language": "TypeScript",
-      "total_stars": "20,768",
-      "stars_since": "446 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "microsoft/azure-devops-mcp",
-      "url": "https://github.com/microsoft/azure-devops-mcp",
-      "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
-      "language": "TypeScript",
-      "total_stars": "1,337",
-      "stars_since": "9 stars today",
-      "status": "new"
-    }
-  ]
+  "Frontend/TS": []
 }
