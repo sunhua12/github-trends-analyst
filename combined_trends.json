@@ -3,9 +3,9 @@
     {
       "full_name": "KeygraphHQ/shannon",
       "url": "https://github.com/KeygraphHQ/shannon",
-      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
       "language": "TypeScript",
-      "total_stars": "30,399",
+      "total_stars": "30,519",
       "stars_since": "1,854 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Unknown",
-      "total_stars": "5,473",
+      "total_stars": "5,567",
       "stars_since": "2,209 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "859",
+      "total_stars": "875",
       "stars_since": "380 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "12,729",
+      "total_stars": "12,766",
       "stars_since": "940 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/CodebuffAI/codebuff",
       "description": "Generate code from the terminal!",
       "language": "TypeScript",
-      "total_stars": "3,573",
+      "total_stars": "3,587",
       "stars_since": "337 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/agentscope-ai/ReMe",
       "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
       "language": "Python",
-      "total_stars": "1,625",
+      "total_stars": "1,653",
       "stars_since": "345 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/alibaba/OpenSandbox",
       "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
       "language": "Python",
-      "total_stars": "5,982",
+      "total_stars": "6,013",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "description": "Automate the process of making money online.",
       "language": "Python",
-      "total_stars": "14,200",
+      "total_stars": "14,234",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/ItzCrazyKns/Perplexica",
       "description": "Perplexica is an AI-powered answering engine.",
       "language": "TypeScript",
-      "total_stars": "30,866",
+      "total_stars": "30,899",
       "stars_since": "1,090 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "17,384",
+      "total_stars": "17,409",
       "stars_since": "427 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "12,729",
+      "total_stars": "12,766",
       "stars_since": "940 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/agentscope-ai/ReMe",
       "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
       "language": "Python",
-      "total_stars": "1,625",
+      "total_stars": "1,653",
       "stars_since": "345 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/alibaba/OpenSandbox",
       "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
       "language": "Python",
-      "total_stars": "5,982",
+      "total_stars": "6,013",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "description": "Automate the process of making money online.",
       "language": "Python",
-      "total_stars": "14,200",
+      "total_stars": "14,234",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "17,384",
+      "total_stars": "17,409",
       "stars_since": "427 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/unslothai/unsloth",
       "description": "Fine-tuning & Reinforcement Learning for LLMs. \ud83e\udda5 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.",
       "language": "Python",
-      "total_stars": "53,274",
+      "total_stars": "53,282",
       "stars_since": "171 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
       "language": "Python",
-      "total_stars": "1,183",
+      "total_stars": "1,190",
       "stars_since": "379 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/LMCache/LMCache",
       "description": "Supercharge Your LLM with the Fastest KV Cache Layer",
       "language": "Python",
-      "total_stars": "7,518",
+      "total_stars": "7,521",
       "stars_since": "183 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/Aider-AI/aider",
       "description": "aider is AI pair programming in your terminal",
       "language": "Python",
-      "total_stars": "41,437",
+      "total_stars": "41,443",
       "stars_since": "225 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/NVIDIA-NeMo/Megatron-Bridge",
       "description": "Training library for Megatron-based models with bidirectional Hugging Face conversion capability",
       "language": "Python",
-      "total_stars": "477",
+      "total_stars": "478",
       "stars_since": "2 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "A high-performance algorithmic trading platform and event-driven backtester",
       "language": "Rust",
-      "total_stars": "20,736",
+      "total_stars": "20,754",
       "stars_since": "89 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "27,125",
+      "total_stars": "27,198",
       "stars_since": "2,085 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/servo/servo",
       "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
       "language": "Rust",
-      "total_stars": "35,878",
+      "total_stars": "35,880",
       "stars_since": "34 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "total_stars": "76,390",
+      "total_stars": "76,394",
       "stars_since": "84 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/gitbutlerapp/gitbutler",
       "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
       "language": "Rust",
-      "total_stars": "19,756",
+      "total_stars": "19,758",
       "stars_since": "54 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "total_stars": "2,672",
+      "total_stars": "2,676",
       "stars_since": "229 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
-      "total_stars": "16,848",
+      "total_stars": "16,850",
       "stars_since": "118 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/pola-rs/polars",
       "description": "Extremely fast Query Engine for DataFrames, written in Rust",
       "language": "Rust",
-      "total_stars": "37,617",
+      "total_stars": "37,618",
       "stars_since": "10 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "859",
+      "total_stars": "875",
       "stars_since": "380 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/spf13/viper",
       "description": "Go configuration with fangs",
       "language": "Go",
-      "total_stars": "30,154",
+      "total_stars": "30,153",
       "stars_since": "7 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/krillinai/KrillinAI",
       "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube\uff0cTikTok. AI\u89c6\u9891\u7ffb\u8bd1\u914d\u97f3\u5de5\u5177\uff0c100\u79cd\u8bed\u8a00\u53cc\u5411\u7ffb\u8bd1\uff0c\u4e00\u952e\u90e8\u7f72\u5168\u6d41\u7a0b\uff0c\u53ef\u4ee5\u751f\u6296\u97f3\uff0c\u5c0f\u7ea2\u4e66\uff0c\u54d4\u54e9\u54d4\u54e9\uff0c\u89c6\u9891\u53f7\uff0cTikTok\uff0cYoutube\u7b49\u5f62\u6001\u7684\u5185\u5bb9\u6210\u9002\u914d",
       "language": "Go",
-      "total_stars": "9,666",
+      "total_stars": "9,667",
       "stars_since": "18 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/1Panel-dev/1Panel",
       "description": "\ud83d\udd25 Take full control of your VPS with 1Panel. Deploy OpenClaw in one click.",
       "language": "Go",
-      "total_stars": "33,977",
+      "total_stars": "33,980",
       "stars_since": "70 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/go-gitea/gitea",
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
-      "total_stars": "54,074",
+      "total_stars": "54,077",
       "stars_since": "34 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/inngest/inngest",
       "description": "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or the edge.",
       "language": "Go",
-      "total_stars": "4,978",
+      "total_stars": "4,979",
       "stars_since": "20 stars today",
       "status": "new"
     },
@@ -371,9 +371,9 @@
     {
       "full_name": "KeygraphHQ/shannon",
       "url": "https://github.com/KeygraphHQ/shannon",
-      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
       "language": "TypeScript",
-      "total_stars": "30,399",
+      "total_stars": "30,519",
       "stars_since": "1,854 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/CodebuffAI/codebuff",
       "description": "Generate code from the terminal!",
       "language": "TypeScript",
-      "total_stars": "3,573",
+      "total_stars": "3,587",
       "stars_since": "337 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/ItzCrazyKns/Perplexica",
       "description": "Perplexica is an AI-powered answering engine.",
       "language": "TypeScript",
-      "total_stars": "30,866",
+      "total_stars": "30,899",
       "stars_since": "1,090 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "24,771",
+      "total_stars": "24,965",
       "stars_since": "1,454 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/FlowiseAI/Flowise",
       "description": "Build AI Agents, Visually",
       "language": "TypeScript",
-      "total_stars": "50,083",
+      "total_stars": "50,112",
       "stars_since": "145 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/superset-sh/superset",
       "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
       "language": "TypeScript",
-      "total_stars": "4,817",
+      "total_stars": "4,825",
       "stars_since": "802 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
-      "total_stars": "12,501",
+      "total_stars": "12,509",
       "stars_since": "425 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/Kong/insomnia",
       "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
       "language": "TypeScript",
-      "total_stars": "37,996",
+      "total_stars": "37,997",
       "stars_since": "10 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/RocketChat/Rocket.Chat",
       "description": "The Secure CommsOS\u2122 for mission-critical operations",
       "language": "TypeScript",
-      "total_stars": "44,806",
+      "total_stars": "44,807",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/directus/directus",
       "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
       "language": "TypeScript",
-      "total_stars": "34,374",
+      "total_stars": "34,375",
       "stars_since": "21 stars today",
       "status": "new"
     }
