@@ -5,7 +5,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Unknown",
-      "total_stars": "7,536",
+      "total_stars": "7,705",
       "stars_since": "1,468 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
       "language": "Python",
-      "total_stars": "1,643",
+      "total_stars": "1,679",
       "stars_since": "310 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/KeygraphHQ/shannon",
       "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
       "language": "TypeScript",
-      "total_stars": "31,817",
+      "total_stars": "31,842",
       "stars_since": "2,930 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "32,887",
+      "total_stars": "32,895",
       "stars_since": "298 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "27,401",
+      "total_stars": "27,504",
       "stars_since": "3,006 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/inclusionAI/AReaL",
       "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
       "language": "Python",
-      "total_stars": "4,091",
+      "total_stars": "4,107",
       "stars_since": "173 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/microsoft/mcp-for-beginners",
       "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
       "language": "Jupyter Notebook",
-      "total_stars": "14,912",
+      "total_stars": "14,938",
       "stars_since": "137 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/CodebuffAI/codebuff",
       "description": "Generate code from the terminal!",
       "language": "TypeScript",
-      "total_stars": "3,871",
+      "total_stars": "3,884",
       "stars_since": "275 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "description": "Automate the process of making money online.",
       "language": "Python",
-      "total_stars": "14,699",
+      "total_stars": "14,718",
       "stars_since": "511 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/agentscope-ai/ReMe",
       "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
       "language": "Python",
-      "total_stars": "1,822",
+      "total_stars": "1,832",
       "stars_since": "194 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
       "language": "Python",
-      "total_stars": "1,643",
+      "total_stars": "1,679",
       "stars_since": "310 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/inclusionAI/AReaL",
       "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
       "language": "Python",
-      "total_stars": "4,091",
+      "total_stars": "4,107",
       "stars_since": "173 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "description": "Automate the process of making money online.",
       "language": "Python",
-      "total_stars": "14,699",
+      "total_stars": "14,718",
       "stars_since": "511 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/agentscope-ai/ReMe",
       "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
       "language": "Python",
-      "total_stars": "1,822",
+      "total_stars": "1,832",
       "stars_since": "194 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "total_stars": "404,548",
+      "total_stars": "404,557",
       "stars_since": "460 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/Jeffallan/claude-skills",
       "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
       "language": "Python",
-      "total_stars": "5,037",
+      "total_stars": "5,046",
       "stars_since": "397 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/Aider-AI/aider",
       "description": "aider is AI pair programming in your terminal",
       "language": "Python",
-      "total_stars": "41,526",
+      "total_stars": "41,528",
       "stars_since": "139 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/streamlit/streamlit",
       "description": "Streamlit \u2014 A faster way to build and share data apps.",
       "language": "Python",
-      "total_stars": "43,754",
+      "total_stars": "43,756",
       "stars_since": "25 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
-      "total_stars": "41,115",
+      "total_stars": "41,127",
       "stars_since": "413 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/khoj-ai/khoj",
       "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
       "language": "Python",
-      "total_stars": "33,153",
+      "total_stars": "33,158",
       "stars_since": "217 stars today",
       "status": "new"
     }
@@ -198,7 +198,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "A high-performance algorithmic trading platform and event-driven backtester",
       "language": "Rust",
-      "total_stars": "20,939",
+      "total_stars": "20,942",
       "stars_since": "356 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/denoland/deno",
       "description": "A modern runtime for JavaScript and TypeScript.",
       "language": "Rust",
-      "total_stars": "106,312",
+      "total_stars": "106,313",
       "stars_since": "37 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/yfedoseev/pdf_oxide",
       "description": "The fastest PDF library for Python and Rust. Text extraction, image extraction, markdown conversion, PDF creation & editing. 0.8ms mean, 5\u00d7 faster than industry leaders, 100% pass rate on 3,830 PDFs. MIT/Apache-2.0.",
       "language": "Rust",
-      "total_stars": "344",
+      "total_stars": "345",
       "stars_since": "80 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "total_stars": "2,768",
+      "total_stars": "2,769",
       "stars_since": "93 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "total_stars": "76,482",
+      "total_stars": "76,484",
       "stars_since": "111 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
-      "total_stars": "110,928",
+      "total_stars": "110,931",
       "stars_since": "73 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "32,887",
+      "total_stars": "32,895",
       "stars_since": "298 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/wavetermdev/waveterm",
       "description": "An open-source, cross-platform terminal for seamless workflows",
       "language": "Go",
-      "total_stars": "17,840",
+      "total_stars": "17,842",
       "stars_since": "76 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "language": "Go",
-      "total_stars": "120,946",
+      "total_stars": "120,948",
       "stars_since": "35 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/xpzouying/xiaohongshu-mcp",
       "description": "MCP for xiaohongshu.com",
       "language": "Go",
-      "total_stars": "10,375",
+      "total_stars": "10,385",
       "stars_since": "177 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/steveyegge/gastown",
       "description": "Gas Town - multi-agent workspace manager",
       "language": "Go",
-      "total_stars": "11,070",
+      "total_stars": "11,072",
       "stars_since": "124 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/steipete/gogcli",
       "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
       "language": "Go",
-      "total_stars": "5,691",
+      "total_stars": "5,695",
       "stars_since": "165 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/Netflix/chaosmonkey",
       "description": "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.",
       "language": "Go",
-      "total_stars": "16,641",
+      "total_stars": "16,642",
       "stars_since": "5 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/KeygraphHQ/shannon",
       "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
       "language": "TypeScript",
-      "total_stars": "31,817",
+      "total_stars": "31,842",
       "stars_since": "2,930 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "27,401",
+      "total_stars": "27,504",
       "stars_since": "3,006 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/CodebuffAI/codebuff",
       "description": "Generate code from the terminal!",
       "language": "TypeScript",
-      "total_stars": "3,871",
+      "total_stars": "3,884",
       "stars_since": "275 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/ItzCrazyKns/Perplexica",
       "description": "Perplexica is an AI-powered answering engine.",
       "language": "TypeScript",
-      "total_stars": "31,310",
+      "total_stars": "31,318",
       "stars_since": "648 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/FlowiseAI/Flowise",
       "description": "Build AI Agents, Visually",
       "language": "TypeScript",
-      "total_stars": "50,401",
+      "total_stars": "50,404",
       "stars_since": "533 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/superset-sh/superset",
       "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
       "language": "TypeScript",
-      "total_stars": "5,058",
+      "total_stars": "5,068",
       "stars_since": "268 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
       "language": "TypeScript",
-      "total_stars": "265,549",
+      "total_stars": "265,850",
       "stars_since": "5,423 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/hoppscotch/hoppscotch",
       "description": "Open-Source API Development Ecosystem \u2022https://hoppscotch.io\u2022 Offline, On-Prem & Cloud \u2022 Web, Desktop & CLI \u2022 Open-Source Alternative to Postman, Insomnia",
       "language": "TypeScript",
-      "total_stars": "78,161",
+      "total_stars": "78,163",
       "stars_since": "65 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
-      "total_stars": "182,325",
+      "total_stars": "182,323",
       "stars_since": "78 stars today",
       "status": "new"
     }
