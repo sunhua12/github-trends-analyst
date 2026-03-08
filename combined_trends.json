@@ -1,12 +1,48 @@
 {
   "Overall": [
     {
-      "full_name": "moeru-ai/airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "total_stars": "29,579",
-      "stars_since": "2,562 stars today",
+      "full_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
+      "language": "Python",
+      "total_stars": "5,664",
+      "stars_since": "399 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "total_stars": "12,720",
+      "stars_since": "948 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "total_stars": "10,779",
+      "stars_since": "1,468 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "GoogleCloudPlatform/generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI",
+      "language": "Jupyter Notebook",
+      "total_stars": "13,539",
+      "stars_since": "384 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "agentjido/jido",
+      "url": "https://github.com/agentjido/jido",
+      "description": "\ud83e\udd16 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows.",
+      "language": "Elixir",
+      "total_stars": "1,424",
+      "stars_since": "115 stars today",
       "status": "new"
     },
     {
@@ -14,385 +50,26 @@
       "url": "https://github.com/QwenLM/Qwen-Agent",
       "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
       "language": "Python",
-      "total_stars": "14,666",
-      "stars_since": "696 stars today",
+      "total_stars": "15,025",
+      "stars_since": "586 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "46,581",
+      "stars_since": "248 stars today",
       "status": "new"
     },
     {
       "full_name": "microsoft/hve-core",
       "url": "https://github.com/microsoft/hve-core",
-      "description": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents) to start your project off right, or upgrade your existing projects to get the most out of all Copilots",
+      "description": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of all Copilots",
       "language": "PowerShell",
-      "total_stars": "560",
-      "stars_since": "273 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Ed1s0nZ/CyberStrikeAI",
-      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
-      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
-      "language": "Go",
-      "total_stars": "1,639",
-      "stars_since": "106 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "inclusionAI/AReaL",
-      "url": "https://github.com/inclusionAI/AReaL",
-      "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
-      "language": "Python",
-      "total_stars": "4,408",
-      "stars_since": "347 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "lingfengQAQ/webnovel-writer",
-      "url": "https://github.com/lingfengQAQ/webnovel-writer",
-      "description": "\u57fa\u4e8e Claude Code \u7684\u957f\u7bc7\u7f51\u6587\u8f85\u52a9\u521b\u4f5c\u7cfb\u7edf\uff0c\u89e3\u51b3 AI \u5199\u4f5c\u4e2d\u7684\u300c\u9057\u5fd8\u300d\u548c\u300c\u5e7b\u89c9\u300d\u95ee\u9898\uff0c\u652f\u6301 200 \u4e07\u5b57\u91cf\u7ea7 \u8fde\u8f7d\u521b\u4f5c\u3002",
-      "language": "Python",
-      "total_stars": "797",
-      "stars_since": "90 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openai/skills",
-      "url": "https://github.com/openai/skills",
-      "description": "Skills Catalog for Codex",
-      "language": "Python",
-      "total_stars": "12,041",
-      "stars_since": "595 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "TheCraigHewitt/seomachine",
-      "url": "https://github.com/TheCraigHewitt/seomachine",
-      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
-      "language": "Python",
-      "total_stars": "2,171",
-      "stars_since": "690 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "virattt/ai-hedge-fund",
-      "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
-      "language": "Python",
-      "total_stars": "46,342",
-      "stars_since": "81 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "aidenybai/react-grab",
-      "url": "https://github.com/aidenybai/react-grab",
-      "description": "Select context for coding agents directly from your website",
-      "language": "TypeScript",
-      "total_stars": "6,023",
-      "stars_since": "450 stars today",
-      "status": "new"
-    }
-  ],
-  "AI/Python": [
-    {
-      "full_name": "QwenLM/Qwen-Agent",
-      "url": "https://github.com/QwenLM/Qwen-Agent",
-      "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
-      "language": "Python",
-      "total_stars": "14,666",
-      "stars_since": "696 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "inclusionAI/AReaL",
-      "url": "https://github.com/inclusionAI/AReaL",
-      "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
-      "language": "Python",
-      "total_stars": "4,408",
-      "stars_since": "347 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "lingfengQAQ/webnovel-writer",
-      "url": "https://github.com/lingfengQAQ/webnovel-writer",
-      "description": "\u57fa\u4e8e Claude Code \u7684\u957f\u7bc7\u7f51\u6587\u8f85\u52a9\u521b\u4f5c\u7cfb\u7edf\uff0c\u89e3\u51b3 AI \u5199\u4f5c\u4e2d\u7684\u300c\u9057\u5fd8\u300d\u548c\u300c\u5e7b\u89c9\u300d\u95ee\u9898\uff0c\u652f\u6301 200 \u4e07\u5b57\u91cf\u7ea7 \u8fde\u8f7d\u521b\u4f5c\u3002",
-      "language": "Python",
-      "total_stars": "797",
-      "stars_since": "90 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openai/skills",
-      "url": "https://github.com/openai/skills",
-      "description": "Skills Catalog for Codex",
-      "language": "Python",
-      "total_stars": "12,041",
-      "stars_since": "595 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "TheCraigHewitt/seomachine",
-      "url": "https://github.com/TheCraigHewitt/seomachine",
-      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
-      "language": "Python",
-      "total_stars": "2,171",
-      "stars_since": "690 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "virattt/ai-hedge-fund",
-      "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
-      "language": "Python",
-      "total_stars": "46,342",
-      "stars_since": "81 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "p-e-w/heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "language": "Python",
-      "total_stars": "10,596",
-      "stars_since": "240 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "apache/airflow",
-      "url": "https://github.com/apache/airflow",
-      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "language": "Python",
-      "total_stars": "44,521",
-      "stars_since": "21 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "FujiwaraChoki/MoneyPrinterV2",
-      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
-      "description": "Automate the process of making money online.",
-      "language": "Python",
-      "total_stars": "14,904",
-      "stars_since": "342 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "github/awesome-copilot",
-      "url": "https://github.com/github/awesome-copilot",
-      "description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
-      "language": "Python",
-      "total_stars": "23,964",
-      "stars_since": "171 stars today",
-      "status": "new"
-    }
-  ],
-  "Rust Ecosystem": [
-    {
-      "full_name": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "total_stars": "2,846",
-      "stars_since": "79 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
-      "language": "Rust",
-      "total_stars": "41,052",
-      "stars_since": "15 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "nautechsystems/nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "A high-performance algorithmic trading platform and event-driven backtester",
-      "language": "Rust",
-      "total_stars": "20,969",
-      "stars_since": "41 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "total_stars": "76,540",
-      "stars_since": "72 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "rolldown/rolldown",
-      "url": "https://github.com/rolldown/rolldown",
-      "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
-      "language": "Rust",
-      "total_stars": "12,967",
-      "stars_since": "5 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "yfedoseev/pdf_oxide",
-      "url": "https://github.com/yfedoseev/pdf_oxide",
-      "description": "The fastest PDF library for Python and Rust. Text extraction, image extraction, markdown conversion, PDF creation & editing. 0.8ms mean, 5\u00d7 faster than industry leaders, 100% pass rate on 3,830 PDFs. MIT/Apache-2.0.",
-      "language": "Rust",
-      "total_stars": "375",
-      "stars_since": "33 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "total_stars": "63,559",
-      "stars_since": "291 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "total_stars": "108,774",
-      "stars_since": "82 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "BloopAI/vibe-kanban",
-      "url": "https://github.com/BloopAI/vibe-kanban",
-      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
-      "language": "Rust",
-      "total_stars": "22,539",
-      "stars_since": "90 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NVIDIA/bare-metal-manager-core",
-      "url": "https://github.com/NVIDIA/bare-metal-manager-core",
-      "description": "NVIDIA Bare Metal Manager - Hardware Lifecycle Management and multitenant networking",
-      "language": "Rust",
-      "total_stars": "85",
-      "stars_since": "1 star today",
-      "status": "new"
-    }
-  ],
-  "Go Backend": [
-    {
-      "full_name": "Ed1s0nZ/CyberStrikeAI",
-      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
-      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
-      "language": "Go",
-      "total_stars": "1,639",
-      "stars_since": "106 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "aquasecurity/trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "language": "Go",
-      "total_stars": "32,994",
-      "stars_since": "193 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "steveyegge/gastown",
-      "url": "https://github.com/steveyegge/gastown",
-      "description": "Gas Town - multi-agent workspace manager",
-      "language": "Go",
-      "total_stars": "11,171",
-      "stars_since": "104 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "steipete/gogcli",
-      "url": "https://github.com/steipete/gogcli",
-      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
-      "language": "Go",
-      "total_stars": "5,781",
-      "stars_since": "123 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "hashicorp/terraform-provider-aws",
-      "url": "https://github.com/hashicorp/terraform-provider-aws",
-      "description": "The AWS Provider enables Terraform to manage AWS resources.",
-      "language": "Go",
-      "total_stars": "10,792",
-      "stars_since": "2 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "canopy-network/canopy",
-      "url": "https://github.com/canopy-network/canopy",
-      "description": "The official go implementation of the Canopy Network protocol",
-      "language": "Go",
-      "total_stars": "2,740",
-      "stars_since": "357 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "containerd/containerd",
-      "url": "https://github.com/containerd/containerd",
-      "description": "An open and reliable container runtime",
-      "language": "Go",
-      "total_stars": "20,474",
-      "stars_since": "9 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "livekit/livekit",
-      "url": "https://github.com/livekit/livekit",
-      "description": "End-to-end realtime stack for connecting humans and AI",
-      "language": "Go",
-      "total_stars": "17,463",
-      "stars_since": "27 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "open-telemetry/opentelemetry-collector",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector",
-      "description": "OpenTelemetry Collector",
-      "language": "Go",
-      "total_stars": "6,691",
-      "stars_since": "9 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "\ud83e\udd16 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
-      "language": "Go",
-      "total_stars": "43,350",
-      "stars_since": "71 stars today",
-      "status": "new"
-    }
-  ],
-  "Frontend/TS": [
-    {
-      "full_name": "moeru-ai/airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "total_stars": "29,579",
-      "stars_since": "2,562 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "aidenybai/react-grab",
-      "url": "https://github.com/aidenybai/react-grab",
-      "description": "Select context for coding agents directly from your website",
-      "language": "TypeScript",
-      "total_stars": "6,023",
-      "stars_since": "450 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "FlowiseAI/Flowise",
-      "url": "https://github.com/FlowiseAI/Flowise",
-      "description": "Build AI Agents, Visually",
-      "language": "TypeScript",
-      "total_stars": "50,459",
-      "stars_since": "63 stars today",
+      "total_stars": "751",
+      "stars_since": "217 stars today",
       "status": "new"
     },
     {
@@ -400,62 +77,385 @@
       "url": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [\u0259\u2018fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "language": "TypeScript",
-      "total_stars": "64,276",
-      "stars_since": "545 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Nagi-ovo/gemini-voyager",
-      "url": "https://github.com/Nagi-ovo/gemini-voyager",
-      "description": "An all-in-one enhancement suite for Google Gemini & AI Studio - timeline navigation, folder management, prompt library, and chat export in one powerful extension. / Google Gemini & AI Studio \u5168\u80fd\u589e\u5f3a\u63d2\u4ef6\uff1a\u96c6\u6210\u65f6\u95f4\u8f74\u5bfc\u822a\u3001\u6587\u4ef6\u5939\u7ba1\u7406\u3001\u63d0\u793a\u8bcd\u5e93\u53ca\u804a\u5929\u5bfc\u51fa\u7b49\u4f17\u591a\u529f\u80fd\u3002",
-      "language": "TypeScript",
-      "total_stars": "10,133",
-      "stars_since": "295 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "kepano/defuddle",
-      "url": "https://github.com/kepano/defuddle",
-      "description": "Get the main content of any page as Markdown.",
-      "language": "TypeScript",
-      "total_stars": "3,863",
-      "stars_since": "119 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "KeygraphHQ/shannon",
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
-      "language": "TypeScript",
-      "total_stars": "32,359",
-      "stars_since": "770 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "outline/outline",
-      "url": "https://github.com/outline/outline",
-      "description": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
-      "language": "TypeScript",
-      "total_stars": "37,467",
-      "stars_since": "29 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "CodebuffAI/codebuff",
-      "url": "https://github.com/CodebuffAI/codebuff",
-      "description": "Generate code from the terminal!",
-      "language": "TypeScript",
-      "total_stars": "4,029",
+      "total_stars": "64,700",
       "stars_since": "281 stars today",
       "status": "new"
     },
     {
-      "full_name": "docmost/docmost",
-      "url": "https://github.com/docmost/docmost",
-      "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+      "full_name": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
       "language": "TypeScript",
-      "total_stars": "19,313",
+      "total_stars": "108,184",
+      "stars_since": "129 stars today",
+      "status": "new"
+    }
+  ],
+  "AI/Python": [
+    {
+      "full_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
+      "language": "Python",
+      "total_stars": "5,664",
+      "stars_since": "399 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "total_stars": "12,720",
+      "stars_since": "948 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "QwenLM/Qwen-Agent",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
+      "language": "Python",
+      "total_stars": "15,025",
+      "stars_since": "586 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "46,581",
+      "stars_since": "248 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "pgmpy/pgmpy",
+      "url": "https://github.com/pgmpy/pgmpy",
+      "description": "Python library for Causal AI",
+      "language": "Python",
+      "total_stars": "3,195",
+      "stars_since": "7 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "total_stars": "2,925",
+      "stars_since": "108 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Dao-AILab/flash-attention",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "description": "Fast and memory-efficient exact attention",
+      "language": "Python",
+      "total_stars": "22,605",
+      "stars_since": "29 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "inclusionAI/AReaL",
+      "url": "https://github.com/inclusionAI/AReaL",
+      "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
+      "language": "Python",
+      "total_stars": "4,524",
+      "stars_since": "239 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "lingfengQAQ/webnovel-writer",
+      "url": "https://github.com/lingfengQAQ/webnovel-writer",
+      "description": "\u57fa\u4e8e Claude Code \u7684\u957f\u7bc7\u7f51\u6587\u8f85\u52a9\u521b\u4f5c\u7cfb\u7edf\uff0c\u89e3\u51b3 AI \u5199\u4f5c\u4e2d\u7684\u300c\u9057\u5fd8\u300d\u548c\u300c\u5e7b\u89c9\u300d\u95ee\u9898\uff0c\u652f\u6301 200 \u4e07\u5b57\u91cf\u7ea7 \u8fde\u8f7d\u521b\u4f5c\u3002",
+      "language": "Python",
+      "total_stars": "982",
+      "stars_since": "292 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
+      "language": "Python",
+      "total_stars": "36,461",
+      "stars_since": "171 stars today",
+      "status": "new"
+    }
+  ],
+  "Rust Ecosystem": [
+    {
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "total_stars": "63,728",
+      "stars_since": "184 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "mikeyobrien/ralph-orchestrator",
+      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
+      "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+      "language": "Rust",
+      "total_stars": "2,101",
+      "stars_since": "18 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "total_stars": "2,909",
+      "stars_since": "81 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "cachix/devenv",
+      "url": "https://github.com/cachix/devenv",
+      "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
+      "language": "Rust",
+      "total_stars": "6,444",
+      "stars_since": "15 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "total_stars": "108,813",
+      "stars_since": "51 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "rust-lang/book",
+      "url": "https://github.com/rust-lang/book",
+      "description": "The Rust Programming Language",
+      "language": "Rust",
+      "total_stars": "17,472",
+      "stars_since": "4 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "total_stars": "1,256",
+      "stars_since": "5 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "SaladDay/cc-switch-cli",
+      "url": "https://github.com/SaladDay/cc-switch-cli",
+      "description": "\u2b50\ufe0f A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
+      "language": "Rust",
+      "total_stars": "830",
+      "stars_since": "18 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "dandavison/delta",
+      "url": "https://github.com/dandavison/delta",
+      "description": "A syntax-highlighting pager for git, diff, grep, and blame output",
+      "language": "Rust",
+      "total_stars": "29,379",
+      "stars_since": "36 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "paradigmxyz/reth",
+      "url": "https://github.com/paradigmxyz/reth",
+      "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
+      "language": "Rust",
+      "total_stars": "5,459",
+      "stars_since": "4 stars today",
+      "status": "new"
+    }
+  ],
+  "Go Backend": [
+    {
+      "full_name": "GopeedLab/gopeed",
+      "url": "https://github.com/GopeedLab/gopeed",
+      "description": "A modern download manager that supports all platforms. Built with Golang and Flutter.",
+      "language": "Go",
+      "total_stars": "23,076",
+      "stars_since": "151 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "total_stars": "33,117",
+      "stars_since": "81 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "googleapis/genai-toolbox",
+      "url": "https://github.com/googleapis/genai-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "total_stars": "13,309",
+      "stars_since": "24 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "charmbracelet/lipgloss",
+      "url": "https://github.com/charmbracelet/lipgloss",
+      "description": "Style definitions for nice terminal layouts \ud83d\udc44",
+      "language": "Go",
+      "total_stars": "10,785",
+      "stars_since": "11 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "charmbracelet/bubbletea",
+      "url": "https://github.com/charmbracelet/bubbletea",
+      "description": "A powerful little TUI framework \ud83c\udfd7",
+      "language": "Go",
+      "total_stars": "40,369",
+      "stars_since": "41 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "charmbracelet/bubbles",
+      "url": "https://github.com/charmbracelet/bubbles",
+      "description": "TUI components for Bubble Tea \ud83e\udee7",
+      "language": "Go",
+      "total_stars": "7,951",
+      "stars_since": "10 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b.",
+      "language": "Go",
+      "total_stars": "15,755",
+      "stars_since": "7 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
+      "language": "Go",
+      "total_stars": "3,215",
+      "stars_since": "114 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "mostlygeek/llama-swap",
+      "url": "https://github.com/mostlygeek/llama-swap",
+      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "language": "Go",
+      "total_stars": "2,691",
+      "stars_since": "73 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+      "language": "Go",
+      "total_stars": "1,949",
+      "stars_since": "417 stars today",
+      "status": "new"
+    }
+  ],
+  "Frontend/TS": [
+    {
+      "full_name": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [\u0259\u2018fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "language": "TypeScript",
+      "total_stars": "64,700",
+      "stars_since": "281 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "language": "TypeScript",
+      "total_stars": "108,184",
+      "stars_since": "129 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "total_stars": "1,377",
+      "stars_since": "137 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "aidenybai/react-grab",
+      "url": "https://github.com/aidenybai/react-grab",
+      "description": "Select context for coding agents directly from your website",
+      "language": "TypeScript",
+      "total_stars": "6,230",
+      "stars_since": "416 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "total_stars": "30,548",
+      "stars_since": "1,364 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "tiann/hapi",
+      "url": "https://github.com/tiann/hapi",
+      "description": "App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere",
+      "language": "TypeScript",
+      "total_stars": "2,341",
       "stars_since": "42 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "breaking-brake/cc-wf-studio",
+      "url": "https://github.com/breaking-brake/cc-wf-studio",
+      "description": "CC Workflow Studio",
+      "language": "TypeScript",
+      "total_stars": "4,324",
+      "stars_since": "60 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+      "language": "TypeScript",
+      "total_stars": "275,718",
+      "stars_since": "4,777 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "blackboardsh/electrobun",
+      "url": "https://github.com/blackboardsh/electrobun",
+      "description": "Build ultra fast, tiny, and cross-platform desktop apps with Typescript.",
+      "language": "TypeScript",
+      "total_stars": "8,708",
+      "stars_since": "610 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano Claude Code\u2013like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "total_stars": "23,191",
+      "stars_since": "953 stars today",
       "status": "new"
     }
   ]
