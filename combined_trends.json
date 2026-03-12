@@ -5,8 +5,8 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "total_stars": "25,690",
-      "stars_since": "6,223 stars today",
+      "total_stars": "30,118",
+      "stars_since": "6,167 stars today",
       "status": "new"
     },
     {
@@ -14,53 +14,17 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "14,352",
-      "stars_since": "4,504 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "total_stars": "3,839",
-      "stars_since": "781 stars today",
+      "total_stars": "16,804",
+      "stars_since": "2,907 stars today",
       "status": "new"
     },
     {
       "full_name": "promptfoo/promptfoo",
       "url": "https://github.com/promptfoo/promptfoo",
-      "description": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
       "language": "TypeScript",
-      "total_stars": "11,996",
-      "stars_since": "661 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "GoogleCloudPlatform/generative-ai",
-      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
-      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI",
-      "language": "Jupyter Notebook",
-      "total_stars": "15,774",
-      "stars_since": "530 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "virattt/ai-hedge-fund",
-      "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
-      "language": "Python",
-      "total_stars": "47,629",
-      "stars_since": "300 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "karpathy/nanochat",
-      "url": "https://github.com/karpathy/nanochat",
-      "description": "The best ChatGPT that $100 can buy.",
-      "language": "Python",
-      "total_stars": "46,277",
-      "stars_since": "705 stars today",
+      "total_stars": "12,563",
+      "stars_since": "718 stars today",
       "status": "new"
     },
     {
@@ -68,8 +32,26 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "76,650",
-      "stars_since": "1,387 stars today",
+      "total_stars": "78,075",
+      "stars_since": "1,483 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "total_stars": "25,800",
+      "stars_since": "313 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "48,161",
+      "stars_since": "636 stars today",
       "status": "new"
     },
     {
@@ -77,17 +59,26 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "total_stars": "3,703",
-      "stars_since": "891 stars today",
+      "total_stars": "4,762",
+      "stars_since": "1,215 stars today",
       "status": "new"
     },
     {
-      "full_name": "sepinf-inc/IPED",
-      "url": "https://github.com/sepinf-inc/IPED",
-      "description": "IPED Digital Forensic Tool. It is an open source software that can be used to process and analyze digital evidence, often seized at crime scenes by law enforcement or in a corporate investigation by private examiners.",
-      "language": "Java",
-      "total_stars": "2,225",
-      "stars_since": "273 stars today",
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "total_stars": "5,259",
+      "stars_since": "1,234 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. \u2728",
+      "language": "Python",
+      "total_stars": "21,070",
+      "stars_since": "342 stars today",
       "status": "new"
     }
   ],
@@ -97,17 +88,17 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "14,352",
-      "stars_since": "4,504 stars today",
+      "total_stars": "16,804",
+      "stars_since": "2,907 stars today",
       "status": "new"
     },
     {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
+      "full_name": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
       "language": "Python",
-      "total_stars": "3,839",
-      "stars_since": "781 stars today",
+      "total_stars": "25,800",
+      "stars_since": "313 stars today",
       "status": "new"
     },
     {
@@ -115,44 +106,17 @@
       "url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
       "language": "Python",
-      "total_stars": "47,629",
-      "stars_since": "300 stars today",
+      "total_stars": "48,161",
+      "stars_since": "636 stars today",
       "status": "new"
     },
     {
-      "full_name": "karpathy/nanochat",
-      "url": "https://github.com/karpathy/nanochat",
-      "description": "The best ChatGPT that $100 can buy.",
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "46,277",
-      "stars_since": "705 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "bytedance/deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
-      "language": "Python",
-      "total_stars": "28,625",
-      "stars_since": "1,413 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "theOehrly/Fast-F1",
-      "url": "https://github.com/theOehrly/Fast-F1",
-      "description": "FastF1 is a python package for accessing and analyzing Formula 1 results, schedules, timing data and telemetry",
-      "language": "Python",
-      "total_stars": "4,646",
-      "stars_since": "38 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "666ghj/BettaFish",
-      "url": "https://github.com/666ghj/BettaFish",
-      "description": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
-      "language": "Python",
-      "total_stars": "37,885",
-      "stars_since": "652 stars today",
+      "total_stars": "5,259",
+      "stars_since": "1,234 stars today",
       "status": "new"
     },
     {
@@ -160,8 +124,8 @@
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. \u2728",
       "language": "Python",
-      "total_stars": "20,563",
-      "stars_since": "337 stars today",
+      "total_stars": "21,070",
+      "stars_since": "342 stars today",
       "status": "new"
     },
     {
@@ -169,100 +133,109 @@
       "url": "https://github.com/modelscope/sirchmunk",
       "description": "\ud83d\udc3f\ufe0f Sirchmunk: Raw data to self-evolving intelligence, real-time.",
       "language": "Python",
-      "total_stars": "370",
-      "stars_since": "70 stars today",
+      "total_stars": "411",
+      "stars_since": "44 stars today",
       "status": "new"
     },
     {
-      "full_name": "volcengine/OpenViking",
-      "url": "https://github.com/volcengine/OpenViking",
-      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "full_name": "langflow-ai/openrag",
+      "url": "https://github.com/langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
       "language": "Python",
-      "total_stars": "5,641",
-      "stars_since": "296 stars today",
+      "total_stars": "892",
+      "stars_since": "191 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
+      "language": "Python",
+      "total_stars": "38,137",
+      "stars_since": "264 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python",
+      "total_stars": "46,626",
+      "stars_since": "549 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "total_stars": "2,659",
+      "stars_since": "95 stars today",
       "status": "new"
     }
   ],
   "Rust Ecosystem": [
     {
-      "full_name": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
+      "full_name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "\ud83e\udd67 Savoury implementation of the QUIC transport protocol and HTTP/3",
       "language": "Rust",
-      "total_stars": "34,359",
-      "stars_since": "1,476 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "biomejs/biome",
-      "url": "https://github.com/biomejs/biome",
-      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-      "language": "Rust",
-      "total_stars": "24,041",
-      "stars_since": "70 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "a2x/cs2-dumper",
-      "url": "https://github.com/a2x/cs2-dumper",
-      "description": "Counter-Strike: 2 Offset Dumper",
-      "language": "Rust",
-      "total_stars": "1,811",
-      "stars_since": "2 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "uutils/coreutils",
-      "url": "https://github.com/uutils/coreutils",
-      "description": "Cross-platform Rust rewrite of the GNU coreutils",
-      "language": "Rust",
-      "total_stars": "22,868",
-      "stars_since": "16 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "rust-bitcoin/rust-bitcoin",
-      "url": "https://github.com/rust-bitcoin/rust-bitcoin",
-      "description": "Rust Bitcoin library",
-      "language": "Rust",
-      "total_stars": "2,604",
+      "total_stars": "11,328",
       "stars_since": "5 stars today",
       "status": "new"
     },
     {
-      "full_name": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "tempoxyz/tempo",
+      "url": "https://github.com/tempoxyz/tempo",
+      "description": "the blockchain for payments",
       "language": "Rust",
-      "total_stars": "64,452",
-      "stars_since": "286 stars today",
+      "total_stars": "829",
+      "stars_since": "3 stars today",
       "status": "new"
     },
     {
-      "full_name": "sigp/lighthouse",
-      "url": "https://github.com/sigp/lighthouse",
-      "description": "Ethereum consensus client in Rust",
+      "full_name": "fish-shell/fish-shell",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
       "language": "Rust",
-      "total_stars": "3,407",
-      "stars_since": "0 stars today",
+      "total_stars": "32,915",
+      "stars_since": "10 stars today",
       "status": "new"
     },
     {
-      "full_name": "sharkdp/bat",
-      "url": "https://github.com/sharkdp/bat",
-      "description": "A cat(1) clone with wings.",
+      "full_name": "Wilfred/difftastic",
+      "url": "https://github.com/Wilfred/difftastic",
+      "description": "a structural diff that understands syntax \ud83d\udfe5\ud83d\udfe9",
       "language": "Rust",
-      "total_stars": "57,654",
-      "stars_since": "79 stars today",
+      "total_stars": "24,433",
+      "stars_since": "68 stars today",
       "status": "new"
     },
     {
-      "full_name": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+      "full_name": "starship/starship",
+      "url": "https://github.com/starship/starship",
+      "description": "\u2604\ud83c\udf0c\ufe0f The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "language": "Rust",
-      "total_stars": "41,090",
-      "stars_since": "14 stars today",
+      "total_stars": "54,786",
+      "stars_since": "22 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "description": "Data transformation framework for AI. Ultra performant, with incremental processing. \ud83c\udf1f Star if you like it!",
+      "language": "Rust",
+      "total_stars": "6,401",
+      "stars_since": "41 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "total_stars": "1,295",
+      "stars_since": "15 stars today",
       "status": "new"
     },
     {
@@ -270,19 +243,37 @@
       "url": "https://github.com/jj-vcs/jj",
       "description": "A Git-compatible VCS that is both simple and powerful",
       "language": "Rust",
-      "total_stars": "26,581",
-      "stars_since": "138 stars today",
+      "total_stars": "26,660",
+      "stars_since": "121 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "total_stars": "22,877",
+      "stars_since": "9 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "\u2693 A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "total_stars": "19,871",
+      "stars_since": "35 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
+      "full_name": "fengshao1227/ccg-workflow",
+      "url": "https://github.com/fengshao1227/ccg-workflow",
+      "description": "\u591a\u6a21\u578b\u534f\u4f5c\u5f00\u53d1\u5de5\u5177\u96c6 - \u57fa\u4e8e Claude Code CLI\uff0c\u6574\u5408 Codex/Gemini \u540e\u7aef\u80fd\u529b\uff0c\u63d0\u4f9b\u667a\u80fd\u8def\u7531\u3001\u4ee3\u7801\u5ba1\u67e5\u3001Git \u5de5\u5177\u7b49 17+ \u4e2a\u547d\u4ee4",
       "language": "Go",
-      "total_stars": "4,377",
-      "stars_since": "459 stars today",
+      "total_stars": "3,304",
+      "stars_since": "123 stars today",
       "status": "new"
     },
     {
@@ -290,17 +281,44 @@
       "url": "https://github.com/docker/docker-agent",
       "description": "AI Agent Builder and Runtime by Docker Engineering",
       "language": "Go",
-      "total_stars": "2,285",
-      "stars_since": "109 stars today",
+      "total_stars": "2,358",
+      "stars_since": "71 stars today",
       "status": "new"
     },
     {
-      "full_name": "spf13/cobra",
-      "url": "https://github.com/spf13/cobra",
-      "description": "A Commander for modern Go CLI interactions",
+      "full_name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
       "language": "Go",
-      "total_stars": "43,460",
-      "stars_since": "53 stars today",
+      "total_stars": "19,317",
+      "stars_since": "11 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "total_stars": "22,338",
+      "stars_since": "12 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
+      "language": "Go",
+      "total_stars": "4,542",
+      "stars_since": "197 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "gravitational/teleport",
+      "url": "https://github.com/gravitational/teleport",
+      "description": "The easiest, and most secure way to access and protect all of your infrastructure.",
+      "language": "Go",
+      "total_stars": "19,999",
+      "stars_since": "17 stars today",
       "status": "new"
     },
     {
@@ -308,62 +326,35 @@
       "url": "https://github.com/m1k1o/neko",
       "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
       "language": "Go",
-      "total_stars": "19,627",
-      "stars_since": "441 stars today",
+      "total_stars": "19,776",
+      "stars_since": "253 stars today",
       "status": "new"
     },
     {
-      "full_name": "pingcap/tidb",
-      "url": "https://github.com/pingcap/tidb",
-      "description": "TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",
+      "full_name": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
       "language": "Go",
-      "total_stars": "39,937",
-      "stars_since": "53 stars today",
+      "total_stars": "73,996",
+      "stars_since": "95 stars today",
       "status": "new"
     },
     {
-      "full_name": "uber-go/zap",
-      "url": "https://github.com/uber-go/zap",
-      "description": "Blazing fast, structured, leveled logging in Go.",
+      "full_name": "anchore/grype",
+      "url": "https://github.com/anchore/grype",
+      "description": "A vulnerability scanner for container images and filesystems",
       "language": "Go",
-      "total_stars": "24,439",
-      "stars_since": "58 stars today",
+      "total_stars": "11,711",
+      "stars_since": "7 stars today",
       "status": "new"
     },
     {
-      "full_name": "milvus-io/milvus",
-      "url": "https://github.com/milvus-io/milvus",
-      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "full_name": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
       "language": "Go",
-      "total_stars": "43,300",
-      "stars_since": "87 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "projectdiscovery/httpx",
-      "url": "https://github.com/projectdiscovery/httpx",
-      "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.",
-      "language": "Go",
-      "total_stars": "9,653",
-      "stars_since": "5 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "fengshao1227/ccg-workflow",
-      "url": "https://github.com/fengshao1227/ccg-workflow",
-      "description": "\u591a\u6a21\u578b\u534f\u4f5c\u5f00\u53d1\u5de5\u5177\u96c6 - \u57fa\u4e8e Claude Code CLI\uff0c\u6574\u5408 Codex/Gemini \u540e\u7aef\u80fd\u529b\uff0c\u63d0\u4f9b\u667a\u80fd\u8def\u7531\u3001\u4ee3\u7801\u5ba1\u67e5\u3001Git \u5de5\u5177\u7b49 17+ \u4e2a\u547d\u4ee4",
-      "language": "Go",
-      "total_stars": "3,229",
-      "stars_since": "83 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "cloudflare/cloudflared",
-      "url": "https://github.com/cloudflare/cloudflared",
-      "description": "Cloudflare Tunnel client",
-      "language": "Go",
-      "total_stars": "13,499",
-      "stars_since": "81 stars today",
+      "total_stars": "10,823",
+      "stars_since": "8 stars today",
       "status": "new"
     }
   ],
@@ -371,10 +362,10 @@
     {
       "full_name": "promptfoo/promptfoo",
       "url": "https://github.com/promptfoo/promptfoo",
-      "description": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
       "language": "TypeScript",
-      "total_stars": "11,996",
-      "stars_since": "661 stars today",
+      "total_stars": "12,563",
+      "stars_since": "718 stars today",
       "status": "new"
     },
     {
@@ -382,62 +373,35 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "total_stars": "3,703",
-      "stars_since": "891 stars today",
+      "total_stars": "4,762",
+      "stars_since": "1,215 stars today",
       "status": "new"
     },
     {
-      "full_name": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "298,879",
-      "stars_since": "9,080 stars today",
+      "total_stars": "34,171",
+      "stars_since": "191 stars today",
       "status": "new"
     },
     {
-      "full_name": "shadcn-ui/ui",
-      "url": "https://github.com/shadcn-ui/ui",
-      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "full_name": "scalar/scalar",
+      "url": "https://github.com/scalar/scalar",
+      "description": "Scalar is an open-source API platform:\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83c\udf10 Modern Rest API Client\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83d\udcd6 Beautiful API References\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2728 1st-Class OpenAPI/Swagger Support",
       "language": "TypeScript",
-      "total_stars": "109,187",
-      "stars_since": "169 stars today",
+      "total_stars": "14,247",
+      "stars_since": "20 stars today",
       "status": "new"
     },
     {
-      "full_name": "czlonkowski/n8n-mcp",
-      "url": "https://github.com/czlonkowski/n8n-mcp",
-      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "full_name": "jestjs/jest",
+      "url": "https://github.com/jestjs/jest",
+      "description": "Delightful JavaScript Testing.",
       "language": "TypeScript",
-      "total_stars": "14,842",
-      "stars_since": "131 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "yikart/AiToEarn",
-      "url": "https://github.com/yikart/AiToEarn",
-      "description": "Let's use AI to Earn!",
-      "language": "TypeScript",
-      "total_stars": "11,278",
-      "stars_since": "171 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "apify/crawlee",
-      "url": "https://github.com/apify/crawlee",
-      "description": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
-      "language": "TypeScript",
-      "total_stars": "22,207",
-      "stars_since": "31 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openclaw/clawhub",
-      "url": "https://github.com/openclaw/clawhub",
-      "description": "Skill Directory for OpenClaw",
-      "language": "TypeScript",
-      "total_stars": "5,281",
-      "stars_since": "238 stars today",
+      "total_stars": "45,327",
+      "stars_since": "2 stars today",
       "status": "new"
     },
     {
@@ -445,8 +409,44 @@
       "url": "https://github.com/afkarxyz/SpotiFLAC",
       "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music \u2014 no account required.",
       "language": "TypeScript",
-      "total_stars": "5,625",
-      "stars_since": "253 stars today",
+      "total_stars": "5,683",
+      "stars_since": "75 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+      "language": "TypeScript",
+      "total_stars": "303,889",
+      "stars_since": "6,019 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "Annotate and review coding agent plans visually, share with your team, send feedback to agents with one click.",
+      "language": "TypeScript",
+      "total_stars": "2,795",
+      "stars_since": "61 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "gommzystudio/device-activity-tracker",
+      "url": "https://github.com/gommzystudio/device-activity-tracker",
+      "description": "A phone number can reveal whether a device is active, in standby or offline (and more). This PoC demonstrates how delivery receipts + RTT timing leak sensitive device-activity patterns. (WhatsApp / Signal)",
+      "language": "TypeScript",
+      "total_stars": "4,781",
+      "stars_since": "17 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "libukai/awesome-agent-skills",
+      "url": "https://github.com/libukai/awesome-agent-skills",
+      "description": "Agent Skills \u7ec8\u6781\u6307\u5357\uff1a\u5feb\u901f\u5165\u95e8\u3001\u8d44\u6e90\u63a8\u8350\u3001\u7cbe\u9009\u6280\u80fd\u4e0e\u5de5\u5177\u96c6\u5408 \uff5cThe Ultimate Guide to Agent Skills: QuickStart, Resources, Featured&Toolkits",
+      "language": "TypeScript",
+      "total_stars": "2,877",
+      "stars_since": "65 stars today",
       "status": "new"
     }
   ]
