@@ -5,7 +5,7 @@
       "url": "https://github.com/microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "language": "Python",
-      "total_stars": "32,365",
+      "total_stars": "32,449",
       "stars_since": "2,149 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/fishaudio/fish-speech",
       "description": "SOTA Open Source TTS",
       "language": "Python",
-      "total_stars": "26,370",
+      "total_stars": "26,410",
       "stars_since": "637 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/langflow-ai/openrag",
       "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
       "language": "Python",
-      "total_stars": "1,559",
+      "total_stars": "1,611",
       "stars_since": "322 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
       "language": "TypeScript",
-      "total_stars": "3,110",
+      "total_stars": "3,137",
       "stars_since": "263 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "total_stars": "3,082",
+      "total_stars": "3,126",
       "stars_since": "217 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "total_stars": "5,996",
+      "total_stars": "6,153",
       "stars_since": "1,205 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "79,956",
+      "total_stars": "80,063",
       "stars_since": "1,706 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "6,173",
+      "total_stars": "6,210",
       "stars_since": "1,264 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "19,210",
+      "total_stars": "19,342",
       "stars_since": "1,857 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/google-ai-edge/LiteRT",
       "description": "LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization",
       "language": "C++",
-      "total_stars": "1,670",
+      "total_stars": "1,681",
       "stars_since": "13 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "language": "Python",
-      "total_stars": "32,365",
+      "total_stars": "32,449",
       "stars_since": "2,149 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/fishaudio/fish-speech",
       "description": "SOTA Open Source TTS",
       "language": "Python",
-      "total_stars": "26,370",
+      "total_stars": "26,410",
       "stars_since": "637 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/langflow-ai/openrag",
       "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
       "language": "Python",
-      "total_stars": "1,559",
+      "total_stars": "1,611",
       "stars_since": "322 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "total_stars": "3,082",
+      "total_stars": "3,126",
       "stars_since": "217 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "6,173",
+      "total_stars": "6,210",
       "stars_since": "1,264 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "19,210",
+      "total_stars": "19,342",
       "stars_since": "1,857 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "total_stars": "10,272",
+      "total_stars": "10,306",
       "stars_since": "150 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "total_stars": "91,879",
+      "total_stars": "91,950",
       "stars_since": "1,177 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/sansan0/TrendRadar",
       "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 + RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 + AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
       "language": "Python",
-      "total_stars": "48,770",
+      "total_stars": "48,782",
       "stars_since": "123 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "29,854",
+      "total_stars": "29,883",
       "stars_since": "541 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "64,916",
+      "total_stars": "64,926",
       "stars_since": "257 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "13,410",
+      "total_stars": "13,413",
       "stars_since": "14 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/Wilfred/difftastic",
       "description": "a structural diff that understands syntax \ud83d\udfe5\ud83d\udfe9",
       "language": "Rust",
-      "total_stars": "24,462",
+      "total_stars": "24,464",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "total_stars": "77,010",
+      "total_stars": "77,014",
       "stars_since": "115 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/raine/workmux",
       "description": "git worktrees + tmux windows for zero-friction parallel dev",
       "language": "Rust",
-      "total_stars": "948",
+      "total_stars": "950",
       "stars_since": "23 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/pydantic/monty",
       "description": "A minimal, secure Python interpreter written in Rust for use by AI",
       "language": "Rust",
-      "total_stars": "6,208",
+      "total_stars": "6,209",
       "stars_since": "21 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "total_stars": "6,243",
+      "total_stars": "6,244",
       "stars_since": "12 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
-      "total_stars": "56,674",
+      "total_stars": "56,675",
       "stars_since": "55 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/jj-vcs/jj",
       "description": "A Git-compatible VCS that is both simple and powerful",
       "language": "Rust",
-      "total_stars": "26,708",
+      "total_stars": "26,710",
       "stars_since": "53 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/fengshao1227/ccg-workflow",
       "description": "\u591a\u6a21\u578b\u534f\u4f5c\u5f00\u53d1\u7cfb\u7edf - Claude \u7f16\u6392 + Codex \u540e\u7aef + Gemini \u524d\u7aef\uff0c28 \u4e2a\u547d\u4ee4\u8986\u76d6\u5f00\u53d1\u5168\u6d41\u7a0b\uff0c\u4e00\u952e\u5b89\u88c5\u96f6\u914d\u7f6e",
       "language": "Go",
-      "total_stars": "3,365",
+      "total_stars": "3,368",
       "stars_since": "78 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/gtsteffaniak/filebrowser",
       "description": "\ud83d\udcc2 Web File Browser",
       "language": "Go",
-      "total_stars": "6,558",
+      "total_stars": "6,559",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/oauth2-proxy/oauth2-proxy",
       "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
       "language": "Go",
-      "total_stars": "14,016",
+      "total_stars": "14,017",
       "stars_since": "7 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/openimsdk/open-im-server",
       "description": "IM Chat OpenClaw",
       "language": "Go",
-      "total_stars": "15,811",
+      "total_stars": "15,812",
       "stars_since": "17 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/vllm-project/semantic-router",
       "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
       "language": "Go",
-      "total_stars": "3,363",
+      "total_stars": "3,365",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/docker/docker-agent",
       "description": "AI Agent Builder and Runtime by Docker Engineering",
       "language": "Go",
-      "total_stars": "2,412",
+      "total_stars": "2,413",
       "stars_since": "71 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/junegunn/fzf",
       "description": "\ud83c\udf38 A command-line fuzzy finder",
       "language": "Go",
-      "total_stars": "78,613",
+      "total_stars": "78,616",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
       "language": "TypeScript",
-      "total_stars": "3,110",
+      "total_stars": "3,137",
       "stars_since": "263 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "total_stars": "5,996",
+      "total_stars": "6,153",
       "stars_since": "1,205 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/google/A2UI",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "12,610",
+      "total_stars": "12,645",
       "stars_since": "225 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "language": "TypeScript",
-      "total_stars": "132,541",
+      "total_stars": "132,552",
       "stars_since": "186 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/promptfoo/promptfoo",
       "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
       "language": "TypeScript",
-      "total_stars": "13,755",
+      "total_stars": "13,817",
       "stars_since": "503 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/7836246/cursor2api",
       "description": "\u5c06 Cursor API \u8f6c\u6362\u4e3a OpenAI/Anthropic \u517c\u5bb9\u683c\u5f0f\u7684\u4ee3\u7406\u670d\u52a1\u3002\u63d0\u4f9b Claude Code\u5de5\u5177\u53ca\u56fe\u7247\u652f\u6301\u3002",
       "language": "TypeScript",
-      "total_stars": "593",
+      "total_stars": "594",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/coder/code-server",
       "description": "VS Code in the browser",
       "language": "TypeScript",
-      "total_stars": "76,612",
+      "total_stars": "76,614",
       "stars_since": "20 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "\ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
       "language": "TypeScript",
-      "total_stars": "92,095",
+      "total_stars": "92,115",
       "stars_since": "719 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/Nagi-ovo/gemini-voyager",
       "description": "An all-in-one enhancement suite for Google Gemini & AI Studio - timeline navigation, folder management, prompt library, and chat export in one powerful extension. / Google Gemini & AI Studio \u5168\u80fd\u589e\u5f3a\u63d2\u4ef6\uff1a\u96c6\u6210\u65f6\u95f4\u8f74\u5bfc\u822a\u3001\u6587\u4ef6\u5939\u7ba1\u7406\u3001\u63d0\u793a\u8bcd\u5e93\u53ca\u804a\u5929\u5bfc\u51fa\u7b49\u4f17\u591a\u529f\u80fd\u3002",
       "language": "TypeScript",
-      "total_stars": "11,567",
+      "total_stars": "11,586",
       "stars_since": "314 stars today",
       "status": "new"
     }
