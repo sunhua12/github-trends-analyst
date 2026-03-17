@@ -5,7 +5,7 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "30,021",
+      "total_stars": "30,171",
       "stars_since": "3,260 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "36,823",
+      "total_stars": "36,923",
       "stars_since": "1,045 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
       "language": "TypeScript",
-      "total_stars": "1,838",
+      "total_stars": "1,873",
       "stars_since": "775 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "88,656",
+      "total_stars": "88,846",
       "stars_since": "3,152 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "15,612",
+      "total_stars": "15,679",
       "stars_since": "1,860 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/lightpanda-io/browser",
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "language": "Zig",
-      "total_stars": "20,234",
+      "total_stars": "20,299",
       "stars_since": "2,086 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
       "language": "Python",
-      "total_stars": "14,170",
+      "total_stars": "14,244",
       "stars_since": "2,012 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano Claude Code\u2013like agent, built from 0 to 1",
       "language": "TypeScript",
-      "total_stars": "29,306",
+      "total_stars": "29,407",
       "stars_since": "1,535 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "total_stars": "15,295",
+      "total_stars": "15,323",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/langchain-ai/deepagents",
       "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
       "language": "Python",
-      "total_stars": "12,929",
+      "total_stars": "13,026",
       "stars_since": "1,026 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
       "language": "Python",
-      "total_stars": "30,021",
+      "total_stars": "30,171",
       "stars_since": "3,260 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
       "language": "Python",
-      "total_stars": "14,170",
+      "total_stars": "14,244",
       "stars_since": "2,012 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "total_stars": "15,295",
+      "total_stars": "15,323",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/langchain-ai/deepagents",
       "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
       "language": "Python",
-      "total_stars": "12,929",
+      "total_stars": "13,026",
       "stars_since": "1,026 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
       "language": "Python",
-      "total_stars": "161,815",
+      "total_stars": "161,816",
       "stars_since": "92 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/dimensionalOS/dimos",
       "description": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
       "language": "Python",
-      "total_stars": "1,538",
+      "total_stars": "1,548",
       "stars_since": "393 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/topoteretes/cognee",
       "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
       "language": "Python",
-      "total_stars": "14,207",
+      "total_stars": "14,213",
       "stars_since": "444 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\u5668\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "21,434",
+      "total_stars": "21,478",
       "stars_since": "868 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/JoeanAmier/TikTokDownloader",
       "description": "TikTok \u53d1\u5e03/\u559c\u6b22/\u5408\u8f91/\u76f4\u64ad/\u89c6\u9891/\u56fe\u96c6/\u97f3\u4e50\uff1b\u6296\u97f3\u53d1\u5e03/\u559c\u6b22/\u6536\u85cf/\u6536\u85cf\u5939/\u89c6\u9891/\u56fe\u96c6/\u5b9e\u51b5/\u76f4\u64ad/\u97f3\u4e50/\u5408\u96c6/\u8bc4\u8bba/\u8d26\u53f7/\u641c\u7d22/\u70ed\u699c\u6570\u636e\u91c7\u96c6\u5de5\u5177/\u4e0b\u8f7d\u5de5\u5177",
       "language": "Python",
-      "total_stars": "13,589",
+      "total_stars": "13,595",
       "stars_since": "88 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/originalankur/maptoposter",
       "description": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
       "language": "Python",
-      "total_stars": "12,163",
+      "total_stars": "12,168",
       "stars_since": "62 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/voidzero-dev/vite-plus",
       "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
       "language": "Rust",
-      "total_stars": "2,247",
+      "total_stars": "2,282",
       "stars_since": "621 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/sxyazi/yazi",
       "description": "\ud83d\udca5 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "language": "Rust",
-      "total_stars": "34,351",
+      "total_stars": "34,361",
       "stars_since": "205 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/topjohnwu/Magisk",
       "description": "The Magic Mask for Android",
       "language": "Rust",
-      "total_stars": "59,315",
+      "total_stars": "59,316",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/qarmin/czkawka",
       "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
       "language": "Rust",
-      "total_stars": "29,996",
+      "total_stars": "29,997",
       "stars_since": "61 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "total_stars": "22,767",
+      "total_stars": "22,780",
       "stars_since": "447 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/mayocream/koharu",
       "description": "ML-powered manga translator, written in Rust.",
       "language": "Rust",
-      "total_stars": "807",
+      "total_stars": "808",
       "stars_since": "21 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/casey/just",
       "description": "\ud83e\udd16 Just a command runner",
       "language": "Rust",
-      "total_stars": "32,146",
+      "total_stars": "32,147",
       "stars_since": "37 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/mudler/LocalAI",
       "description": "\ud83e\udd16 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
       "language": "Go",
-      "total_stars": "43,730",
+      "total_stars": "43,735",
       "stars_since": "62 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/NoFxAiOS/nofx",
       "description": "Your personal AI trading assistant. Any market. Any model. Pay with USDC, not API keys.",
       "language": "Go",
-      "total_stars": "10,930",
+      "total_stars": "10,929",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
-      "total_stars": "9,875",
+      "total_stars": "9,879",
       "stars_since": "265 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/projectdiscovery/katana",
       "description": "A next-generation crawling and spidering framework.",
       "language": "Go",
-      "total_stars": "16,050",
+      "total_stars": "16,052",
       "stars_since": "98 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/fengshao1227/ccg-workflow",
       "description": "\u591a\u6a21\u578b\u534f\u4f5c\u5f00\u53d1\u7cfb\u7edf - Claude \u7f16\u6392 + Codex \u540e\u7aef + Gemini \u524d\u7aef\uff0c28 \u4e2a\u547d\u4ee4\u8986\u76d6\u5f00\u53d1\u5168\u6d41\u7a0b\uff0c\u4e00\u952e\u5b89\u88c5\u96f6\u914d\u7f6e",
       "language": "Go",
-      "total_stars": "3,857",
+      "total_stars": "3,865",
       "stars_since": "140 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "6,011",
+      "total_stars": "6,036",
       "stars_since": "327 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "36,823",
+      "total_stars": "36,923",
       "stars_since": "1,045 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
       "language": "TypeScript",
-      "total_stars": "1,838",
+      "total_stars": "1,873",
       "stars_since": "775 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "15,612",
+      "total_stars": "15,679",
       "stars_since": "1,860 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano Claude Code\u2013like agent, built from 0 to 1",
       "language": "TypeScript",
-      "total_stars": "29,306",
+      "total_stars": "29,407",
       "stars_since": "1,535 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/YishenTu/claudian",
       "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
       "language": "TypeScript",
-      "total_stars": "4,170",
+      "total_stars": "4,209",
       "stars_since": "111 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
       "language": "TypeScript",
-      "total_stars": "4,791",
+      "total_stars": "4,795",
       "stars_since": "350 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/vudovn/antigravity-kit",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "6,229",
+      "total_stars": "6,233",
       "stars_since": "99 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "29,497",
+      "total_stars": "29,513",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/immich-app/immich",
       "description": "High performance self-hosted photo and video management solution.",
       "language": "TypeScript",
-      "total_stars": "94,930",
+      "total_stars": "94,933",
       "stars_since": "127 stars today",
       "status": "new"
     }
