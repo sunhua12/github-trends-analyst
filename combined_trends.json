@@ -5,7 +5,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "92,440",
+      "total_stars": "92,678",
       "stars_since": "3,078 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "total_stars": "479,846",
+      "total_stars": "479,958",
       "stars_since": "1,998 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "16,741",
+      "total_stars": "16,796",
       "stars_since": "1,116 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/langchain-ai/deepagents",
       "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
       "language": "Python",
-      "total_stars": "14,161",
+      "total_stars": "14,226",
       "stars_since": "1,415 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/jarrodwatts/claude-hud",
       "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
       "language": "JavaScript",
-      "total_stars": "5,640",
+      "total_stars": "5,719",
       "stars_since": "466 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/cloudflare/workerd",
       "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
       "language": "C++",
-      "total_stars": "7,834",
+      "total_stars": "7,850",
       "stars_since": "31 stars today",
       "status": "new"
     }
@@ -61,7 +61,7 @@
       "url": "https://github.com/langchain-ai/deepagents",
       "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
       "language": "Python",
-      "total_stars": "14,161",
+      "total_stars": "14,226",
       "stars_since": "1,415 stars today",
       "status": "new"
     },
@@ -70,7 +70,7 @@
       "url": "https://github.com/resemble-ai/chatterbox",
       "description": "SoTA open-source TTS",
       "language": "Python",
-      "total_stars": "23,626",
+      "total_stars": "23,631",
       "stars_since": "132 stars today",
       "status": "new"
     },
@@ -79,7 +79,7 @@
       "url": "https://github.com/dimensionalOS/dimos",
       "description": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
       "language": "Python",
-      "total_stars": "1,653",
+      "total_stars": "1,660",
       "stars_since": "154 stars today",
       "status": "new"
     },
@@ -88,7 +88,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "32,602",
+      "total_stars": "32,615",
       "stars_since": "164 stars today",
       "status": "new"
     },
@@ -97,7 +97,7 @@
       "url": "https://github.com/MiroMindAI/MiroThinker",
       "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achieve 74.0 and 88.2 on the BrowseComp, respectively.",
       "language": "Python",
-      "total_stars": "7,008",
+      "total_stars": "7,014",
       "stars_since": "146 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/financial-datasets/mcp-server",
       "description": "An MCP server for interacting with the Financial Datasets stock market API.",
       "language": "Python",
-      "total_stars": "1,642",
+      "total_stars": "1,644",
       "stars_since": "62 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
       "language": "Python",
-      "total_stars": "15,231",
+      "total_stars": "15,272",
       "stars_since": "1,295 stars today",
       "status": "new"
     }
@@ -126,7 +126,7 @@
       "url": "https://github.com/voidzero-dev/vite-plus",
       "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
       "language": "Rust",
-      "total_stars": "2,557",
+      "total_stars": "2,582",
       "stars_since": "373 stars today",
       "status": "new"
     },
@@ -135,7 +135,7 @@
       "url": "https://github.com/sxyazi/yazi",
       "description": "\ud83d\udca5 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "language": "Rust",
-      "total_stars": "34,507",
+      "total_stars": "34,513",
       "stars_since": "164 stars today",
       "status": "new"
     },
@@ -144,7 +144,7 @@
       "url": "https://github.com/louis-e/arnis",
       "description": "Generate any location from the real world in Minecraft with a high level of detail.",
       "language": "Rust",
-      "total_stars": "9,141",
+      "total_stars": "9,145",
       "stars_since": "221 stars today",
       "status": "new"
     },
@@ -153,7 +153,7 @@
       "url": "https://github.com/gfx-rs/wgpu",
       "description": "A cross-platform, safe, pure-Rust graphics API.",
       "language": "Rust",
-      "total_stars": "16,675",
+      "total_stars": "16,676",
       "stars_since": "12 stars today",
       "status": "new"
     },
@@ -162,7 +162,7 @@
       "url": "https://github.com/oxc-project/oxc",
       "description": "\u2693 A collection of high-performance JavaScript tools.",
       "language": "Rust",
-      "total_stars": "20,100",
+      "total_stars": "20,102",
       "stars_since": "35 stars today",
       "status": "new"
     },
@@ -171,7 +171,7 @@
       "url": "https://github.com/apache/iggy",
       "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
       "language": "Rust",
-      "total_stars": "4,001",
+      "total_stars": "4,003",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -180,7 +180,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
-      "total_stars": "21,245",
+      "total_stars": "21,246",
       "stars_since": "54 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/juspay/hyperswitch",
       "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
       "language": "Rust",
-      "total_stars": "41,653",
+      "total_stars": "41,656",
       "stars_since": "242 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/glzr-io/glazewm",
       "description": "GlazeWM is a tiling window manager for Windows inspired by i3wm.",
       "language": "Rust",
-      "total_stars": "11,627",
+      "total_stars": "11,628",
       "stars_since": "29 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/helix-editor/helix",
       "description": "A post-modern modal text editor.",
       "language": "Rust",
-      "total_stars": "43,493",
+      "total_stars": "43,494",
       "stars_since": "22 stars today",
       "status": "new"
     }
@@ -218,8 +218,17 @@
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
-      "total_stars": "9,963",
+      "total_stars": "9,971",
       "stars_since": "156 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "9seconds/mtg",
+      "url": "https://github.com/9seconds/mtg",
+      "description": "Highly opinionated MTPROTO proxy for Telegram",
+      "language": "Go",
+      "total_stars": "2,557",
+      "stars_since": "67 stars today",
       "status": "new"
     },
     {
@@ -227,7 +236,7 @@
       "url": "https://github.com/projectdiscovery/katana",
       "description": "A next-generation crawling and spidering framework.",
       "language": "Go",
-      "total_stars": "16,084",
+      "total_stars": "16,085",
       "stars_since": "47 stars today",
       "status": "new"
     },
@@ -245,7 +254,7 @@
       "url": "https://github.com/go-chi/chi",
       "description": "lightweight, idiomatic and composable router for building Go HTTP services",
       "language": "Go",
-      "total_stars": "21,830",
+      "total_stars": "21,826",
       "stars_since": "7 stars today",
       "status": "new"
     },
@@ -254,7 +263,7 @@
       "url": "https://github.com/argoproj/argo-cd",
       "description": "Declarative Continuous Deployment for Kubernetes",
       "language": "Go",
-      "total_stars": "22,322",
+      "total_stars": "22,320",
       "stars_since": "14 stars today",
       "status": "new"
     },
@@ -263,7 +272,7 @@
       "url": "https://github.com/psviderski/uncloud",
       "description": "A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes \u2728",
       "language": "Go",
-      "total_stars": "4,895",
+      "total_stars": "4,896",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -272,7 +281,7 @@
       "url": "https://github.com/gohugoio/hugo",
       "description": "The world\u2019s fastest framework for building websites.",
       "language": "Go",
-      "total_stars": "87,128",
+      "total_stars": "87,129",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -293,15 +302,6 @@
       "total_stars": "4,426",
       "stars_since": "1 star today",
       "status": "new"
-    },
-    {
-      "full_name": "gin-gonic/gin",
-      "url": "https://github.com/gin-gonic/gin",
-      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
-      "language": "Go",
-      "total_stars": "88,255",
-      "stars_since": "16 stars today",
-      "status": "new"
     }
   ],
   "Frontend/TS": [
@@ -310,7 +310,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "16,741",
+      "total_stars": "16,796",
       "stars_since": "1,116 stars today",
       "status": "new"
     },
@@ -319,7 +319,7 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
       "language": "TypeScript",
-      "total_stars": "2,192",
+      "total_stars": "2,198",
       "stars_since": "560 stars today",
       "status": "new"
     },
@@ -328,7 +328,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano claude code\u2013like agent harness, built from 0 to 1",
       "language": "TypeScript",
-      "total_stars": "30,566",
+      "total_stars": "30,726",
       "stars_since": "1,132 stars today",
       "status": "new"
     },
@@ -337,7 +337,7 @@
       "url": "https://github.com/fluxerapp/fluxer",
       "description": "A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.",
       "language": "TypeScript",
-      "total_stars": "6,784",
+      "total_stars": "6,790",
       "stars_since": "204 stars today",
       "status": "new"
     },
@@ -346,7 +346,7 @@
       "url": "https://github.com/YishenTu/claudian",
       "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
       "language": "TypeScript",
-      "total_stars": "4,460",
+      "total_stars": "4,465",
       "stars_since": "405 stars today",
       "status": "new"
     },
@@ -355,7 +355,7 @@
       "url": "https://github.com/hicccc77/WeFlow",
       "description": "WeFlow - \u4e00\u4e2a\u672c\u5730\u7684\u5fae\u4fe1\u804a\u5929\u8bb0\u5f55\u5bfc\u51fa\u548c\u5e74\u5ea6\u62a5\u544a\u5e94\u7528",
       "language": "TypeScript",
-      "total_stars": "5,103",
+      "total_stars": "5,110",
       "stars_since": "131 stars today",
       "status": "new"
     },
@@ -364,7 +364,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "37,668",
+      "total_stars": "37,708",
       "stars_since": "1,153 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
       "description": "CloudFlare free temp domain email \u514d\u8d39\u6536\u53d1 \u4e34\u65f6\u57df\u540d\u90ae\u7bb1 \u652f\u6301\u9644\u4ef6 IMAP SMTP TelegramBot",
       "language": "TypeScript",
-      "total_stars": "6,844",
+      "total_stars": "6,856",
       "stars_since": "62 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "29,800",
+      "total_stars": "29,825",
       "stars_since": "302 stars today",
       "status": "new"
     },
