@@ -5,7 +5,7 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "total_stars": "10,315",
+      "total_stars": "10,478",
       "stars_since": "2,685 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "description": "Teams-first Multi-agent orchestration for Claude Code",
       "language": "TypeScript",
-      "total_stars": "12,670",
+      "total_stars": "12,762",
       "stars_since": "598 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "language": "TypeScript",
-      "total_stars": "19,001",
+      "total_stars": "19,039",
       "stars_since": "210 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "43,188",
+      "total_stars": "43,259",
       "stars_since": "1,002 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "48,419",
+      "total_stars": "48,636",
       "stars_since": "2,394 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
       "description": "No description.",
       "language": "Jupyter Notebook",
-      "total_stars": "11,235",
+      "total_stars": "11,305",
       "stars_since": "1,370 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "20,437",
+      "total_stars": "20,520",
       "stars_since": "437 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/twentyhq/twenty",
       "description": "Building a modern alternative to Salesforce, powered by the community.",
       "language": "TypeScript",
-      "total_stars": "41,280",
+      "total_stars": "41,317",
       "stars_since": "117 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/datalab-to/chandra",
       "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
       "language": "Python",
-      "total_stars": "6,172",
+      "total_stars": "6,227",
       "stars_since": "557 stars today",
       "status": "new"
     }
@@ -88,7 +88,7 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "total_stars": "10,315",
+      "total_stars": "10,478",
       "stars_since": "2,685 stars today",
       "status": "new"
     },
@@ -97,7 +97,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "total_stars": "48,419",
+      "total_stars": "48,636",
       "stars_since": "2,394 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "language": "Python",
-      "total_stars": "20,437",
+      "total_stars": "20,520",
       "stars_since": "437 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/datalab-to/chandra",
       "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
       "language": "Python",
-      "total_stars": "6,172",
+      "total_stars": "6,227",
       "stars_since": "557 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/usestrix/strix",
       "description": "Open-source AI hackers to find and fix your app\u2019s vulnerabilities.",
       "language": "Python",
-      "total_stars": "22,029",
+      "total_stars": "22,034",
       "stars_since": "535 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "total_stars": "17,411",
+      "total_stars": "17,417",
       "stars_since": "213 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/hsliuping/TradingAgents-CN",
       "description": "\u57fa\u4e8e\u591a\u667a\u80fd\u4f53LLM\u7684\u4e2d\u6587\u91d1\u878d\u4ea4\u6613\u6846\u67b6 - TradingAgents\u4e2d\u6587\u589e\u5f3a\u7248",
       "language": "Python",
-      "total_stars": "21,668",
+      "total_stars": "21,685",
       "stars_since": "425 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
       "language": "Python",
-      "total_stars": "32,836",
+      "total_stars": "32,859",
       "stars_since": "353 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/trustgraph-ai/trustgraph",
       "description": "The context development platform. Store, enrich, and retrieve structured knowledge with graph-native infrastructure, semantic retrieval, and portable context cores.",
       "language": "Python",
-      "total_stars": "1,593",
+      "total_stars": "1,597",
       "stars_since": "54 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
       "language": "Python",
-      "total_stars": "31,184",
+      "total_stars": "31,216",
       "stars_since": "613 stars today",
       "status": "new"
     }
@@ -180,7 +180,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "43,188",
+      "total_stars": "43,259",
       "stars_since": "1,002 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/cube-js/cube",
       "description": "\ud83d\udcca Cube Core is open-source semantic layer for AI, BI and embedded analytics",
       "language": "Rust",
-      "total_stars": "19,708",
+      "total_stars": "19,710",
       "stars_since": "11 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/starship/starship",
       "description": "\u2604\ud83c\udf0c\ufe0f The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "language": "Rust",
-      "total_stars": "55,409",
+      "total_stars": "55,412",
       "stars_since": "160 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/fathyb/carbonyl",
       "description": "Chromium running inside your terminal",
       "language": "Rust",
-      "total_stars": "17,007",
+      "total_stars": "17,029",
       "stars_since": "616 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/mikeyobrien/ralph-orchestrator",
       "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
       "language": "Rust",
-      "total_stars": "2,380",
+      "total_stars": "2,379",
       "stars_since": "55 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/katanemo/plano",
       "description": "Plano is an AI-native proxy and data plane for agentic apps \u2014 with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.",
       "language": "Rust",
-      "total_stars": "6,093",
+      "total_stars": "6,095",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "total_stars": "77,955",
+      "total_stars": "77,961",
       "stars_since": "73 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/boa-dev/boa",
       "description": "Boa is an embeddable Javascript engine written in Rust.",
       "language": "Rust",
-      "total_stars": "7,106",
+      "total_stars": "7,107",
       "stars_since": "10 stars today",
       "status": "new"
     }
@@ -272,7 +272,7 @@
       "url": "https://github.com/coder/coder",
       "description": "Secure environments for developers and their agents",
       "language": "Go",
-      "total_stars": "12,671",
+      "total_stars": "12,673",
       "stars_since": "23 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/riba2534/feishu-cli",
       "description": "No description.",
       "language": "Go",
-      "total_stars": "531",
+      "total_stars": "533",
       "stars_since": "23 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/gofiber/fiber",
       "description": "\u26a1\ufe0f Express inspired web framework written in Go",
       "language": "Go",
-      "total_stars": "39,475",
+      "total_stars": "39,476",
       "stars_since": "38 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/putyy/res-downloader",
       "description": "\u89c6\u9891\u53f7\u3001\u5c0f\u7a0b\u5e8f\u3001\u6296\u97f3\u3001\u5feb\u624b\u3001\u5c0f\u7ea2\u4e66\u3001\u76f4\u64ad\u6d41\u3001m3u8\u3001\u9177\u72d7\u3001QQ\u97f3\u4e50\u7b49\u5e38\u89c1\u7f51\u7edc\u8d44\u6e90\u4e0b\u8f7d!",
       "language": "Go",
-      "total_stars": "16,043",
+      "total_stars": "16,045",
       "stars_since": "43 stars today",
       "status": "new"
     },
@@ -364,7 +364,7 @@
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "description": "Teams-first Multi-agent orchestration for Claude Code",
       "language": "TypeScript",
-      "total_stars": "12,670",
+      "total_stars": "12,762",
       "stars_since": "598 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "language": "TypeScript",
-      "total_stars": "19,001",
+      "total_stars": "19,039",
       "stars_since": "210 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/twentyhq/twenty",
       "description": "Building a modern alternative to Salesforce, powered by the community.",
       "language": "TypeScript",
-      "total_stars": "41,280",
+      "total_stars": "41,317",
       "stars_since": "117 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/pascalorg/editor",
       "description": "Create and share 3D architectural projects.",
       "language": "TypeScript",
-      "total_stars": "7,302",
+      "total_stars": "7,342",
       "stars_since": "633 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/letta-ai/claude-subconscious",
       "description": "Give Claude Code a subconscious",
       "language": "TypeScript",
-      "total_stars": "1,761",
+      "total_stars": "1,767",
       "stars_since": "446 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "27,015",
+      "total_stars": "27,037",
       "stars_since": "997 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/playcanvas/supersplat",
       "description": "3D Gaussian Splat Editor",
       "language": "TypeScript",
-      "total_stars": "3,998",
+      "total_stars": "4,000",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/Dokploy/dokploy",
       "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
       "language": "TypeScript",
-      "total_stars": "32,156",
+      "total_stars": "32,158",
       "stars_since": "144 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "\ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
       "language": "TypeScript",
-      "total_stars": "98,849",
+      "total_stars": "98,886",
       "stars_since": "553 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "19,570",
+      "total_stars": "19,582",
       "stars_since": "445 stars today",
       "status": "new"
     }
