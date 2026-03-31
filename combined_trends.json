@@ -1,57 +1,30 @@
 {
   "Overall": [
     {
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "total_stars": "7,060",
-      "stars_since": "1,165 stars today",
-      "status": "new"
-    },
-    {
       "full_name": "microsoft/VibeVoice",
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python",
-      "total_stars": "27,546",
-      "stars_since": "1,056 stars today",
+      "total_stars": "30,463",
+      "stars_since": "2,492 stars today",
       "status": "new"
     },
     {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
-      "total_stars": "16,907",
-      "stars_since": "917 stars today",
+      "total_stars": "9,939",
+      "stars_since": "4,232 stars today",
       "status": "new"
     },
     {
-      "full_name": "OpenBB-finance/OpenBB",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "description": "Financial data platform for analysts, quants and AI agents.",
-      "language": "Python",
-      "total_stars": "64,064",
-      "stars_since": "137 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "total_stars": "123,217",
-      "stars_since": "2,230 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
-      "language": "TypeScript",
-      "total_stars": "42,681",
-      "stars_since": "373 stars today",
+      "full_name": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "total_stars": "26,198",
+      "stars_since": "1,108 stars today",
       "status": "new"
     },
     {
@@ -59,26 +32,44 @@
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "language": "Python",
-      "total_stars": "85,401",
-      "stars_since": "1,132 stars today",
+      "total_stars": "86,370",
+      "stars_since": "1,136 stars today",
       "status": "new"
     },
     {
-      "full_name": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
       "language": "Python",
-      "total_stars": "15,494",
-      "stars_since": "1,308 stars today",
+      "total_stars": "64,541",
+      "stars_since": "502 stars today",
       "status": "new"
     },
     {
-      "full_name": "shareAI-lab/learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "description": "Bash is all you need - A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "total_stars": "42,832",
-      "stars_since": "919 stars today",
+      "total_stars": "439,731",
+      "stars_since": "368 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "total_stars": "74,743",
+      "stars_since": "76 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "apache/superset",
+      "url": "https://github.com/apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "total_stars": "71,937",
+      "stars_since": "49 stars today",
       "status": "new"
     },
     {
@@ -86,28 +77,8 @@
       "url": "https://github.com/fastfetch-cli/fastfetch",
       "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
       "language": "C",
-      "total_stars": "21,182",
-      "stars_since": "37 stars today",
-      "status": "new"
-    }
-  ],
-  "AI/Python": [
-    {
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "total_stars": "7,060",
-      "stars_since": "1,165 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "total_stars": "27,546",
-      "stars_since": "1,056 stars today",
+      "total_stars": "21,420",
+      "stars_since": "276 stars today",
       "status": "new"
     },
     {
@@ -115,17 +86,28 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "16,907",
-      "stars_since": "917 stars today",
+      "total_stars": "18,642",
+      "stars_since": "1,851 stars today",
+      "status": "new"
+    }
+  ],
+  "AI/Python": [
+    {
+      "full_name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "total_stars": "30,463",
+      "stars_since": "2,492 stars today",
       "status": "new"
     },
     {
-      "full_name": "OpenBB-finance/OpenBB",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "description": "Financial data platform for analysts, quants and AI agents.",
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
-      "total_stars": "64,064",
-      "stars_since": "137 stars today",
+      "total_stars": "9,939",
+      "stars_since": "4,232 stars today",
       "status": "new"
     },
     {
@@ -133,44 +115,35 @@
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "language": "Python",
-      "total_stars": "85,401",
-      "stars_since": "1,132 stars today",
+      "total_stars": "86,370",
+      "stars_since": "1,136 stars today",
       "status": "new"
     },
     {
-      "full_name": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
       "language": "Python",
-      "total_stars": "15,494",
-      "stars_since": "1,308 stars today",
+      "total_stars": "64,541",
+      "stars_since": "502 stars today",
       "status": "new"
     },
     {
-      "full_name": "Z4nzu/hackingtool",
-      "url": "https://github.com/Z4nzu/hackingtool",
-      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "total_stars": "56,360",
-      "stars_since": "377 stars today",
+      "total_stars": "74,743",
+      "stars_since": "76 stars today",
       "status": "new"
     },
     {
-      "full_name": "virattt/ai-hedge-fund",
-      "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "49,748",
-      "stars_since": "91 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "onyx-dot-app/onyx",
-      "url": "https://github.com/onyx-dot-app/onyx",
-      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "language": "Python",
-      "total_stars": "20,090",
-      "stars_since": "493 stars today",
+      "total_stars": "18,642",
+      "stars_since": "1,851 stars today",
       "status": "new"
     },
     {
@@ -178,28 +151,91 @@
       "url": "https://github.com/SakanaAI/AI-Scientist-v2",
       "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
       "language": "Python",
-      "total_stars": "3,873",
-      "stars_since": "519 stars today",
+      "total_stars": "4,059",
+      "stars_since": "238 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "microsoft/agent-lightning",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "total_stars": "16,032",
+      "stars_since": "251 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "total_stars": "56,882",
+      "stars_since": "862 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "49,798",
+      "stars_since": "61 stars today",
       "status": "new"
     }
   ],
   "Rust Ecosystem": [
     {
-      "full_name": "denoland/deno",
-      "url": "https://github.com/denoland/deno",
-      "description": "A modern runtime for JavaScript and TypeScript.",
+      "full_name": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
       "language": "Rust",
-      "total_stars": "106,441",
-      "stars_since": "12 stars today",
+      "total_stars": "30,779",
+      "stars_since": "111 stars today",
       "status": "new"
     },
     {
-      "full_name": "dmtrKovalenko/fff.nvim",
-      "url": "https://github.com/dmtrKovalenko/fff.nvim",
-      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "full_name": "Wilfred/difftastic",
+      "url": "https://github.com/Wilfred/difftastic",
+      "description": "a structural diff that understands syntax \ud83d\udfe5\ud83d\udfe9",
       "language": "Rust",
-      "total_stars": "2,099",
-      "stars_since": "27 stars today",
+      "total_stars": "24,880",
+      "stars_since": "32 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "sigoden/aichat",
+      "url": "https://github.com/sigoden/aichat",
+      "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+      "language": "Rust",
+      "total_stars": "9,696",
+      "stars_since": "22 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "base/base",
+      "url": "https://github.com/base/base",
+      "description": "All components used for running Base",
+      "language": "Rust",
+      "total_stars": "286",
+      "stars_since": "7 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "QuipNetwork/hashsigs-rs",
+      "url": "https://github.com/QuipNetwork/hashsigs-rs",
+      "description": "Hash-based post quantum signatures in Rust",
+      "language": "Rust",
+      "total_stars": "7,763",
+      "stars_since": "292 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "gotempsh/temps",
+      "url": "https://github.com/gotempsh/temps",
+      "description": "Self host your own Vercel",
+      "language": "Rust",
+      "total_stars": "364",
+      "stars_since": "9 stars today",
       "status": "new"
     },
     {
@@ -207,127 +243,46 @@
       "url": "https://github.com/Pumpkin-MC/Pumpkin",
       "description": "Empowering everyone to host fast and efficient Minecraft servers.",
       "language": "Rust",
-      "total_stars": "7,339",
-      "stars_since": "11 stars today",
+      "total_stars": "7,348",
+      "stars_since": "21 stars today",
       "status": "new"
     },
     {
-      "full_name": "fish-shell/fish-shell",
-      "url": "https://github.com/fish-shell/fish-shell",
-      "description": "The user-friendly command line shell.",
+      "full_name": "signalapp/libsignal",
+      "url": "https://github.com/signalapp/libsignal",
+      "description": "Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.",
       "language": "Rust",
-      "total_stars": "33,001",
-      "stars_since": "18 stars today",
+      "total_stars": "5,616",
+      "stars_since": "7 stars today",
       "status": "new"
     },
     {
-      "full_name": "bevyengine/bevy",
-      "url": "https://github.com/bevyengine/bevy",
-      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "full_name": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "description": "Autonomous agents for everyone",
       "language": "Rust",
-      "total_stars": "45,333",
+      "total_stars": "17,986",
       "stars_since": "10 stars today",
       "status": "new"
     },
     {
-      "full_name": "TabbyML/tabby",
-      "url": "https://github.com/TabbyML/tabby",
-      "description": "Self-hosted AI coding assistant",
+      "full_name": "qarmin/czkawka",
+      "url": "https://github.com/qarmin/czkawka",
+      "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
       "language": "Rust",
-      "total_stars": "33,245",
-      "stars_since": "56 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "zellij-org/zellij",
-      "url": "https://github.com/zellij-org/zellij",
-      "description": "A terminal workspace with batteries included",
-      "language": "Rust",
-      "total_stars": "30,693",
-      "stars_since": "119 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "cargo-bins/cargo-binstall",
-      "url": "https://github.com/cargo-bins/cargo-binstall",
-      "description": "Binary installation for rust projects",
-      "language": "Rust",
-      "total_stars": "2,575",
-      "stars_since": "4 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "fathyb/carbonyl",
-      "url": "https://github.com/fathyb/carbonyl",
-      "description": "Chromium running inside your terminal",
-      "language": "Rust",
-      "total_stars": "17,493",
-      "stars_since": "180 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "nkaz001/hftbacktest",
-      "url": "https://github.com/nkaz001/hftbacktest",
-      "description": "Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit",
-      "language": "Rust",
-      "total_stars": "3,874",
-      "stars_since": "4 stars today",
+      "total_stars": "30,290",
+      "stars_since": "28 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "wailsapp/wails",
-      "url": "https://github.com/wailsapp/wails",
-      "description": "Create beautiful applications using Go",
+      "full_name": "go-acme/lego",
+      "url": "https://github.com/go-acme/lego",
+      "description": "Let's Encrypt/ACME client and library written in Go",
       "language": "Go",
-      "total_stars": "33,480",
-      "stars_since": "13 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "owncast/owncast",
-      "url": "https://github.com/owncast/owncast",
-      "description": "Take control over your live stream video by running it yourself. Streaming + chat out of the box.",
-      "language": "Go",
-      "total_stars": "11,108",
-      "stars_since": "16 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "sysadminsmedia/homebox",
-      "url": "https://github.com/sysadminsmedia/homebox",
-      "description": "A continuation of HomeBox the inventory and organization system built for the Home User",
-      "language": "Go",
-      "total_stars": "5,580",
-      "stars_since": "15 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "sundowndev/phoneinfoga",
-      "url": "https://github.com/sundowndev/phoneinfoga",
-      "description": "Information gathering framework for phone numbers",
-      "language": "Go",
-      "total_stars": "16,130",
-      "stars_since": "9 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "XTLS/Xray-core",
-      "url": "https://github.com/XTLS/Xray-core",
-      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-      "language": "Go",
-      "total_stars": "36,360",
-      "stars_since": "37 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "wavetermdev/waveterm",
-      "url": "https://github.com/wavetermdev/waveterm",
-      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
-      "language": "Go",
-      "total_stars": "18,818",
-      "stars_since": "45 stars today",
+      "total_stars": "9,409",
+      "stars_since": "30 stars today",
       "status": "new"
     },
     {
@@ -335,64 +290,100 @@
       "url": "https://github.com/supabase/cli",
       "description": "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema.",
       "language": "Go",
-      "total_stars": "1,895",
-      "stars_since": "54 stars today",
+      "total_stars": "1,922",
+      "stars_since": "49 stars today",
       "status": "new"
     },
     {
-      "full_name": "mostlygeek/llama-swap",
-      "url": "https://github.com/mostlygeek/llama-swap",
-      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "full_name": "riverqueue/river",
+      "url": "https://github.com/riverqueue/river",
+      "description": "Fast and reliable background jobs in Go",
       "language": "Go",
-      "total_stars": "2,957",
-      "stars_since": "17 stars today",
+      "total_stars": "4,956",
+      "stars_since": "22 stars today",
       "status": "new"
     },
     {
-      "full_name": "authelia/authelia",
-      "url": "https://github.com/authelia/authelia",
-      "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122",
+      "full_name": "AlistGo/alist",
+      "url": "https://github.com/AlistGo/alist",
+      "description": "\ud83d\uddc2\ufe0fA file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / \u4e00\u4e2a\u652f\u6301\u591a\u5b58\u50a8\u7684\u6587\u4ef6\u5217\u8868/WebDAV\u7a0b\u5e8f\uff0c\u4f7f\u7528 Gin \u548c Solidjs\u3002",
       "language": "Go",
-      "total_stars": "27,346",
-      "stars_since": "11 stars today",
+      "total_stars": "49,238",
+      "stars_since": "6 stars today",
       "status": "new"
     },
     {
-      "full_name": "henrygd/beszel",
-      "url": "https://github.com/henrygd/beszel",
-      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "full_name": "owncast/owncast",
+      "url": "https://github.com/owncast/owncast",
+      "description": "Take control over your live stream video by running it yourself. Streaming + chat out of the box.",
       "language": "Go",
-      "total_stars": "20,334",
-      "stars_since": "38 stars today",
+      "total_stars": "11,125",
+      "stars_since": "26 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "putyy/res-downloader",
+      "url": "https://github.com/putyy/res-downloader",
+      "description": "\u89c6\u9891\u53f7\u3001\u5c0f\u7a0b\u5e8f\u3001\u6296\u97f3\u3001\u5feb\u624b\u3001\u5c0f\u7ea2\u4e66\u3001\u76f4\u64ad\u6d41\u3001m3u8\u3001\u9177\u72d7\u3001QQ\u97f3\u4e50\u7b49\u5e38\u89c1\u7f51\u7edc\u8d44\u6e90\u4e0b\u8f7d!",
+      "language": "Go",
+      "total_stars": "16,194",
+      "stars_since": "87 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek\u5ba2\u6237\u7aef\u5bf9\u8bdd\u8f6cAPI\uff0c\u9ad8\u6027\u80fd\uff0c\u591a\u8d26\u53f7\u8f6e\u8be2\uff0c\u5305\u542b\u5b8c\u6574\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u652f\u6301\u7eafvercel\u3001docker\u90e8\u7f72\u4f7f\u7528\u3002\u517c\u5bb9Openclaw\ud83e\udd9e\u3001Roocode\u3001Claudecode\u3001Kilocode\u7b49\u5de5\u5177",
+      "language": "Go",
+      "total_stars": "738",
+      "stars_since": "50 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "v2fly/domain-list-community",
+      "url": "https://github.com/v2fly/domain-list-community",
+      "description": "Community managed domain list. Generate geosite.dat for V2Ray.",
+      "language": "Go",
+      "total_stars": "8,100",
+      "stars_since": "12 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "NoFxAiOS/nofx",
+      "url": "https://github.com/NoFxAiOS/nofx",
+      "description": "Your personal AI trading assistant. Any market. Any model. Pay with USDC, not API keys.",
+      "language": "Go",
+      "total_stars": "11,473",
+      "stars_since": "140 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Loyalsoldier/geoip",
+      "url": "https://github.com/Loyalsoldier/geoip",
+      "description": "\ud83c\udf1a \ud83c\udf0d \ud83c\udf1d GeoIP \u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u652f\u6301\u81ea\u884c\u5b9a\u5236 V2Ray dat \u683c\u5f0f\u6587\u4ef6 geoip.dat\u3001MaxMind mmdb \u683c\u5f0f\u6587\u4ef6\u3001sing-box SRS \u683c\u5f0f\u6587\u4ef6\u3001mihomo MRS \u683c\u5f0f\u6587\u4ef6\u3001Clash ruleset\u3001Surge ruleset \u7b49\u3002Enhanced edition of GeoIP files for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc.",
+      "language": "Go",
+      "total_stars": "5,798",
+      "stars_since": "6 stars today",
       "status": "new"
     }
   ],
   "Frontend/TS": [
     {
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "total_stars": "42,681",
-      "stars_since": "373 stars today",
+      "total_stars": "439,731",
+      "stars_since": "368 stars today",
       "status": "new"
     },
     {
-      "full_name": "shareAI-lab/learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "description": "Bash is all you need - A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
+      "full_name": "apache/superset",
+      "url": "https://github.com/apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
       "language": "TypeScript",
-      "total_stars": "42,832",
-      "stars_since": "919 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "moeru-ai/airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "total_stars": "36,398",
-      "stars_since": "224 stars today",
+      "total_stars": "71,937",
+      "stars_since": "49 stars today",
       "status": "new"
     },
     {
@@ -400,53 +391,71 @@
       "url": "https://github.com/twentyhq/twenty",
       "description": "Building a modern alternative to Salesforce, powered by the community.",
       "language": "TypeScript",
-      "total_stars": "42,986",
-      "stars_since": "447 stars today",
+      "total_stars": "43,286",
+      "stars_since": "511 stars today",
       "status": "new"
     },
     {
-      "full_name": "virattt/dexter",
-      "url": "https://github.com/virattt/dexter",
-      "description": "An autonomous agent for deep financial research",
+      "full_name": "steipete/mcporter",
+      "url": "https://github.com/steipete/mcporter",
+      "description": "Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.",
       "language": "TypeScript",
-      "total_stars": "20,469",
-      "stars_since": "412 stars today",
+      "total_stars": "3,541",
+      "stars_since": "105 stars today",
       "status": "new"
     },
     {
-      "full_name": "fluxerapp/fluxer",
-      "url": "https://github.com/fluxerapp/fluxer",
-      "description": "A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.",
+      "full_name": "vas3k/TaxHacker",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
       "language": "TypeScript",
-      "total_stars": "7,420",
-      "stars_since": "47 stars today",
+      "total_stars": "3,387",
+      "stars_since": "810 stars today",
       "status": "new"
     },
     {
-      "full_name": "stan-smith/FossFLOW",
-      "url": "https://github.com/stan-smith/FossFLOW",
-      "description": "Make beautiful isometric infrastructure diagrams",
+      "full_name": "logto-io/logto",
+      "url": "https://github.com/logto-io/logto",
+      "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
       "language": "TypeScript",
-      "total_stars": "19,428",
-      "stars_since": "46 stars today",
+      "total_stars": "11,823",
+      "stars_since": "14 stars today",
       "status": "new"
     },
     {
-      "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
-      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
-      "description": "A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy \"cheatsheet\". Whether it's the \"ultimate\" guide to Claude Code will be up to the reader :)",
+      "full_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "2,511",
-      "stars_since": "79 stars today",
+      "total_stars": "36,625",
+      "stars_since": "372 stars today",
       "status": "new"
     },
     {
-      "full_name": "dreamhunter2333/cloudflare_temp_email",
-      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
-      "description": "CloudFlare free temp domain email \u514d\u8d39\u6536\u53d1 \u4e34\u65f6\u57df\u540d\u90ae\u7bb1 \u652f\u6301\u9644\u4ef6 IMAP SMTP TelegramBot",
+      "full_name": "humanlayer/humanlayer",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
       "language": "TypeScript",
-      "total_stars": "7,500",
-      "stars_since": "65 stars today",
+      "total_stars": "10,167",
+      "stars_since": "45 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Dokploy/dokploy",
+      "url": "https://github.com/Dokploy/dokploy",
+      "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
+      "language": "TypeScript",
+      "total_stars": "32,489",
+      "stars_since": "101 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+      "language": "TypeScript",
+      "total_stars": "55,419",
+      "stars_since": "70 stars today",
       "status": "new"
     }
   ]
