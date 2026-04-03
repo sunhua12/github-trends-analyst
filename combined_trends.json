@@ -1,113 +1,30 @@
 {
   "Overall": [
     {
-      "full_name": "anthropics/claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Shell",
-      "total_stars": "101,613",
-      "stars_since": "10,749 stars today",
+      "full_name": "siddharthvaddem/openscreen",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "total_stars": "15,926",
+      "stars_since": "2,573 stars today",
       "status": "new"
     },
     {
-      "full_name": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "total_stars": "34,524",
-      "stars_since": "1,685 stars today",
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "total_stars": "11,765",
+      "stars_since": "2,867 stars today",
       "status": "new"
     },
     {
-      "full_name": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "total_stars": "12,226",
-      "stars_since": "380 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "total_stars": "15,768",
-      "stars_since": "3,301 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "axios/axios",
-      "url": "https://github.com/axios/axios",
-      "description": "Promise based HTTP client for the browser and node.js",
-      "language": "JavaScript",
-      "total_stars": "108,879",
-      "stars_since": "93 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "total_stars": "71,853",
-      "stars_since": "2,390 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "f/prompts.chat",
-      "url": "https://github.com/f/prompts.chat",
-      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
-      "language": "HTML",
-      "total_stars": "156,107",
-      "stars_since": "398 stars today",
-      "status": "new"
-    }
-  ],
-  "AI/Python": [
-    {
-      "full_name": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "total_stars": "34,524",
-      "stars_since": "1,685 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "total_stars": "12,226",
-      "stars_since": "380 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "total_stars": "15,768",
-      "stars_since": "3,301 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "PaddlePaddle/PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "language": "Python",
-      "total_stars": "74,617",
-      "stars_since": "686 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "total_stars": "21,703",
-      "stars_since": "1,538 stars today",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+      "language": "Unknown",
+      "total_stars": "36,383",
+      "stars_since": "306 stars today",
       "status": "new"
     },
     {
@@ -115,44 +32,73 @@
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "total_stars": "76,500",
-      "stars_since": "797 stars today",
+      "total_stars": "77,295",
+      "stars_since": "827 stars today",
+      "status": "new"
+    }
+  ],
+  "AI/Python": [
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "total_stars": "77,295",
+      "stars_since": "827 stars today",
       "status": "new"
     },
     {
-      "full_name": "NVIDIA/Model-Optimizer",
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "description": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "full_name": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "description": "PraisonAI \ud83e\udd9e - Your 24/7 AI employee team. Automate and solve complex challenges with low-code multi-agent AI that plans, researches, codes, and delivers to Telegram, Discord, and WhatsApp. Handoffs, guardrails, memory, RAG, 100+ LLMs.",
       "language": "Python",
-      "total_stars": "2,319",
-      "stars_since": "25 stars today",
+      "total_stars": "6,326",
+      "stars_since": "107 stars today",
       "status": "new"
     },
     {
-      "full_name": "allenai/OLMo-core",
-      "url": "https://github.com/allenai/OLMo-core",
-      "description": "PyTorch building blocks for the OLMo ecosystem",
+      "full_name": "yusufkaraaslan/Skill_Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
       "language": "Python",
-      "total_stars": "1,084",
-      "stars_since": "66 stars today",
+      "total_stars": "12,158",
+      "stars_since": "264 stars today",
       "status": "new"
     },
     {
-      "full_name": "sansan0/TrendRadar",
-      "url": "https://github.com/sansan0/TrendRadar",
-      "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 + RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 + AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
+      "full_name": "zai-org/GLM-OCR",
+      "url": "https://github.com/zai-org/GLM-OCR",
+      "description": "GLM-OCR: Accurate \u00d7 Fast \u00d7 Comprehensive",
       "language": "Python",
-      "total_stars": "50,546",
-      "stars_since": "258 stars today",
+      "total_stars": "5,248",
+      "stars_since": "237 stars today",
       "status": "new"
     },
     {
-      "full_name": "OpenBMB/ChatDev",
-      "url": "https://github.com/OpenBMB/ChatDev",
-      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "full_name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "total_stars": "32,553",
-      "stars_since": "247 stars today",
+      "total_stars": "13,428",
+      "stars_since": "1,176 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. \ud83d\udc9c",
+      "language": "Python",
+      "total_stars": "37,431",
+      "stars_since": "535 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "total_stars": "1,426",
+      "stars_since": "57 stars today",
       "status": "new"
     }
   ],
@@ -162,35 +108,8 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "71,853",
-      "stars_since": "2,390 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "screenpipe/screenpipe",
-      "url": "https://github.com/screenpipe/screenpipe",
-      "description": "run agents that work for you in the background based on what you do",
-      "language": "Rust",
-      "total_stars": "17,937",
-      "stars_since": "53 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
-      "language": "Rust",
-      "total_stars": "37,157",
-      "stars_since": "706 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "mayocream/koharu",
-      "url": "https://github.com/mayocream/koharu",
-      "description": "ML-powered manga translator, written in Rust.",
-      "language": "Rust",
-      "total_stars": "1,664",
-      "stars_since": "47 stars today",
+      "total_stars": "72,629",
+      "stars_since": "1,435 stars today",
       "status": "new"
     },
     {
@@ -198,127 +117,100 @@
       "url": "https://github.com/antinomyhq/forgecode",
       "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
       "language": "Rust",
-      "total_stars": "5,543",
-      "stars_since": "149 stars today",
+      "total_stars": "5,716",
+      "stars_since": "252 stars today",
       "status": "new"
     },
     {
-      "full_name": "linera-io/linera-protocol",
-      "url": "https://github.com/linera-io/linera-protocol",
-      "description": "Main repository for the Linera protocol",
+      "full_name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "32,149",
-      "stars_since": "2 stars today",
+      "total_stars": "37,872",
+      "stars_since": "781 stars today",
       "status": "new"
     },
     {
-      "full_name": "dani-garcia/vaultwarden",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "full_name": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
       "language": "Rust",
-      "total_stars": "57,769",
-      "stars_since": "118 stars today",
+      "total_stars": "6,265",
+      "stars_since": "4 stars today",
       "status": "new"
     },
     {
-      "full_name": "nautechsystems/nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "full_name": "rivet-dev/rivet",
+      "url": "https://github.com/rivet-dev/rivet",
+      "description": "Rivet Actors are the primitive for stateful workloads. Built for AI agents, collaborative apps, and durable execution.",
       "language": "Rust",
-      "total_stars": "21,591",
-      "stars_since": "46 stars today",
+      "total_stars": "5,371",
+      "stars_since": "12 stars today",
       "status": "new"
     },
     {
-      "full_name": "raine/workmux",
-      "url": "https://github.com/raine/workmux",
-      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "full_name": "SpikeHD/Dorion",
+      "url": "https://github.com/SpikeHD/Dorion",
+      "description": "Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!",
       "language": "Rust",
-      "total_stars": "1,109",
-      "stars_since": "14 stars today",
+      "total_stars": "2,046",
+      "stars_since": "47 stars today",
       "status": "new"
     },
     {
-      "full_name": "cloud-hypervisor/cloud-hypervisor",
-      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
-      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "full_name": "biomejs/biome",
+      "url": "https://github.com/biomejs/biome",
+      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
       "language": "Rust",
-      "total_stars": "5,439",
-      "stars_since": "8 stars today",
+      "total_stars": "24,196",
+      "stars_since": "20 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "lakehq/sail",
+      "url": "https://github.com/lakehq/sail",
+      "description": "LakeSail's computation framework with a mission to unify batch processing, stream processing, and compute-intensive AI workloads.",
+      "language": "Rust",
+      "total_stars": "1,247",
+      "stars_since": "22 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "near/nearcore",
+      "url": "https://github.com/near/nearcore",
+      "description": "Reference client for NEAR Protocol",
+      "language": "Rust",
+      "total_stars": "2,584",
+      "stars_since": "1 star today",
+      "status": "new"
+    },
+    {
+      "full_name": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+      "language": "Rust",
+      "total_stars": "7,889",
+      "stars_since": "17 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "safing/portmaster",
-      "url": "https://github.com/safing/portmaster",
-      "description": "\ud83c\udfd4 Love Freedom - \u274c Block Mass Surveillance",
+      "full_name": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
       "language": "Go",
-      "total_stars": "12,249",
-      "stars_since": "31 stars today",
+      "total_stars": "7,383",
+      "stars_since": "45 stars today",
       "status": "new"
     },
     {
-      "full_name": "electrikmilk/cherri",
-      "url": "https://github.com/electrikmilk/cherri",
-      "description": "Siri Shortcuts Programming Language \ud83c\udf52",
+      "full_name": "777genius/claude-notifications-go",
+      "url": "https://github.com/777genius/claude-notifications-go",
+      "description": "\ud83d\udd14 Cross-platform smart notifications plugin for Claude Code. 6 types. Click-to-focus. 1 line installation. Instant. Analyze context. Zero dependencies. webhooks (ntfy, slack, telegram...). Linux, MacOS, Windows.",
       "language": "Go",
-      "total_stars": "1,260",
-      "stars_since": "76 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "usememos/memos",
-      "url": "https://github.com/usememos/memos",
-      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-      "language": "Go",
-      "total_stars": "58,466",
-      "stars_since": "43 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "5rahim/seanime",
-      "url": "https://github.com/5rahim/seanime",
-      "description": "Open-source media server with a web interface and desktop app for anime and manga.",
-      "language": "Go",
-      "total_stars": "3,154",
-      "stars_since": "24 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "harness/harness",
-      "url": "https://github.com/harness/harness",
-      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
-      "language": "Go",
-      "total_stars": "34,314",
-      "stars_since": "50 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "masterking32/MasterDnsVPN",
-      "url": "https://github.com/masterking32/MasterDnsVPN",
-      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, SOCKS5 multiplexing, resolver load balancing, and high packet-loss stability.",
-      "language": "Go",
-      "total_stars": "274",
-      "stars_since": "20 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "CJackHwang/ds2api",
-      "url": "https://github.com/CJackHwang/ds2api",
-      "description": "Deepseek\u5ba2\u6237\u7aef\u5bf9\u8bdd\u8f6cAPI\uff0c\u9ad8\u6027\u80fd\uff0c\u591a\u8d26\u53f7\u8f6e\u8be2\uff0c\u5305\u542b\u5b8c\u6574\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u652f\u6301\u7eafvercel\u3001docker\u90e8\u7f72\u4f7f\u7528\u3002\u517c\u5bb9Openclaw\ud83e\udd9e\u3001Roocode\u3001Claudecode\u3001Kilocode\u7b49\u5de5\u5177",
-      "language": "Go",
-      "total_stars": "794",
-      "stars_since": "26 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "octelium/octelium",
-      "url": "https://github.com/octelium/octelium",
-      "description": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.",
-      "language": "Go",
-      "total_stars": "3,666",
-      "stars_since": "75 stars today",
+      "total_stars": "464",
+      "stars_since": "17 stars today",
       "status": "new"
     },
     {
@@ -326,91 +218,91 @@
       "url": "https://github.com/krillinai/KrillinAI",
       "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube\uff0cTikTok. AI\u89c6\u9891\u7ffb\u8bd1\u914d\u97f3\u5de5\u5177\uff0c100\u79cd\u8bed\u8a00\u53cc\u5411\u7ffb\u8bd1\uff0c\u4e00\u952e\u90e8\u7f72\u5168\u6d41\u7a0b\uff0c\u53ef\u4ee5\u751f\u6296\u97f3\uff0c\u5c0f\u7ea2\u4e66\uff0c\u54d4\u54e9\u54d4\u54e9\uff0c\u89c6\u9891\u53f7\uff0cTikTok\uff0cYoutube\u7b49\u5f62\u6001\u7684\u5185\u5bb9\u6210\u9002\u914d",
       "language": "Go",
-      "total_stars": "9,799",
-      "stars_since": "25 stars today",
+      "total_stars": "9,808",
+      "stars_since": "20 stars today",
       "status": "new"
     },
     {
-      "full_name": "0xERR0R/blocky",
-      "url": "https://github.com/0xERR0R/blocky",
-      "description": "Fast and lightweight DNS proxy as ad-blocker for local network with many features",
+      "full_name": "go-resty/resty",
+      "url": "https://github.com/go-resty/resty",
+      "description": "Simple HTTP, REST, and SSE client library for Go",
       "language": "Go",
-      "total_stars": "6,430",
-      "stars_since": "39 stars today",
+      "total_stars": "11,619",
+      "stars_since": "3 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "labstack/echo",
+      "url": "https://github.com/labstack/echo",
+      "description": "High performance, minimalist Go web framework",
+      "language": "Go",
+      "total_stars": "32,282",
+      "stars_since": "6 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "kubernetes-sigs/kustomize",
+      "url": "https://github.com/kubernetes-sigs/kustomize",
+      "description": "Customization of kubernetes YAML configurations",
+      "language": "Go",
+      "total_stars": "12,007",
+      "stars_since": "3 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-collector",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "language": "Go",
+      "total_stars": "6,804",
+      "stars_since": "8 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "golang-migrate/migrate",
+      "url": "https://github.com/golang-migrate/migrate",
+      "description": "Database migrations. CLI and Golang library.",
+      "language": "Go",
+      "total_stars": "18,315",
+      "stars_since": "9 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "total_stars": "4,557",
+      "stars_since": "5 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "kubernetes-sigs/cluster-api",
+      "url": "https://github.com/kubernetes-sigs/cluster-api",
+      "description": "Home for Cluster API, a subproject of sig-cluster-lifecycle",
+      "language": "Go",
+      "total_stars": "4,159",
+      "stars_since": "5 stars today",
       "status": "new"
     }
   ],
   "Frontend/TS": [
     {
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-      "description": "Teams-first Multi-agent orchestration for Claude Code",
-      "language": "TypeScript",
-      "total_stars": "21,067",
-      "stars_since": "2,125 stars today",
-      "status": "new"
-    },
-    {
       "full_name": "siddharthvaddem/openscreen",
       "url": "https://github.com/siddharthvaddem/openscreen",
       "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
       "language": "TypeScript",
-      "total_stars": "13,590",
-      "stars_since": "3,350 stars today",
+      "total_stars": "15,926",
+      "stars_since": "2,573 stars today",
       "status": "new"
     },
     {
-      "full_name": "freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
       "language": "TypeScript",
-      "total_stars": "440,424",
-      "stars_since": "236 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "vas3k/TaxHacker",
-      "url": "https://github.com/vas3k/TaxHacker",
-      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
-      "language": "TypeScript",
-      "total_stars": "4,024",
-      "stars_since": "421 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "vadimdemedes/ink",
-      "url": "https://github.com/vadimdemedes/ink",
-      "description": "\ud83c\udf08 React for interactive command-line apps",
-      "language": "TypeScript",
-      "total_stars": "36,733",
-      "stars_since": "561 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "EveryInc/compound-engineering-plugin",
-      "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "description": "Office Compound Engineering plugin for Claude Code, Codex, and more",
-      "language": "TypeScript",
-      "total_stars": "12,457",
-      "stars_since": "161 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "dreamhunter2333/cloudflare_temp_email",
-      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
-      "description": "CloudFlare free temp domain email \u514d\u8d39\u6536\u53d1 \u4e34\u65f6\u57df\u540d\u90ae\u7bb1 \u652f\u6301\u9644\u4ef6 IMAP SMTP TelegramBot",
-      "language": "TypeScript",
-      "total_stars": "7,791",
-      "stars_since": "109 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "shareAI-lab/Kode-Agent",
-      "url": "https://github.com/shareAI-lab/Kode-Agent",
-      "description": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task.",
-      "language": "TypeScript",
-      "total_stars": "4,841",
-      "stars_since": "23 stars today",
+      "total_stars": "11,765",
+      "stars_since": "2,867 stars today",
       "status": "new"
     }
   ]
