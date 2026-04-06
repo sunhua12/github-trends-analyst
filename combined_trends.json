@@ -5,7 +5,7 @@
       "url": "https://github.com/google-ai-edge/gallery",
       "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
       "language": "Kotlin",
-      "total_stars": "16,974",
+      "total_stars": "17,035",
       "stars_since": "389 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/Blaizzy/mlx-vlm",
       "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
       "language": "Python",
-      "total_stars": "3,938",
+      "total_stars": "3,956",
       "stars_since": "416 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/siddharthvaddem/openscreen",
       "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
       "language": "TypeScript",
-      "total_stars": "22,572",
+      "total_stars": "22,644",
       "stars_since": "2,749 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/block/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "37,067",
+      "total_stars": "37,120",
       "stars_since": "882 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/onyx-dot-app/onyx",
       "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
       "language": "Python",
-      "total_stars": "25,043",
+      "total_stars": "25,083",
       "stars_since": "998 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/badlogic/pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "total_stars": "31,926",
+      "total_stars": "31,953",
       "stars_since": "355 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/dmtrKovalenko/fff.nvim",
       "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
       "language": "Rust",
-      "total_stars": "3,703",
+      "total_stars": "3,715",
       "stars_since": "76 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/google-ai-edge/LiteRT-LM",
       "description": "No description.",
       "language": "C++",
-      "total_stars": "1,574",
+      "total_stars": "1,594",
       "stars_since": "124 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/telegramdesktop/tdesktop",
       "description": "Telegram Desktop messaging app",
       "language": "C++",
-      "total_stars": "31,075",
+      "total_stars": "31,087",
       "stars_since": "287 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "total_stars": "441,519",
+      "total_stars": "441,543",
       "stars_since": "335 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/Blaizzy/mlx-vlm",
       "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
       "language": "Python",
-      "total_stars": "3,938",
+      "total_stars": "3,956",
       "stars_since": "416 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/onyx-dot-app/onyx",
       "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
       "language": "Python",
-      "total_stars": "25,043",
+      "total_stars": "25,083",
       "stars_since": "998 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/microsoft/agent-framework",
       "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
       "language": "Python",
-      "total_stars": "8,900",
+      "total_stars": "8,910",
       "stars_since": "278 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "26,384",
+      "total_stars": "26,473",
       "stars_since": "1,251 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/HKUDS/RAG-Anything",
       "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "language": "Python",
-      "total_stars": "15,224",
+      "total_stars": "15,228",
       "stars_since": "99 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/google-deepmind/gemma",
       "description": "Gemma open-weight LLM library, from Google DeepMind",
       "language": "Python",
-      "total_stars": "4,418",
+      "total_stars": "4,423",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/atilaahmettaner/tradingview-mcp",
       "description": "Advanced TradingView MCP Server for AI-powered market analysis. Real-time crypto & stock screening, technical indicators, Bollinger Band intelligence, and candlestick patterns. Works with Claude Desktop & AI assistants. Multi-exchange support (Binance, KuCoin, Bybit+). Open source trading toolkit.",
       "language": "Python",
-      "total_stars": "674",
+      "total_stars": "678",
       "stars_since": "39 stars today",
       "status": "new"
     }
@@ -162,7 +162,7 @@
       "url": "https://github.com/block/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "37,067",
+      "total_stars": "37,120",
       "stars_since": "882 stars today",
       "status": "new"
     },
@@ -171,7 +171,7 @@
       "url": "https://github.com/dmtrKovalenko/fff.nvim",
       "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
       "language": "Rust",
-      "total_stars": "3,703",
+      "total_stars": "3,715",
       "stars_since": "76 stars today",
       "status": "new"
     },
@@ -180,7 +180,7 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "total_stars": "27,412",
+      "total_stars": "27,434",
       "stars_since": "381 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
-      "total_stars": "111,725",
+      "total_stars": "111,727",
       "stars_since": "37 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
       "language": "Rust",
-      "total_stars": "104,985",
+      "total_stars": "104,986",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "14,251",
+      "total_stars": "14,261",
       "stars_since": "376 stars today",
       "status": "new"
     },
@@ -254,7 +254,7 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "total_stars": "167,317",
+      "total_stars": "167,326",
       "stars_since": "164 stars today",
       "status": "new"
     },
@@ -263,7 +263,7 @@
       "url": "https://github.com/SagerNet/sing-box",
       "description": "The universal proxy platform",
       "language": "Go",
-      "total_stars": "32,180",
+      "total_stars": "32,183",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -272,7 +272,7 @@
       "url": "https://github.com/sipeed/picoclaw",
       "description": "Tiny, Fast, and Deployable anywhere \u2014 automate the mundane, unleash your creativity",
       "language": "Go",
-      "total_stars": "27,588",
+      "total_stars": "27,593",
       "stars_since": "160 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "total_stars": "36,633",
+      "total_stars": "36,634",
       "stars_since": "46 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/rudrankriyam/App-Store-Connect-CLI",
       "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
       "language": "Go",
-      "total_stars": "3,689",
+      "total_stars": "3,691",
       "stars_since": "30 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/tailscale/tailscale",
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "language": "Go",
-      "total_stars": "30,119",
+      "total_stars": "30,120",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
-      "total_stars": "25,542",
+      "total_stars": "25,544",
       "stars_since": "68 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/go-vikunja/vikunja",
       "description": "The to-do app to organize your life.",
       "language": "Go",
-      "total_stars": "3,843",
+      "total_stars": "3,844",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/mostlygeek/llama-swap",
       "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
       "language": "Go",
-      "total_stars": "3,106",
+      "total_stars": "3,107",
       "stars_since": "17 stars today",
       "status": "new"
     }
@@ -346,7 +346,7 @@
       "url": "https://github.com/siddharthvaddem/openscreen",
       "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
       "language": "TypeScript",
-      "total_stars": "22,573",
+      "total_stars": "22,644",
       "stars_since": "2,749 stars today",
       "status": "new"
     },
@@ -355,7 +355,7 @@
       "url": "https://github.com/badlogic/pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "total_stars": "31,926",
+      "total_stars": "31,953",
       "stars_since": "355 stars today",
       "status": "new"
     },
@@ -364,8 +364,17 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "total_stars": "441,519",
+      "total_stars": "441,543",
       "stars_since": "335 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "total_stars": "16,684",
+      "stars_since": "1,231 stars today",
       "status": "new"
     },
     {
@@ -373,7 +382,7 @@
       "url": "https://github.com/yamadashy/repomix",
       "description": "\ud83d\udce6 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
       "language": "TypeScript",
-      "total_stars": "23,106",
+      "total_stars": "23,108",
       "stars_since": "68 stars today",
       "status": "new"
     },
@@ -382,7 +391,7 @@
       "url": "https://github.com/ResearAI/DeepScientist",
       "description": "Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future.",
       "language": "TypeScript",
-      "total_stars": "1,400",
+      "total_stars": "1,410",
       "stars_since": "252 stars today",
       "status": "new"
     },
@@ -391,7 +400,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "46,795",
+      "total_stars": "46,806",
       "stars_since": "300 stars today",
       "status": "new"
     },
@@ -400,7 +409,7 @@
       "url": "https://github.com/campfirein/byterover-cli",
       "description": "ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (formerly Cipher)",
       "language": "TypeScript",
-      "total_stars": "4,175",
+      "total_stars": "4,178",
       "stars_since": "96 stars today",
       "status": "new"
     },
@@ -418,17 +427,8 @@
       "url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
-      "total_stars": "18,120",
+      "total_stars": "18,139",
       "stars_since": "298 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "immich-app/immich",
-      "url": "https://github.com/immich-app/immich",
-      "description": "High performance self-hosted photo and video management solution.",
-      "language": "TypeScript",
-      "total_stars": "96,471",
-      "stars_since": "155 stars today",
       "status": "new"
     }
   ]
