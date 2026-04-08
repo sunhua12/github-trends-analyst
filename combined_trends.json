@@ -5,7 +5,7 @@
       "url": "https://github.com/google-ai-edge/gallery",
       "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
       "language": "Kotlin",
-      "total_stars": "18,788",
+      "total_stars": "18,856",
       "stars_since": "897 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/google-ai-edge/LiteRT-LM",
       "description": "No description.",
       "language": "C++",
-      "total_stars": "2,549",
+      "total_stars": "2,591",
       "stars_since": "528 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/NVIDIA/personaplex",
       "description": "PersonaPlex code.",
       "language": "Python",
-      "total_stars": "7,956",
+      "total_stars": "7,992",
       "stars_since": "662 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "24,523",
+      "total_stars": "24,596",
       "stars_since": "1,195 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
-      "total_stars": "19,559",
+      "total_stars": "19,606",
       "stars_since": "859 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "description": "No description.",
       "language": "Unknown",
-      "total_stars": "8,072",
+      "total_stars": "8,116",
       "stars_since": "51 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/elebumm/RedditVideoMakerBot",
       "description": "Create Reddit Videos with just\u2728 one command \u2728",
       "language": "Python",
-      "total_stars": "10,048",
+      "total_stars": "10,078",
       "stars_since": "636 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
       "language": "Python",
-      "total_stars": "12,219",
+      "total_stars": "12,293",
       "stars_since": "168 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
       "language": "Python",
-      "total_stars": "3,903",
+      "total_stars": "3,942",
       "stars_since": "215 stars today",
       "status": "new"
     }
@@ -88,7 +88,7 @@
       "url": "https://github.com/NVIDIA/personaplex",
       "description": "PersonaPlex code.",
       "language": "Python",
-      "total_stars": "7,956",
+      "total_stars": "7,992",
       "stars_since": "662 stars today",
       "status": "new"
     },
@@ -97,7 +97,7 @@
       "url": "https://github.com/elebumm/RedditVideoMakerBot",
       "description": "Create Reddit Videos with just\u2728 one command \u2728",
       "language": "Python",
-      "total_stars": "10,048",
+      "total_stars": "10,078",
       "stars_since": "636 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
       "language": "Python",
-      "total_stars": "12,219",
+      "total_stars": "12,293",
       "stars_since": "168 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
       "language": "Python",
-      "total_stars": "3,903",
+      "total_stars": "3,942",
       "stars_since": "215 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "31,865",
+      "total_stars": "32,329",
       "stars_since": "3,009 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "total_stars": "7,800",
+      "total_stars": "7,806",
       "stars_since": "160 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/NVIDIA-NeMo/DataDesigner",
       "description": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data.",
       "language": "Python",
-      "total_stars": "1,505",
+      "total_stars": "1,509",
       "stars_since": "244 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/HKUDS/AutoAgent",
       "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\"",
       "language": "Python",
-      "total_stars": "8,996",
+      "total_stars": "8,998",
       "stars_since": "76 stars today",
       "status": "new"
     }
@@ -180,7 +180,7 @@
       "url": "https://github.com/Ataraxy-Labs/sem",
       "description": "Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 21 languages via tree-sitter.",
       "language": "Rust",
-      "total_stars": "1,473",
+      "total_stars": "1,476",
       "stars_since": "61 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/aaif-goose/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "39,016",
+      "total_stars": "39,051",
       "stars_since": "997 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "14,674",
+      "total_stars": "14,675",
       "stars_since": "200 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "total_stars": "28,009",
+      "total_stars": "28,021",
       "stars_since": "314 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/zhom/donutbrowser",
       "description": "Simple Yet Powerful Anti-Detect Browser \ud83c\udf69",
       "language": "Rust",
-      "total_stars": "1,300",
+      "total_stars": "1,301",
       "stars_since": "41 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/pola-rs/polars",
       "description": "Extremely fast Query Engine for DataFrames, written in Rust",
       "language": "Rust",
-      "total_stars": "38,037",
+      "total_stars": "38,039",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/bee-san/RustScan",
       "description": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
       "language": "Rust",
-      "total_stars": "19,568",
+      "total_stars": "19,569",
       "stars_since": "4 stars today",
       "status": "new"
     },
@@ -272,7 +272,7 @@
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
-      "total_stars": "14,474",
+      "total_stars": "14,479",
       "stars_since": "180 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "total_stars": "168,046",
+      "total_stars": "168,059",
       "stars_since": "515 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/henrygd/beszel",
       "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
       "language": "Go",
-      "total_stars": "20,695",
+      "total_stars": "20,696",
       "stars_since": "61 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/nats-io/nats-server",
       "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
       "language": "Go",
-      "total_stars": "19,515",
+      "total_stars": "19,516",
       "stars_since": "26 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/XIU2/CloudflareSpeedTest",
       "description": "\ud83c\udf29\u300c\u81ea\u9009\u4f18\u9009 IP\u300d\u6d4b\u8bd5 Cloudflare CDN \u5ef6\u8fdf\u548c\u901f\u5ea6\uff0c\u83b7\u53d6\u6700\u5feb IP \uff01\u5f53\u7136\u4e5f\u652f\u6301\u5176\u4ed6 CDN / \u591a\u4e2a\u89e3\u6790 IP \u7684\u7f51\u7ad9 ~",
       "language": "Go",
-      "total_stars": "25,566",
+      "total_stars": "25,569",
       "stars_since": "40 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "language": "Go",
-      "total_stars": "75,807",
+      "total_stars": "75,815",
       "stars_since": "105 stars today",
       "status": "new"
     },
@@ -364,7 +364,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "24,523",
+      "total_stars": "24,596",
       "stars_since": "1,195 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
-      "total_stars": "19,559",
+      "total_stars": "19,606",
       "stars_since": "859 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "total_stars": "16,211",
+      "total_stars": "16,228",
       "stars_since": "535 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/ResearAI/DeepScientist",
       "description": "Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future.",
       "language": "TypeScript",
-      "total_stars": "1,782",
+      "total_stars": "1,794",
       "stars_since": "191 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "total_stars": "442,132",
+      "total_stars": "442,139",
       "stars_since": "239 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/badlogic/pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "total_stars": "32,893",
+      "total_stars": "32,920",
       "stars_since": "510 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/xandemon/developer-icons",
       "description": "A collection of well-optimized SVG tech logos for developers and designers\u2014customizable, scalable, and free.",
       "language": "TypeScript",
-      "total_stars": "1,790",
+      "total_stars": "1,804",
       "stars_since": "783 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
       "language": "TypeScript",
-      "total_stars": "351,285",
+      "total_stars": "351,337",
       "stars_since": "1,339 stars today",
       "status": "new"
     },
@@ -441,12 +441,12 @@
       "status": "new"
     },
     {
-      "full_name": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "\ud83c\udfa5 Make videos programmatically with React",
+      "full_name": "campfirein/byterover-cli",
+      "url": "https://github.com/campfirein/byterover-cli",
+      "description": "ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (formerly Cipher)",
       "language": "TypeScript",
-      "total_stars": "42,202",
-      "stars_since": "146 stars today",
+      "total_stars": "4,357",
+      "stars_since": "68 stars today",
       "status": "new"
     }
   ]
