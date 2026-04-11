@@ -5,7 +5,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "99,739",
+      "total_stars": "99,860",
       "stars_since": "2,352 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/coleam00/Archon",
       "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
       "language": "TypeScript",
-      "total_stars": "15,644",
+      "total_stars": "15,692",
       "stars_since": "756 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "52,091",
+      "total_stars": "52,463",
       "stars_since": "7,671 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/rowboatlabs/rowboat",
       "description": "Open-source AI coworker, with memory",
       "language": "TypeScript",
-      "total_stars": "11,741",
+      "total_stars": "11,762",
       "stars_since": "507 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
       "language": "TypeScript",
-      "total_stars": "6,114",
+      "total_stars": "6,180",
       "stars_since": "1,506 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Unknown",
-      "total_stars": "11,754",
+      "total_stars": "11,808",
       "stars_since": "1,450 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "total_stars": "12,719",
+      "total_stars": "12,742",
       "stars_since": "601 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
       "language": "Python",
-      "total_stars": "15,991",
+      "total_stars": "16,025",
       "stars_since": "1,424 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/opendataloader-project/opendataloader-pdf",
       "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
       "language": "Java",
-      "total_stars": "14,802",
+      "total_stars": "14,845",
       "stars_since": "1,306 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "145,769",
+      "total_stars": "145,849",
       "stars_since": "2,150 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "99,743",
+      "total_stars": "99,860",
       "stars_since": "2,352 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "52,092",
+      "total_stars": "52,463",
       "stars_since": "7,671 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "total_stars": "12,719",
+      "total_stars": "12,742",
       "stars_since": "601 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
       "language": "Python",
-      "total_stars": "15,991",
+      "total_stars": "16,025",
       "stars_since": "1,424 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/FloatingPragma/observer-patch-holography",
       "description": "OPH is an active research program aiming to construct a fundamental theory of physics from observer consistency.",
       "language": "Python",
-      "total_stars": "424",
+      "total_stars": "432",
       "stars_since": "129 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "language": "Python",
-      "total_stars": "35,853",
+      "total_stars": "35,863",
       "stars_since": "511 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/PrefectHQ/prefect",
       "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
       "language": "Python",
-      "total_stars": "22,140",
+      "total_stars": "22,141",
       "stars_since": "25 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/521xueweihan/HelloGitHub",
       "description": "\u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
       "language": "Python",
-      "total_stars": "150,168",
+      "total_stars": "150,181",
       "stars_since": "308 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "8,823",
+      "total_stars": "8,921",
       "stars_since": "953 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/atilaahmettaner/tradingview-mcp",
       "description": "Real-time crypto & stock screening, advanced technical indicators, Bollinger Bands intelligence, candlestick patterns + native Claude Desktop integration. Multi-exchange (Binance, KuCoin, Bybit+). Open-source AI trading infrastructure.",
       "language": "Python",
-      "total_stars": "1,605",
+      "total_stars": "1,610",
       "stars_since": "135 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "language": "Rust",
-      "total_stars": "83,031",
+      "total_stars": "83,035",
       "stars_since": "102 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/mayocream/koharu",
       "description": "ML-powered manga translator, written in Rust.",
       "language": "Rust",
-      "total_stars": "2,439",
+      "total_stars": "2,441",
       "stars_since": "114 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/paradigmxyz/reth",
       "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
       "language": "Rust",
-      "total_stars": "5,512",
+      "total_stars": "5,513",
       "stars_since": "5 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/TabbyML/tabby",
       "description": "Self-hosted AI coding assistant",
       "language": "Rust",
-      "total_stars": "33,376",
+      "total_stars": "33,378",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "110,971",
+      "total_stars": "110,974",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/lance-format/lance",
       "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
       "language": "Rust",
-      "total_stars": "6,301",
+      "total_stars": "6,302",
       "stars_since": "5 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "42,449",
+      "total_stars": "42,478",
       "stars_since": "633 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "language": "Go",
-      "total_stars": "76,165",
+      "total_stars": "76,170",
       "stars_since": "144 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/goharbor/harbor",
       "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
       "language": "Go",
-      "total_stars": "28,230",
+      "total_stars": "28,231",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "11,571",
+      "total_stars": "11,586",
       "stars_since": "267 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
-      "total_stars": "14,734",
+      "total_stars": "14,735",
       "stars_since": "75 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
-      "total_stars": "37,256",
+      "total_stars": "37,255",
       "stars_since": "39 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/helm/helm",
       "description": "The Kubernetes Package Manager",
       "language": "Go",
-      "total_stars": "29,679",
+      "total_stars": "29,678",
       "stars_since": "18 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/maximhq/bifrost",
       "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 \u00b5s overhead at 5k RPS.",
       "language": "Go",
-      "total_stars": "3,677",
+      "total_stars": "3,680",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/pingcap/tidb",
       "description": "TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",
       "language": "Go",
-      "total_stars": "39,943",
+      "total_stars": "39,944",
       "stars_since": "28 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/coleam00/Archon",
       "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
       "language": "TypeScript",
-      "total_stars": "15,644",
+      "total_stars": "15,692",
       "stars_since": "756 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/rowboatlabs/rowboat",
       "description": "Open-source AI coworker, with memory",
       "language": "TypeScript",
-      "total_stars": "11,741",
+      "total_stars": "11,762",
       "stars_since": "507 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
       "language": "TypeScript",
-      "total_stars": "6,114",
+      "total_stars": "6,180",
       "stars_since": "1,506 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/tradingview/lightweight-charts",
       "description": "Performant financial charts built with HTML5 canvas",
       "language": "TypeScript",
-      "total_stars": "14,753",
+      "total_stars": "14,762",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/YishenTu/claudian",
       "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
       "language": "TypeScript",
-      "total_stars": "7,232",
+      "total_stars": "7,237",
       "stars_since": "570 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/moeru-ai/airi",
       "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "total_stars": "37,659",
+      "total_stars": "37,663",
       "stars_since": "55 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/hicccc77/WeFlow",
       "description": "WeFlow - \u4e00\u4e2a\u672c\u5730\u7684\u5fae\u4fe1\u804a\u5929\u8bb0\u5f55\u5bfc\u51fa\u548c\u5e74\u5ea6\u62a5\u544a\u5e94\u7528",
       "language": "TypeScript",
-      "total_stars": "7,135",
+      "total_stars": "7,148",
       "stars_since": "271 stars today",
       "status": "new"
     },
