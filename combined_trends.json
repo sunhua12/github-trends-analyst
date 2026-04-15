@@ -5,26 +5,8 @@
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Unknown",
-      "total_stars": "25,926",
-      "stars_since": "5,733 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "total_stars": "78,154",
-      "stars_since": "11,289 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "shiyu-coder/Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "language": "Python",
-      "total_stars": "17,089",
-      "stars_since": "1,554 stars today",
+      "total_stars": "34,029",
+      "stars_since": "9,263 stars today",
       "status": "new"
     },
     {
@@ -32,8 +14,26 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "53,535",
-      "stars_since": "3,175 stars today",
+      "total_stars": "55,858",
+      "stars_since": "2,997 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "total_stars": "17,370",
+      "stars_since": "1,162 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "total_stars": "11,668",
+      "stars_since": "820 stars today",
       "status": "new"
     },
     {
@@ -41,35 +41,26 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "107,149",
-      "stars_since": "2,808 stars today",
+      "total_stars": "108,497",
+      "stars_since": "1,675 stars today",
       "status": "new"
     },
     {
-      "full_name": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
-      "language": "TypeScript",
-      "total_stars": "11,279",
-      "stars_since": "1,715 stars today",
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "total_stars": "152,339",
+      "stars_since": "1,919 stars today",
       "status": "new"
     },
     {
-      "full_name": "coleam00/Archon",
-      "url": "https://github.com/coleam00/Archon",
-      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
-      "language": "TypeScript",
-      "total_stars": "17,664",
-      "stars_since": "677 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "snarktank/ralph",
-      "url": "https://github.com/snarktank/ralph",
-      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
-      "language": "TypeScript",
-      "total_stars": "16,568",
-      "stars_since": "691 stars today",
+      "full_name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "total_stars": "66,373",
+      "stars_since": "472 stars today",
       "status": "new"
     },
     {
@@ -77,28 +68,8 @@
       "url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
       "language": "Python",
-      "total_stars": "53,045",
-      "stars_since": "783 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "anthropics/claude-cookbooks",
-      "url": "https://github.com/anthropics/claude-cookbooks",
-      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "language": "Jupyter Notebook",
-      "total_stars": "39,603",
-      "stars_since": "1,012 stars today",
-      "status": "new"
-    }
-  ],
-  "AI/Python": [
-    {
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "total_stars": "78,154",
-      "stars_since": "11,289 stars today",
+      "total_stars": "54,168",
+      "stars_since": "1,007 stars today",
       "status": "new"
     },
     {
@@ -106,17 +77,28 @@
       "url": "https://github.com/shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "total_stars": "17,089",
-      "stars_since": "1,554 stars today",
+      "total_stars": "17,818",
+      "stars_since": "963 stars today",
       "status": "new"
     },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "total_stars": "84,521",
+      "stars_since": "8,301 stars today",
+      "status": "new"
+    }
+  ],
+  "AI/Python": [
     {
       "full_name": "microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "107,149",
-      "stars_since": "2,808 stars today",
+      "total_stars": "108,497",
+      "stars_since": "1,675 stars today",
       "status": "new"
     },
     {
@@ -124,82 +106,118 @@
       "url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
       "language": "Python",
-      "total_stars": "53,045",
-      "stars_since": "783 stars today",
+      "total_stars": "54,168",
+      "stars_since": "1,007 stars today",
       "status": "new"
     },
     {
-      "full_name": "ahujasid/blender-mcp",
-      "url": "https://github.com/ahujasid/blender-mcp",
-      "description": "No description.",
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "total_stars": "19,527",
-      "stars_since": "339 stars today",
+      "total_stars": "17,818",
+      "stars_since": "963 stars today",
       "status": "new"
     },
     {
-      "full_name": "hacksider/Deep-Live-Cam",
-      "url": "https://github.com/hacksider/Deep-Live-Cam",
-      "description": "real time face swap and one-click video deepfake with only a single image",
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "90,286",
-      "stars_since": "217 stars today",
+      "total_stars": "84,521",
+      "stars_since": "8,301 stars today",
       "status": "new"
     },
     {
-      "full_name": "OpenBMB/VoxCPM",
-      "url": "https://github.com/OpenBMB/VoxCPM",
-      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "total_stars": "12,403",
-      "stars_since": "1,178 stars today",
+      "total_stars": "76,610",
+      "stars_since": "162 stars today",
       "status": "new"
     },
     {
-      "full_name": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "language": "Python",
-      "total_stars": "156,682",
-      "stars_since": "248 stars today",
+      "total_stars": "7,902",
+      "stars_since": "26 stars today",
       "status": "new"
     },
     {
-      "full_name": "axolotl-ai-cloud/axolotl",
-      "url": "https://github.com/axolotl-ai-cloud/axolotl",
-      "description": "Go ahead and axolotl questions",
+      "full_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
       "language": "Python",
-      "total_stars": "11,683",
-      "stars_since": "20 stars today",
+      "total_stars": "737",
+      "stars_since": "137 stars today",
       "status": "new"
     },
     {
-      "full_name": "microsoft/agent-lightning",
-      "url": "https://github.com/microsoft/agent-lightning",
-      "description": "The absolute trainer to light up AI agents.",
+      "full_name": "ultralytics/ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "description": "Ultralytics YOLO \ud83d\ude80",
       "language": "Python",
-      "total_stars": "16,835",
-      "stars_since": "55 stars today",
+      "total_stars": "55,911",
+      "stars_since": "63 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "language": "Python",
+      "total_stars": "11,102",
+      "stars_since": "195 stars today",
       "status": "new"
     }
   ],
   "Rust Ecosystem": [
     {
+      "full_name": "mayocream/koharu",
+      "url": "https://github.com/mayocream/koharu",
+      "description": "ML-powered manga translator, written in Rust.",
+      "language": "Rust",
+      "total_stars": "3,229",
+      "stars_since": "231 stars today",
+      "status": "new"
+    },
+    {
       "full_name": "rustfs/rustfs",
       "url": "https://github.com/rustfs/rustfs",
       "description": "\ud83d\ude802.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
-      "total_stars": "25,624",
-      "stars_since": "539 stars today",
+      "total_stars": "25,816",
+      "stars_since": "206 stars today",
       "status": "new"
     },
     {
-      "full_name": "mikeyobrien/ralph-orchestrator",
-      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
-      "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+      "full_name": "servo/servo",
+      "url": "https://github.com/servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
       "language": "Rust",
-      "total_stars": "2,682",
-      "stars_since": "43 stars today",
+      "total_stars": "36,372",
+      "stars_since": "95 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "\ud83e\uddf1 secure, local, cross-platform and programmable sandboxes for AI agents",
+      "language": "Rust",
+      "total_stars": "5,367",
+      "stars_since": "29 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "psmux/psmux",
+      "url": "https://github.com/psmux/psmux",
+      "description": "Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust \ud83e\udd80",
+      "language": "PowerShell",
+      "total_stars": "1,285",
+      "stars_since": "53 stars today",
       "status": "new"
     },
     {
@@ -207,8 +225,8 @@
       "url": "https://github.com/katanemo/plano",
       "description": "Plano is an AI-native proxy and data plane for agentic apps \u2014 with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.",
       "language": "Rust",
-      "total_stars": "6,297",
-      "stars_since": "24 stars today",
+      "total_stars": "6,317",
+      "stars_since": "18 stars today",
       "status": "new"
     },
     {
@@ -216,100 +234,55 @@
       "url": "https://github.com/raphaelmansuy/edgequake",
       "description": "EdegQuake \ud83c\udf0b High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation",
       "language": "Rust",
-      "total_stars": "1,670",
-      "stars_since": "18 stars today",
+      "total_stars": "1,754",
+      "stars_since": "62 stars today",
       "status": "new"
     },
     {
-      "full_name": "wasmerio/wasmer",
-      "url": "https://github.com/wasmerio/wasmer",
-      "description": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly",
+      "full_name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "20,602",
-      "stars_since": "15 stars today",
+      "total_stars": "44,723",
+      "stars_since": "633 stars today",
       "status": "new"
     },
     {
-      "full_name": "ratatui/ratatui",
-      "url": "https://github.com/ratatui/ratatui",
-      "description": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00https://ratatui.rs",
+      "full_name": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book:https://doc.rust-lang.org/clippy/",
       "language": "Rust",
-      "total_stars": "19,750",
-      "stars_since": "23 stars today",
+      "total_stars": "13,053",
+      "stars_since": "8 stars today",
       "status": "new"
     },
     {
-      "full_name": "lakehq/sail",
-      "url": "https://github.com/lakehq/sail",
-      "description": "LakeSail's computation framework with a mission to unify batch processing, stream processing, and compute-intensive AI workloads.",
+      "full_name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
-      "total_stars": "1,324",
-      "stars_since": "9 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
-      "language": "Rust",
-      "total_stars": "27,424",
-      "stars_since": "27 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "longbridge/gpui-component",
-      "url": "https://github.com/longbridge/gpui-component",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "total_stars": "10,962",
-      "stars_since": "24 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "iced-rs/iced",
-      "url": "https://github.com/iced-rs/iced",
-      "description": "A cross-platform GUI library for Rust, inspired by Elm",
-      "language": "Rust",
-      "total_stars": "30,191",
-      "stars_since": "20 stars today",
+      "total_stars": "58,421",
+      "stars_since": "61 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "usememos/memos",
-      "url": "https://github.com/usememos/memos",
-      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "full_name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "\ud83c\udfa7 Your Personal Streaming Service",
       "language": "Go",
-      "total_stars": "58,839",
-      "stars_since": "40 stars today",
+      "total_stars": "20,465",
+      "stars_since": "31 stars today",
       "status": "new"
     },
     {
-      "full_name": "harness/harness",
-      "url": "https://github.com/harness/harness",
-      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+      "full_name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
       "language": "Go",
-      "total_stars": "34,703",
-      "stars_since": "103 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "mostlygeek/llama-swap",
-      "url": "https://github.com/mostlygeek/llama-swap",
-      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
-      "language": "Go",
-      "total_stars": "3,239",
-      "stars_since": "18 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "cirruslabs/orchard",
-      "url": "https://github.com/cirruslabs/orchard",
-      "description": "Orchestrator for running Tart Virtual Machines on a cluster of Apple Silicon devices",
-      "language": "Go",
-      "total_stars": "369",
-      "stars_since": "13 stars today",
+      "total_stars": "26,787",
+      "stars_since": "252 stars today",
       "status": "new"
     },
     {
@@ -317,53 +290,71 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "12,298",
-      "stars_since": "312 stars today",
+      "total_stars": "12,545",
+      "stars_since": "264 stars today",
       "status": "new"
     },
     {
-      "full_name": "tailscale/tailscale",
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "full_name": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
       "language": "Go",
-      "total_stars": "30,511",
-      "stars_since": "55 stars today",
+      "total_stars": "6,542",
+      "stars_since": "5 stars today",
       "status": "new"
     },
     {
-      "full_name": "v2fly/domain-list-community",
-      "url": "https://github.com/v2fly/domain-list-community",
-      "description": "Community managed domain list. Generate geosite.dat for V2Ray.",
+      "full_name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard\u00ae-based overlay network with SSO, MFA and granular access controls.",
       "language": "Go",
-      "total_stars": "8,275",
-      "stars_since": "15 stars today",
+      "total_stars": "24,402",
+      "stars_since": "46 stars today",
       "status": "new"
     },
     {
-      "full_name": "fish2018/pansou",
-      "url": "https://github.com/fish2018/pansou",
-      "description": "PanSou\u662f\u4e00\u6b3e\u9ad8\u6027\u80fd\u7684\u7f51\u76d8\u8d44\u6e90\u641c\u7d22API\u670d\u52a1\uff0c\u652f\u6301TG\u9891\u9053\u548c\u63d2\u4ef6\u641c\u7d22\u3002\u7cfb\u7edf\u8bbe\u8ba1\u4ee5\u6027\u80fd\u548c\u53ef\u6269\u5c55\u6027\u4e3a\u6838\u5fc3\uff0c\u652f\u6301\u591a\u9891\u9053\u591a\u63d2\u4ef6\u5e76\u53d1\u641c\u7d22\u3001\u7ed3\u679c\u667a\u80fd\u6392\u5e8f\u548c\u7f51\u76d8\u7c7b\u578b\u5206\u7c7b\u3002docker\u96c6\u6210\u524d\u540e\u7aef\uff0c\u4e00\u952e\u542f\u52a8\uff0c\u5f00\u7bb1\u5373\u7528\u3002https://so.252035.xyz/",
+      "full_name": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
       "language": "Go",
-      "total_stars": "12,639",
-      "stars_since": "26 stars today",
+      "total_stars": "7,621",
+      "stars_since": "5 stars today",
       "status": "new"
     },
     {
-      "full_name": "steipete/wacli",
-      "url": "https://github.com/steipete/wacli",
-      "description": "WhatsApp CLI",
+      "full_name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
       "language": "Go",
-      "total_stars": "927",
-      "stars_since": "13 stars today",
+      "total_stars": "35,402",
+      "stars_since": "7 stars today",
       "status": "new"
     },
     {
-      "full_name": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "full_name": "harness/harness",
+      "url": "https://github.com/harness/harness",
+      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
       "language": "Go",
-      "total_stars": "3,622",
-      "stars_since": "24 stars today",
+      "total_stars": "34,769",
+      "stars_since": "79 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "total_stars": "5,827",
+      "stars_since": "10 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-collector",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "language": "Go",
+      "total_stars": "6,834",
+      "stars_since": "4 stars today",
       "status": "new"
     }
   ],
@@ -373,35 +364,8 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "53,535",
-      "stars_since": "3,175 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
-      "language": "TypeScript",
-      "total_stars": "11,279",
-      "stars_since": "1,715 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "coleam00/Archon",
-      "url": "https://github.com/coleam00/Archon",
-      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
-      "language": "TypeScript",
-      "total_stars": "17,664",
-      "stars_since": "677 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "snarktank/ralph",
-      "url": "https://github.com/snarktank/ralph",
-      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
-      "language": "TypeScript",
-      "total_stars": "16,568",
-      "stars_since": "691 stars today",
+      "total_stars": "55,858",
+      "stars_since": "2,997 stars today",
       "status": "new"
     },
     {
@@ -409,8 +373,71 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "16,402",
-      "stars_since": "512 stars today",
+      "total_stars": "17,370",
+      "stars_since": "1,162 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "total_stars": "11,668",
+      "stars_since": "820 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "total_stars": "35,012",
+      "stars_since": "218 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "total_stars": "12,503",
+      "stars_since": "1,503 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "total_stars": "10,741",
+      "stars_since": "198 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "pablodelucca/pixel-agents",
+      "url": "https://github.com/pablodelucca/pixel-agents",
+      "description": "Pixel office.",
+      "language": "TypeScript",
+      "total_stars": "6,590",
+      "stars_since": "57 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "total_stars": "17,965",
+      "stars_since": "396 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "seerr-team/seerr",
+      "url": "https://github.com/seerr-team/seerr",
+      "description": "Open-source media request and discovery manager for Jellyfin, Plex, and Emby.",
+      "language": "TypeScript",
+      "total_stars": "10,817",
+      "stars_since": "28 stars today",
       "status": "new"
     },
     {
@@ -418,44 +445,8 @@
       "url": "https://github.com/diegosouzapw/OmniRoute",
       "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference.",
       "language": "TypeScript",
-      "total_stars": "2,795",
-      "stars_since": "151 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "microsoft/playwright-cli",
-      "url": "https://github.com/microsoft/playwright-cli",
-      "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
-      "language": "TypeScript",
-      "total_stars": "8,101",
-      "stars_since": "278 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "twentyhq/twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern alternative to Salesforce, powered by the community.",
-      "language": "TypeScript",
-      "total_stars": "43,938",
-      "stars_since": "72 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Crosstalk-Solutions/project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
-      "language": "TypeScript",
-      "total_stars": "23,482",
-      "stars_since": "240 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "\ud83c\udfa5 Make videos programmatically with React",
-      "language": "TypeScript",
-      "total_stars": "43,133",
-      "stars_since": "170 stars today",
+      "total_stars": "2,888",
+      "stars_since": "111 stars today",
       "status": "new"
     }
   ]
