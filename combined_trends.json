@@ -5,7 +5,7 @@
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Unknown",
-      "total_stars": "50,116",
+      "total_stars": "50,449",
       "stars_since": "7,959 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "59,860",
+      "total_stars": "60,000",
       "stars_since": "1,897 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "total_stars": "2,813",
+      "total_stars": "2,881",
       "stars_since": "872 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "19,090",
+      "total_stars": "19,133",
       "stars_since": "880 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/vercel-labs/open-agents",
       "description": "An open source template for building cloud agents.",
       "language": "TypeScript",
-      "total_stars": "3,225",
+      "total_stars": "3,259",
       "stars_since": "738 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/google/magika",
       "description": "Fast and accurate AI powered file content types detection",
       "language": "Python",
-      "total_stars": "14,805",
+      "total_stars": "14,849",
       "stars_since": "854 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/steipete/wacli",
       "description": "WhatsApp CLI",
       "language": "Go",
-      "total_stars": "1,692",
+      "total_stars": "1,713",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/topoteretes/cognee",
       "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
       "language": "Python",
-      "total_stars": "15,824",
+      "total_stars": "15,854",
       "stars_since": "170 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "total_stars": "1,618",
+      "total_stars": "1,638",
       "stars_since": "195 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/Lordog/dive-into-llms",
       "description": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b",
       "language": "Jupyter Notebook",
-      "total_stars": "30,738",
+      "total_stars": "30,813",
       "stars_since": "1,385 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "total_stars": "2,813",
+      "total_stars": "2,881",
       "stars_since": "872 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/google/magika",
       "description": "Fast and accurate AI powered file content types detection",
       "language": "Python",
-      "total_stars": "14,805",
+      "total_stars": "14,849",
       "stars_since": "854 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/topoteretes/cognee",
       "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
       "language": "Python",
-      "total_stars": "15,824",
+      "total_stars": "15,854",
       "stars_since": "170 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "total_stars": "1,618",
+      "total_stars": "1,638",
       "stars_since": "195 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "total_stars": "21,268",
+      "total_stars": "21,304",
       "stars_since": "172 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "total_stars": "424,198",
+      "total_stars": "424,219",
       "stars_since": "1,295 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
       "language": "Python",
-      "total_stars": "55,671",
+      "total_stars": "55,696",
       "stars_since": "763 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
       "language": "Python",
-      "total_stars": "1,051",
+      "total_stars": "1,059",
       "stars_since": "167 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon \u2014 managed from the macOS menu bar",
       "language": "Python",
-      "total_stars": "10,407",
+      "total_stars": "10,417",
       "stars_since": "207 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "total_stars": "17,931",
+      "total_stars": "17,941",
       "stars_since": "198 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/GyulyVGC/sniffnet",
       "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
       "language": "Rust",
-      "total_stars": "33,957",
+      "total_stars": "33,962",
       "stars_since": "388 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "111,387",
+      "total_stars": "111,393",
       "stars_since": "111 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "45,980",
+      "total_stars": "46,038",
       "stars_since": "599 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/dmtrKovalenko/fff.nvim",
       "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
       "language": "Rust",
-      "total_stars": "5,054",
+      "total_stars": "5,057",
       "stars_since": "56 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
-      "total_stars": "530",
+      "total_stars": "545",
       "stars_since": "101 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/fathyb/carbonyl",
       "description": "Chromium running inside your terminal",
       "language": "Rust",
-      "total_stars": "18,501",
+      "total_stars": "18,500",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
-      "total_stars": "22,025",
+      "total_stars": "22,028",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/raphaelmansuy/edgequake",
       "description": "EdegQuake \ud83c\udf0b High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation",
       "language": "Rust",
-      "total_stars": "1,868",
+      "total_stars": "1,869",
       "stars_since": "38 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/steipete/wacli",
       "description": "WhatsApp CLI",
       "language": "Go",
-      "total_stars": "1,692",
+      "total_stars": "1,713",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/juanfont/headscale",
       "description": "An open source, self-hosted implementation of the Tailscale control server",
       "language": "Go",
-      "total_stars": "37,502",
+      "total_stars": "37,506",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/anchore/syft",
       "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
       "language": "Go",
-      "total_stars": "8,731",
+      "total_stars": "8,732",
       "stars_since": "15 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/putyy/res-downloader",
       "description": "\u89c6\u9891\u53f7\u3001\u5c0f\u7a0b\u5e8f\u3001\u6296\u97f3\u3001\u5feb\u624b\u3001\u5c0f\u7ea2\u4e66\u3001\u76f4\u64ad\u6d41\u3001m3u8\u3001\u9177\u72d7\u3001QQ\u97f3\u4e50\u7b49\u5e38\u89c1\u7f51\u7edc\u8d44\u6e90\u4e0b\u8f7d!",
       "language": "Go",
-      "total_stars": "16,607",
+      "total_stars": "16,612",
       "stars_since": "28 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "59,860",
+      "total_stars": "60,000",
       "stars_since": "1,897 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "19,090",
+      "total_stars": "19,133",
       "stars_since": "880 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/vercel-labs/open-agents",
       "description": "An open source template for building cloud agents.",
       "language": "TypeScript",
-      "total_stars": "3,225",
+      "total_stars": "3,259",
       "stars_since": "738 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/pascalorg/editor",
       "description": "Create and share 3D architectural projects.",
       "language": "TypeScript",
-      "total_stars": "13,146",
+      "total_stars": "13,152",
       "stars_since": "736 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/calcom/cal.diy",
       "description": "Scheduling infrastructure for absolutely everyone.",
       "language": "TypeScript",
-      "total_stars": "41,332",
+      "total_stars": "41,336",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/gitroomhq/postiz-app",
       "description": "\ud83d\udce8 The ultimate social media scheduling tool, with a bunch of AI \ud83e\udd16",
       "language": "TypeScript",
-      "total_stars": "28,823",
+      "total_stars": "28,825",
       "stars_since": "186 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/sparkjsdev/spark",
       "description": "\u2728 An advanced 3D Gaussian Splatting renderer for THREE.js",
       "language": "TypeScript",
-      "total_stars": "2,495",
+      "total_stars": "2,504",
       "stars_since": "197 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/ourongxing/newsnow",
       "description": "Elegant reading of real-time and hottest news",
       "language": "TypeScript",
-      "total_stars": "19,494",
+      "total_stars": "19,496",
       "stars_since": "26 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "35,485",
+      "total_stars": "35,495",
       "stars_since": "277 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/strapi/strapi",
       "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
       "language": "TypeScript",
-      "total_stars": "71,908",
+      "total_stars": "71,907",
       "stars_since": "29 stars today",
       "status": "new"
     }
