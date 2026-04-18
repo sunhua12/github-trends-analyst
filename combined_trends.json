@@ -5,7 +5,7 @@
       "url": "https://github.com/EvoMap/evolver",
       "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
       "language": "JavaScript",
-      "total_stars": "4,265",
+      "total_stars": "4,324",
       "stars_since": "737 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "total_stars": "3,644",
+      "total_stars": "3,695",
       "stars_since": "845 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
       "description": "Claude Code skill to support Android app's reverse engineering",
       "language": "Shell",
-      "total_stars": "2,755",
+      "total_stars": "2,779",
       "stars_since": "538 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/BasedHardware/omi",
       "description": "AI that sees your screen, listens to your conversations and tells you what to do",
       "language": "Dart",
-      "total_stars": "9,853",
+      "total_stars": "9,878",
       "stars_since": "824 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/Lordog/dive-into-llms",
       "description": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b",
       "language": "Jupyter Notebook",
-      "total_stars": "31,534",
+      "total_stars": "31,568",
       "stars_since": "944 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
       "description": "Turn Claude Code into a full game dev studio \u2014 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "language": "Shell",
-      "total_stars": "11,802",
+      "total_stars": "11,832",
       "stars_since": "311 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "19,869",
+      "total_stars": "19,902",
       "stars_since": "797 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/lukilabs/craft-agents-oss",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "4,302",
+      "total_stars": "4,307",
       "stars_since": "110 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
       "language": "Python",
-      "total_stars": "1,466",
+      "total_stars": "1,485",
       "stars_since": "184 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "157,784",
+      "total_stars": "157,844",
       "stars_since": "1,713 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "total_stars": "3,644",
+      "total_stars": "3,695",
       "stars_since": "845 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
       "language": "Python",
-      "total_stars": "1,466",
+      "total_stars": "1,485",
       "stars_since": "184 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "total_stars": "1,807",
+      "total_stars": "1,811",
       "stars_since": "287 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "total_stars": "21,824",
+      "total_stars": "21,853",
       "stars_since": "625 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/google/magika",
       "description": "Fast and accurate AI powered file content types detection",
       "language": "Python",
-      "total_stars": "15,477",
+      "total_stars": "15,500",
       "stars_since": "956 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/nv-tlabs/lyra",
       "description": "Project Lyra: Open Generative 3D World Models",
       "language": "Python",
-      "total_stars": "1,436",
+      "total_stars": "1,438",
       "stars_since": "146 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
       "description": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC",
       "language": "Python",
-      "total_stars": "1,502",
+      "total_stars": "1,503",
       "stars_since": "21 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/topoteretes/cognee",
       "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
       "language": "Python",
-      "total_stars": "16,239",
+      "total_stars": "16,245",
       "stars_since": "476 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "total_stars": "119,607",
+      "total_stars": "119,622",
       "stars_since": "701 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/datalab-to/chandra",
       "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
       "language": "Python",
-      "total_stars": "9,062",
+      "total_stars": "9,065",
       "stars_since": "199 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/GyulyVGC/sniffnet",
       "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
       "language": "Rust",
-      "total_stars": "34,192",
+      "total_stars": "34,198",
       "stars_since": "283 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
-      "total_stars": "763",
+      "total_stars": "770",
       "stars_since": "437 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "111,676",
+      "total_stars": "111,693",
       "stars_since": "211 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "75,983",
+      "total_stars": "75,991",
       "stars_since": "277 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "46,544",
+      "total_stars": "46,565",
       "stars_since": "611 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/vectordotdev/vector",
       "description": "A high-performance observability data pipeline.",
       "language": "Rust",
-      "total_stars": "21,670",
+      "total_stars": "21,671",
       "stars_since": "7 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/mostlygeek/llama-swap",
       "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
       "language": "Go",
-      "total_stars": "3,371",
+      "total_stars": "3,374",
       "stars_since": "35 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/iawia002/lux",
       "description": "\ud83d\udc7e Fast and simple video download library and CLI tool written in Go",
       "language": "Go",
-      "total_stars": "31,242",
+      "total_stars": "31,244",
       "stars_since": "74 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/authelia/authelia",
       "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122",
       "language": "Go",
-      "total_stars": "27,540",
+      "total_stars": "27,541",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
       "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
       "language": "Go",
-      "total_stars": "16,794",
+      "total_stars": "16,796",
       "stars_since": "19 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "19,869",
+      "total_stars": "19,902",
       "stars_since": "797 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/lukilabs/craft-agents-oss",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "4,302",
+      "total_stars": "4,307",
       "stars_since": "110 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "9,449",
+      "total_stars": "9,464",
       "stars_since": "227 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "35,859",
+      "total_stars": "35,880",
       "stars_since": "196 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/twentyhq/twenty",
       "description": "Building a modern alternative to Salesforce, powered by the community.",
       "language": "TypeScript",
-      "total_stars": "44,556",
+      "total_stars": "44,560",
       "stars_since": "333 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "61,472",
+      "total_stars": "61,523",
       "stars_since": "2,161 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "total_stars": "145,078",
+      "total_stars": "145,105",
       "stars_since": "615 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/sparkjsdev/spark",
       "description": "\u2728 An advanced 3D Gaussian Splatting renderer for THREE.js",
       "language": "TypeScript",
-      "total_stars": "2,553",
+      "total_stars": "2,555",
       "stars_since": "72 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/strapi/strapi",
       "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
       "language": "TypeScript",
-      "total_stars": "71,925",
+      "total_stars": "71,923",
       "stars_since": "17 stars today",
       "status": "new"
     }
