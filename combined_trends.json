@@ -1,30 +1,12 @@
 {
   "Overall": [
     {
-      "full_name": "EvoMap/evolver",
-      "url": "https://github.com/EvoMap/evolver",
-      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
-      "language": "JavaScript",
-      "total_stars": "4,324",
-      "stars_since": "737 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "lsdefine/GenericAgent",
-      "url": "https://github.com/lsdefine/GenericAgent",
-      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
-      "language": "Python",
-      "total_stars": "3,695",
-      "stars_since": "845 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
-      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
-      "description": "Claude Code skill to support Android app's reverse engineering",
-      "language": "Shell",
-      "total_stars": "2,779",
-      "stars_since": "538 stars today",
+      "full_name": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "total_stars": "1,589",
+      "stars_since": "447 stars today",
       "status": "new"
     },
     {
@@ -32,91 +14,8 @@
       "url": "https://github.com/BasedHardware/omi",
       "description": "AI that sees your screen, listens to your conversations and tells you what to do",
       "language": "Dart",
-      "total_stars": "9,878",
-      "stars_since": "824 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Lordog/dive-into-llms",
-      "url": "https://github.com/Lordog/dive-into-llms",
-      "description": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b",
-      "language": "Jupyter Notebook",
-      "total_stars": "31,568",
-      "stars_since": "944 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio \u2014 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "language": "Shell",
-      "total_stars": "11,832",
-      "stars_since": "311 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "jamiepine/voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source voice synthesis studio",
-      "language": "TypeScript",
-      "total_stars": "19,902",
-      "stars_since": "797 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "lukilabs/craft-agents-oss",
-      "url": "https://github.com/lukilabs/craft-agents-oss",
-      "description": "No description.",
-      "language": "TypeScript",
-      "total_stars": "4,307",
-      "stars_since": "110 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Tracer-Cloud/opensre",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
-      "language": "Python",
-      "total_stars": "1,485",
-      "stars_since": "184 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "total_stars": "157,844",
-      "stars_since": "1,713 stars today",
-      "status": "new"
-    }
-  ],
-  "AI/Python": [
-    {
-      "full_name": "lsdefine/GenericAgent",
-      "url": "https://github.com/lsdefine/GenericAgent",
-      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
-      "language": "Python",
-      "total_stars": "3,695",
-      "stars_since": "845 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Tracer-Cloud/opensre",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
-      "language": "Python",
-      "total_stars": "1,485",
-      "stars_since": "184 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "z-lab/dflash",
-      "url": "https://github.com/z-lab/dflash",
-      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
-      "language": "Python",
-      "total_stars": "1,811",
-      "stars_since": "287 stars today",
+      "total_stars": "10,484",
+      "stars_since": "609 stars today",
       "status": "new"
     },
     {
@@ -124,82 +23,44 @@
       "url": "https://github.com/openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "total_stars": "21,853",
-      "stars_since": "625 stars today",
+      "total_stars": "22,363",
+      "stars_since": "470 stars today",
       "status": "new"
     },
     {
-      "full_name": "google/magika",
-      "url": "https://github.com/google/magika",
-      "description": "Fast and accurate AI powered file content types detection",
-      "language": "Python",
-      "total_stars": "15,500",
-      "stars_since": "956 stars today",
+      "full_name": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "total_stars": "5,029",
+      "stars_since": "1,131 stars today",
       "status": "new"
     },
     {
-      "full_name": "nv-tlabs/lyra",
-      "url": "https://github.com/nv-tlabs/lyra",
-      "description": "Project Lyra: Open Generative 3D World Models",
-      "language": "Python",
-      "total_stars": "1,438",
-      "stars_since": "146 stars today",
+      "full_name": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+      "language": "Cuda",
+      "total_stars": "6,544",
+      "stars_since": "31 stars today",
       "status": "new"
     },
     {
-      "full_name": "NVlabs/GR00T-WholeBodyControl",
-      "url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
-      "description": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC",
-      "language": "Python",
-      "total_stars": "1,503",
-      "stars_since": "21 stars today",
+      "full_name": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b",
+      "language": "Jupyter Notebook",
+      "total_stars": "32,037",
+      "stars_since": "547 stars today",
       "status": "new"
     },
     {
-      "full_name": "topoteretes/cognee",
-      "url": "https://github.com/topoteretes/cognee",
-      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
-      "language": "Python",
-      "total_stars": "16,245",
-      "stars_since": "476 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "total_stars": "119,622",
-      "stars_since": "701 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "datalab-to/chandra",
-      "url": "https://github.com/datalab-to/chandra",
-      "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
-      "language": "Python",
-      "total_stars": "9,065",
-      "stars_since": "199 stars today",
-      "status": "new"
-    }
-  ],
-  "Rust Ecosystem": [
-    {
-      "full_name": "GyulyVGC/sniffnet",
-      "url": "https://github.com/GyulyVGC/sniffnet",
-      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
-      "language": "Rust",
-      "total_stars": "34,198",
-      "stars_since": "283 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-      "language": "Rust",
-      "total_stars": "770",
-      "stars_since": "437 stars today",
+      "full_name": "aaddrick/claude-desktop-debian",
+      "url": "https://github.com/aaddrick/claude-desktop-debian",
+      "description": "Claude Desktop for Debian-based Linux distributions",
+      "language": "Shell",
+      "total_stars": "3,478",
+      "stars_since": "44 stars today",
       "status": "new"
     },
     {
@@ -207,17 +68,174 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "111,693",
-      "stars_since": "211 stars today",
+      "total_stars": "112,108",
+      "stars_since": "393 stars today",
       "status": "new"
     },
     {
-      "full_name": "sharkdp/bat",
-      "url": "https://github.com/sharkdp/bat",
-      "description": "A cat(1) clone with wings.",
+      "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "total_stars": "3,150",
+      "stars_since": "403 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "tractorjuice/arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+      "language": "HTML",
+      "total_stars": "747",
+      "stars_since": "135 stars today",
+      "status": "new"
+    }
+  ],
+  "AI/Python": [
+    {
+      "full_name": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "total_stars": "22,363",
+      "stars_since": "470 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728",
+      "language": "Python",
+      "total_stars": "1,690",
+      "stars_since": "460 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "total_stars": "4,253",
+      "stars_since": "776 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship.",
+      "language": "Python",
+      "total_stars": "106,295",
+      "stars_since": "180 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "nv-tlabs/lyra",
+      "url": "https://github.com/nv-tlabs/lyra",
+      "description": "Project Lyra: Open Generative 3D World Models",
+      "language": "Python",
+      "total_stars": "1,493",
+      "stars_since": "66 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "total_stars": "15,885",
+      "stars_since": "545 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "AI4Finance-Foundation/FinRL-Trading",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+      "description": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+      "language": "Python",
+      "total_stars": "3,003",
+      "stars_since": "12 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "description": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
+      "language": "Python",
+      "total_stars": "3,004",
+      "stars_since": "40 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "description": "Saleor Core: the high performance, composable, headless commerce API.",
+      "language": "Python",
+      "total_stars": "22,813",
+      "stars_since": "4 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "language": "Python",
+      "total_stars": "30,349",
+      "stars_since": "115 stars today",
+      "status": "new"
+    }
+  ],
+  "Rust Ecosystem": [
+    {
+      "full_name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "58,273",
-      "stars_since": "25 stars today",
+      "total_stars": "112,108",
+      "stars_since": "393 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "total_stars": "840",
+      "stars_since": "119 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "total_stars": "34,367",
+      "stars_since": "204 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "\ud83e\uddf1 secure, local, cross-platform and programmable sandboxes for AI agents",
+      "language": "Rust",
+      "total_stars": "5,538",
+      "stars_since": "87 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "fathyb/carbonyl",
+      "url": "https://github.com/fathyb/carbonyl",
+      "description": "Chromium running inside your terminal",
+      "language": "Rust",
+      "total_stars": "18,731",
+      "stars_since": "163 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "dora-rs/dora",
+      "url": "https://github.com/dora-rs/dora",
+      "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.",
+      "language": "Rust",
+      "total_stars": "3,609",
+      "stars_since": "106 stars today",
       "status": "new"
     },
     {
@@ -225,26 +243,17 @@
       "url": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "total_stars": "4,594",
-      "stars_since": "129 stars today",
+      "total_stars": "4,614",
+      "stars_since": "21 stars today",
       "status": "new"
     },
     {
-      "full_name": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "starship/starship",
+      "url": "https://github.com/starship/starship",
+      "description": "\u2604\ud83c\udf0c\ufe0f The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "language": "Rust",
-      "total_stars": "75,991",
-      "stars_since": "277 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "longbridge/gpui-component",
-      "url": "https://github.com/longbridge/gpui-component",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "total_stars": "11,055",
-      "stars_since": "44 stars today",
+      "total_stars": "56,573",
+      "stars_since": "60 stars today",
       "status": "new"
     },
     {
@@ -252,37 +261,46 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "46,565",
-      "stars_since": "611 stars today",
+      "total_stars": "46,879",
+      "stars_since": "362 stars today",
       "status": "new"
     },
     {
-      "full_name": "cloudflare/pingora",
-      "url": "https://github.com/cloudflare/pingora",
-      "description": "A library for building fast, reliable and evolvable network services.",
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "26,441",
-      "stars_since": "26 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "vectordotdev/vector",
-      "url": "https://github.com/vectordotdev/vector",
-      "description": "A high-performance observability data pipeline.",
-      "language": "Rust",
-      "total_stars": "21,671",
-      "stars_since": "7 stars today",
+      "total_stars": "76,194",
+      "stars_since": "190 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "mostlygeek/llama-swap",
-      "url": "https://github.com/mostlygeek/llama-swap",
-      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "full_name": "canopy-network/canopy",
+      "url": "https://github.com/canopy-network/canopy",
+      "description": "The official go implementation of the Canopy Network protocol",
       "language": "Go",
-      "total_stars": "3,374",
-      "stars_since": "35 stars today",
+      "total_stars": "10,139",
+      "stars_since": "92 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "total_stars": "11,060",
+      "stars_since": "11 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "kgretzky/evilginx2",
+      "url": "https://github.com/kgretzky/evilginx2",
+      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "total_stars": "14,934",
+      "stars_since": "37 stars today",
       "status": "new"
     },
     {
@@ -290,136 +308,73 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "34,571",
-      "stars_since": "36 stars today",
+      "total_stars": "34,596",
+      "stars_since": "21 stars today",
       "status": "new"
     },
     {
-      "full_name": "grpc/grpc-go",
-      "url": "https://github.com/grpc/grpc-go",
-      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "full_name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
       "language": "Go",
-      "total_stars": "22,909",
+      "total_stars": "35,445",
+      "stars_since": "11 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "actions/actions-runner-controller",
+      "url": "https://github.com/actions/actions-runner-controller",
+      "description": "Kubernetes controller for GitHub Actions self-hosted runners",
+      "language": "Go",
+      "total_stars": "6,176",
       "stars_since": "4 stars today",
       "status": "new"
     },
     {
-      "full_name": "vllm-project/aibrix",
-      "url": "https://github.com/vllm-project/aibrix",
-      "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+      "full_name": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
       "language": "Go",
-      "total_stars": "4,740",
-      "stars_since": "6 stars today",
+      "total_stars": "8,752",
+      "stars_since": "5 stars today",
       "status": "new"
     },
     {
-      "full_name": "open-telemetry/opentelemetry-collector-contrib",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
-      "description": "Contrib repository for the OpenTelemetry Collector",
+      "full_name": "go-git/go-git",
+      "url": "https://github.com/go-git/go-git",
+      "description": "A highly extensible Git implementation in pure Go.",
       "language": "Go",
-      "total_stars": "4,590",
-      "stars_since": "2 stars today",
+      "total_stars": "7,364",
+      "stars_since": "4 stars today",
       "status": "new"
     },
     {
-      "full_name": "iawia002/lux",
-      "url": "https://github.com/iawia002/lux",
-      "description": "\ud83d\udc7e Fast and simple video download library and CLI tool written in Go",
+      "full_name": "versity/versitygw",
+      "url": "https://github.com/versity/versitygw",
+      "description": "A simple to deploy but feature rich S3 object storage server for your filesystem",
       "language": "Go",
-      "total_stars": "31,244",
-      "stars_since": "74 stars today",
+      "total_stars": "2,050",
+      "stars_since": "208 stars today",
       "status": "new"
     },
     {
-      "full_name": "moby/moby",
-      "url": "https://github.com/moby/moby",
-      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "full_name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
       "language": "Go",
-      "total_stars": "71,507",
-      "stars_since": "6 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "authelia/authelia",
-      "url": "https://github.com/authelia/authelia",
-      "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122",
-      "language": "Go",
-      "total_stars": "27,541",
-      "stars_since": "13 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "envoyproxy/ai-gateway",
-      "url": "https://github.com/envoyproxy/ai-gateway",
-      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
-      "language": "Go",
-      "total_stars": "1,525",
-      "stars_since": "7 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "VictoriaMetrics/VictoriaMetrics",
-      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
-      "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-      "language": "Go",
-      "total_stars": "16,796",
-      "stars_since": "19 stars today",
+      "total_stars": "29,044",
+      "stars_since": "59 stars today",
       "status": "new"
     }
   ],
   "Frontend/TS": [
     {
-      "full_name": "jamiepine/voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source voice synthesis studio",
+      "full_name": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
       "language": "TypeScript",
-      "total_stars": "19,902",
-      "stars_since": "797 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "lukilabs/craft-agents-oss",
-      "url": "https://github.com/lukilabs/craft-agents-oss",
-      "description": "No description.",
-      "language": "TypeScript",
-      "total_stars": "4,307",
-      "stars_since": "110 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "No description.",
-      "language": "TypeScript",
-      "total_stars": "9,464",
-      "stars_since": "227 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "total_stars": "35,880",
-      "stars_since": "196 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "twentyhq/twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern alternative to Salesforce, powered by the community.",
-      "language": "TypeScript",
-      "total_stars": "44,560",
-      "stars_since": "333 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "calcom/cal.diy",
-      "url": "https://github.com/calcom/cal.diy",
-      "description": "Scheduling infrastructure for absolutely everyone.",
-      "language": "TypeScript",
-      "total_stars": "41,412",
-      "stars_since": "93 stars today",
+      "total_stars": "1,589",
+      "stars_since": "447 stars today",
       "status": "new"
     },
     {
@@ -427,35 +382,80 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "total_stars": "61,523",
-      "stars_since": "2,161 stars today",
+      "total_stars": "62,503",
+      "stars_since": "1,033 stars today",
       "status": "new"
     },
     {
-      "full_name": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
+      "full_name": "DaKheera47/job-ops",
+      "url": "https://github.com/DaKheera47/job-ops",
+      "description": "job-ops: DevOps principles applied to job hunting. A self-hosted pipeline to track, analyze, and assist your application process",
       "language": "TypeScript",
-      "total_stars": "145,105",
-      "stars_since": "615 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "sparkjsdev/spark",
-      "url": "https://github.com/sparkjsdev/spark",
-      "description": "\u2728 An advanced 3D Gaussian Splatting renderer for THREE.js",
-      "language": "TypeScript",
-      "total_stars": "2,555",
+      "total_stars": "2,784",
       "stars_since": "72 stars today",
       "status": "new"
     },
     {
-      "full_name": "strapi/strapi",
-      "url": "https://github.com/strapi/strapi",
-      "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+      "full_name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "total_stars": "71,923",
-      "stars_since": "17 stars today",
+      "total_stars": "20,604",
+      "stars_since": "697 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "assistant-ui/assistant-ui",
+      "url": "https://github.com/assistant-ui/assistant-ui",
+      "description": "Typescript/React Library for AI Chat\ud83d\udcac\ud83d\ude80",
+      "language": "TypeScript",
+      "total_stars": "9,546",
+      "stars_since": "15 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "total_stars": "36,086",
+      "stars_since": "367 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "language": "TypeScript",
+      "total_stars": "41,080",
+      "stars_since": "139 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "No description.",
+      "language": "TypeScript",
+      "total_stars": "4,376",
+      "stars_since": "139 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "bitwarden/ai-plugins",
+      "url": "https://github.com/bitwarden/ai-plugins",
+      "description": "AI plugin marketplace.",
+      "language": "TypeScript",
+      "total_stars": "71",
+      "stars_since": "4 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "resend/react-email",
+      "url": "https://github.com/resend/react-email",
+      "description": "\ud83d\udc8c Build and send emails using React",
+      "language": "TypeScript",
+      "total_stars": "18,636",
+      "stars_since": "172 stars today",
       "status": "new"
     }
   ]
