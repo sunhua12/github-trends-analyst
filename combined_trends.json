@@ -5,7 +5,7 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
       "language": "Python",
-      "total_stars": "9,636",
+      "total_stars": "9,780",
       "stars_since": "3,109 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "48,236",
+      "total_stars": "48,294",
       "stars_since": "713 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/thunderbird/thunderbolt",
       "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
       "language": "TypeScript",
-      "total_stars": "2,840",
+      "total_stars": "2,865",
       "stars_since": "675 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/paperless-ngx/paperless-ngx",
       "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
       "language": "Python",
-      "total_stars": "39,442",
+      "total_stars": "39,477",
       "stars_since": "606 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/tractorjuice/arc-kit",
       "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
       "language": "HTML",
-      "total_stars": "1,352",
+      "total_stars": "1,374",
       "stars_since": "329 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "50,162",
+      "total_stars": "50,243",
       "stars_since": "316 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "total_stars": "23,962",
+      "total_stars": "24,005",
       "stars_since": "905 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/deepseek-ai/DeepGEMM",
       "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
       "language": "Cuda",
-      "total_stars": "6,835",
+      "total_stars": "6,847",
       "stars_since": "109 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/pi-hole/pi-hole",
       "description": "A black hole for Internet advertisements",
       "language": "Shell",
-      "total_stars": "57,199",
+      "total_stars": "57,244",
       "stars_since": "196 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "total_stars": "37,468",
+      "total_stars": "37,491",
       "stars_since": "78 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
       "language": "Python",
-      "total_stars": "9,636",
+      "total_stars": "9,779",
       "stars_since": "3,109 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/paperless-ngx/paperless-ngx",
       "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
       "language": "Python",
-      "total_stars": "39,442",
+      "total_stars": "39,477",
       "stars_since": "606 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "total_stars": "23,962",
+      "total_stars": "24,003",
       "stars_since": "905 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/alexzhang13/rlm",
       "description": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
       "language": "Python",
-      "total_stars": "3,488",
+      "total_stars": "3,489",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/sansan0/TrendRadar",
       "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 + RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 + AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
       "language": "Python",
-      "total_stars": "52,976",
+      "total_stars": "53,011",
       "stars_since": "604 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/zhinianboke/xianyu-auto-reply",
       "description": "\u95f2\u9c7c\u81ea\u52a8\u56de\u590d\u7ba1\u7406\u7cfb\u7edf\u662f\u4e00\u4e2a\u57fa\u4e8e Python + FastAPI \u5f00\u53d1\u7684\u81ea\u52a8\u5316\u5ba2\u670d\u7cfb\u7edf\uff0c\u4e13\u4e3a\u95f2\u9c7c\u5e73\u53f0\u8bbe\u8ba1\u3002\u7cfb\u7edf\u901a\u8fc7 WebSocket \u8fde\u63a5\u95f2\u9c7c\u670d\u52a1\u5668\uff0c\u5b9e\u65f6\u63a5\u6536\u548c\u5904\u7406\u6d88\u606f\uff0c\u63d0\u4f9b\u667a\u80fd\u5316\u7684\u81ea\u52a8\u56de\u590d\u670d\u52a1\u3002",
       "language": "Python",
-      "total_stars": "4,207",
+      "total_stars": "4,217",
       "stars_since": "145 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/kyegomez/swarms",
       "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website:https://swarms.ai",
       "language": "Python",
-      "total_stars": "6,339",
+      "total_stars": "6,342",
       "stars_since": "54 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/HKUDS/RAG-Anything",
       "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "language": "Python",
-      "total_stars": "16,432",
+      "total_stars": "16,435",
       "stars_since": "245 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "48,236",
+      "total_stars": "48,294",
       "stars_since": "713 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/starship/starship",
       "description": "\u2604\ud83c\udf0c\ufe0f The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "language": "Rust",
-      "total_stars": "56,699",
+      "total_stars": "56,700",
       "stars_since": "83 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/tw93/Kaku",
       "description": "\ud83c\udf83 A fast, out-of-the-box terminal built for AI coding.",
       "language": "Rust",
-      "total_stars": "4,485",
+      "total_stars": "4,487",
       "stars_since": "49 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/tailcallhq/forgecode",
       "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
       "language": "Rust",
-      "total_stars": "6,741",
+      "total_stars": "6,744",
       "stars_since": "69 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/DioxusLabs/dioxus",
       "description": "Fullstack app framework for web, desktop, and mobile.",
       "language": "Rust",
-      "total_stars": "35,753",
+      "total_stars": "35,754",
       "stars_since": "24 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/a2x/cs2-dumper",
       "description": "Counter-Strike: 2 Offset Dumper",
       "language": "Rust",
-      "total_stars": "1,947",
+      "total_stars": "1,948",
       "stars_since": "3 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/alacritty/alacritty",
       "description": "A cross-platform, OpenGL terminal emulator.",
       "language": "Rust",
-      "total_stars": "63,567",
+      "total_stars": "63,570",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/0x192/universal-android-debloater",
       "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.",
       "language": "Rust",
-      "total_stars": "19,190",
+      "total_stars": "19,191",
       "stars_since": "16 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "total_stars": "37,468",
+      "total_stars": "37,491",
       "stars_since": "78 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/pocketbase/pocketbase",
       "description": "Open Source realtime backend in 1 file",
       "language": "Go",
-      "total_stars": "57,752",
+      "total_stars": "57,753",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/go-vikunja/vikunja",
       "description": "The to-do app to organize your life.",
       "language": "Go",
-      "total_stars": "3,987",
+      "total_stars": "3,991",
       "stars_since": "6 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/evcc-io/evcc",
       "description": "solar charging \u2600\ufe0f\ud83d\ude98",
       "language": "Go",
-      "total_stars": "6,449",
+      "total_stars": "6,450",
       "stars_since": "5 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/xdevplatform/xurl",
       "description": "The official CLI for the X API",
       "language": "Go",
-      "total_stars": "812",
+      "total_stars": "814",
       "stars_since": "39 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "34,632",
+      "total_stars": "34,633",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/masterking32/MasterDnsVPN",
       "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
       "language": "Go",
-      "total_stars": "787",
+      "total_stars": "788",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/SagerNet/sing-box",
       "description": "The universal proxy platform",
       "language": "Go",
-      "total_stars": "32,890",
+      "total_stars": "32,891",
       "stars_since": "47 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/basecamp/once",
       "description": "Easy self-hosting for Docker-based web apps",
       "language": "Go",
-      "total_stars": "1,649",
+      "total_stars": "1,651",
       "stars_since": "17 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/thunderbird/thunderbolt",
       "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
       "language": "TypeScript",
-      "total_stars": "2,840",
+      "total_stars": "2,865",
       "stars_since": "675 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "50,162",
+      "total_stars": "50,243",
       "stars_since": "316 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/mnfst/manifest",
       "description": "Smart Model Routing for Personal AI Agents. Cut Costs up to 70% \ud83e\udd9e\ud83d\udc67\ud83e\udd9a",
       "language": "TypeScript",
-      "total_stars": "5,355",
+      "total_stars": "5,363",
       "stars_since": "399 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "10,156",
+      "total_stars": "10,161",
       "stars_since": "380 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/Infisical/infisical",
       "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
       "language": "TypeScript",
-      "total_stars": "26,063",
+      "total_stars": "26,064",
       "stars_since": "84 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/zilliztech/claude-context",
       "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
       "language": "TypeScript",
-      "total_stars": "6,103",
+      "total_stars": "6,107",
       "stars_since": "74 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/vercel-labs/portless",
       "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
       "language": "TypeScript",
-      "total_stars": "7,191",
+      "total_stars": "7,192",
       "stars_since": "39 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/nexmoe/VidBee",
       "description": "Download videos from almost any website worldwide",
       "language": "TypeScript",
-      "total_stars": "8,626",
+      "total_stars": "8,628",
       "stars_since": "176 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/tonyantony300/alt-sendme",
       "description": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions.",
       "language": "TypeScript",
-      "total_stars": "7,119",
+      "total_stars": "7,121",
       "stars_since": "84 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/crbnos/carbon",
       "description": "Carbon is an open source ERP, MES and QMS for manufacturing. Perfect for complex assembly, contract manufacturing, and configure to order manufacturing.",
       "language": "TypeScript",
-      "total_stars": "2,022",
+      "total_stars": "2,023",
       "stars_since": "74 stars today",
       "status": "new"
     }
