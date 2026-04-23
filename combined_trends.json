@@ -1,30 +1,57 @@
 {
   "Overall": [
     {
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-      "language": "Python",
-      "total_stars": "11,756",
-      "stars_since": "2,548 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "thunderbird/thunderbolt",
-      "url": "https://github.com/thunderbird/thunderbolt",
-      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
-      "language": "TypeScript",
-      "total_stars": "3,514",
-      "stars_since": "596 stars today",
-      "status": "new"
-    },
-    {
       "full_name": "zilliztech/claude-context",
       "url": "https://github.com/zilliztech/claude-context",
       "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
       "language": "TypeScript",
-      "total_stars": "6,691",
-      "stars_since": "169 stars today",
+      "total_stars": "7,573",
+      "stars_since": "871 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "total_stars": "13,152",
+      "stars_since": "1,772 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "total_stars": "51,621",
+      "stars_since": "424 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "\ud83e\udea2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23",
+      "language": "TypeScript",
+      "total_stars": "25,639",
+      "stars_since": "149 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "language": "TypeScript",
+      "total_stars": "39,616",
+      "stars_since": "372 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "total_stars": "12,206",
+      "stars_since": "521 stars today",
       "status": "new"
     },
     {
@@ -32,26 +59,8 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "48,936",
-      "stars_since": "824 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "microsoft/ai-agents-for-beginners",
-      "url": "https://github.com/microsoft/ai-agents-for-beginners",
-      "description": "12 Lessons to Get Started Building AI Agents",
-      "language": "Jupyter Notebook",
-      "total_stars": "57,842",
-      "stars_since": "200 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "dayanch96/YTLite",
-      "url": "https://github.com/dayanch96/YTLite",
-      "description": "A flexible enhancer for YouTube on iOS",
-      "language": "Logos",
-      "total_stars": "4,855",
-      "stars_since": "55 stars today",
+      "total_stars": "49,389",
+      "stars_since": "565 stars today",
       "status": "new"
     },
     {
@@ -59,8 +68,8 @@
       "url": "https://github.com/HKUDS/RAG-Anything",
       "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "language": "Python",
-      "total_stars": "16,976",
-      "stars_since": "162 stars today",
+      "total_stars": "17,571",
+      "stars_since": "786 stars today",
       "status": "new"
     },
     {
@@ -68,17 +77,17 @@
       "url": "https://github.com/sansan0/TrendRadar",
       "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 + RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 + AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
       "language": "Python",
-      "total_stars": "53,762",
-      "stars_since": "534 stars today",
+      "total_stars": "54,478",
+      "stars_since": "969 stars today",
       "status": "new"
     },
     {
-      "full_name": "VoltAgent/awesome-agent-skills",
-      "url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "language": "Unknown",
-      "total_stars": "16,835",
-      "stars_since": "139 stars today",
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "total_stars": "5,626",
+      "stars_since": "308 stars today",
       "status": "new"
     }
   ],
@@ -88,8 +97,8 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
       "language": "Python",
-      "total_stars": "11,756",
-      "stars_since": "2,548 stars today",
+      "total_stars": "13,152",
+      "stars_since": "1,772 stars today",
       "status": "new"
     },
     {
@@ -97,8 +106,8 @@
       "url": "https://github.com/HKUDS/RAG-Anything",
       "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "language": "Python",
-      "total_stars": "16,976",
-      "stars_since": "162 stars today",
+      "total_stars": "17,571",
+      "stars_since": "786 stars today",
       "status": "new"
     },
     {
@@ -106,62 +115,71 @@
       "url": "https://github.com/sansan0/TrendRadar",
       "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 + RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 + AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
       "language": "Python",
-      "total_stars": "53,762",
-      "stars_since": "534 stars today",
+      "total_stars": "54,478",
+      "stars_since": "969 stars today",
       "status": "new"
     },
     {
-      "full_name": "OthmanAdi/planning-with-files",
-      "url": "https://github.com/OthmanAdi/planning-with-files",
-      "description": "Claude Code skill implementing Manus-style persistent markdown planning \u2014 the workflow pattern behind the $2B acquisition.",
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "total_stars": "19,279",
-      "stars_since": "119 stars today",
+      "total_stars": "5,626",
+      "stars_since": "308 stars today",
       "status": "new"
     },
     {
-      "full_name": "huggingface/skills",
-      "url": "https://github.com/huggingface/skills",
-      "description": "Give your agents the power of the Hugging Face ecosystem",
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
       "language": "Python",
-      "total_stars": "10,262",
-      "stars_since": "15 stars today",
+      "total_stars": "59,729",
+      "stars_since": "518 stars today",
       "status": "new"
     },
     {
-      "full_name": "MoonshotAI/kimi-cli",
-      "url": "https://github.com/MoonshotAI/kimi-cli",
-      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "kyegomez/swarms",
+      "url": "https://github.com/kyegomez/swarms",
+      "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website:https://swarms.ai",
       "language": "Python",
-      "total_stars": "8,045",
-      "stars_since": "76 stars today",
+      "total_stars": "6,461",
+      "stars_since": "65 stars today",
       "status": "new"
     },
     {
-      "full_name": "swisskyrepo/PayloadsAllTheThings",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
-      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "full_name": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
       "language": "Python",
-      "total_stars": "77,078",
-      "stars_since": "40 stars today",
+      "total_stars": "39,785",
+      "stars_since": "97 stars today",
       "status": "new"
     },
     {
-      "full_name": "openai/openai-agents-python",
-      "url": "https://github.com/openai/openai-agents-python",
-      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
       "language": "Python",
-      "total_stars": "24,402",
-      "stars_since": "550 stars today",
+      "total_stars": "2,894",
+      "stars_since": "181 stars today",
       "status": "new"
     },
     {
-      "full_name": "PrefectHQ/fastmcp",
-      "url": "https://github.com/PrefectHQ/fastmcp",
-      "description": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients.",
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "total_stars": "24,742",
-      "stars_since": "53 stars today",
+      "total_stars": "24,950",
+      "stars_since": "100 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "total_stars": "133,439",
+      "stars_since": "379 stars today",
       "status": "new"
     }
   ],
@@ -171,17 +189,17 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "48,936",
-      "stars_since": "824 stars today",
+      "total_stars": "49,389",
+      "stars_since": "565 stars today",
       "status": "new"
     },
     {
-      "full_name": "pydantic/monty",
-      "url": "https://github.com/pydantic/monty",
-      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "full_name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
       "language": "Rust",
-      "total_stars": "6,927",
-      "stars_since": "32 stars today",
+      "total_stars": "35,473",
+      "stars_since": "368 stars today",
       "status": "new"
     },
     {
@@ -189,17 +207,8 @@
       "url": "https://github.com/a2x/cs2-dumper",
       "description": "Counter-Strike: 2 Offset Dumper",
       "language": "Rust",
-      "total_stars": "1,954",
-      "stars_since": "19 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "ajeetdsouza/zoxide",
-      "url": "https://github.com/ajeetdsouza/zoxide",
-      "description": "A smarter cd command. Supports all major shells.",
-      "language": "Rust",
-      "total_stars": "35,936",
-      "stars_since": "74 stars today",
+      "total_stars": "1,959",
+      "stars_since": "11 stars today",
       "status": "new"
     },
     {
@@ -207,109 +216,82 @@
       "url": "https://github.com/tailcallhq/forgecode",
       "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
       "language": "Rust",
-      "total_stars": "6,801",
-      "stars_since": "87 stars today",
+      "total_stars": "6,849",
+      "stars_since": "58 stars today",
       "status": "new"
     },
     {
-      "full_name": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "full_name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
       "language": "Rust",
-      "total_stars": "48,564",
-      "stars_since": "656 stars today",
+      "total_stars": "39,138",
+      "stars_since": "36 stars today",
       "status": "new"
     },
     {
-      "full_name": "qdrant/qdrant",
-      "url": "https://github.com/qdrant/qdrant",
-      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "30,544",
-      "stars_since": "64 stars today",
+      "total_stars": "77,051",
+      "stars_since": "248 stars today",
       "status": "new"
     },
     {
-      "full_name": "superradcompany/microsandbox",
-      "url": "https://github.com/superradcompany/microsandbox",
-      "description": "\ud83e\uddf1 secure, local and programmable sandboxes for AI agents",
+      "full_name": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
       "language": "Rust",
-      "total_stars": "5,722",
-      "stars_since": "77 stars today",
+      "total_stars": "12,452",
+      "stars_since": "38 stars today",
       "status": "new"
     },
     {
-      "full_name": "cube-js/cube",
-      "url": "https://github.com/cube-js/cube",
-      "description": "\ud83d\udcca Cube Core is open-source semantic layer for AI, BI and embedded analytics",
+      "full_name": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "\u2693 A collection of high-performance JavaScript tools.",
       "language": "Rust",
-      "total_stars": "19,832",
-      "stars_since": "11 stars today",
+      "total_stars": "20,829",
+      "stars_since": "30 stars today",
       "status": "new"
     },
     {
-      "full_name": "n0-computer/iroh",
-      "url": "https://github.com/n0-computer/iroh",
-      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "base/base",
+      "url": "https://github.com/base/base",
+      "description": "All components used to run Base",
       "language": "Rust",
-      "total_stars": "8,317",
-      "stars_since": "18 stars today",
+      "total_stars": "343",
+      "stars_since": "6 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "total_stars": "32,606",
+      "stars_since": "826 stars today",
       "status": "new"
     }
   ],
   "Go Backend": [
     {
-      "full_name": "syncthing/syncthing",
-      "url": "https://github.com/syncthing/syncthing",
-      "description": "Open Source Continuous File Synchronization",
-      "language": "Go",
-      "total_stars": "82,703",
-      "stars_since": "347 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "maximhq/bifrost",
-      "url": "https://github.com/maximhq/bifrost",
-      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 \u00b5s overhead at 5k RPS.",
-      "language": "Go",
-      "total_stars": "4,137",
-      "stars_since": "87 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "evcc-io/evcc",
-      "url": "https://github.com/evcc-io/evcc",
-      "description": "solar charging \u2600\ufe0f\ud83d\ude98",
-      "language": "Go",
-      "total_stars": "6,463",
-      "stars_since": "15 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "hashicorp/terraform",
-      "url": "https://github.com/hashicorp/terraform",
-      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-      "language": "Go",
-      "total_stars": "48,194",
-      "stars_since": "14 stars today",
-      "status": "new"
-    },
-    {
       "full_name": "XTLS/Xray-core",
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "total_stars": "37,665",
-      "stars_since": "293 stars today",
+      "total_stars": "37,708",
+      "stars_since": "53 stars today",
       "status": "new"
     },
     {
-      "full_name": "mostlygeek/llama-swap",
-      "url": "https://github.com/mostlygeek/llama-swap",
-      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
-      "total_stars": "3,527",
-      "stars_since": "40 stars today",
+      "total_stars": "63,714",
+      "stars_since": "33 stars today",
       "status": "new"
     },
     {
@@ -317,100 +299,82 @@
       "url": "https://github.com/helm/helm",
       "description": "The Kubernetes Package Manager",
       "language": "Go",
-      "total_stars": "29,714",
-      "stars_since": "9 stars today",
+      "total_stars": "29,723",
+      "stars_since": "7 stars today",
       "status": "new"
     },
     {
-      "full_name": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
+      "full_name": "steipete/gogcli",
+      "url": "https://github.com/steipete/gogcli",
+      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
       "language": "Go",
-      "total_stars": "28,122",
-      "stars_since": "213 stars today",
+      "total_stars": "7,002",
+      "stars_since": "28 stars today",
       "status": "new"
     },
     {
-      "full_name": "guohuiyuan/go-music-dl",
-      "url": "https://github.com/guohuiyuan/go-music-dl",
-      "description": "\u4e00\u4e2a\u57fa\u4e8e Go \u8bed\u8a00\u7684\u5168\u7f51\u97f3\u4e50\u641c\u7d22\u4e0e\u4e0b\u8f7d\u5de5\u5177\u3002\u652f\u6301 CLI \u547d\u4ee4\u884c\u4e0e Web \u670d\u52a1\u53cc\u6a21\u5f0f\uff0c\u5185\u7f6e\u7f51\u6613\u4e91\u3001QQ\u3001\u9177\u72d7\u3001Bilibili\u3001\u6c7d\u6c34\u97f3\u4e50\u7b49 10+ \u4e2a\u4e3b\u6d41\u5e73\u53f0\uff0c\u652f\u6301\u591a\u6e90\u5e76\u53d1\u641c\u7d22\u4e0e\u65e0\u635f\u97f3\u8d28\u89e3\u6790\u3002music-dl\u4ea4\u6d41\u7fa4\uff1a1074285005",
+      "full_name": "pocketbase/pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
       "language": "Go",
-      "total_stars": "2,492",
+      "total_stars": "57,838",
+      "stars_since": "43 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
+      "language": "Go",
+      "total_stars": "3,792",
+      "stars_since": "22 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "total_stars": "48,214",
       "stars_since": "25 stars today",
       "status": "new"
     },
     {
-      "full_name": "e2b-dev/infra",
-      "url": "https://github.com/e2b-dev/infra",
-      "description": "Infrastructure that's powering E2B Cloud.",
+      "full_name": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
       "language": "Go",
-      "total_stars": "1,044",
+      "total_stars": "28,053",
+      "stars_since": "12 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "language": "Go",
+      "total_stars": "40,001",
       "stars_since": "7 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "casdoor/casdoor",
+      "url": "https://github.com/casdoor/casdoor",
+      "description": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
+      "language": "Go",
+      "total_stars": "13,457",
+      "stars_since": "22 stars today",
       "status": "new"
     }
   ],
   "Frontend/TS": [
     {
-      "full_name": "thunderbird/thunderbolt",
-      "url": "https://github.com/thunderbird/thunderbolt",
-      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
-      "language": "TypeScript",
-      "total_stars": "3,514",
-      "stars_since": "596 stars today",
-      "status": "new"
-    },
-    {
       "full_name": "zilliztech/claude-context",
       "url": "https://github.com/zilliztech/claude-context",
       "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
       "language": "TypeScript",
-      "total_stars": "6,691",
-      "stars_since": "169 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "langfuse/langfuse",
-      "url": "https://github.com/langfuse/langfuse",
-      "description": "\ud83e\udea2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23",
-      "language": "TypeScript",
-      "total_stars": "25,298",
-      "stars_since": "67 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "vitejs/vite",
-      "url": "https://github.com/vitejs/vite",
-      "description": "Next generation frontend tooling. It's fast!",
-      "language": "TypeScript",
-      "total_stars": "80,077",
-      "stars_since": "54 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "tailwindlabs/tailwindcss",
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "description": "A utility-first CSS framework for rapid UI development.",
-      "language": "TypeScript",
-      "total_stars": "94,678",
-      "stars_since": "48 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "siyuan-note/siyuan",
-      "url": "https://github.com/siyuan-note/siyuan",
-      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-      "language": "TypeScript",
-      "total_stars": "42,854",
-      "stars_since": "45 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Helicone/helicone",
-      "url": "https://github.com/Helicone/helicone",
-      "description": "\ud83e\uddca Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 \ud83c\udf53",
-      "language": "TypeScript",
-      "total_stars": "5,530",
-      "stars_since": "7 stars today",
+      "total_stars": "7,573",
+      "stars_since": "871 stars today",
       "status": "new"
     },
     {
@@ -418,26 +382,80 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "50,908",
-      "stars_since": "1,187 stars today",
+      "total_stars": "51,621",
+      "stars_since": "424 stars today",
       "status": "new"
     },
     {
-      "full_name": "janhq/jan",
-      "url": "https://github.com/janhq/jan",
-      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "full_name": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "\ud83e\udea2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23",
       "language": "TypeScript",
-      "total_stars": "42,060",
-      "stars_since": "63 stars today",
+      "total_stars": "25,639",
+      "stars_since": "149 stars today",
       "status": "new"
     },
     {
-      "full_name": "CherryHQ/cherry-studio",
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "full_name": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
       "language": "TypeScript",
-      "total_stars": "44,004",
-      "stars_since": "94 stars today",
+      "total_stars": "39,616",
+      "stars_since": "372 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "total_stars": "12,206",
+      "stars_since": "521 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "total_stars": "15,513",
+      "stars_since": "333 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+      "language": "TypeScript",
+      "total_stars": "77,614",
+      "stars_since": "315 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "vscode-icons/vscode-icons",
+      "url": "https://github.com/vscode-icons/vscode-icons",
+      "description": "Icons for Visual Studio Code",
+      "language": "TypeScript",
+      "total_stars": "5,037",
+      "stars_since": "3 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "xiangechen/chili3d",
+      "url": "https://github.com/xiangechen/chili3d",
+      "description": "A browser-based 3D CAD application for online model design and editing",
+      "language": "TypeScript",
+      "total_stars": "4,503",
+      "stars_since": "6 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "total_stars": "3,744",
+      "stars_since": "579 stars today",
       "status": "new"
     }
   ]
