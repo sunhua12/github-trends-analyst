@@ -5,7 +5,7 @@
       "url": "https://github.com/warpdotdev/warp",
       "description": "Warp is an agentic development environment, born out of the terminal.",
       "language": "Rust",
-      "total_stars": "44,389",
+      "total_stars": "44,898",
       "stars_since": "12,822 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "total_stars": "44,992",
+      "total_stars": "45,382",
       "stars_since": "7,280 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/HunxByts/GhostTrack",
       "description": "Useful tool to track location or mobile number",
       "language": "Python",
-      "total_stars": "11,617",
+      "total_stars": "11,665",
       "stars_since": "1,033 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "language": "Python",
-      "total_stars": "4,837",
+      "total_stars": "4,877",
       "stars_since": "1,177 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "1,402",
+      "total_stars": "1,455",
       "stars_since": "411 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "33,369",
+      "total_stars": "33,421",
       "stars_since": "774 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python",
-      "total_stars": "45,720",
+      "total_stars": "45,760",
       "stars_since": "1,690 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/CJackHwang/ds2api",
       "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
       "language": "Go",
-      "total_stars": "2,738",
+      "total_stars": "2,783",
       "stars_since": "465 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "173,206",
+      "total_stars": "173,358",
       "stars_since": "1,653 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\u5668\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "32,825",
+      "total_stars": "32,940",
       "stars_since": "294 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/HunxByts/GhostTrack",
       "description": "Useful tool to track location or mobile number",
       "language": "Python",
-      "total_stars": "11,617",
+      "total_stars": "11,665",
       "stars_since": "1,033 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "language": "Python",
-      "total_stars": "4,837",
+      "total_stars": "4,877",
       "stars_since": "1,177 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python",
-      "total_stars": "45,720",
+      "total_stars": "45,760",
       "stars_since": "1,690 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\u5668\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "32,825",
+      "total_stars": "32,940",
       "stars_since": "294 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "description": "\ud83d\udcda Freely available programming books",
       "language": "Python",
-      "total_stars": "387,212",
+      "total_stars": "387,239",
       "stars_since": "604 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "total_stars": "20,281",
+      "total_stars": "20,324",
       "stars_since": "79 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "55,842",
+      "total_stars": "55,939",
       "stars_since": "386 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
       "language": "Python",
-      "total_stars": "346,262",
+      "total_stars": "346,273",
       "stars_since": "578 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/KellerJordan/modded-nanogpt",
       "description": "NanoGPT (124M) in 90 seconds",
       "language": "Python",
-      "total_stars": "5,173",
+      "total_stars": "5,174",
       "stars_since": "27 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/warpdotdev/warp",
       "description": "Warp is an agentic development environment, born out of the terminal.",
       "language": "Rust",
-      "total_stars": "44,389",
+      "total_stars": "44,898",
       "stars_since": "12,822 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "1,402",
+      "total_stars": "1,455",
       "stars_since": "411 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "55,658",
+      "total_stars": "55,779",
       "stars_since": "1,252 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "15,306",
+      "total_stars": "15,307",
       "stars_since": "43 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/njbrake/agent-of-empires",
       "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding. Uses tmux and git worktrees.",
       "language": "Rust",
-      "total_stars": "1,791",
+      "total_stars": "1,794",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "78,930",
+      "total_stars": "78,950",
       "stars_since": "331 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/rustfs/rustfs",
       "description": "\ud83d\ude802.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
-      "total_stars": "26,829",
+      "total_stars": "26,834",
       "stars_since": "124 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/qxcnm/Codex-Manager",
       "description": "\u4e00\u4e2aCodex cli \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Codex cli\u63d0\u4f9b\u672c\u5730\u7f51\u5173\u8f6c\u53d1\u3002",
       "language": "Rust",
-      "total_stars": "1,796",
+      "total_stars": "1,797",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/iii-hq/iii",
       "description": "iii unifies your existing backend stack with a single engine and three primitives: Function, Trigger, and Worker.",
       "language": "Rust",
-      "total_stars": "15,432",
+      "total_stars": "15,434",
       "stars_since": "53 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/CJackHwang/ds2api",
       "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
       "language": "Go",
-      "total_stars": "2,738",
+      "total_stars": "2,783",
       "stars_since": "465 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/seaweedfs/seaweedfs",
       "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
       "language": "Go",
-      "total_stars": "31,951",
+      "total_stars": "31,957",
       "stars_since": "41 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/gastownhall/beads",
       "description": "Beads - A memory upgrade for your coding agent",
       "language": "Go",
-      "total_stars": "22,672",
+      "total_stars": "22,703",
       "stars_since": "161 stars today",
       "status": "new"
     },
@@ -308,8 +308,17 @@
       "url": "https://github.com/everywall/ladder",
       "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
       "language": "Go",
-      "total_stars": "7,285",
+      "total_stars": "7,292",
       "stars_since": "713 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "chenhg5/cc-connect",
+      "url": "https://github.com/chenhg5/cc-connect",
+      "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere \u2014 no public IP required for most platforms.",
+      "language": "Go",
+      "total_stars": "6,775",
+      "stars_since": "151 stars today",
       "status": "new"
     },
     {
@@ -317,7 +326,7 @@
       "url": "https://github.com/cloudwego/eino",
       "description": "The ultimate LLM/AI application development framework in Go.",
       "language": "Go",
-      "total_stars": "10,957",
+      "total_stars": "10,960",
       "stars_since": "26 stars today",
       "status": "new"
     },
@@ -344,7 +353,7 @@
       "url": "https://github.com/Agent-Field/agentfield",
       "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
       "language": "Go",
-      "total_stars": "1,560",
+      "total_stars": "1,562",
       "stars_since": "44 stars today",
       "status": "new"
     },
@@ -353,17 +362,8 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
       "language": "Go",
-      "total_stars": "29,802",
+      "total_stars": "29,828",
       "stars_since": "258 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "k0sproject/k0s",
-      "url": "https://github.com/k0sproject/k0s",
-      "description": "k0s - The Zero Friction Kubernetes",
-      "language": "Go",
-      "total_stars": "6,006",
-      "stars_since": "24 stars today",
       "status": "new"
     }
   ],
@@ -373,7 +373,7 @@
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
-      "total_stars": "33,369",
+      "total_stars": "33,421",
       "stars_since": "774 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/lukilabs/craft-agents-oss",
       "description": "No description.",
       "language": "TypeScript",
-      "total_stars": "5,361",
+      "total_stars": "5,381",
       "stars_since": "393 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/vercel-labs/portless",
       "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
       "language": "TypeScript",
-      "total_stars": "8,478",
+      "total_stars": "8,484",
       "stars_since": "358 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui",
       "description": "CC GUI \u5ba2\u6237\u7aef\uff08\u4e13\u4e3a\u5f00\u53d1\u8005\u6253\u9020\u7684VibeCoding\u5e73\u53f0\uff09",
       "language": "TypeScript",
-      "total_stars": "2,144",
+      "total_stars": "2,149",
       "stars_since": "41 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/microsoft/playwright-mcp",
       "description": "Playwright MCP server",
       "language": "TypeScript",
-      "total_stars": "31,800",
+      "total_stars": "31,804",
       "stars_since": "170 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/Fission-AI/OpenSpec",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
       "language": "TypeScript",
-      "total_stars": "44,060",
+      "total_stars": "44,091",
       "stars_since": "370 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/getumbrel/umbrel",
       "description": "An elegant home server OS. Run OpenClaw, store your files and photos, run a Bitcoin node, and do more with over 300 apps in the Umbrel App Store.",
       "language": "TypeScript",
-      "total_stars": "11,115",
+      "total_stars": "11,117",
       "stars_since": "12 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
       "description": "Become a cracked AI/ML Research Engineer",
       "language": "TypeScript",
-      "total_stars": "3,335",
+      "total_stars": "3,344",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
       "description": "\u9762\u5411\u957f\u7bc7\u5c0f\u8bf4\u521b\u4f5c\u7684 AI Native \u5f00\u6e90\u7cfb\u7edf\uff0c\u7528 Agent\u3001\u4e16\u754c\u89c2\u3001\u5199\u6cd5\u5f15\u64ce\u3001RAG \u548c\u6574\u672c\u751f\u4ea7\u5de5\u4f5c\u6d41\uff0c\u5e2e\u52a9\u65b0\u624b\u4ece\u4e00\u53e5\u7075\u611f\u8d70\u5230\u5b8c\u6574\u5c0f\u8bf4\u3002AI-native engine for end-to-end novel creation \u2014 from idea to full chapters, with structured planning, worldbuilding, and agent-driven workflows.",
       "language": "TypeScript",
-      "total_stars": "993",
+      "total_stars": "998",
       "stars_since": "43 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/upstash/context7",
       "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
       "language": "TypeScript",
-      "total_stars": "54,125",
+      "total_stars": "54,129",
       "stars_since": "108 stars today",
       "status": "new"
     }
