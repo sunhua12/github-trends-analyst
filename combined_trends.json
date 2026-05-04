@@ -5,7 +5,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "39,096",
+      "total_stars": "39,232",
       "stars_since": "1,840 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "65,380",
+      "total_stars": "65,504",
       "stars_since": "3,313 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "total_stars": "23,858",
+      "total_stars": "23,924",
       "stars_since": "1,119 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "2,210",
+      "total_stars": "2,278",
       "stars_since": "343 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "total_stars": "10,029",
+      "total_stars": "10,119",
       "stars_since": "497 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/browserbase/skills",
       "description": "Claude Agent SDK with a web browsing tool",
       "language": "JavaScript",
-      "total_stars": "1,841",
+      "total_stars": "1,858",
       "stars_since": "322 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
       "language": "TypeScript",
-      "total_stars": "19,540",
+      "total_stars": "19,570",
       "stars_since": "282 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "3,452",
+      "total_stars": "3,488",
       "stars_since": "591 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/openwrt/openwrt",
       "description": "This repository is a mirror ofhttps://git.openwrt.org/openwrt/openwrt.gitIt is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
       "language": "C",
-      "total_stars": "26,626",
+      "total_stars": "26,637",
       "stars_since": "26 stars today",
       "status": "new"
     }
@@ -88,7 +88,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "65,381",
+      "total_stars": "65,504",
       "stars_since": "3,313 stars today",
       "status": "new"
     },
@@ -97,7 +97,7 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "total_stars": "23,859",
+      "total_stars": "23,924",
       "stars_since": "1,119 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "total_stars": "10,029",
+      "total_stars": "10,119",
       "stars_since": "497 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/Q00/ouroboros",
       "description": "Agent OS: Stop prompting. Start specifying.",
       "language": "Python",
-      "total_stars": "3,197",
+      "total_stars": "3,201",
       "stars_since": "102 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "17,233",
+      "total_stars": "17,241",
       "stars_since": "383 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/cocoindex-io/cocoindex",
       "description": "Incremental engine for long horizon agents \ud83c\udf1f Star if you like it!",
       "language": "Python",
-      "total_stars": "7,668",
+      "total_stars": "7,676",
       "stars_since": "163 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/dreammis/social-auto-upload",
       "description": "\u81ea\u52a8\u5316\u4e0a\u4f20\u89c6\u9891\u5230\u793e\u4ea4\u5a92\u4f53\uff1a\u6296\u97f3\u3001\u5c0f\u7ea2\u4e66\u3001\u89c6\u9891\u53f7\u3001tiktok\u3001youtube\u3001bilibili",
       "language": "Python",
-      "total_stars": "10,567",
+      "total_stars": "10,573",
       "stars_since": "150 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/hiddify/Hiddify-Manager",
       "description": "Multi-user anti-filtering panel, with an effortless installation and supporting more than 20 protocols to circumvent filtering plus the telegram proxy.",
       "language": "Python",
-      "total_stars": "8,759",
+      "total_stars": "8,760",
       "stars_since": "10 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/LearningCircuit/local-deep-research",
       "description": "Local Deep Research achieves ~95% on SimpleQA benchmark (tested with Qwen 3.6). Supports local and cloud LLMs (Ollama, Google, Anthropic, ...). Searches 10+ sources - arXiv, PubMed, web, and your private documents. Everything Local & Encrypted.",
       "language": "Python",
-      "total_stars": "4,666",
+      "total_stars": "4,671",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/microsoft/qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process.",
       "language": "Python",
-      "total_stars": "41,926",
+      "total_stars": "41,931",
       "stars_since": "94 stars today",
       "status": "new"
     }
@@ -180,7 +180,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "2,210",
+      "total_stars": "2,278",
       "stars_since": "343 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "3,452",
+      "total_stars": "3,488",
       "stars_since": "591 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/tonhowtf/omniget",
       "description": "Open source desktop app for studying online courses and books on your computer. Watch Hotmart, Udemy, Kiwify courses with timestamped notes, spaced repetition flashcards and a focus timer. Read PDFs and EPUBs with highlights, bookmarks and a focus mode. Also downloads YouTube, Instagram, TikTok and torrents.",
       "language": "Svelte",
-      "total_stars": "3,415",
+      "total_stars": "3,428",
       "stars_since": "225 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/tursodatabase/turso",
       "description": "Turso is an in-process SQL database, compatible with SQLite.",
       "language": "Rust",
-      "total_stars": "18,512",
+      "total_stars": "18,516",
       "stars_since": "26 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/gfx-rs/wgpu",
       "description": "A cross-platform, safe, pure-Rust graphics API.",
       "language": "Rust",
-      "total_stars": "17,048",
+      "total_stars": "17,049",
       "stars_since": "10 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "51,573",
+      "total_stars": "51,578",
       "stars_since": "161 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
-      "total_stars": "25,184",
+      "total_stars": "25,185",
       "stars_since": "68 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/bevyengine/bevy",
       "description": "A refreshingly simple data-driven game engine built in Rust",
       "language": "Rust",
-      "total_stars": "45,880",
+      "total_stars": "45,884",
       "stars_since": "21 stars today",
       "status": "new"
     }
@@ -290,7 +290,7 @@
       "url": "https://github.com/danielmiessler/Fabric",
       "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
       "language": "Go",
-      "total_stars": "41,499",
+      "total_stars": "41,501",
       "stars_since": "64 stars today",
       "status": "new"
     },
@@ -364,7 +364,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "39,096",
+      "total_stars": "39,232",
       "stars_since": "1,840 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
       "language": "TypeScript",
-      "total_stars": "19,540",
+      "total_stars": "19,570",
       "stars_since": "282 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "language": "TypeScript",
-      "total_stars": "22,637",
+      "total_stars": "22,660",
       "stars_since": "418 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/vas3k/TaxHacker",
       "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
       "language": "TypeScript",
-      "total_stars": "5,505",
+      "total_stars": "5,510",
       "stars_since": "83 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/nexu-io/nexu",
       "description": "The simplest desktop client for OpenClaw \ud83e\udd9e \u2014 bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
       "language": "TypeScript",
-      "total_stars": "2,830",
+      "total_stars": "2,831",
       "stars_since": "21 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/Open-Dev-Society/OpenStock",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights \u2014 built openly, for everyone, forever free.",
       "language": "TypeScript",
-      "total_stars": "11,179",
+      "total_stars": "11,180",
       "stars_since": "84 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/siddharthvaddem/openscreen",
       "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
       "language": "TypeScript",
-      "total_stars": "34,566",
+      "total_stars": "34,588",
       "stars_since": "245 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/iOfficeAI/AionUi",
       "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!",
       "language": "TypeScript",
-      "total_stars": "23,592",
+      "total_stars": "23,598",
       "stars_since": "141 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/BlackHatDevX/openspot-music-app",
       "description": "OpenSpot is a free and open-source music streaming application designed for a seamless, high-fidelity listening experience. Built with a modern tech stack, it features a beautiful, responsive UI that looks great on any device.",
       "language": "TypeScript",
-      "total_stars": "2,091",
+      "total_stars": "2,092",
       "stars_since": "38 stars today",
       "status": "new"
     }
