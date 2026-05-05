@@ -5,7 +5,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "41,516",
+      "total_stars": "41,593",
       "stars_since": "2,598 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "67,598",
+      "total_stars": "67,684",
       "stars_since": "2,182 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/browserbase/skills",
       "description": "Claude Agent SDK with a web browsing tool",
       "language": "JavaScript",
-      "total_stars": "2,130",
+      "total_stars": "2,147",
       "stars_since": "320 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "4,059",
+      "total_stars": "4,163",
       "stars_since": "1,274 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "total_stars": "24,883",
+      "total_stars": "24,926",
       "stars_since": "1,119 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/qbittorrent/qBittorrent",
       "description": "qBittorrent BitTorrent client",
       "language": "C++",
-      "total_stars": "37,060",
+      "total_stars": "37,069",
       "stars_since": "82 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
       "language": "TypeScript",
-      "total_stars": "19,930",
+      "total_stars": "19,937",
       "stars_since": "496 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "3,931",
+      "total_stars": "3,941",
       "stars_since": "548 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "total_stars": "92,710",
+      "total_stars": "92,748",
       "stars_since": "1,189 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "language": "TypeScript",
-      "total_stars": "23,228",
+      "total_stars": "23,242",
       "stars_since": "409 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "total_stars": "67,598",
+      "total_stars": "67,684",
       "stars_since": "2,182 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "total_stars": "24,883",
+      "total_stars": "24,926",
       "stars_since": "1,119 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/cocoindex-io/cocoindex",
       "description": "Incremental engine for long horizon agents \ud83c\udf1f Star if you like it!",
       "language": "Python",
-      "total_stars": "8,024",
+      "total_stars": "8,040",
       "stars_since": "166 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "\ud83d\ude80 AI \u5168\u81ea\u52a8\u77ed\u89c6\u9891\u5f15\u64ce | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "total_stars": "10,903",
+      "total_stars": "10,934",
       "stars_since": "1,153 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "17,336",
+      "total_stars": "17,340",
       "stars_since": "153 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/OWASP/Nettacker",
       "description": "Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management",
       "language": "Python",
-      "total_stars": "5,130",
+      "total_stars": "5,132",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/raullenchai/Rapid-MLX",
       "description": "The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Works with Claude Code, Cursor, Aider.",
       "language": "Python",
-      "total_stars": "1,151",
+      "total_stars": "1,178",
       "stars_since": "200 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/Q00/ouroboros",
       "description": "Agent OS: Stop prompting. Start specifying.",
       "language": "Python",
-      "total_stars": "3,267",
+      "total_stars": "3,268",
       "stars_since": "77 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/MervinPraison/PraisonAI",
       "description": "PraisonAI \ud83e\udd9e \u2014 Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
       "language": "Python",
-      "total_stars": "7,046",
+      "total_stars": "7,047",
       "stars_since": "17 stars today",
       "status": "new"
     },
@@ -189,7 +189,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "4,059",
+      "total_stars": "4,163",
       "stars_since": "1,274 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "total_stars": "3,931",
+      "total_stars": "3,941",
       "stars_since": "548 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
-      "total_stars": "22,483",
+      "total_stars": "22,484",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "51,671",
+      "total_stars": "51,676",
       "stars_since": "133 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/bevyengine/bevy",
       "description": "A refreshingly simple data-driven game engine built in Rust",
       "language": "Rust",
-      "total_stars": "45,903",
+      "total_stars": "45,904",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/eythaann/Seelen-UI",
       "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
       "language": "Rust",
-      "total_stars": "16,651",
+      "total_stars": "16,657",
       "stars_since": "116 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/go-gitea/gitea",
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
-      "total_stars": "55,355",
+      "total_stars": "55,356",
       "stars_since": "29 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/krillinai/KrillinAI",
       "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube\uff0cTikTok. AI\u89c6\u9891\u7ffb\u8bd1\u914d\u97f3\u5de5\u5177\uff0c100\u79cd\u8bed\u8a00\u53cc\u5411\u7ffb\u8bd1\uff0c\u4e00\u952e\u90e8\u7f72\u5168\u6d41\u7a0b\uff0c\u53ef\u4ee5\u751f\u6296\u97f3\uff0c\u5c0f\u7ea2\u4e66\uff0c\u54d4\u54e9\u54d4\u54e9\uff0c\u89c6\u9891\u53f7\uff0cTikTok\uff0cYoutube\u7b49\u5f62\u6001\u7684\u5185\u5bb9\u6210\u9002\u914d",
       "language": "Go",
-      "total_stars": "9,998",
+      "total_stars": "9,999",
       "stars_since": "23 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/pranshuparmar/witr",
       "description": "Why is this running?",
       "language": "Go",
-      "total_stars": "14,947",
+      "total_stars": "14,951",
       "stars_since": "113 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/syncthing/syncthing",
       "description": "Open Source Continuous File Synchronization",
       "language": "Go",
-      "total_stars": "83,540",
+      "total_stars": "83,541",
       "stars_since": "52 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "total_stars": "41,516",
+      "total_stars": "41,593",
       "stars_since": "2,598 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
       "language": "TypeScript",
-      "total_stars": "19,930",
+      "total_stars": "19,937",
       "stars_since": "496 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "language": "TypeScript",
-      "total_stars": "23,228",
+      "total_stars": "23,242",
       "stars_since": "409 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/withastro/flue",
       "description": "The sandbox agent framework.",
       "language": "TypeScript",
-      "total_stars": "2,381",
+      "total_stars": "2,384",
       "stars_since": "290 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/actualbudget/actual",
       "description": "A local-first personal finance app",
       "language": "TypeScript",
-      "total_stars": "26,293",
+      "total_stars": "26,294",
       "stars_since": "76 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
-      "total_stars": "184,566",
+      "total_stars": "184,567",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/mnfst/manifest",
       "description": "Smart Model Routing for Agents. Cut Costs up to 70% \ud83e\udd9a",
       "language": "TypeScript",
-      "total_stars": "6,093",
+      "total_stars": "6,095",
       "stars_since": "122 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/maplibre/maplibre-gl-js",
       "description": "MapLibre GL JS - Interactive vector tile maps in the browser",
       "language": "TypeScript",
-      "total_stars": "10,510",
+      "total_stars": "10,511",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/openclaw/acpx",
       "description": "Headless CLI client for stateful Agent Client Protocol (ACP) sessions",
       "language": "TypeScript",
-      "total_stars": "2,568",
+      "total_stars": "2,569",
       "stars_since": "43 stars today",
       "status": "new"
     }
