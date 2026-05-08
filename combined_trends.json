@@ -5,7 +5,7 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "11,926",
+      "total_stars": "12,136",
       "stars_since": "1,343 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "19,114",
+      "total_stars": "19,401",
       "stars_since": "5,799 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "total_stars": "3,522",
+      "total_stars": "3,546",
       "stars_since": "671 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
       "language": "TypeScript",
-      "total_stars": "8,887",
+      "total_stars": "8,910",
       "stars_since": "460 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/LearningCircuit/local-deep-research",
       "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
       "language": "Python",
-      "total_stars": "6,295",
+      "total_stars": "6,335",
       "stars_since": "559 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "total_stars": "33,101",
+      "total_stars": "33,234",
       "stars_since": "3,062 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "total_stars": "29,606",
+      "total_stars": "29,666",
       "stars_since": "943 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/vercel-labs/open-agents",
       "description": "An open source template for building cloud agents.",
       "language": "TypeScript",
-      "total_stars": "5,065",
+      "total_stars": "5,089",
       "stars_since": "131 stars today",
       "status": "new"
     },
@@ -77,16 +77,16 @@
       "url": "https://github.com/docusealco/docuseal",
       "description": "Open source DocuSign alternative. Create, fill, and sign digital documents \u270d\ufe0f",
       "language": "Ruby",
-      "total_stars": "15,661",
+      "total_stars": "15,681",
       "stars_since": "900 stars today",
       "status": "new"
     },
     {
       "full_name": "decolua/9router",
       "url": "https://github.com/decolua/9router",
-      "description": "\ud83c\udd93 Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "description": "\ud83c\uddfb\ud83c\uddf3 Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "language": "JavaScript",
-      "total_stars": "4,619",
+      "total_stars": "4,705",
       "stars_since": "149 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "11,926",
+      "total_stars": "12,136",
       "stars_since": "1,343 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "total_stars": "3,522",
+      "total_stars": "3,546",
       "stars_since": "671 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/LearningCircuit/local-deep-research",
       "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
       "language": "Python",
-      "total_stars": "6,295",
+      "total_stars": "6,335",
       "stars_since": "559 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "total_stars": "29,606",
+      "total_stars": "29,666",
       "stars_since": "943 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/PriorLabs/TabPFN",
       "description": "\u26a1 TabPFN: Foundation Model for Tabular Data \u26a1",
       "language": "Python",
-      "total_stars": "6,799",
+      "total_stars": "6,811",
       "stars_since": "230 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/freemocap/freemocap",
       "description": "Free Motion Capture for Everyone \ud83d\udc80\u2728",
       "language": "Python",
-      "total_stars": "8,109",
+      "total_stars": "8,125",
       "stars_since": "256 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
       "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
       "language": "Python",
-      "total_stars": "7,547",
+      "total_stars": "7,550",
       "stars_since": "25 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "93,173",
+      "total_stars": "93,189",
       "stars_since": "244 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/openai/plugins",
       "description": "OpenAI Plugins",
       "language": "Python",
-      "total_stars": "1,027",
+      "total_stars": "1,026",
       "stars_since": "17 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/cheahjs/free-llm-api-resources",
       "description": "A list of free LLM inference resources accessible via API.",
       "language": "Python",
-      "total_stars": "20,948",
+      "total_stars": "20,961",
       "stars_since": "564 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "description": "Coding agent for DeepSeek models that runs in your terminal",
       "language": "Rust",
-      "total_stars": "19,114",
+      "total_stars": "19,401",
       "stars_since": "5,799 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/aaif-goose/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "44,532",
+      "total_stars": "44,558",
       "stars_since": "390 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "language": "Rust",
-      "total_stars": "84,519",
+      "total_stars": "84,526",
       "stars_since": "71 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "language": "Rust",
-      "total_stars": "44,057",
+      "total_stars": "44,113",
       "stars_since": "858 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "62,534",
+      "total_stars": "62,663",
       "stars_since": "1,282 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/SaladDay/cc-switch-cli",
       "description": "\u2b50\ufe0f A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "2,444",
+      "total_stars": "2,447",
       "stars_since": "33 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/ilya-zlobintsev/LACT",
       "description": "Linux GPU Configuration And Monitoring Tool",
       "language": "Rust",
-      "total_stars": "4,646",
+      "total_stars": "4,647",
       "stars_since": "79 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/fish-shell/fish-shell",
       "description": "The user-friendly command line shell.",
       "language": "Rust",
-      "total_stars": "33,388",
+      "total_stars": "33,389",
       "stars_since": "14 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/xingkongliang/skills-manager",
       "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools \u2014 Cursor, Claude Code, Codex, Copilot, and more.",
       "language": "Rust",
-      "total_stars": "1,200",
+      "total_stars": "1,205",
       "stars_since": "41 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/sipeed/picoclaw",
       "description": "Tiny, Fast, and Deployable anywhere \u2014 automate the mundane, unleash your creativity",
       "language": "Go",
-      "total_stars": "28,848",
+      "total_stars": "28,851",
       "stars_since": "37 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/jackc/pgx",
       "description": "PostgreSQL driver and toolkit for Go",
       "language": "Go",
-      "total_stars": "13,771",
+      "total_stars": "13,773",
       "stars_since": "11 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "18,665",
+      "total_stars": "18,694",
       "stars_since": "417 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/chenhg5/cc-connect",
       "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere \u2014 no public IP required for most platforms.",
       "language": "Go",
-      "total_stars": "7,840",
+      "total_stars": "7,854",
       "stars_since": "252 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "total_stars": "14,372",
+      "total_stars": "14,389",
       "stars_since": "57 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
       "language": "Go",
-      "total_stars": "31,467",
+      "total_stars": "31,500",
       "stars_since": "370 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/CJackHwang/ds2api",
       "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.",
       "language": "Go",
-      "total_stars": "3,811",
+      "total_stars": "3,818",
       "stars_since": "106 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
       "language": "TypeScript",
-      "total_stars": "8,887",
+      "total_stars": "8,910",
       "stars_since": "460 stars today",
       "status": "new"
     },
@@ -382,17 +382,8 @@
       "url": "https://github.com/vercel-labs/open-agents",
       "description": "An open source template for building cloud agents.",
       "language": "TypeScript",
-      "total_stars": "5,065",
+      "total_stars": "5,089",
       "stars_since": "131 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "Augani/openreel-video",
-      "url": "https://github.com/Augani/openreel-video",
-      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
-      "language": "TypeScript",
-      "total_stars": "1,759",
-      "stars_since": "233 stars today",
       "status": "new"
     },
     {
@@ -400,7 +391,7 @@
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "language": "TypeScript",
-      "total_stars": "140,518",
+      "total_stars": "140,525",
       "stars_since": "181 stars today",
       "status": "new"
     },
@@ -409,7 +400,7 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
       "language": "TypeScript",
-      "total_stars": "25,549",
+      "total_stars": "25,552",
       "stars_since": "91 stars today",
       "status": "new"
     },
@@ -418,7 +409,7 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "TypeScript",
-      "total_stars": "116,406",
+      "total_stars": "116,431",
       "stars_since": "286 stars today",
       "status": "new"
     },
@@ -427,7 +418,7 @@
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "omo; the best agent harness - previously oh-my-opencode",
       "language": "TypeScript",
-      "total_stars": "56,462",
+      "total_stars": "56,481",
       "stars_since": "257 stars today",
       "status": "new"
     },
@@ -436,7 +427,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
       "language": "TypeScript",
-      "total_stars": "58,865",
+      "total_stars": "58,892",
       "stars_since": "317 stars today",
       "status": "new"
     },
@@ -445,7 +436,7 @@
       "url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui",
       "description": "CC GUI \u5ba2\u6237\u7aef\uff08\u4e13\u4e3a\u5f00\u53d1\u8005\u6253\u9020\u7684VibeCoding\u5e73\u53f0\uff09",
       "language": "TypeScript",
-      "total_stars": "2,303",
+      "total_stars": "2,304",
       "stars_since": "30 stars today",
       "status": "new"
     },
@@ -454,8 +445,17 @@
       "url": "https://github.com/labring/FastGPT",
       "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
       "language": "TypeScript",
-      "total_stars": "27,931",
+      "total_stars": "27,933",
       "stars_since": "15 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "directus/directus",
+      "url": "https://github.com/directus/directus",
+      "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "total_stars": "35,351",
+      "stars_since": "252 stars today",
       "status": "new"
     }
   ]
