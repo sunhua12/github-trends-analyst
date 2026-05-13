@@ -5,7 +5,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "2,831",
+      "total_stars": "2,973",
       "stars_since": "1,014 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "total_stars": "5,971",
+      "total_stars": "6,079",
       "stars_since": "1,048 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "total_stars": "7,973",
+      "total_stars": "8,107",
       "stars_since": "1,606 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/apernet/hysteria",
       "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
       "language": "Go",
-      "total_stars": "20,261",
+      "total_stars": "20,300",
       "stars_since": "51 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "total_stars": "76,287",
+      "total_stars": "76,527",
       "stars_since": "3,867 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/anonfaded/FadCam",
       "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
       "language": "Java",
-      "total_stars": "2,237",
+      "total_stars": "2,272",
       "stars_since": "116 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "total_stars": "8,798",
+      "total_stars": "8,833",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "language": "Jupyter Notebook",
-      "total_stars": "93,848",
+      "total_stars": "93,905",
       "stars_since": "772 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
       "language": "Python",
-      "total_stars": "48,314",
+      "total_stars": "48,421",
       "stars_since": "599 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "total_stars": "11,949",
+      "total_stars": "12,030",
       "stars_since": "1,282 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "total_stars": "7,973",
+      "total_stars": "8,107",
       "stars_since": "1,606 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
       "language": "Python",
-      "total_stars": "48,314",
+      "total_stars": "48,421",
       "stars_since": "599 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/HKUDS/AI-Trader",
       "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
       "language": "Python",
-      "total_stars": "16,657",
+      "total_stars": "16,719",
       "stars_since": "229 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "147,015",
+      "total_stars": "147,184",
       "stars_since": "2,465 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "97,344",
+      "total_stars": "97,417",
       "stars_since": "1,299 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/BerriAI/litellm",
       "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
       "language": "Python",
-      "total_stars": "46,725",
+      "total_stars": "46,731",
       "stars_since": "147 stars today",
       "status": "new"
     },
@@ -165,21 +165,21 @@
       "status": "new"
     },
     {
+      "full_name": "zhangfengcdt/memoir",
+      "url": "https://github.com/zhangfengcdt/memoir",
+      "description": "Hierarchical Agent Memory with Git-Like Version Control",
+      "language": "Python",
+      "total_stars": "390",
+      "stars_since": "33 stars today",
+      "status": "new"
+    },
+    {
       "full_name": "FoundationAgents/MetaGPT",
       "url": "https://github.com/FoundationAgents/MetaGPT",
       "description": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
       "language": "Python",
       "total_stars": "67,922",
       "stars_since": "34 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "bytedance/UI-TARS",
-      "url": "https://github.com/bytedance/UI-TARS",
-      "description": "Pioneering Automated GUI Interaction with Native Agents",
-      "language": "Python",
-      "total_stars": "10,502",
-      "stars_since": "61 stars today",
       "status": "new"
     }
   ],
@@ -189,7 +189,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "2,831",
+      "total_stars": "2,973",
       "stars_since": "1,014 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
       "language": "Rust",
-      "total_stars": "11,947",
+      "total_stars": "11,949",
       "stars_since": "66 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "15,464",
+      "total_stars": "15,465",
       "stars_since": "62 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/juspay/hyperswitch",
       "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
       "language": "Rust",
-      "total_stars": "42,633",
+      "total_stars": "42,634",
       "stars_since": "28 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/huggingface/tokenizers",
       "description": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production",
       "language": "Rust",
-      "total_stars": "10,716",
+      "total_stars": "10,717",
       "stars_since": "2 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/domcyrus/rustnet",
       "description": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
       "language": "Rust",
-      "total_stars": "3,091",
+      "total_stars": "3,094",
       "stars_since": "203 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/karinushka/paneru",
       "description": "A sliding, tiling window manager for MacOS.",
       "language": "Rust",
-      "total_stars": "1,524",
+      "total_stars": "1,526",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/hj01857655/kiro-account-manager",
       "description": "\ud83d\ude80 \u667a\u80fd\u7ba1\u7406 Kiro IDE \u8d26\u53f7\uff0c\u4e00\u952e\u5207\u6362\uff0c\u914d\u989d\u76d1\u63a7 | \u5b98\u7f51\uff1ahttps://kiro-website-six.vercel.app",
       "language": "Rust",
-      "total_stars": "1,574",
+      "total_stars": "1,580",
       "stars_since": "36 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/apernet/hysteria",
       "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
       "language": "Go",
-      "total_stars": "20,261",
+      "total_stars": "20,300",
       "stars_since": "51 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/MHSanaei/3x-ui",
       "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun)",
       "language": "Go",
-      "total_stars": "36,921",
+      "total_stars": "36,925",
       "stars_since": "167 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API-CRS2 \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Antigravity\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
       "language": "Go",
-      "total_stars": "20,302",
+      "total_stars": "20,336",
       "stars_since": "351 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
       "language": "Go",
-      "total_stars": "32,874",
+      "total_stars": "32,909",
       "stars_since": "315 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/BenedictKing/ccx",
       "description": "Claude / Codex / Gemini API Proxy - CCX",
       "language": "Go",
-      "total_stars": "555",
+      "total_stars": "563",
       "stars_since": "106 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/chenhg5/cc-connect",
       "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere \u2014 no public IP required for most platforms.",
       "language": "Go",
-      "total_stars": "8,875",
+      "total_stars": "8,901",
       "stars_since": "253 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "total_stars": "5,971",
+      "total_stars": "6,079",
       "stars_since": "1,048 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "total_stars": "8,798",
+      "total_stars": "8,833",
       "stars_since": "788 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "total_stars": "11,949",
+      "total_stars": "12,030",
       "stars_since": "1,282 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
       "language": "TypeScript",
-      "total_stars": "12,933",
+      "total_stars": "12,946",
       "stars_since": "620 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "total_stars": "17,452",
+      "total_stars": "17,457",
       "stars_since": "93 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/iOfficeAI/AionUi",
       "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
       "language": "TypeScript",
-      "total_stars": "24,900",
+      "total_stars": "24,915",
       "stars_since": "294 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "total_stars": "94,862",
+      "total_stars": "94,932",
       "stars_since": "781 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "language": "TypeScript",
-      "total_stars": "33,548",
+      "total_stars": "33,565",
       "stars_since": "774 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/VoltAgent/voltagent",
       "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
       "language": "TypeScript",
-      "total_stars": "8,835",
+      "total_stars": "8,841",
       "stars_since": "38 stars today",
       "status": "new"
     }
