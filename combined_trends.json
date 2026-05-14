@@ -5,7 +5,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "5,698",
+      "total_stars": "5,889",
       "stars_since": "1,696 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "total_stars": "7,765",
+      "total_stars": "7,887",
       "stars_since": "1,379 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "189,638",
+      "total_stars": "189,786",
       "stars_since": "1,401 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "total_stars": "12,998",
+      "total_stars": "13,086",
       "stars_since": "981 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/influxdata/telegraf",
       "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
       "language": "Go",
-      "total_stars": "17,023",
+      "total_stars": "17,037",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "total_stars": "9,310",
+      "total_stars": "9,341",
       "stars_since": "604 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "21,172",
+      "total_stars": "21,227",
       "stars_since": "99 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
       "language": "TypeScript",
-      "total_stars": "13,405",
+      "total_stars": "13,445",
       "stars_since": "435 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/supertone-inc/supertonic",
       "description": "Lightning-Fast, On-Device, Multilingual TTS \u2014 running natively via ONNX.",
       "language": "Swift",
-      "total_stars": "4,416",
+      "total_stars": "4,471",
       "stars_since": "859 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "total_stars": "9,585",
+      "total_stars": "9,696",
       "stars_since": "1,835 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "21,172",
+      "total_stars": "21,227",
       "stars_since": "99 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "total_stars": "9,585",
+      "total_stars": "9,696",
       "stars_since": "1,835 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "98,450",
+      "total_stars": "98,527",
       "stars_since": "1,120 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "148,792",
+      "total_stars": "148,933",
       "stars_since": "1,881 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/Asabeneh/30-Days-Of-Python",
       "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too:https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
       "language": "Python",
-      "total_stars": "62,473",
+      "total_stars": "62,482",
       "stars_since": "63 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/EleutherAI/lm-evaluation-harness",
       "description": "A framework for few-shot evaluation of language models.",
       "language": "Python",
-      "total_stars": "12,552",
+      "total_stars": "12,554",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/graphdeco-inria/gaussian-splatting",
       "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
       "language": "Python",
-      "total_stars": "21,916",
+      "total_stars": "21,918",
       "stars_since": "43 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/opendatalab/MinerU",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "language": "Python",
-      "total_stars": "62,915",
+      "total_stars": "62,926",
       "stars_since": "129 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "total_stars": "133,655",
+      "total_stars": "133,712",
       "stars_since": "635 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "35,781",
+      "total_stars": "35,796",
       "stars_since": "196 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "5,698",
+      "total_stars": "5,889",
       "stars_since": "1,696 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/ArthurBrussee/brush",
       "description": "3D Reconstruction for all",
       "language": "Rust",
-      "total_stars": "4,381",
+      "total_stars": "4,402",
       "stars_since": "81 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/ton-blockchain/acton",
       "description": "Toolchain for TON smart contract development and beyond",
       "language": "Rust",
-      "total_stars": "219",
+      "total_stars": "232",
       "stars_since": "18 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "total_stars": "5,898",
+      "total_stars": "5,900",
       "stars_since": "38 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
-      "total_stars": "15,486",
+      "total_stars": "15,487",
       "stars_since": "29 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/iii-hq/iii",
       "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
       "language": "Rust",
-      "total_stars": "15,626",
+      "total_stars": "15,631",
       "stars_since": "39 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/oxc-project/oxc",
       "description": "\u2693 A collection of high-performance JavaScript tools.",
       "language": "Rust",
-      "total_stars": "21,123",
+      "total_stars": "21,124",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/firecracker-microvm/firecracker",
       "description": "Secure and fast microVMs for serverless computing.",
       "language": "Rust",
-      "total_stars": "34,310",
+      "total_stars": "34,311",
       "stars_since": "49 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/hj01857655/kiro-account-manager",
       "description": "\ud83d\ude80 \u667a\u80fd\u7ba1\u7406 Kiro IDE \u8d26\u53f7\uff0c\u4e00\u952e\u5207\u6362\uff0c\u914d\u989d\u76d1\u63a7 | \u5b98\u7f51\uff1ahttps://kiro-website-six.vercel.app",
       "language": "Rust",
-      "total_stars": "1,607",
+      "total_stars": "1,609",
       "stars_since": "41 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/influxdata/telegraf",
       "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
       "language": "Go",
-      "total_stars": "17,023",
+      "total_stars": "17,037",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/apernet/hysteria",
       "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
       "language": "Go",
-      "total_stars": "20,634",
+      "total_stars": "20,654",
       "stars_since": "485 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/hashicorp/vault",
       "description": "A tool for secrets management, encryption as a service, and privileged access management",
       "language": "Go",
-      "total_stars": "35,609",
+      "total_stars": "35,610",
       "stars_since": "5 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/cloudwego/eino",
       "description": "The ultimate LLM/AI application development framework in Go.",
       "language": "Go",
-      "total_stars": "11,219",
+      "total_stars": "11,220",
       "stars_since": "26 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/github/gh-aw",
       "description": "GitHub Agentic Workflows",
       "language": "Go",
-      "total_stars": "4,466",
+      "total_stars": "4,467",
       "stars_since": "14 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/pranshuparmar/witr",
       "description": "Why is this running?",
       "language": "Go",
-      "total_stars": "15,490",
+      "total_stars": "15,499",
       "stars_since": "222 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
       "language": "Go",
-      "total_stars": "33,141",
+      "total_stars": "33,166",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "total_stars": "14,858",
+      "total_stars": "14,868",
       "stars_since": "185 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "total_stars": "7,765",
+      "total_stars": "7,887",
       "stars_since": "1,379 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "total_stars": "12,998",
+      "total_stars": "13,086",
       "stars_since": "981 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "total_stars": "9,310",
+      "total_stars": "9,341",
       "stars_since": "604 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
       "language": "TypeScript",
-      "total_stars": "13,405",
+      "total_stars": "13,445",
       "stars_since": "435 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "total_stars": "95,784",
+      "total_stars": "95,837",
       "stars_since": "1,083 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/microsoft/data-formulator",
       "description": "\ud83e\ude84 Create rich visualizations with AI",
       "language": "TypeScript",
-      "total_stars": "15,551",
+      "total_stars": "15,552",
       "stars_since": "21 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/iOfficeAI/AionUi",
       "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
       "language": "TypeScript",
-      "total_stars": "25,029",
+      "total_stars": "25,038",
       "stars_since": "155 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "language": "TypeScript",
-      "total_stars": "141,278",
+      "total_stars": "141,283",
       "stars_since": "164 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/pnpm/pnpm",
       "description": "Fast, disk space efficient package manager",
       "language": "TypeScript",
-      "total_stars": "34,995",
+      "total_stars": "34,996",
       "stars_since": "29 stars today",
       "status": "new"
     }
