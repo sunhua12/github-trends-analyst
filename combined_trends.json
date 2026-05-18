@@ -5,7 +5,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "13,584",
+      "total_stars": "13,907",
       "stars_since": "1,690 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "35,741",
+      "total_stars": "35,840",
       "stars_since": "238 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/calcom/cal.diy",
       "description": "Scheduling infrastructure for absolutely everyone.",
       "language": "TypeScript",
-      "total_stars": "43,315",
+      "total_stars": "43,351",
       "stars_since": "433 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
       "language": "Rust",
-      "total_stars": "91,743",
+      "total_stars": "91,766",
       "stars_since": "910 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "description": "Open-source alternative to AI video platforms \u2014 Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "language": "JavaScript",
-      "total_stars": "15,190",
+      "total_stars": "15,267",
       "stars_since": "703 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/BigBodyCobain/Shadowbroker",
       "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
       "language": "Python",
-      "total_stars": "7,156",
+      "total_stars": "7,203",
       "stars_since": "333 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/tech-leads-club/agent-skills",
       "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
       "language": "TypeScript",
-      "total_stars": "3,585",
+      "total_stars": "3,624",
       "stars_since": "225 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/NirDiamant/agents-towards-production",
       "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
       "language": "Jupyter Notebook",
-      "total_stars": "19,964",
+      "total_stars": "20,002",
       "stars_since": "172 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/dograh-hq/dograh",
       "description": "Open Source Voice Agent Platform",
       "language": "Python",
-      "total_stars": "1,730",
+      "total_stars": "1,777",
       "stars_since": "223 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "23,871",
+      "total_stars": "23,911",
       "stars_since": "762 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "35,741",
+      "total_stars": "35,840",
       "stars_since": "238 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/BigBodyCobain/Shadowbroker",
       "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
       "language": "Python",
-      "total_stars": "7,156",
+      "total_stars": "7,203",
       "stars_since": "333 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/dograh-hq/dograh",
       "description": "Open Source Voice Agent Platform",
       "language": "Python",
-      "total_stars": "1,730",
+      "total_stars": "1,777",
       "stars_since": "223 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "total_stars": "23,871",
+      "total_stars": "23,911",
       "stars_since": "762 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/Light-Heart-Labs/DreamServer",
       "description": "Local AI anywhere, for everyone \u2014 LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. No cloud, no subscriptions.",
       "language": "Python",
-      "total_stars": "1,217",
+      "total_stars": "1,266",
       "stars_since": "112 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
       "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries \u2192 Podcast/PPT/MindMap/Quiz etc.",
       "language": "Python",
-      "total_stars": "3,737",
+      "total_stars": "3,771",
       "stars_since": "558 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/Andyyyy64/whichllm",
       "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
       "language": "Python",
-      "total_stars": "1,072",
+      "total_stars": "1,095",
       "stars_since": "209 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/HKUDS/ViMax",
       "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
       "language": "Python",
-      "total_stars": "4,333",
+      "total_stars": "4,349",
       "stars_since": "174 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/Free-TV/IPTV",
       "description": "M3U Playlist for free TV channels",
       "language": "Python",
-      "total_stars": "16,378",
+      "total_stars": "16,383",
       "stars_since": "79 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship.",
       "language": "Python",
-      "total_stars": "110,855",
+      "total_stars": "110,867",
       "stars_since": "202 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "13,589",
+      "total_stars": "13,907",
       "stars_since": "1,690 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
       "language": "Rust",
-      "total_stars": "91,743",
+      "total_stars": "91,766",
       "stars_since": "910 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/facebook/pyrefly",
       "description": "A fast type checker and language server for Python",
       "language": "Rust",
-      "total_stars": "6,122",
+      "total_stars": "6,126",
       "stars_since": "50 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/tokio-rs/toasty",
       "description": "An async ORM for Rust",
       "language": "Rust",
-      "total_stars": "2,434",
+      "total_stars": "2,435",
       "stars_since": "12 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/claration/Impactor",
       "description": "Feature rich iOS/tvOS sideloading application written in Rust.",
       "language": "Rust",
-      "total_stars": "2,236",
+      "total_stars": "2,239",
       "stars_since": "53 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/iii-hq/iii",
       "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
       "language": "Rust",
-      "total_stars": "15,750",
+      "total_stars": "15,755",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "59,257",
+      "total_stars": "59,300",
       "stars_since": "963 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/golemcloud/golem",
       "description": "Golem Cloud is the agent-native platform for building AI agents and distributed applications that never lose state, never duplicate work, and never require you to build infrastructure.",
       "language": "Rust",
-      "total_stars": "1,549",
+      "total_stars": "1,551",
       "stars_since": "134 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/knadh/listmonk",
       "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
       "language": "Go",
-      "total_stars": "20,637",
+      "total_stars": "20,655",
       "stars_since": "242 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/j3ssie/osmedeus",
       "description": "A Modern Orchestration Engine for Security",
       "language": "Go",
-      "total_stars": "6,349",
+      "total_stars": "6,354",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/cloudreve/cloudreve",
       "description": "\ud83c\udf29 Self-hosted file management and sharing system, supports multiple storage providers",
       "language": "Go",
-      "total_stars": "27,699",
+      "total_stars": "27,702",
       "stars_since": "98 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/bruin-data/dac",
       "description": "DaC is a dashboard-as-code tool. Build interactive dashboards using YAML and JSX. Built-in semantic layer. Get your agents to build standardized, reviewable dashboards.",
       "language": "Go",
-      "total_stars": "650",
+      "total_stars": "653",
       "stars_since": "14 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/sleuth-io/sx",
       "description": "sx is a package manager for AI coding assistants",
       "language": "Go",
-      "total_stars": "180",
+      "total_stars": "181",
       "stars_since": "15 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/AdguardTeam/AdGuardHome",
       "description": "Network-wide ads & trackers blocking DNS server",
       "language": "Go",
-      "total_stars": "34,036",
+      "total_stars": "34,038",
       "stars_since": "17 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/danielmiessler/Fabric",
       "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
       "language": "Go",
-      "total_stars": "41,750",
+      "total_stars": "41,751",
       "stars_since": "19 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/Agent-Field/agentfield",
       "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
       "language": "Go",
-      "total_stars": "1,867",
+      "total_stars": "1,868",
       "stars_since": "31 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/lharries/whatsapp-mcp",
       "description": "WhatsApp MCP server",
       "language": "Go",
-      "total_stars": "5,646",
+      "total_stars": "5,647",
       "stars_since": "6 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
-      "total_stars": "133,935",
+      "total_stars": "133,936",
       "stars_since": "33 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/calcom/cal.diy",
       "description": "Scheduling infrastructure for absolutely everyone.",
       "language": "TypeScript",
-      "total_stars": "43,315",
+      "total_stars": "43,351",
       "stars_since": "433 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/tech-leads-club/agent-skills",
       "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
       "language": "TypeScript",
-      "total_stars": "3,586",
+      "total_stars": "3,624",
       "stars_since": "225 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/KeygraphHQ/shannon",
       "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
       "language": "TypeScript",
-      "total_stars": "42,760",
+      "total_stars": "42,790",
       "stars_since": "200 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/medusajs/medusa",
       "description": "The world's most flexible commerce platform.",
       "language": "TypeScript",
-      "total_stars": "33,533",
+      "total_stars": "33,563",
       "stars_since": "211 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "3,459",
+      "total_stars": "3,538",
       "stars_since": "857 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript",
-      "total_stars": "26,434",
+      "total_stars": "26,450",
       "stars_since": "195 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/amruthpillai/reactive-resume",
       "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "language": "TypeScript",
-      "total_stars": "37,249",
+      "total_stars": "37,253",
       "stars_since": "116 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/NousResearch/hermes-paperclip-adapter",
       "description": "Paperclip adapter for Hermes Agent \u2014 run Hermes as a managed employee in a Paperclip company",
       "language": "TypeScript",
-      "total_stars": "1,303",
+      "total_stars": "1,305",
       "stars_since": "37 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/eshaham/israeli-bank-scrapers",
       "description": "Provide scrapers for all major Israeli banks and credit card companies",
       "language": "TypeScript",
-      "total_stars": "969",
+      "total_stars": "970",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "language": "TypeScript",
-      "total_stars": "354,969",
+      "total_stars": "354,974",
       "stars_since": "92 stars today",
       "status": "new"
     }
