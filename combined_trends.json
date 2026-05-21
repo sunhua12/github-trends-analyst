@@ -5,7 +5,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "9,946",
+      "total_stars": "10,283",
       "stars_since": "2,123 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
       "language": "Python",
-      "total_stars": "16,377",
+      "total_stars": "16,571",
       "stars_since": "1,667 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "23,779",
+      "total_stars": "23,883",
       "stars_since": "3,394 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Unknown",
-      "total_stars": "141,076",
+      "total_stars": "141,274",
       "stars_since": "2,679 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "9,677",
+      "total_stars": "9,788",
       "stars_since": "765 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "38,589",
+      "total_stars": "38,634",
       "stars_since": "890 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "\u2325 AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "total_stars": "5,455",
+      "total_stars": "5,504",
       "stars_since": "270 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "200,166",
+      "total_stars": "200,279",
       "stars_since": "1,743 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "total_stars": "20,840",
+      "total_stars": "20,876",
       "stars_since": "674 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "total_stars": "102,913",
+      "total_stars": "102,997",
       "stars_since": "1,636 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
       "language": "Python",
-      "total_stars": "16,377",
+      "total_stars": "16,571",
       "stars_since": "1,667 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "9,677",
+      "total_stars": "9,788",
       "stars_since": "765 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "38,589",
+      "total_stars": "38,634",
       "stars_since": "890 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "total_stars": "20,840",
+      "total_stars": "20,876",
       "stars_since": "674 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/HKUDS/ViMax",
       "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
       "language": "Python",
-      "total_stars": "6,117",
+      "total_stars": "6,168",
       "stars_since": "674 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
       "language": "Python",
-      "total_stars": "24,315",
+      "total_stars": "24,324",
       "stars_since": "111 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/NVlabs/Sana",
       "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
       "language": "Python",
-      "total_stars": "7,166",
+      "total_stars": "7,173",
       "stars_since": "218 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/BigBodyCobain/Shadowbroker",
       "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
       "language": "Python",
-      "total_stars": "8,500",
+      "total_stars": "8,514",
       "stars_since": "327 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "104,136",
+      "total_stars": "104,163",
       "stars_since": "1,074 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "38,154",
+      "total_stars": "38,178",
       "stars_since": "375 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "23,779",
+      "total_stars": "23,883",
       "stars_since": "3,394 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "language": "Rust",
-      "total_stars": "51,906",
+      "total_stars": "51,956",
       "stars_since": "1,156 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/Michael-A-Kuykendall/shimmy",
       "description": "\u26a1 Python-free Rust inference server \u2014 OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.",
       "language": "Rust",
-      "total_stars": "5,180",
+      "total_stars": "5,182",
       "stars_since": "54 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "total_stars": "33,727",
+      "total_stars": "33,741",
       "stars_since": "178 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/git-ai-project/git-ai",
       "description": "A Git extension for tracking the AI-generated code in your repos",
       "language": "Rust",
-      "total_stars": "1,925",
+      "total_stars": "1,926",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
-      "total_stars": "60,803",
+      "total_stars": "60,807",
       "stars_since": "89 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "language": "Rust",
-      "total_stars": "85,257",
+      "total_stars": "85,258",
       "stars_since": "67 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "84,166",
+      "total_stars": "84,185",
       "stars_since": "268 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/ast-grep/ast-grep",
       "description": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust",
       "language": "Rust",
-      "total_stars": "14,002",
+      "total_stars": "14,003",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/zakirullin/files.md",
       "description": "\ud83c\udf31 Private, quiet space for thinking. A simple app for your .md files.",
       "language": "Go",
-      "total_stars": "2,242",
+      "total_stars": "2,280",
       "stars_since": "429 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/Gentleman-Programming/gentle-ai",
       "description": "No description.",
       "language": "Go",
-      "total_stars": "3,187",
+      "total_stars": "3,188",
       "stars_since": "35 stars today",
       "status": "new"
     },
@@ -299,7 +299,7 @@
       "url": "https://github.com/Gentleman-Programming/engram",
       "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "language": "Go",
-      "total_stars": "3,673",
+      "total_stars": "3,675",
       "stars_since": "39 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/charmbracelet/bubbles",
       "description": "TUI components for Bubble Tea \ud83e\udee7",
       "language": "Go",
-      "total_stars": "8,411",
+      "total_stars": "8,413",
       "stars_since": "9 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/envoyproxy/ai-gateway",
       "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
       "language": "Go",
-      "total_stars": "1,666",
+      "total_stars": "1,665",
       "stars_since": "8 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/gastownhall/gastown",
       "description": "Gas Town - multi-agent workspace manager",
       "language": "Go",
-      "total_stars": "15,439",
+      "total_stars": "15,444",
       "stars_since": "48 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/wavetermdev/waveterm",
       "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
       "language": "Go",
-      "total_stars": "20,635",
+      "total_stars": "20,639",
       "stars_since": "66 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning \u2014 supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.",
       "language": "Go",
-      "total_stars": "1,221",
+      "total_stars": "1,223",
       "stars_since": "33 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
-      "total_stars": "37,401",
+      "total_stars": "37,402",
       "stars_since": "6 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "language": "Go",
-      "total_stars": "78,218",
+      "total_stars": "78,223",
       "stars_since": "55 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "9,946",
+      "total_stars": "10,283",
       "stars_since": "2,123 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "\u2325 AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "total_stars": "5,455",
+      "total_stars": "5,504",
       "stars_since": "270 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/rmyndharis/OpenWA",
       "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
       "language": "TypeScript",
-      "total_stars": "4,897",
+      "total_stars": "4,940",
       "stars_since": "741 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "total_stars": "15,194",
+      "total_stars": "15,252",
       "stars_since": "1,080 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "TypeScript",
-      "total_stars": "119,677",
+      "total_stars": "119,707",
       "stars_since": "330 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/humanlayer/12-factor-agents",
       "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
       "language": "TypeScript",
-      "total_stars": "21,455",
+      "total_stars": "21,461",
       "stars_since": "366 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "omo; the best agent harness - previously oh-my-opencode",
       "language": "TypeScript",
-      "total_stars": "58,746",
+      "total_stars": "58,771",
       "stars_since": "181 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/InsForge/InsForge",
       "description": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.",
       "language": "TypeScript",
-      "total_stars": "10,399",
+      "total_stars": "10,400",
       "stars_since": "119 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "total_stars": "19,977",
+      "total_stars": "20,004",
       "stars_since": "291 stars today",
       "status": "new"
     }
