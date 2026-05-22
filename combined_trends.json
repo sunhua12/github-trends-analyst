@@ -5,7 +5,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "total_stars": "22,630",
+      "total_stars": "22,789",
       "stars_since": "682 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "13,836",
+      "total_stars": "14,095",
       "stars_since": "4,294 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Unknown",
-      "total_stars": "143,404",
+      "total_stars": "143,629",
       "stars_since": "2,614 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/dotnet/skills",
       "description": "Repository for skills to assist AI coding agents with .NET and C#",
       "language": "C#",
-      "total_stars": "2,223",
+      "total_stars": "2,249",
       "stars_since": "129 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "total_stars": "201,639",
+      "total_stars": "201,761",
       "stars_since": "1,576 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "39,178",
+      "total_stars": "39,216",
       "stars_since": "656 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/rmyndharis/OpenWA",
       "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
       "language": "TypeScript",
-      "total_stars": "5,452",
+      "total_stars": "5,477",
       "stars_since": "730 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "40,534",
+      "total_stars": "40,569",
       "stars_since": "151 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "10,814",
+      "total_stars": "10,889",
       "stars_since": "1,333 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/teng-lin/notebooklm-py",
       "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features\u2014including capabilities the web UI doesn't expose\u2014via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
       "language": "Python",
-      "total_stars": "14,410",
+      "total_stars": "14,442",
       "stars_since": "186 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "total_stars": "22,630",
+      "total_stars": "22,789",
       "stars_since": "682 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "total_stars": "39,178",
+      "total_stars": "39,216",
       "stars_since": "656 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "10,814",
+      "total_stars": "10,889",
       "stars_since": "1,333 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/teng-lin/notebooklm-py",
       "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features\u2014including capabilities the web UI doesn't expose\u2014via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
       "language": "Python",
-      "total_stars": "14,410",
+      "total_stars": "14,442",
       "stars_since": "186 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/antoinezambelli/forge",
       "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
       "language": "Python",
-      "total_stars": "1,513",
+      "total_stars": "1,530",
       "stars_since": "398 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
       "language": "Python",
-      "total_stars": "18,269",
+      "total_stars": "18,367",
       "stars_since": "2,579 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
       "language": "Python",
-      "total_stars": "27,533",
+      "total_stars": "27,563",
       "stars_since": "450 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/karpathy/autoresearch",
       "description": "AI agents running research on single-GPU nanochat training automatically",
       "language": "Python",
-      "total_stars": "82,602",
+      "total_stars": "82,619",
       "stars_since": "259 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "124,442",
+      "total_stars": "124,461",
       "stars_since": "313 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets.",
       "language": "Python",
-      "total_stars": "38,339",
+      "total_stars": "38,349",
       "stars_since": "226 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "63,102",
+      "total_stars": "63,151",
       "stars_since": "1,269 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "language": "Rust",
-      "total_stars": "52,451",
+      "total_stars": "52,475",
       "stars_since": "609 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "84,438",
+      "total_stars": "84,454",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "total_stars": "24,969",
+      "total_stars": "25,066",
       "stars_since": "1,351 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/ryoppippi/ccusage",
       "description": "Analyze coding (agent) CLI token usage and costs from local data.",
       "language": "Rust",
-      "total_stars": "14,507",
+      "total_stars": "14,509",
       "stars_since": "58 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/mmalmi/nostr-vpn",
       "description": "No description.",
       "language": "Rust",
-      "total_stars": "552",
+      "total_stars": "555",
       "stars_since": "81 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/qxcnm/Codex-Manager",
       "description": "\u4e00\u4e2aCodex cli \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Codex cli\u63d0\u4f9b\u672c\u5730\u7f51\u5173\u8f6c\u53d1\u3002",
       "language": "Rust",
-      "total_stars": "2,193",
+      "total_stars": "2,195",
       "stars_since": "24 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/ai-dynamo/dynamo",
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
-      "total_stars": "6,926",
+      "total_stars": "6,934",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/lance-format/lance",
       "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
       "language": "Rust",
-      "total_stars": "6,491",
+      "total_stars": "6,492",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -281,7 +281,7 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
       "language": "Go",
-      "total_stars": "30,805",
+      "total_stars": "30,862",
       "stars_since": "534 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/alireza0/s-ui",
       "description": "An advanced Web Panel \u2022 Built for SagerNet/Sing-Box",
       "language": "Go",
-      "total_stars": "8,942",
+      "total_stars": "8,957",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/cinar/indicator",
       "description": "Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. \u2728 See how! \ud83d\udc40",
       "language": "Go",
-      "total_stars": "1,084",
+      "total_stars": "1,085",
       "stars_since": "29 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/gtsteffaniak/filebrowser",
       "description": "\ud83d\udcc2 Web File Browser",
       "language": "Go",
-      "total_stars": "7,120",
+      "total_stars": "7,122",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/canopy-network/canopy",
       "description": "The official go implementation of the Canopy Network protocol",
       "language": "Go",
-      "total_stars": "11,001",
+      "total_stars": "11,002",
       "stars_since": "66 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/DataDog/datadog-agent",
       "description": "Main repository for Datadog Agent",
       "language": "Go",
-      "total_stars": "3,623",
+      "total_stars": "3,624",
       "stars_since": "1 star today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
-      "total_stars": "37,409",
+      "total_stars": "37,410",
       "stars_since": "12 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "13,836",
+      "total_stars": "14,095",
       "stars_since": "4,294 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/rmyndharis/OpenWA",
       "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
       "language": "TypeScript",
-      "total_stars": "5,452",
+      "total_stars": "5,477",
       "stars_since": "730 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "total_stars": "40,534",
+      "total_stars": "40,569",
       "stars_since": "151 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "\u2325 AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "total_stars": "5,885",
+      "total_stars": "5,920",
       "stars_since": "500 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/Lum1104/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "total_stars": "16,745",
+      "total_stars": "16,828",
       "stars_since": "666 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "total_stars": "5,614",
+      "total_stars": "5,618",
       "stars_since": "69 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "54,645",
+      "total_stars": "54,650",
       "stars_since": "75 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
-      "total_stars": "185,192",
+      "total_stars": "185,194",
       "stars_since": "49 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "language": "TypeScript",
-      "total_stars": "104,456",
+      "total_stars": "104,464",
       "stars_since": "100 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/software-mansion/argent",
       "description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
       "language": "TypeScript",
-      "total_stars": "866",
+      "total_stars": "874",
       "stars_since": "67 stars today",
       "status": "new"
     }
