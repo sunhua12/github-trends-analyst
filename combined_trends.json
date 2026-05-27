@@ -5,7 +5,7 @@
       "url": "https://github.com/Lum1104/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "total_stars": "36,238",
+      "total_stars": "36,544",
       "stars_since": "4,697 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "total_stars": "194,546",
+      "total_stars": "194,703",
       "stars_since": "1,915 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "20,897",
+      "total_stars": "21,020",
       "stars_since": "2,155 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "total_stars": "16,732",
+      "total_stars": "16,780",
       "stars_since": "1,718 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
       "language": "Python",
-      "total_stars": "10,182",
+      "total_stars": "10,228",
       "stars_since": "880 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/hardikpandya/stop-slop",
       "description": "A skill file for removing AI tells from prose",
       "language": "Unknown",
-      "total_stars": "5,079",
+      "total_stars": "5,113",
       "stars_since": "539 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "Shell",
-      "total_stars": "22,030",
+      "total_stars": "22,254",
       "stars_since": "1,430 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
       "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
       "language": "HTML",
-      "total_stars": "167,546",
+      "total_stars": "167,674",
       "stars_since": "1,219 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/jellyfin/jellyfin",
       "description": "The Free Software Media System - Server Backend & API",
       "language": "C#",
-      "total_stars": "52,405",
+      "total_stars": "52,430",
       "stars_since": "83 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/Axorax/awesome-free-apps",
       "description": "Curated list of the best free apps for PC and mobile",
       "language": "JavaScript",
-      "total_stars": "5,339",
+      "total_stars": "5,382",
       "stars_since": "731 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "total_stars": "20,897",
+      "total_stars": "21,020",
       "stars_since": "2,155 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "total_stars": "16,732",
+      "total_stars": "16,780",
       "stars_since": "1,718 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
       "language": "Python",
-      "total_stars": "10,182",
+      "total_stars": "10,228",
       "stars_since": "880 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/st-tech/ppf-contact-solver",
       "description": "A contact solver for physics-based simulations involving \ud83d\udc5a shells, \ud83e\udeb5 solids and \ud83e\udea2 rods.",
       "language": "Python",
-      "total_stars": "3,512",
+      "total_stars": "3,547",
       "stars_since": "170 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/microsoft/agent-governance-toolkit",
       "description": "AI Agent Governance Toolkit \u2014 Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
       "language": "Python",
-      "total_stars": "2,745",
+      "total_stars": "2,763",
       "stars_since": "282 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "total_stars": "21,746",
+      "total_stars": "21,754",
       "stars_since": "314 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/harvard-edge/cs249r_book",
       "description": "Machine Learning Systems",
       "language": "Python",
-      "total_stars": "24,346",
+      "total_stars": "24,355",
       "stars_since": "22 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need - A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
       "language": "Python",
-      "total_stars": "62,836",
+      "total_stars": "62,868",
       "stars_since": "246 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/dograh-hq/dograh",
       "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
       "language": "Python",
-      "total_stars": "3,271",
+      "total_stars": "3,281",
       "stars_since": "399 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "total_stars": "83,996",
+      "total_stars": "83,998",
       "stars_since": "115 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "86,000",
+      "total_stars": "86,037",
       "stars_since": "370 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "total_stars": "81,845",
+      "total_stars": "81,945",
       "stars_since": "1,063 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/iii-hq/iii",
       "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
       "language": "Rust",
-      "total_stars": "16,387",
+      "total_stars": "16,414",
       "stars_since": "244 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/Hmbown/CodeWhale",
       "description": "DeepSeek v4 coding agent in terminal",
       "language": "Rust",
-      "total_stars": "35,087",
+      "total_stars": "35,120",
       "stars_since": "448 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/nearai/ironclaw",
       "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
       "language": "Rust",
-      "total_stars": "12,352",
+      "total_stars": "12,353",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/qxcnm/Codex-Manager",
       "description": "\u4e00\u4e2aCodex cli \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Codex cli\u63d0\u4f9b\u672c\u5730\u7f51\u5173\u8f6c\u53d1\u3002",
       "language": "Rust",
-      "total_stars": "2,303",
+      "total_stars": "2,306",
       "stars_since": "18 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/EasyTier/EasyTier",
       "description": "A simple, decentralized mesh VPN with WireGuard support.",
       "language": "Rust",
-      "total_stars": "11,574",
+      "total_stars": "11,575",
       "stars_since": "30 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/syncthing/syncthing",
       "description": "Open Source Continuous File Synchronization",
       "language": "Go",
-      "total_stars": "84,589",
+      "total_stars": "84,590",
       "stars_since": "75 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
-      "total_stars": "64,161",
+      "total_stars": "64,162",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/juanfont/headscale",
       "description": "An open source, self-hosted implementation of the Tailscale control server",
       "language": "Go",
-      "total_stars": "39,204",
+      "total_stars": "39,210",
       "stars_since": "144 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/glanceapp/glance",
       "description": "A self-hosted dashboard that puts all your feeds in one place",
       "language": "Go",
-      "total_stars": "34,445",
+      "total_stars": "34,447",
       "stars_since": "82 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/BenedictKing/ccx",
       "description": "Claude / Codex / Gemini API Proxy - CCX",
       "language": "Go",
-      "total_stars": "2,024",
+      "total_stars": "2,035",
       "stars_since": "158 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/stretchr/testify",
       "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
       "language": "Go",
-      "total_stars": "25,982",
+      "total_stars": "25,983",
       "stars_since": "0 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/spf13/viper",
       "description": "Go configuration with fangs",
       "language": "Go",
-      "total_stars": "30,264",
+      "total_stars": "30,265",
       "stars_since": "4 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/Lum1104/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "total_stars": "36,238",
+      "total_stars": "36,544",
       "stars_since": "4,697 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/twentyhq/twenty",
       "description": "The open alternative to Salesforce, designed for AI.",
       "language": "TypeScript",
-      "total_stars": "46,894",
+      "total_stars": "46,925",
       "stars_since": "216 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/Open-Dev-Society/OpenStock",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights \u2014 built openly, for everyone, forever free.",
       "language": "TypeScript",
-      "total_stars": "12,171",
+      "total_stars": "12,225",
       "stars_since": "156 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent \u2013 Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "total_stars": "78,726",
+      "total_stars": "78,765",
       "stars_since": "352 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/NangoHQ/nango",
       "description": "Build product integrations with AI.",
       "language": "TypeScript",
-      "total_stars": "8,975",
+      "total_stars": "8,991",
       "stars_since": "860 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/immich-app/immich",
       "description": "High performance self-hosted photo and video management solution.",
       "language": "TypeScript",
-      "total_stars": "101,951",
+      "total_stars": "101,956",
       "stars_since": "117 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "total_stars": "55,681",
+      "total_stars": "55,737",
       "stars_since": "945 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "total_stars": "28,022",
+      "total_stars": "28,243",
       "stars_since": "2,788 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/siddharthvaddem/openscreen",
       "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
       "language": "TypeScript",
-      "total_stars": "37,486",
+      "total_stars": "37,491",
       "stars_since": "137 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/marktext/marktext",
       "description": "\ud83d\udcddA simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "language": "TypeScript",
-      "total_stars": "56,484",
+      "total_stars": "56,490",
       "stars_since": "68 stars today",
       "status": "new"
     }
