@@ -5,7 +5,7 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "total_stars": "74,603",
+      "total_stars": "74,958",
       "stars_since": "1,937 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "135,255",
+      "total_stars": "135,473",
       "stars_since": "2,798 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "language": "Python",
-      "total_stars": "56,765",
+      "total_stars": "56,876",
       "stars_since": "606 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "language": "Python",
-      "total_stars": "10,073",
+      "total_stars": "10,161",
       "stars_since": "357 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
       "language": "TypeScript",
-      "total_stars": "18,751",
+      "total_stars": "18,776",
       "stars_since": "251 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/github/docs",
       "description": "The open-source repo for docs.github.com",
       "language": "TypeScript",
-      "total_stars": "19,751",
+      "total_stars": "19,767",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "23,628",
+      "total_stars": "23,684",
       "stars_since": "635 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/revfactory/harness",
       "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
       "language": "HTML",
-      "total_stars": "4,656",
+      "total_stars": "4,699",
       "stars_since": "323 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
       "description": "A straightforward method for training your LLM, from downloading data to generating text.",
       "language": "Jupyter Notebook",
-      "total_stars": "3,030",
+      "total_stars": "3,104",
       "stars_since": "626 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "23,414",
+      "total_stars": "23,459",
       "stars_since": "264 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "total_stars": "74,610",
+      "total_stars": "74,958",
       "stars_since": "1,937 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "135,255",
+      "total_stars": "135,473",
       "stars_since": "2,798 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "language": "Python",
-      "total_stars": "56,766",
+      "total_stars": "56,876",
       "stars_since": "606 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "language": "Python",
-      "total_stars": "10,074",
+      "total_stars": "10,161",
       "stars_since": "357 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "23,630",
+      "total_stars": "23,684",
       "stars_since": "635 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "Python",
-      "total_stars": "128,974",
+      "total_stars": "129,034",
       "stars_since": "489 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/emmabostian/developer-portfolios",
       "description": "A list of developer portfolios for your inspiration",
       "language": "Python",
-      "total_stars": "23,413",
+      "total_stars": "23,462",
       "stars_since": "73 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "total_stars": "27,790",
+      "total_stars": "27,804",
       "stars_since": "183 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/galilai-group/stable-worldmodel",
       "description": "A platform for reproducible world model research and evaluation",
       "language": "Python",
-      "total_stars": "1,576",
+      "total_stars": "1,579",
       "stars_since": "157 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "language": "Python",
-      "total_stars": "115,167",
+      "total_stars": "115,183",
       "stars_since": "122 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/run-llama/liteparse",
       "description": "A fast, helpful, and open-source document parser",
       "language": "Rust",
-      "total_stars": "8,372",
+      "total_stars": "8,406",
       "stars_since": "461 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "total_stars": "86,735",
+      "total_stars": "86,875",
       "stars_since": "937 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "total_stars": "3,433",
+      "total_stars": "3,448",
       "stars_since": "226 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
       "language": "Rust",
-      "total_stars": "69,560",
+      "total_stars": "69,587",
       "stars_since": "771 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/helix-editor/helix",
       "description": "A post-modern modal text editor.",
       "language": "Rust",
-      "total_stars": "44,589",
+      "total_stars": "44,591",
       "stars_since": "13 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/BloopAI/vibe-kanban",
       "description": "Get 10X more out of Claude Code, Codex or any coding agent",
       "language": "Rust",
-      "total_stars": "26,699",
+      "total_stars": "26,703",
       "stars_since": "29 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/alacritty/alacritty",
       "description": "A cross-platform, OpenGL terminal emulator.",
       "language": "Rust",
-      "total_stars": "64,285",
+      "total_stars": "64,288",
       "stars_since": "20 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/bevyengine/bevy",
       "description": "A refreshingly simple data-driven game engine built in Rust",
       "language": "Rust",
-      "total_stars": "46,376",
+      "total_stars": "46,377",
       "stars_since": "13 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning \u2014 supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.",
       "language": "Go",
-      "total_stars": "1,544",
+      "total_stars": "1,551",
       "stars_since": "155 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/safing/portmaster",
       "description": "\ud83c\udfd4 Love Freedom - \u274c Block Mass Surveillance",
       "language": "Go",
-      "total_stars": "12,922",
+      "total_stars": "12,923",
       "stars_since": "11 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/github/github-mcp-server",
       "description": "GitHub's official MCP Server",
       "language": "Go",
-      "total_stars": "30,323",
+      "total_stars": "30,324",
       "stars_since": "20 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/zakirullin/files.md",
       "description": "\ud83c\udf31 Private, quiet space for thinking. A simple app for your .md files.",
       "language": "Go",
-      "total_stars": "3,109",
+      "total_stars": "3,114",
       "stars_since": "74 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/IceWhaleTech/CasaOS",
       "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
       "language": "Go",
-      "total_stars": "33,989",
+      "total_stars": "33,991",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/evcc-io/evcc",
       "description": "solar charging \u2600\ufe0f\ud83d\ude98",
       "language": "Go",
-      "total_stars": "6,706",
+      "total_stars": "6,709",
       "stars_since": "5 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
       "language": "TypeScript",
-      "total_stars": "18,751",
+      "total_stars": "18,776",
       "stars_since": "251 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/github/docs",
       "description": "The open-source repo for docs.github.com",
       "language": "TypeScript",
-      "total_stars": "19,751",
+      "total_stars": "19,767",
       "stars_since": "27 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "23,415",
+      "total_stars": "23,459",
       "stars_since": "264 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered\u2014anytime, anywhere.",
       "language": "TypeScript",
-      "total_stars": "27,752",
+      "total_stars": "27,774",
       "stars_since": "374 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/nicobailon/pi-subagents",
       "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
       "language": "TypeScript",
-      "total_stars": "1,874",
+      "total_stars": "1,893",
       "stars_since": "69 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/AnInsomniacy/motrix-next",
       "description": "A full-featured download manager \u2014 rebuilt from the ground up",
       "language": "TypeScript",
-      "total_stars": "7,042",
+      "total_stars": "7,051",
       "stars_since": "329 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
       "description": "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP, Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.",
       "language": "TypeScript",
-      "total_stars": "11,005",
+      "total_stars": "11,007",
       "stars_since": "281 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/MHSanaei/3x-ui",
       "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun)",
       "language": "TypeScript",
-      "total_stars": "38,969",
+      "total_stars": "38,977",
       "stars_since": "128 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "total_stars": "1,618",
+      "total_stars": "1,625",
       "stars_since": "199 stars today",
       "status": "new"
     }
