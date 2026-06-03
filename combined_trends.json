@@ -5,7 +5,7 @@
       "url": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "total_stars": "6,763",
+      "total_stars": "6,970",
       "stars_since": "1,265 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "141,346",
+      "total_stars": "141,482",
       "stars_since": "3,618 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "total_stars": "204,141",
+      "total_stars": "204,272",
       "stars_since": "1,533 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "language": "Python",
-      "total_stars": "59,276",
+      "total_stars": "59,358",
       "stars_since": "1,182 stars today",
       "status": "new"
     },
@@ -41,7 +41,7 @@
       "url": "https://github.com/nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "language": "Python",
-      "total_stars": "12,618",
+      "total_stars": "12,665",
       "stars_since": "1,722 stars today",
       "status": "new"
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/reconurge/flowsint",
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
-      "total_stars": "4,561",
+      "total_stars": "4,602",
       "stars_since": "124 stars today",
       "status": "new"
     },
@@ -59,7 +59,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "25,205",
+      "total_stars": "25,250",
       "stars_since": "783 stars today",
       "status": "new"
     },
@@ -68,7 +68,7 @@
       "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
       "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
       "language": "Jupyter Notebook",
-      "total_stars": "18,545",
+      "total_stars": "18,577",
       "stars_since": "574 stars today",
       "status": "new"
     },
@@ -77,7 +77,7 @@
       "url": "https://github.com/jamwithai/production-agentic-rag-course",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "6,423",
+      "total_stars": "6,451",
       "stars_since": "30 stars today",
       "status": "new"
     },
@@ -86,7 +86,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "24,710",
+      "total_stars": "24,747",
       "stars_since": "680 stars today",
       "status": "new"
     }
@@ -97,7 +97,7 @@
       "url": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "total_stars": "6,763",
+      "total_stars": "6,970",
       "stars_since": "1,265 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "total_stars": "141,346",
+      "total_stars": "141,482",
       "stars_since": "3,618 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "language": "Python",
-      "total_stars": "59,276",
+      "total_stars": "59,358",
       "stars_since": "1,182 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "language": "Python",
-      "total_stars": "12,618",
+      "total_stars": "12,665",
       "stars_since": "1,722 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "total_stars": "25,205",
+      "total_stars": "25,250",
       "stars_since": "783 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/jamwithai/production-agentic-rag-course",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "6,423",
+      "total_stars": "6,451",
       "stars_since": "30 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
       "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
       "language": "Python",
-      "total_stars": "8,442",
+      "total_stars": "8,488",
       "stars_since": "66 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "Python",
-      "total_stars": "129,644",
+      "total_stars": "129,667",
       "stars_since": "295 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/awslabs/aidlc-workflows",
       "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
       "language": "Python",
-      "total_stars": "2,673",
+      "total_stars": "2,675",
       "stars_since": "56 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/datalab-to/surya",
       "description": "OCR, layout analysis, reading order, table recognition in 90+ languages",
       "language": "Python",
-      "total_stars": "20,506",
+      "total_stars": "20,512",
       "stars_since": "78 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/malbiruk/driftwm",
       "description": "A trackpad-first infinite canvas Wayland compositor.",
       "language": "Rust",
-      "total_stars": "960",
+      "total_stars": "963",
       "stars_since": "155 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/dmtrKovalenko/fff",
       "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
       "language": "Rust",
-      "total_stars": "7,449",
+      "total_stars": "7,454",
       "stars_since": "426 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
-      "total_stars": "27,202",
+      "total_stars": "27,207",
       "stars_since": "123 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "total_stars": "89,481",
+      "total_stars": "89,603",
       "stars_since": "1,371 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "total_stars": "3,896",
+      "total_stars": "3,904",
       "stars_since": "201 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "total_stars": "6,629",
+      "total_stars": "6,636",
       "stars_since": "143 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/dnakov/litter",
       "description": "No description.",
       "language": "Rust",
-      "total_stars": "2,204",
+      "total_stars": "2,205",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/agentgateway/agentgateway",
       "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
       "language": "Rust",
-      "total_stars": "2,990",
+      "total_stars": "2,992",
       "stars_since": "24 stars today",
       "status": "new"
     },
@@ -261,7 +261,7 @@
       "url": "https://github.com/SaladDay/cc-switch-cli",
       "description": "\u2b50\ufe0f A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
       "language": "Rust",
-      "total_stars": "3,197",
+      "total_stars": "3,203",
       "stars_since": "36 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "88,047",
+      "total_stars": "88,073",
       "stars_since": "353 stars today",
       "status": "new"
     }
@@ -299,7 +299,7 @@
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "total_stars": "39,148",
+      "total_stars": "39,151",
       "stars_since": "45 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "total_stars": "172,972",
+      "total_stars": "172,978",
       "stars_since": "135 stars today",
       "status": "new"
     },
@@ -335,7 +335,7 @@
       "url": "https://github.com/yusing/godoxy",
       "description": "High-performance reverse proxy and container orchestrator for self-hosters",
       "language": "Go",
-      "total_stars": "3,268",
+      "total_stars": "3,270",
       "stars_since": "16 stars today",
       "status": "new"
     },
@@ -353,7 +353,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "35,299",
+      "total_stars": "35,301",
       "stars_since": "23 stars today",
       "status": "new"
     },
@@ -373,7 +373,7 @@
       "url": "https://github.com/reconurge/flowsint",
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
-      "total_stars": "4,561",
+      "total_stars": "4,602",
       "stars_since": "124 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "24,710",
+      "total_stars": "24,747",
       "stars_since": "680 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/nanocoai/nanoclaw",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
       "language": "TypeScript",
-      "total_stars": "29,652",
+      "total_stars": "29,657",
       "stars_since": "44 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/adobe/react-spectrum",
       "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
       "language": "TypeScript",
-      "total_stars": "15,298",
+      "total_stars": "15,300",
       "stars_since": "67 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms",
       "language": "TypeScript",
-      "total_stars": "16,292",
+      "total_stars": "16,301",
       "stars_since": "95 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
       "language": "TypeScript",
-      "total_stars": "19,421",
+      "total_stars": "19,436",
       "stars_since": "352 stars today",
       "status": "new"
     },
@@ -427,7 +427,7 @@
       "url": "https://github.com/nicobailon/pi-subagents",
       "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
       "language": "TypeScript",
-      "total_stars": "2,036",
+      "total_stars": "2,039",
       "stars_since": "52 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
       "language": "TypeScript",
-      "total_stars": "16,086",
+      "total_stars": "16,098",
       "stars_since": "118 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "total_stars": "55,511",
+      "total_stars": "55,521",
       "stars_since": "175 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/janhq/jan",
       "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "language": "TypeScript",
-      "total_stars": "42,822",
+      "total_stars": "42,823",
       "stars_since": "33 stars today",
       "status": "new"
     }
