@@ -5,7 +5,7 @@
       "url": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "total_stars": "12,709",
+      "total_stars": "12,867",
       "stars_since": "3,142 stars today",
       "status": "new"
     },
@@ -14,7 +14,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "181,136",
+      "total_stars": "181,266",
       "stars_since": "1,913 stars today",
       "status": "new"
     },
@@ -23,7 +23,7 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "total_stars": "207,340",
+      "total_stars": "207,428",
       "stars_since": "1,750 stars today",
       "status": "new"
     },
@@ -32,7 +32,7 @@
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "language": "Python",
-      "total_stars": "79,937",
+      "total_stars": "80,007",
       "stars_since": "141 stars today",
       "status": "new"
     },
@@ -41,17 +41,8 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "108,624",
+      "total_stars": "108,678",
       "stars_since": "321 stars today",
-      "status": "new"
-    },
-    {
-      "full_name": "NVIDIA/cosmos",
-      "url": "https://github.com/NVIDIA/cosmos",
-      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-      "language": "Jupyter Notebook",
-      "total_stars": "9,056",
-      "stars_since": "133 stars today",
       "status": "new"
     },
     {
@@ -59,7 +50,7 @@
       "url": "https://github.com/lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "language": "TypeScript",
-      "total_stars": "25,132",
+      "total_stars": "25,194",
       "stars_since": "212 stars today",
       "status": "new"
     },
@@ -68,7 +59,7 @@
       "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
       "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
       "language": "Python",
-      "total_stars": "9,656",
+      "total_stars": "9,699",
       "stars_since": "581 stars today",
       "status": "new"
     },
@@ -77,7 +68,7 @@
       "url": "https://github.com/jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
       "language": "Unknown",
-      "total_stars": "349,774",
+      "total_stars": "349,826",
       "stars_since": "632 stars today",
       "status": "new"
     },
@@ -86,8 +77,17 @@
       "url": "https://github.com/github/copilot-sdk",
       "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
       "language": "Java",
-      "total_stars": "8,999",
+      "total_stars": "9,023",
       "stars_since": "38 stars today",
+      "status": "new"
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "total_stars": "35,692",
+      "stars_since": "255 stars today",
       "status": "new"
     }
   ],
@@ -97,7 +97,7 @@
       "url": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "total_stars": "12,709",
+      "total_stars": "12,867",
       "stars_since": "3,142 stars today",
       "status": "new"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "total_stars": "181,136",
+      "total_stars": "181,266",
       "stars_since": "1,913 stars today",
       "status": "new"
     },
@@ -115,7 +115,7 @@
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "language": "Python",
-      "total_stars": "79,937",
+      "total_stars": "80,007",
       "stars_since": "141 stars today",
       "status": "new"
     },
@@ -124,7 +124,7 @@
       "url": "https://github.com/github/spec-kit",
       "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "total_stars": "108,624",
+      "total_stars": "108,678",
       "stars_since": "321 stars today",
       "status": "new"
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
       "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
       "language": "Python",
-      "total_stars": "9,656",
+      "total_stars": "9,699",
       "stars_since": "581 stars today",
       "status": "new"
     },
@@ -142,7 +142,7 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "total_stars": "27,638",
+      "total_stars": "27,715",
       "stars_since": "199 stars today",
       "status": "new"
     },
@@ -151,7 +151,7 @@
       "url": "https://github.com/odoo/odoo",
       "description": "Odoo. Open Source Apps To Grow Your Business.",
       "language": "Python",
-      "total_stars": "52,191",
+      "total_stars": "52,194",
       "stars_since": "328 stars today",
       "status": "new"
     },
@@ -160,7 +160,7 @@
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "total_stars": "10,648",
+      "total_stars": "10,669",
       "stars_since": "884 stars today",
       "status": "new"
     },
@@ -169,7 +169,7 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
       "language": "Python",
-      "total_stars": "56,506",
+      "total_stars": "56,547",
       "stars_since": "451 stars today",
       "status": "new"
     },
@@ -178,7 +178,7 @@
       "url": "https://github.com/jamwithai/production-agentic-rag-course",
       "description": "No description.",
       "language": "Python",
-      "total_stars": "6,713",
+      "total_stars": "6,714",
       "stars_since": "86 stars today",
       "status": "new"
     }
@@ -189,7 +189,7 @@
       "url": "https://github.com/aaif-goose/goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "language": "Rust",
-      "total_stars": "46,521",
+      "total_stars": "46,534",
       "stars_since": "128 stars today",
       "status": "new"
     },
@@ -198,7 +198,7 @@
       "url": "https://github.com/microsoft/mxc",
       "description": "Policy-driven, layered isolation and containment",
       "language": "Rust",
-      "total_stars": "367",
+      "total_stars": "371",
       "stars_since": "100 stars today",
       "status": "new"
     },
@@ -207,7 +207,7 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "total_stars": "115,586",
+      "total_stars": "115,589",
       "stars_since": "107 stars today",
       "status": "new"
     },
@@ -216,7 +216,7 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "total_stars": "88,700",
+      "total_stars": "88,740",
       "stars_since": "346 stars today",
       "status": "new"
     },
@@ -225,7 +225,7 @@
       "url": "https://github.com/rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
-      "total_stars": "113,422",
+      "total_stars": "113,423",
       "stars_since": "85 stars today",
       "status": "new"
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "total_stars": "91,772",
+      "total_stars": "91,890",
       "stars_since": "1,169 stars today",
       "status": "new"
     },
@@ -243,7 +243,7 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "total_stars": "35,242",
+      "total_stars": "35,248",
       "stars_since": "102 stars today",
       "status": "new"
     },
@@ -252,7 +252,7 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "total_stars": "4,318",
+      "total_stars": "4,325",
       "stars_since": "216 stars today",
       "status": "new"
     },
@@ -270,7 +270,7 @@
       "url": "https://github.com/uutils/coreutils",
       "description": "Cross-platform Rust rewrite of the GNU coreutils",
       "language": "Rust",
-      "total_stars": "23,459",
+      "total_stars": "23,462",
       "stars_since": "55 stars today",
       "status": "new"
     }
@@ -281,7 +281,7 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "total_stars": "35,680",
+      "total_stars": "35,692",
       "stars_since": "255 stars today",
       "status": "new"
     },
@@ -290,7 +290,7 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "total_stars": "173,199",
+      "total_stars": "173,201",
       "stars_since": "150 stars today",
       "status": "new"
     },
@@ -308,7 +308,7 @@
       "url": "https://github.com/github/github-mcp-server",
       "description": "GitHub's official MCP Server",
       "language": "Go",
-      "total_stars": "30,430",
+      "total_stars": "30,437",
       "stars_since": "33 stars today",
       "status": "new"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
-      "total_stars": "134,280",
+      "total_stars": "134,282",
       "stars_since": "76 stars today",
       "status": "new"
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
-      "total_stars": "73,149",
+      "total_stars": "73,150",
       "stars_since": "121 stars today",
       "status": "new"
     },
@@ -344,7 +344,7 @@
       "url": "https://github.com/derailed/k9s",
       "description": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
       "language": "Go",
-      "total_stars": "33,927",
+      "total_stars": "33,929",
       "stars_since": "70 stars today",
       "status": "new"
     },
@@ -362,7 +362,7 @@
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
-      "total_stars": "37,481",
+      "total_stars": "37,484",
       "stars_since": "56 stars today",
       "status": "new"
     }
@@ -373,7 +373,7 @@
       "url": "https://github.com/lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "language": "TypeScript",
-      "total_stars": "25,132",
+      "total_stars": "25,194",
       "stars_since": "212 stars today",
       "status": "new"
     },
@@ -382,7 +382,7 @@
       "url": "https://github.com/reconurge/flowsint",
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
-      "total_stars": "5,330",
+      "total_stars": "5,353",
       "stars_since": "308 stars today",
       "status": "new"
     },
@@ -391,7 +391,7 @@
       "url": "https://github.com/NginxProxyManager/nginx-proxy-manager",
       "description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
       "language": "TypeScript",
-      "total_stars": "33,088",
+      "total_stars": "33,101",
       "stars_since": "20 stars today",
       "status": "new"
     },
@@ -400,7 +400,7 @@
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "language": "TypeScript",
-      "total_stars": "143,904",
+      "total_stars": "143,920",
       "stars_since": "160 stars today",
       "status": "new"
     },
@@ -409,7 +409,7 @@
       "url": "https://github.com/cyberpapiii/chipotlai-max",
       "description": "The AI coding agent that runs on stolen Chipotle compute \ud83c\udf2f Fork of OpenCode with Pepper AI as default model. Community project to add providers from Home Depot, Lowes, Target, Starbucks & more.",
       "language": "TypeScript",
-      "total_stars": "912",
+      "total_stars": "918",
       "stars_since": "201 stars today",
       "status": "new"
     },
@@ -418,7 +418,7 @@
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
-      "total_stars": "185,808",
+      "total_stars": "185,810",
       "stars_since": "113 stars today",
       "status": "new"
     },
@@ -436,7 +436,7 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "language": "TypeScript",
-      "total_stars": "25,531",
+      "total_stars": "25,553",
       "stars_since": "469 stars today",
       "status": "new"
     },
@@ -445,7 +445,7 @@
       "url": "https://github.com/NVIDIA/NemoClaw",
       "description": "Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
       "language": "TypeScript",
-      "total_stars": "20,947",
+      "total_stars": "20,952",
       "stars_since": "53 stars today",
       "status": "new"
     },
@@ -454,7 +454,7 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "total_stars": "170,020",
+      "total_stars": "170,055",
       "stars_since": "544 stars today",
       "status": "new"
     }
